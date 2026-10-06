@@ -11,14 +11,10 @@
             "id": "8c487c85e156df12",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "digital-humanities/test.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "test"
+              "title": "New tab"
             }
           }
         ]
@@ -199,8 +195,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9d366406df5cef2d",
+  "active": "eaf23f3a502c1941",
   "lastOpenFiles": [
+    "cryptography",
+    "applied-security",
     "digital-humanities/test.md",
     "digital-humanities",
     "advanced-computer-systems",
