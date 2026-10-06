@@ -8,4 +8,4 @@
 
 We are interested in protecting the contents of the message from an **eavesdropper**, **known as Eve**. The **sender and encoder** is called **Alice**, and the **receiver and decoder** is called **Bob**.
 
->***Notation***: 
+>***Notation***: M $\in$  
