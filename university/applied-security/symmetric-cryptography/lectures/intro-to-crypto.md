@@ -25,3 +25,7 @@ Bob receives $C$ and decrypts using the **decryption function** $d : c \times k 
 $$
 d(e(M,K),K) = M
 $$
+for **all plaintexts $M$**. This implies that, **for a given key $K$, the encryption function must be injective:**
+$$
+e(m_{1})
+$$
