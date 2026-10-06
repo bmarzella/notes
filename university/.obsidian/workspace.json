@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "applied-security/symmetric-cryptography/lectures/intro-to-crypto.md",
+                "file": "applied-security/symmetric-cryptography/notes/intro-to-crypto.md",
                 "mode": "source",
                 "source": false
               },
@@ -232,9 +232,10 @@
   },
   "active": "2511bc1ceb2e6a4b",
   "lastOpenFiles": [
+    "applied-security/symmetric-cryptography/notes",
     "Pasted image 20261006113301.png",
     "advanced-computer-systems/multi-core-computer-architecture/lectures/lecture-2.md",
-    "applied-security/symmetric-cryptography/lectures/intro-to-crypto.md",
+    "applied-security/symmetric-cryptography/notes/intro-to-crypto.md",
     "applied-security/symmetric-cryptography/lectures",
     "applied-security/symmetric-cryptography",
     "advanced-computer-systems/multi-core-computer-architecture/lectures",
