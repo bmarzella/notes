@@ -18,7 +18,7 @@ We are interested in protecting the contents of the message from an **eavesdropp
 3. Alice encrypts using an **encryption function** $e: m \times k \rightarrow c$
 
 The **transmitted sequence, cyphertext** looks like:
-
 $$
 C = e(M,K) \in c
 $$
+Bob receives $C$ and decrypts using the **decryption function** $e : m \times k /rightarrow c#
