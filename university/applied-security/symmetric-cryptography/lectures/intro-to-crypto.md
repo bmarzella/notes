@@ -1,0 +1,3 @@
+#kerckchoff #notation 
+
+# Fundamentals of 
