@@ -47,4 +47,6 @@ $$
 
 **Security should rely only on the secrecy of the key - relying on security by obscurity is bad!**
 
-1. 
+This has **four key advantages**:
+
+1. **Key management:** It is much easier to keep 
