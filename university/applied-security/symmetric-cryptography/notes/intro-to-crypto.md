@@ -45,4 +45,5 @@ $$
 
 *The cypher method must not be required to be secret, and it must be able to fall into the hands of the enemy with inconvenience.*
 
-i.e., **security should rely only on the secrecy of the key - security by obscurity is bad**
+**Security should rely only on the secrecy of the key - relying on security by obscurity is bad!**
+
