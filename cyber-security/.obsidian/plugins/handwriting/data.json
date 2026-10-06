@@ -42,5 +42,10 @@
     "handwriting:inline-tool-space"
   ],
   "inkFolder": ".handwriting",
-  "lastSeenVersion": "1.4.17"
+  "lastSeenVersion": "1.4.22",
+  "savedViews": [],
+  "pressureChoice": true,
+  "hideStatusBarOnInkedNotes": false,
+  "noteZoomControls": "auto",
+  "barsRestore": null
 }
