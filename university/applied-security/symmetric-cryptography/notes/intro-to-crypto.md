@@ -38,6 +38,9 @@ e(M, K_{1}) = e(M, K_{2}) \centernot\implies K_{1} = K_{2}
 $$
 > *Cyphertext of the same message matching doesn't necessarily mean the same key was used.*
 
-**In short, one key will never pdocu**
+**In short, one key will never produce the same cyphertext from two different plaintexts, but two different keys can create the same cyphertext from the same message.**
+
+
+# Kerchoffs' Principles
 
 
