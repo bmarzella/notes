@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "advanced-computer-systems/multi-core-computer-architecture/lectures/microarchitectural contraints.md",
+                "file": "applied-security/symmetric-cryptography/notes/intro-to-crypto.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "microarchitectural contraints"
+              "title": "intro-to-crypto"
             }
           }
         ],
@@ -231,9 +231,9 @@
   },
   "active": "2511bc1ceb2e6a4b",
   "lastOpenFiles": [
+    "advanced-computer-systems/multi-core-computer-architecture/lectures/microarchitectural contraints.md",
     "Pasted image 20261006122834.png",
     "advanced-computer-systems/multi-core-computer-architecture/images/Pasted image 20261006122716.png",
-    "advanced-computer-systems/multi-core-computer-architecture/lectures/microarchitectural contraints.md",
     "Pasted image 20261006113301.png",
     "advanced-computer-systems/multi-core-computer-architecture/images/Pasted image 20261006122604.png",
     "advanced-computer-systems/multi-core-computer-architecture/images",
