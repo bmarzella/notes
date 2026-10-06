@@ -43,4 +43,6 @@ $$
 
 # Kerchoffs' Principles
 
-*The cypher method must not be required to be secret, and it must be able to fall into the hands of the e*
+*The cypher method must not be required to be secret, and it must be able to fall into the hands of the enemy with inconvenience.*
+
+
