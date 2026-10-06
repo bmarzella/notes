@@ -33,6 +33,6 @@ $$
 
 However, **encryption functions do not needs to be injective in the key domain:**
 $$
-e(M, K_{1}) = e(M, K_{2}) \centernot\implies M_{1} = M_{2}
+e(M, K_{1}) = e(M, K_{2}) \centernot\implies K_{1} = K_{2}
 $$
-> *If the cyphertext of a message with two different keys match, the original messages aren't necessarily the same.*
+> *Cyphertext of the same message match*
