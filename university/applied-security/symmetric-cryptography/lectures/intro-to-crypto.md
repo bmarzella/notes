@@ -16,3 +16,9 @@ We are interested in protecting the contents of the message from an **eavesdropp
 1.  $M \in m$ is known as the *plaintext*. 
 2. Alice and Bob have some secret information $K \in k$, known as the **key**. 
 3. Alice encrypts using an **encryption function** $e: m \times k \rightarrow c$
+
+The **transmitted sequence, cyphertext** looks like:
+
+$$
+C = e(M,K) \in c
+$$
