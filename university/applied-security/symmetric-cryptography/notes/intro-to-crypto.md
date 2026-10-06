@@ -52,4 +52,7 @@ This has **four key advantages**:
 1. **Key management:** It is much easier to keep keys secret that complex algorithms .
 2. **Recovery from compromise**: Should a key be compromised, you can very easily change key. It isn't so simple to change an algorithm.
 3. **Standardisation:** It is much for every user to rely on a personal key rather than a personal algorithms.
-4. **Co**
+4. **Collaboration**: Public scrutiny finds and fixes weaknesses
+
+**Assume that Eve knows $e$ and $d$, but not $K$**.
+
