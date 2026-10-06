@@ -49,4 +49,5 @@ $$
 
 This has **four key advantages**:
 
-1. **Key management:** It is much easier to keep 
+1. **Key management:** It is much easier to keep keys secret that complex algorithms 
+2. **Recovery from compromise**: Should a key be compromised, you can very easily change key. It isn't so simple to 
