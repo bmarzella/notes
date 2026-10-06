@@ -37,3 +37,7 @@ $$
 e(M, K_{1}) = e(M, K_{2}) \centernot\implies K_{1} = K_{2}
 $$
 > *Cyphertext of the same message matching doesn't necessarily mean the same key was used.*
+
+**In short, one key will never pdocu**
+
+
