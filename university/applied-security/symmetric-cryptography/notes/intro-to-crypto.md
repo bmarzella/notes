@@ -29,9 +29,10 @@ for **all plaintexts $M$**. This implies that, **for a given key $K$, the encryp
 $$
 e(M_{1},K) = e(M_{2},K) \implies M_{1} = M_{2}
 $$
-> *Injective = one-to-one. If the cyphertext of two messages matches when we use the same key, the *
+> *Injective = one-to-one. If the cyphertext of two messages matches when we use the same key, the original messages must match.*
 
 However, **encryption functions do not needs to be injective in the key domain:**
 $$
 e(M, K_{1}) = e(M, K_{2}) \centernot\implies M_{1} = M_{2}
 $$
+> *If the cyphertext of a message with two different keys match, the original messages aren't necessarily the same.*
