@@ -27,5 +27,6 @@ d(e(M,K),K) = M
 $$
 for **all plaintexts $M$**. This implies that, **for a given key $K$, the encryption function must be injective:**
 $$
-e(m_{1})
+e(M_{1},K) = e(M_{2},K) \implies M_{1} = M_{2}
 $$
+However, **encrupt**
