@@ -11,10 +11,14 @@
             "id": "8c487c85e156df12",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "digital-humanities/test 1.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "test 1"
             }
           }
         ]
@@ -157,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "digital-humanities/test.md",
+                "file": "digital-humanities/test 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -197,9 +201,10 @@
   },
   "active": "eaf23f3a502c1941",
   "lastOpenFiles": [
+    "digital-humanities/test.md",
+    "digital-humanities/test 1.md",
     "cryptography",
     "applied-security",
-    "digital-humanities/test.md",
     "digital-humanities",
     "advanced-computer-systems",
     "Welcome.md"
