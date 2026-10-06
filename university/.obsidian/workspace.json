@@ -112,7 +112,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "6746306fa571459e",
@@ -214,7 +215,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -228,7 +230,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eaf23f3a502c1941",
+  "active": "2511bc1ceb2e6a4b",
   "lastOpenFiles": [
     "advanced-computer-systems/multi-core-computer-architecture/lectures/lecture-2.md",
     "applied-security/symmetric-cryptography/lectures/intro-to-crypto.md",
