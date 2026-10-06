@@ -112,8 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "6746306fa571459e",
@@ -232,8 +231,9 @@
   },
   "active": "2511bc1ceb2e6a4b",
   "lastOpenFiles": [
-    "advanced-computer-systems/multi-core-computer-architecture/lectures/lecture-2.md",
+    "applied-security/test 1 1 1.md",
     "applied-security/symmetric-cryptography/notes/intro-to-crypto.md",
+    "advanced-computer-systems/multi-core-computer-architecture/lectures/lecture-2.md",
     "applied-security/symmetric-cryptography/notes",
     "Pasted image 20261006113301.png",
     "applied-security/symmetric-cryptography/lectures",
@@ -241,7 +241,6 @@
     "advanced-computer-systems/multi-core-computer-architecture/lectures",
     "advanced-computer-systems/test 1 1 1.md",
     "advanced-computer-systems/multi-core-computer-architecture",
-    "applied-security/test 1 1 1.md",
     "cryptography/test 1 1.md",
     "digital-humanities/test 1.md",
     "digital-humanities/test.md",
