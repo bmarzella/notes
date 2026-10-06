@@ -21,4 +21,7 @@ The **transmitted sequence, cyphertext** looks like:
 $$
 C = e(M,K) \in c
 $$
-Bob receives $C$ and decrypts using the **decryption function** $e : m \times k /rightarrow c#
+Bob receives $C$ and decrypts using the **decryption function** $d : c \times k \rightarrow c$. We require that:
+$$
+d(e(M,K),K) = M
+$$
