@@ -29,6 +29,7 @@ for **all plaintexts $M$**. This implies that, **for a given key $K$, the encryp
 $$
 e(M_{1},K) = e(M_{2},K) \implies M_{1} = M_{2}
 $$
+> 
 However, **encryption functions do not needs to be injective in the key domain:**
 $$
 e(M, K_{1}) = e(M, K_{2}) \centernot\implies M_{1} = M_{2}
