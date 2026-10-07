@@ -67,7 +67,7 @@ An attacker is able to recover the original message and/or the encryption key wi
 
 ![[Pasted image 20261007101536.png]]
 
-An attacker is able to determine the key used if they have a plaintext-cyphertext pair
+An attacker is able to determine the key used if they have a plaintext-cyphertext pair(s). A more powerful attack as the attacker has more information, but also means that the cipher is more secure (because an attacker needs more information in order to break it).
 ## Chosen-Plaintext
 
 ![[Pasted image 20261007095543.png]]
