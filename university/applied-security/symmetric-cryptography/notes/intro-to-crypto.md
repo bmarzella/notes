@@ -71,7 +71,9 @@ Model:
 
 More power full that ciphertext-only, access to pairs reveals entire encryption structure.
 
-## Chose-Plaintext
+## Chosen-Plaintext
+
+![[Pasted image 20261007095543.png]]
 
 Eve is able to encrypt messages of their choice, for example, they have access to an *encryption oracle*. They can generate as many pairs as they wish.
 
