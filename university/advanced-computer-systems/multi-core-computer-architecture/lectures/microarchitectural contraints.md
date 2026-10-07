@@ -36,4 +36,6 @@ $$
 	- *$V$  = Supply voltage: Positive voltage applied to the circuit. Small reductions produce quadratic decreases in dynamic power.*
 	- *$f$ = Clock Frequency*
 	- $I_{leak}$ *= Leakage Current: Total wasted current flowing unwanted through other components.*
-	- 
+
+- Performance gains cannot be evaluated in isolation from **Thermal Design Power (TDP)** and **energy cost per instruction.**
+- Optimisation 
