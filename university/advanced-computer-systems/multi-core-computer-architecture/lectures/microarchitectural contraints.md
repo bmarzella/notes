@@ -56,4 +56,5 @@ $$
 - Processors got faster and denser without running hotter
 
 **Voltage Wall**
-- Could not reduce supply voltage forever. To turn a transistor on or off reliably, supply voltage must stay above threshold voltage ($V_{th}$) 
+- Could not reduce supply voltage forever. To turn a transistor on or off reliably, $V_{DD}$ must stay above threshold voltage ($V_{th}$).
+- If 
