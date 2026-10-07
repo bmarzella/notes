@@ -72,7 +72,8 @@ An attacker is able to determine the key used if they have a plaintext-cyphertex
 
 ![[Pasted image 20261007095543.png]]
 
-Eve is able to encrypt messages of their choice, for example, they have access to an *encryption oracle*. They can generate as many pairs as they wish.
+An attacker is able to encrypt messages of their choice and generate the corresponding cyphertext, meaning they can generate as many plaintext-ciphertext pairs as they wish.
+Of course, they wont have the key to do this, but they might have some metho
 
 Most powerful attack, modern systems must be secure up to and including this.
 
