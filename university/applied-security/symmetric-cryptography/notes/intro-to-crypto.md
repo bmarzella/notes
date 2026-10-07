@@ -65,13 +65,9 @@ This has **four key advantages**:
 An attacker is able to recover the original message and/or the encryption key with just the resulting ciphertext. If a cipher can be broken this way it is very weak.
 ## Known-Plaintext
 
-Model:
-- **Eve has a plaintext-ciphertext pair ($M_{i}, C_{i})$**
-- Goal: Determine $K$ to decrypt other messages
-- Can analyse the relationship betwen known pairs
+![[Pasted image 20261007101536.png]]
 
-More power full that ciphertext-only, access to pairs reveals entire encryption structure.
-
+An attacker is able to determine the key used if they have a plaintext-cyphertext pair
 ## Chosen-Plaintext
 
 ![[Pasted image 20261007095543.png]]
