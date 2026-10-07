@@ -31,4 +31,6 @@ $$
 	- *$P_{total}$ = total power, combined power dissipated my the circuit. *
 	- *$P_{dynamic}$ = dynamic power: Power consumed only when a logic gate is actively switching state ($1 \iff 0$)*
 	- $P_{static}$ *= static power: Power continuously consumed when the circuit is powered on, even when idle or held at a cosntant state.*
-	- $\alpha$ *= Activity/Switching Factor: The probability that a gate transitions dur*
+	- $\alpha$ *= Activity/Switching Factor: The probability that a gate transitions during a given clock cycle.*
+	- *$C$ = Load Capacitance: Total capacitance that must be charged and discharged.*
+	- *$V or V_{DD}$  *
