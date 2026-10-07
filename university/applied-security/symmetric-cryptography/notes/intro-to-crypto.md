@@ -59,9 +59,10 @@ This has **four key advantages**:
 
 ## Attacks
 ## Cyphertext-Only Attacks
-**Eve knows $e$, $d$ and $C$**, and is able to recover $M$ or $K$ from this.
-Weakest posible atack model, if a cipher is broken by a ciphertext only attack, it is very insecure.
 
+![[Pasted image 20261007101433.png]]
+
+An attacker is able to recover the original message and/or the encryption key with just the resulting ciphertext. If a cipher can be broken this way it is very weak.
 ## Known-Plaintext
 
 Model:
