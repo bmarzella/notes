@@ -57,4 +57,7 @@ $$
 
 **Voltage Wall**
 - Could not reduce supply voltage forever. To turn a transistor on or off reliably, $V_{DD}$ must stay above threshold voltage ($V_{th}$).
-- If 
+- If $V_{DD}$ drops too low:
+	1. Chip becomes sensitive to electrical noise
+	2. $I_{leak}$ shoots up, causing massive power drain even when idle.
+- 
