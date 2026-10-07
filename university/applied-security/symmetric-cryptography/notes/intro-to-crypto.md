@@ -60,4 +60,5 @@ This has **four key advantages**:
 
 # Public-Key Cryptogrphy
 
-How can Alice send a message to Bob without meeting?
+How can Alice send a message to Bob without meeting prior?
+This is the kind of scenario we see on the internet, for example, every day. You might not necessarily be able to have a secure channel with someone you want to talk to before 
