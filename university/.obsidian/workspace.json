@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "advanced-computer-systems/test 1 1 1.md",
+                "file": "advanced-computer-systems/multi-core-computer-architecture/lectures/microarchitectural contraints.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "test 1 1 1"
+              "title": "microarchitectural contraints"
             }
           }
         ]
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "6746306fa571459e",
@@ -203,14 +202,16 @@
   },
   "active": "8c487c85e156df12",
   "lastOpenFiles": [
+    "images/Pasted image 20261007101536.png",
+    "advanced-computer-systems/test 1 1 1.md",
+    "images",
     "advanced-computer-systems/multi-core-computer-architecture/lectures/microarchitectural contraints.md",
     "applied-security/symmetric-cryptography/notes/intro-to-crypto.md",
-    "Pasted image 20261007101536.png",
-    "Pasted image 20261007101433.png",
-    "Pasted image 20261007095543.png",
-    "Pasted image 20261006122834.png",
+    "images/Pasted image 20261007101433.png",
+    "images/Pasted image 20261007095543.png",
+    "images/Pasted image 20261006122834.png",
     "advanced-computer-systems/multi-core-computer-architecture/images/Pasted image 20261006122716.png",
-    "Pasted image 20261006113301.png",
+    "images/Pasted image 20261006113301.png",
     "advanced-computer-systems/multi-core-computer-architecture/images/Pasted image 20261006122604.png",
     "advanced-computer-systems/multi-core-computer-architecture/images",
     "applied-security/test 1 1 1.md",
@@ -218,7 +219,6 @@
     "applied-security/symmetric-cryptography/lectures",
     "applied-security/symmetric-cryptography",
     "advanced-computer-systems/multi-core-computer-architecture/lectures",
-    "advanced-computer-systems/test 1 1 1.md",
     "advanced-computer-systems/multi-core-computer-architecture",
     "cryptography/test 1 1.md",
     "digital-humanities/test 1.md",
@@ -226,7 +226,6 @@
     "cryptography",
     "applied-security",
     "digital-humanities",
-    "advanced-computer-systems",
     "Welcome.md"
   ]
 }
