@@ -26,5 +26,6 @@ $$
 
 - Faster clock frequencies and wider execution engines drive up power consumption:
 $$
-P_{total} = P_{dynamic} + P_{static} = \alpha \cdot C \cdot V^2  
+P_{total} = P_{dynamic} + P_{static} = \alpha \cdot C \cdot V^2 \cdot f + l_{leak} \cdot V 
 $$
+	- *Where $P$ = power, *
