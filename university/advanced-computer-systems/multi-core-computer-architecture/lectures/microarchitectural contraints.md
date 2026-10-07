@@ -5,6 +5,21 @@ handwriting-page-id: e322e72d-b1e7-4e65-85d2-e2a824afefbc
 
 # The Performance Triad
 
-Y![[Pasted image 20261006122834.png]]
+![[Pasted image 20261006122834.png]]
 
 - Used to measure how fast a processor executes a program:
+
+
+
+
+
+
+
+
+
+
+
+
+$$
+\frac{Instructions}{Program} \times 
+$$
