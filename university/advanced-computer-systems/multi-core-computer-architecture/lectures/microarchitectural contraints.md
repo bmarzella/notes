@@ -51,4 +51,9 @@ $$
 
 **Free Lunch**
 - Because power density stayed flat, we could:
+	1. Fit $s^{2}$ more transistors on the same chip.
+	2. Increase clock frequency by $s$, making processors faster.
+- Processors got faster and denser without running hotter
+
+**Voltage Wall**
 - 
