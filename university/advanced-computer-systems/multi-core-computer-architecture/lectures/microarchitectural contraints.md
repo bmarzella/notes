@@ -67,3 +67,5 @@ $$
 
 **Architectural Shift**
 - This culminated in the end of frequency scaling (around 3-4GHz), driving the shift to multi-core architectures, dark silicon contsraints and domain-specific accelerators.
+
+**In summary, for a while we were able to increase the number of transistors in the same space whilst reducing the voltage required, meaning we coul**
