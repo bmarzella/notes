@@ -23,4 +23,8 @@ $$
 	- *Doing multiple things at once mean we get more done at once, but also means individual tasks can take longer.*
 
 ## The Third Dimension: Power & Energy Limits
+
 - Faster clock frequencies and wider execution engines drive up power consumption:
+$$
+P_{total} = P_{dynamic} + P_{static} = \alpha \cdot C \cdot V^2  
+$$
