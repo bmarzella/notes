@@ -11,6 +11,7 @@ handwriting-page-id: 8c996772-2a23-42ed-9441-6ce08704277c
 
 We are interested in protecting the contents of the message from an **eavesdropper**, **known as Eve**. The **sender and encoder** is called **Alice**, and the **receiver and decoder** is called **Bob**.
 
+**For private-key encryption, Alice and Bob pre-agree on a private key, which Alice uses to encrypt and Bob uses to decrypt.**
 ## Notation
 
 1.  $M \in m$ is known as the *plaintext*. 
