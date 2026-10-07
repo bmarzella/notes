@@ -60,4 +60,7 @@ $$
 - If $V_{DD}$ drops too low:
 	1. Chip becomes sensitive to electrical noise
 	2. $I_{leak}$ shoots up, causing massive power drain even when idle.
-- 
+- Voltage scaling halted around 1 Volt.
+
+**Power Wall**
+- Transistor counts kept growing, but power leakage and constant $V-{DD}$ meant
