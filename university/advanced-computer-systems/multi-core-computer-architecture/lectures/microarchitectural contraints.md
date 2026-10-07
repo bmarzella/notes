@@ -18,4 +18,5 @@ $$
 ## Latency vs Throughput
 
 - **Latency** is the time required to complete a single task/instruction from start to finish (*critical for single thread responsiveness*)
-- **Throughput** is the total amount of work completed per unit time across all execution units (*aggregate IPC, Flops/sec etc*)
+- **Throughput** is the total amount of work completed per unit time across all execution units (*aggregate IPC, Flops/sec etc.*)
+- Deep pipelining improves throughput by overlapping operations, but often increases individual instruction latency due to hazard penalties and pipeline register overheads.
