@@ -73,7 +73,9 @@ More power full that ciphertext-only, access to pairs reveals entire encryption 
 
 ## Chose-Plaintext
 
-Eve has 
+Eve is able to encrypt messages of their choice, for example, they have access to an *encryption oracle*. They can generate as many pairs as they wish.
+
+Most powerful attack, modern systems must be secure up to and including this.
 
 
 # Public-Key Cryptogrphy
