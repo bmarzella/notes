@@ -21,5 +21,5 @@ handwriting-page-id: e322e72d-b1e7-4e65-85d2-e2a824afefbc
 
 
 $$
-\frac{Instructions}{Program} \times 
+CPU \space Time =\frac{Instructions}{Program} \times \frac{Cycles}{Instruction} \times \frac{Time}{Cycle}
 $$
