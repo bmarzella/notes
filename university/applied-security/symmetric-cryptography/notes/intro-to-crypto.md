@@ -60,7 +60,8 @@ This has **four key advantages**:
 ## Attacks
 ## Cyphertext-Only Attacks
 
-**Eve knows $e$, $d$ and $C$**.
+**Eve knows $e$, $d$ and $C$**, and is able to recover $M$ or $K$ from this.
+Weakest posible atack model, if a cipher is broken by a ciphertext only attack, it is very insecure.
 
 
 
