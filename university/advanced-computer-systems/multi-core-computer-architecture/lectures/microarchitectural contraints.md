@@ -45,6 +45,10 @@ $$
 
 ![[Pasted image 20261007104906.png]]
 
-- If we shrink a transistors dimensions by a factor $s$ and lowering its operating voltage $V_{DD}$ by $1/s$, the transistor uses proportionally less power.
-	- Even though we fit $s^{2}$ more transistors into the same chip, the overall power density remained constant
+**Classical Promise**
+-  If we shrink a transistors dimensions by a factor $s$ and lowering its operating voltage $V_{DD}$ by $1/s$, the transistor uses proportionally less power.
+- Even though we fit $s^{2}$ more transistors into the same chip, the overall power density remained constant
+
+**Free Lunch**
+- Because power density stayed flat, we could:
 - 
