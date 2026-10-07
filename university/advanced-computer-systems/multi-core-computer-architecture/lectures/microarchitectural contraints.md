@@ -33,4 +33,5 @@ $$
 	- $P_{static}$ *= static power: Power continuously consumed when the circuit is powered on, even when idle or held at a cosntant state.*
 	- $\alpha$ *= Activity/Switching Factor: The probability that a gate transitions during a given clock cycle.*
 	- *$C$ = Load Capacitance: Total capacitance that must be charged and discharged.*
-	- *$V or V_{DD}$  *
+	- *$V$  = Supply voltage: Positive voltage applied to the circuit. Small reductions produce quadratic decreases in dynamic power.*
+	- *$f*
