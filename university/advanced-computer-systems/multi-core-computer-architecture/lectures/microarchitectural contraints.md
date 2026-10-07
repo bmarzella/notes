@@ -4,8 +4,9 @@ handwriting-page-id: e322e72d-b1e7-4e65-85d2-e2a824afefbc
 ![[Pasted image 20261006122604.png]]
 
 # The Performance Triad
+## Iron Law of Processor Performance
 
-![[Pasted image 20261006122834.png]]
+![[Pasted image 20261007103033.png]]
 
 - Used to measure how fast a processor executes a program:
 $$
@@ -14,3 +15,6 @@ $$
 1. **Instructions per Program (Instruction Count)**: Total number of machine instructions requires to complete the program.
 2. **Cycles per Instruction (CPI)**: Average number of clock cycles needed to execute each instruction.
 3. **Time per Cycle (Clock Period):** Duration of a single clock tick, inverse of clock frequency.
+## Latency vs Throughput
+
+- **Latency** is the time 
