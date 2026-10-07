@@ -43,4 +43,6 @@ $$
 
 # Dennard Scaling
 
-- 
+![[Pasted image 20261007104906.png]]
+
+- If we shrink a transistors dimensions by a factor $s$ and lowering its operating voltage $V_{}
