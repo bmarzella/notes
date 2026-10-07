@@ -19,4 +19,8 @@ $$
 
 - **Latency** is the time required to complete a single task/instruction from start to finish (*critical for single thread responsiveness*)
 - **Throughput** is the total amount of work completed per unit time across all execution units (*aggregate IPC, Flops/sec etc.*)
-- Deep pipelining improves throughput by overlapping operations, but often increases individual instruction latency due to hazard penalties and pipeline register overheads.
+- Deep pipelining improves throughput by overlapping operations, but often increases individual instruction latency due to hazard penalties and pipeline register overheads. 
+	- *Doing multiple things at once mean we get more done at once, but also means individual tasks can take longer.*
+
+## The Third Dimension: Power & Energy Limits
+- Faster clock frequencies and wider execution engines drive up power consumption:
