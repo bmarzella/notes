@@ -28,4 +28,5 @@ $$
 $$
 P_{total} = P_{dynamic} + P_{static} = \alpha \cdot C \cdot V^2 \cdot f + l_{leak} \cdot V 
 $$
-	- *Where $P$ = power, *
+	- *$P_{total}$ = total power, combined power dissipated my the circuit. *
+	- *$P_{dynamic}$* = dynamic power, 
