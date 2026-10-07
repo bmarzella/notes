@@ -63,4 +63,7 @@ $$
 - Voltage scaling halted around 1 Volt.
 
 **Power Wall**
-- Transistor counts kept growing, but power leakage and constant $V-{DD}$ meant
+- Transistor counts kept growing, but power leakage and constant $V_{DD}$ meant power requirements began growing.
+
+**Architectural Shift**
+- This culminated in the end of frequency scaling (around 304G)
