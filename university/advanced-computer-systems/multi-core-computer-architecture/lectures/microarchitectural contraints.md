@@ -66,4 +66,4 @@ $$
 - Transistor counts kept growing, but power leakage and constant $V_{DD}$ meant power requirements began growing.
 
 **Architectural Shift**
-- This culminated in the end of frequency scaling (around 304G)
+- This culminated in the end of frequency scaling (around 3-4GHz), driving the shift to multi-core architectures, dark silicon contsraints and domain-specific accelerators.
