@@ -17,4 +17,5 @@ $$
 3. **Time per Cycle (Clock Period):** Duration of a single clock tick, inverse of clock frequency.
 ## Latency vs Throughput
 
-- **Latency** is the time 
+- **Latency** is the time required to complete a single task/instruction from start to finish (*critical for single thread respnsiveness*)
+- 
