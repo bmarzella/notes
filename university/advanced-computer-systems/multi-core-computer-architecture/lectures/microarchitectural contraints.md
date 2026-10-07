@@ -39,4 +39,8 @@ $$
 
 - Performance gains cannot be evaluated in isolation from **Thermal Design Power (TDP)** and **energy cost per instruction.**
 - Optimisation targets have switched from raw execution speed to energy- delay metrics
-	- We want the least delayusi 
+	- We want the least delay using the least amount of energy, rather than pure speed. 
+
+# Dennard Scaling
+
+- 
