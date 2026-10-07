@@ -58,4 +58,4 @@ This has **four key advantages**:
 **Assume that Eve knows $e$ and $d$, but not $K$**.
 
 
-## Pulivc
+# Public Key Encryption
