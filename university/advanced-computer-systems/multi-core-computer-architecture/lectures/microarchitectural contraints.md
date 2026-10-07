@@ -12,4 +12,5 @@ $$
 CPU \space Time =\frac{Instructions}{Program} \times \frac{Cycles}{Instruction} \times \frac{Time}{Cycle}
 $$
 1. **Instructions per Program (Instruction Count)**: Total number of machine instructions requires to complete the program.
-2. **Cycles per Instruction (CPI)**: T
+2. **Cycles per Instruction (CPI)**: Average number of clock cycles needed to execute each instruction.
+3. **Time per Cycle (Clock Period):** Duration of a single clock tick, inverse of clock frequency.
