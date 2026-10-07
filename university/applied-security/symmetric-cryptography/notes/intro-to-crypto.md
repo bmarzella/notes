@@ -66,7 +66,14 @@ Weakest posible atack model, if a cipher is broken by a ciphertext only attack, 
 
 Model:
 - **Eve has a plaintext-ciphertext pair ($M_{i}, C_{i})$**
-- Goal: Determine $K$ to decrypt other message
+- Goal: Determine $K$ to decrypt other messages
+- Can analyse the relationship betwen known pairs
+
+More power full that ciphertext-only, access to pairs reveals entire encryption structure.
+
+## Chose-Plaintext
+
+Eve has 
 
 
 # Public-Key Cryptogrphy
