@@ -2,11 +2,11 @@
   "savedViews": [],
   "cameras": {},
   "inkSizes": {
-    "pen": 1,
+    "pen": 0.786,
     "highlighter": 1
   },
   "inkColors": {
-    "pen": "#2f6de0",
+    "pen": "#f4f4f2",
     "highlighter": "#ffd60a"
   },
   "pressureSensitivity": true,
