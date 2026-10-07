@@ -66,7 +66,7 @@ $$
 - Transistor counts kept growing, but power leakage and constant $V_{DD}$ meant power requirements began growing.
 
 **Architectural Shift**
-- This culminated in the end of frequency scaling (around 3-4GHz), driving the shift to multi-core architectures, dark silicon contsraints and domain-specific accelerators.
+- This culminated in the end of frequency scaling (around 3-4GHz), driving the shift to multi-core architectures, dark silicon constraints and domain-specific accelerators.
 
-> *In summary, for a while, we were able to increase the number of transistors in the same space whilst reducing the voltage required, meaning we could fit more performance without increasing power consumption **(Dennard Scaling)**. Eventually, we hit a floor and couldn't reduce voltage anymore due to leakage **(Voltage Wall)**, meaning processors began requiring more power density **(Power Wall)**. This eventually led to a ceiling of maximum frequency (~3–4 GHz), at which point we started looking at other ways to get performance, like multi-core architectures and specialized accelerators.*
+> *In summary, for a while, we were able to increase the number of transistors in the same space whilst reducing the voltage required, meaning we could fit more performance without increasing power consumption **(Dennard Scaling)**. Eventually, we hit a floor and couldn't reduce voltage anymore due to leakage **(Voltage Wall)**, meaning processors began requiring more power density **(Power Wall)**. This eventually led to a ceiling of maximum frequency (~3–4 GHz), at which point we started looking at other ways to get performance, like multi-core architectures and specialised accelerators.*
 
