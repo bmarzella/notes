@@ -34,4 +34,6 @@ $$
 	- $\alpha$ *= Activity/Switching Factor: The probability that a gate transitions during a given clock cycle.*
 	- *$C$ = Load Capacitance: Total capacitance that must be charged and discharged.*
 	- *$V$  = Supply voltage: Positive voltage applied to the circuit. Small reductions produce quadratic decreases in dynamic power.*
-	- *$f*
+	- *$f$ = Clock Frequency*
+	- $I_{leak}$ *= Leakage Current: Total wasted current flowing unwanted through other components.*
+	- 
