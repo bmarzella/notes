@@ -20,7 +20,8 @@ Initially, the stack has three components, arranged as follows:
 1. **Saved Return Address**
 	- Holds the address of the next instruction in `main()` to be executed after `func()` (this function) finishes.
 2. **Saved Frame Pointer** (`RBP`)
-	- 
+	- Stores memory address of the previous function's (`main()`, in this case) stack frame.
+	- When `func()` finishes, it'll go back to `main90`
 3. **Buffer \[0..15]**
 
 
