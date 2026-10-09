@@ -60,8 +60,9 @@ The stack is set up normally, and we begin with a buffer on top ready to take th
 ![[Pasted image 20261009133406.png|391]]
 
 #### 2. Malicious Input
-The attacker has supplied an malicious input, which 
-1. 
+The attacker has supplied an malicious input, which consists of three parts:
+1. **16-byte Shellcode**
+	- This fills 
 
 ![[Pasted image 20261009133427.png|583]]
 ![[Pasted image 20261009133547.png]]
