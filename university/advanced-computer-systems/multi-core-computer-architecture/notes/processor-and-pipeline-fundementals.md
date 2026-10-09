@@ -115,4 +115,7 @@ Instead of a massive control unit that decodes every combination at once, MIPS u
 
 - **OpCode** - `35` for `lw` (load word) or `43` for `sq` (store word).
 - `rs` - Base address register.
-- `rt` - Destination register for `lw`, or source address for `sw`.
+- `rt` - Destination register for `lw`, or source register for `sw`.
+- `address`/`offset` - 16-bit immediate value added to `rs` to get the target memory address.
+
+###### Branch
