@@ -74,4 +74,4 @@ $$
 
 ![[Pasted image 20261009102612.png]]
 
-- **De**
+- **Definition:** Portion of an integrated circuits silicon area that cannot be powered simulatan
