@@ -2,11 +2,11 @@
   "savedViews": [],
   "cameras": {},
   "inkSizes": {
-    "pen": 1,
+    "pen": 0.786,
     "highlighter": 1
   },
   "inkColors": {
-    "pen": "#2f6de0",
+    "pen": "#f4f4f2",
     "highlighter": "#ffd60a"
   },
   "pressureSensitivity": true,
@@ -16,7 +16,8 @@
   "inkReadableInExports": true,
   "inkPdfColorMode": "darken",
   "pageOwners": {
-    "8c996772-2a23-42ed-9441-6ce08704277c": "applied-security/symmetric-cryptography/notes/intro-to-crypto.md"
+    "8c996772-2a23-42ed-9441-6ce08704277c": "applied-security/symmetric-cryptography/notes/intro-to-crypto.md",
+    "e322e72d-b1e7-4e65-85d2-e2a824afefbc": "advanced-computer-systems/multi-core-computer-architecture/lectures/microarchitectural contraints.md"
   },
   "eraserRadiusPx": 14,
   "mouseInk": false,

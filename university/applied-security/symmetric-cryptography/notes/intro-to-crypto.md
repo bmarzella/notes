@@ -11,6 +11,7 @@ handwriting-page-id: 8c996772-2a23-42ed-9441-6ce08704277c
 
 We are interested in protecting the contents of the message from an **eavesdropper**, **known as Eve**. The **sender and encoder** is called **Alice**, and the **receiver and decoder** is called **Bob**.
 
+**For private-key encryption, Alice and Bob pre-agree on a private key, which Alice uses to encrypt and Bob uses to decrypt.**
 ## Notation
 
 1.  $M \in m$ is known as the *plaintext*. 
@@ -49,10 +50,32 @@ $$
 
 This has **four key advantages**:
 
-1. **Key management:** It is much easier to keep keys secret that complex algorithms .
+1. **Key management:** It is much easier to keep *short* keys secret that complex algorithms.
 2. **Recovery from compromise**: Should a key be compromised, you can very easily change key. It isn't so simple to change an algorithm.
 3. **Standardisation:** It is much for every user to rely on a personal key rather than a personal algorithms.
 4. **Collaboration**: Public scrutiny finds and fixes weaknesses
 
 **Assume that Eve knows $e$ and $d$, but not $K$**.
+
+## Attacks
+## Cyphertext-Only Attacks
+
+![[Pasted image 20261007101433.png]]
+
+An attacker is able to recover the original message and/or the encryption key with just the resulting ciphertext. If a cipher can be broken this way it is very weak.
+## Known-Plaintext
+
+![[Pasted image 20261007101536.png]]
+
+An attacker is able to determine the key used if they have a plaintext-cyphertext pair(s). A more powerful attack as the attacker has more information, but also means that the cipher is more secure (because an attacker needs more information in order to break it).
+## Chosen-Plaintext
+
+![[Pasted image 20261007095543.png]]
+
+An attacker is able to encrypt messages of their choice and generate the corresponding cyphertext, meaning they can generate as many plaintext-ciphertext pairs as they wish.
+
+Of course, they wont have the key to do this, but they have some sort of *encryption oracle*, who they give a message to and spits out the corresponding cyphertext without revealing how it works, an API call for example.
+
+Most powerful attack, modern systems must be secure up to and including this.
+
 
