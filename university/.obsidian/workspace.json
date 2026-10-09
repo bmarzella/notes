@@ -18,8 +18,23 @@
               "icon": "lucide-image",
               "title": "Pasted image 20261007103033"
             }
+          },
+          {
+            "id": "775c7b0734c112c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "digital-humanities/computational-modeling-in-humanities/lectures/lecture-1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "lecture-1"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "6746306fa571459e",
@@ -198,12 +214,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eaf23f3a502c1941",
+  "active": "775c7b0734c112c0",
   "lastOpenFiles": [
-    "Untitled",
+    "digital-humanities/test 1.md",
+    "digital-humanities/computational-modeling-in-humanities/lectures/lecture-1.md",
+    "digital-humanities/computational-modeling-in-humanities/lectures",
+    "images/Pasted image 20261007103033.png",
+    "digital-humanities/computational-modeling-in-humanities",
     "advanced-computer-systems/multi-core-computer-architecture/lectures/microarchitectural contraints.md",
     "images/Pasted image 20261007104906.png",
-    "images/Pasted image 20261007103033.png",
     "images/Pasted image 20261007101536.png",
     "advanced-computer-systems/test 1 1 1.md",
     "images",
@@ -222,11 +241,8 @@
     "advanced-computer-systems/multi-core-computer-architecture/lectures",
     "advanced-computer-systems/multi-core-computer-architecture",
     "cryptography/test 1 1.md",
-    "digital-humanities/test 1.md",
     "digital-humanities/test.md",
     "cryptography",
-    "applied-security",
-    "digital-humanities",
     "Welcome.md"
   ]
 }
