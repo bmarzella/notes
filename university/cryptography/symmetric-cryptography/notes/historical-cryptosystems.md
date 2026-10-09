@@ -6,4 +6,10 @@
 - Vulnerable to brute force attacks
 - Can be easily broken by just trying every possible shift
 
-# Substituti
+# Substitution Cipher
+## Method
+
+![[Pasted image 20261009161444.png]]
+
+## Analysis
+- Initially seemingly very
