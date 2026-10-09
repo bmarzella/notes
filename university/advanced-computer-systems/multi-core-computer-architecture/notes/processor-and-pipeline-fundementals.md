@@ -136,16 +136,14 @@ Instead of a massive control unit that decodes every combination at once, MIPS u
 
 The blue control lines act as switches that configure the datapath for each specific instruction:
 * **`RegDst` (Register Destination Mux):**
-  * **`0`**: Selects `Inst[20:16]` (`rt`) as the destination register (for `lw`)[cite: 3].
-  * **`1`**: Selects `Inst[15:11]` (`rd`) as the destination register (for R-type instructions)[cite: 3].
-
+  * **`0`**: Selects `Inst[20:16]` (`rt`) as the destination register (for `lw`).
+  * **`1`**: Selects `Inst[15:11]` (`rd`) as the destination register (for R-type instructions).
 * **`ALUSrc` (ALU Source Mux):**
-  * **`0`**: Second ALU input comes from **Register Read Data 2** (for R-type instructions)[cite: 3].
-  * **`1`**: Second ALU input comes from the **Sign-Extended Immediate** value (for `lw` / `sw`)[cite: 3].
-
+  * **`0`**: Second ALU input comes from **Register Read Data 2** (for R-type instructions).
+  * **`1`**: Second ALU input comes from the **Sign-Extended Immediate** value (for `lw` / `sw`).
 * **`MemToReg` (Memory to Register Mux):**
-  * **`0`**: Data written to the Register File comes from the **ALU Result** (for R-type instructions)[cite: 3].
-  * **`1`**: Data written comes directly from **Data Memory** (for `lw`)[cite: 3].
+***`0`**: Data written to the Register File comes from the **ALU Result** (for R-type instructions).
+  * **`1`**: Data written comes directly from **Data Memory** (for `lw`).
 
 * **`RegWr` (Register Write Enable):**
   * **`1`**: Writes a value back into the designated destination register (for R-type and `lw`)[cite: 3].
