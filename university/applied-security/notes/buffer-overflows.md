@@ -91,12 +91,12 @@ The first mitigation was to **Mark the stack as non-executable**. We can jump to
 ## Arbitrary Code Execution
 
 ***What if we jump to existing code?***
-Instead of executing our own shellcode, we could jump to existing code, say, *access granted.*
-We supply arbitrary values in place of the shellcode and fake `RBP`, and point the return address to somewhere we want. The following, for example, finds an instruction that opens shell and runs it to gain a shell:
 
-![[Pasted image 20261009151023.png]]
-![[Pasted image 20261009151036.png|634]]
+Instead of executing our own shellcode, we could jump to existing code, say, *access granted.*
+
+We supply arbitrary values in place of the shellcode and fake `RBP`, and point the return address to somewhere we want. 
 ## Return Oriented Programming
+
 If we want to execute arbitrary code rather than just run existing code, we can Frankenstein existing functions together to do this. This is called ***Return Oriented Programming***. 
 
 It's sort of like a Turing machine, we jump from address to address, each of them executing a ***gadget***. We end up with a strange but functional programming language by chaining these together! 
@@ -121,10 +121,7 @@ Each address we jump to will contain a gadget, usually a short sequence of instr
     - `ret` pops the next stack item—**`system()`**—into `RIP`. 
 3. **`system()` runs:** It executes using `RDI` (`"/bin/sh"`) as its argument.
 4. We have a shell!
-
-> *Differs from previous because there's no explicit "give me a shell*
 # A Note on Calling Conventions in Linux
-
 - On modern 64-bit Linux systems, functions don't use the stack for arguments if they don't have to, instead using CPU registers as they are much faster.
 - If a function has more than 6 arguments (`RCX` is missing from the slide), then any subsequent arguments are pushed onto the stack. The function sets up `RSP` and `RBP` as we saw.
 - When a function finishes and wants to return a value, it puts that return value inside the `RAX` register before returning `ret.`
@@ -132,7 +129,6 @@ Each address we jump to will contain a gadget, usually a short sequence of instr
 - Passing arguments via registers changes how arguments are fed _into_ a function, but it does not change how local stack buffers behave once inside that function. This changes how we'd write a buffer overflow, but does not mitigate them.
 
 ![[Pasted image 20261009134103.png]]
-
 # Summary
 - A buffer overflow allows an attacker to write to the stack, for example letting them control the return address.
 - If shellcode cannot be executed directly as the stack is non-executable, then instead we can jump into existing code:
