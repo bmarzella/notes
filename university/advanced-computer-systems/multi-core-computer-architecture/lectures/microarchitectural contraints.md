@@ -81,4 +81,10 @@ $$
 - **Architectural Remedy (Specialisation):** Using our silicon space to mix cores with different specialisations, which can perform more efficiently and sleep when not in use.
 - **Dynamic Management & Thermal Limits:** Don't allow processor to exceed some power ceiling, lower voltage and slow down clock speed when chip gets too hot or needs to save power, distribute tasks across the chip to prevent activating the many neighbouring cores to prevent hotspots, prevent heat causing power leakage, causing more heat etc. (*thermal runaway.*)
 
-## Architectural Consequences
+# Architectural Consequences
+
+![[Pasted image 20261009104125.png]]
+
+- Stopped trying to perform excessive amounts of tasks at the same time
+- Switched to multi-processor chips
+- 
