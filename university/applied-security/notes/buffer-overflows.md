@@ -46,4 +46,9 @@ Whenever we call a function, the stack gets involved.
 1. Pass some  
 
 ### Mitigation
-The first mitigation was to **Mark the stack as non-executable**. We
+The first mitigation was to **Mark the stack as non-executable**. We can jump to wherever we want, but we cant execute code there.
+
+![[Pasted image 20261009133746.png]]
+
+#### What if we jump into existing code?
+Instead of executing our own code, we could 
