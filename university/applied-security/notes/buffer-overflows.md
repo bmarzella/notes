@@ -19,3 +19,8 @@
 ![[Pasted image 20261009132944.png]]
 
 Whenever we call a function, the stack gets invovled.
+
+1. sad
+2. asd
+3. Function keeps track of the address it has to return to which is added to the stack, and the instruction pointer points to this.
+4. Function saves base pointer and both RSP and RBP point to top of stack
