@@ -45,4 +45,7 @@
 
 - Trying to model behaviors vs relying on past statistics to predict the same thing, for example.
 
+## Computational Social Science
+
 ![[Pasted image 20261009093553.png]]
+
