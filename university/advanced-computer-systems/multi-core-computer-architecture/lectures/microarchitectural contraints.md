@@ -87,4 +87,5 @@ $$
 
 - Stopped trying to stretch tasks into an excessive number of stages, because overhead of managing it (power, syncing, mistakes) became wildly inefficient.
 - Could no longer just increase clock speed to make a single core run one task faster, so switched to adding more cores instead.
-- 
+- Switched to evaluating processors by efficiency rather than pure performance.
+- Modern chips have multiple cores with different functions.
