@@ -31,5 +31,9 @@ $P(M|C) = P(M)$ for all $M \in \mathcal{M} \, \space C \in \mathcal{C}$
 #### Practical Issues with One-Time Pad
 
 ![[Pasted image 20261009165207.png]]
+![[Pasted image 20261009165325.png]]
 
-*Need to securely transmit and store a long, complicated key.*
+*Need to securely transmit and store a long, complicated key. Not much easier than just having a secure channel to send the message.*
+
+#### Historical Use of One-Time Pad
+![[Pasted image 20261009165347.png]]
