@@ -129,3 +129,8 @@ Instead of a massive control unit that decodes every combination at once, MIPS u
 - `address`/`offset` - 16-bit relative branch offset, shifted left by 2 and added to `PC + 4`.
 
 
+### Control Signals
+
+![[Pasted image 20261009154923.png]]
+
+1. 
