@@ -97,7 +97,9 @@ We supply arbitrary values in place of the shellcode and fake `RBP`, and point t
 ![[Pasted image 20261009151023.png]]
 ![[Pasted image 20261009151036.png|634]]
 ## Arbitrary Code Execution
-If we want to perform some bespoke function rather than just run existing code, we can frankenstein existing functions together to do this. This is called ***Return Oriented Programming***. It's 
+If we want to execute arbitrary code rather than just run existing code, we can Frankenstein existing functions together to do this. This is called ***Return Oriented Programming***. 
+
+It's sort of like a Turing machine, we jump from address
 
 ![[Pasted image 20261009134537.png]]
 
