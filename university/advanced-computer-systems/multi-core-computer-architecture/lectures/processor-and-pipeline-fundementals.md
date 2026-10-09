@@ -24,4 +24,6 @@
 
 ## Logic Design Convention
 
-#
+### Combinations vs Sequential Logic
+
+- **Combinational logic** - Output depends *only* on current inputs. It has no memory (*n*)
