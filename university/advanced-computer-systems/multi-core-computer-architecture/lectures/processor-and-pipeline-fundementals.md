@@ -90,3 +90,5 @@ Standard execution increments the PC by 4 per cycle, this allows us to implement
 Instead of a massive control unit that decodes every combination at once, MIPS uses a two-level decoding system:
 1. **Main Control Unit** reads the OpCode (bits 31-26) and produces a 2-bit `ALUOp` signal.
 2. The **ALU Control Unit** takes `ALUOp` + `Funct Field` (bits 5-0) to output the final 4-bit `ALU Control Input`.
+
+> **
