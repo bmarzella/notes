@@ -1,9 +1,9 @@
 ---
 handwriting-page-id: e322e72d-b1e7-4e65-85d2-e2a824afefbc
 ---
-![[Pasted image 20261006122604.png]]
+# The Classical Scaling Era
 
-# Performance Scaling
+![[Pasted image 20261006122604.png]]
 ## The Performance Triad
 ### Iron Law of Processor Performance
 
@@ -42,7 +42,7 @@ $$
 - Optimisation targets have switched from raw execution speed to energy- delay metrics
 	- We want the least delay using the least amount of energy, rather than pure speed. 
 
-# Dennard Scaling
+## Dennard Scaling
 
 ![[Pasted image 20261007104906.png]]
 
@@ -71,7 +71,7 @@ $$
 
 > *In summary, for a while, we were able to increase the number of transistors in the same space on a single core whilst reducing the voltage required, meaning we could fit more performance without increasing power consumption **(Dennard Scaling)**. Eventually, we hit a floor and couldn't reduce voltage anymore due to leakage **(Voltage Wall)**, meaning processors began requiring more power density **(Power Wall)**. This eventually led to a ceiling of maximum frequency (~3–4 GHz), at which point we started looking at other ways to get performance, like multi-core architectures and specialised accelerators.*
 
-# Dark Silicon
+## Dark Silicon
 
 ![[Pasted image 20261009102612.png]]
 
@@ -82,7 +82,7 @@ $$
 - **Architectural Remedy (Specialisation):** Using our silicon space to mix cores with different specialisations, which can perform more efficiently and sleep when not in use.
 - **Dynamic Management & Thermal Limits:** Don't allow processor to exceed some power ceiling, lower voltage and slow down clock speed when chip gets too hot or needs to save power, distribute tasks across the chip to prevent activating the many neighbouring cores to prevent hotspots, prevent heat causing power leakage, causing more heat etc. (*thermal runaway.*)
 
-# Architectural Consequences
+## Architectural Consequences
 
 ![[Pasted image 20261009104125.png]]
 
@@ -90,3 +90,6 @@ $$
 - Could no longer just increase clock speed to make a single core run one task faster, so switched to adding more cores instead.
 - Switched to evaluating processors by efficiency rather than pure performance.
 - Modern chips have multiple cores with different functions.
+
+
+# Processor 
