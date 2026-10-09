@@ -70,4 +70,11 @@
 
 ![[Pasted image 20261009094637.png]]
 
-- We have multiple ways of modelling things, in this case text, and we need to pick a way that helps us 
+- We have multiple ways of modelling things, in this case text, and we need to pick a way that helps us answer our specific question. 
+
+## Geographic Information Systems (GIS)
+
+![[Pasted image 20261009094805.png]]
+
+- Possible to represent something in a way that's easy to digest but can be 
+## Social Network Analysis
