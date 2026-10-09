@@ -102,3 +102,6 @@
 
 ![[Pasted image 20261009095256.png]]
 
+- ngrams aims to model the number of books that include some term within some given time period
+- Implicit argument from this graph is that, at some point in the 40s, people switched how they wrote apple sauce.
+- 

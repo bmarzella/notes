@@ -16,7 +16,9 @@
     "autoCapitalize": true,
     "removeDoubledWords": true,
     "extraAbbreviations": [],
-    "userDictionary": [],
+    "userDictionary": [
+      "ngrams"
+    ],
     "userDictionaryUserAdded": [],
     "suggestUserDictionary": true,
     "undoAddsToDictionary": true,
