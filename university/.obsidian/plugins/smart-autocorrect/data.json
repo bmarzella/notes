@@ -16,7 +16,9 @@
     "autoCapitalize": true,
     "removeDoubledWords": true,
     "extraAbbreviations": [],
-    "userDictionary": [],
+    "userDictionary": [
+      "ngrams"
+    ],
     "userDictionaryUserAdded": [],
     "suggestUserDictionary": true,
     "undoAddsToDictionary": true,
@@ -59,9 +61,9 @@
     "replaceLinkMenu": true
   },
   "engagement": {
-    "totalSaved": 17,
-    "todaySaved": 17,
-    "lastActiveDay": "2026-10-07",
+    "totalSaved": 106,
+    "todaySaved": 89,
+    "lastActiveDay": "2026-10-09",
     "streak": 1,
     "bestStreak": 1,
     "milestones": [],

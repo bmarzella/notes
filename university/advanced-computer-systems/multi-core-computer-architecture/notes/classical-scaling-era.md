@@ -1,10 +1,11 @@
 ---
 handwriting-page-id: e322e72d-b1e7-4e65-85d2-e2a824afefbc
 ---
-![[Pasted image 20261006122604.png]]
+# The Classical Scaling Era
 
-# The Performance Triad
-## Iron Law of Processor Performance
+![[Pasted image 20261006122604.png]]
+## The Performance Triad
+### Iron Law of Processor Performance
 
 ![[Pasted image 20261007103033.png]]
 
@@ -15,14 +16,14 @@ $$
 1. **Instructions per Program (Instruction Count)**: Total number of machine instructions requires to complete the program.
 2. **Cycles per Instruction (CPI)**: Average number of clock cycles needed to execute each instruction.
 3. **Time per Cycle (Clock Period):** Duration of a single clock tick, inverse of clock frequency.
-## Latency vs Throughput
+### Latency vs Throughput
 
 - **Latency** is the time required to complete a single task/instruction from start to finish (*critical for single thread responsiveness*)
 - **Throughput** is the total amount of work completed per unit time across all execution units (*aggregate IPC, Flops/sec etc.*)
 - Deep pipelining improves throughput by overlapping operations, but often increases individual instruction latency due to hazard penalties and pipeline register overheads. 
 	- *Doing multiple things at once mean we get more done at once, but also means individual tasks can take longer.*
 
-## The Third Dimension: Power & Energy Limits
+### Power & Energy Limits
 
 - Faster clock frequencies and wider execution engines drive up power consumption:
 $$
@@ -41,7 +42,7 @@ $$
 - Optimisation targets have switched from raw execution speed to energy- delay metrics
 	- We want the least delay using the least amount of energy, rather than pure speed. 
 
-# Dennard Scaling
+## Dennard Scaling
 
 ![[Pasted image 20261007104906.png]]
 
@@ -68,5 +69,27 @@ $$
 **Architectural Shift**
 - This culminated in the end of frequency scaling (around 3-4GHz), driving the shift to multi-core architectures, dark silicon constraints and domain-specific accelerators.
 
-> *In summary, for a while, we were able to increase the number of transistors in the same space whilst reducing the voltage required, meaning we could fit more performance without increasing power consumption **(Dennard Scaling)**. Eventually, we hit a floor and couldn't reduce voltage anymore due to leakage **(Voltage Wall)**, meaning processors began requiring more power density **(Power Wall)**. This eventually led to a ceiling of maximum frequency (~3–4 GHz), at which point we started looking at other ways to get performance, like multi-core architectures and specialised accelerators.*
+> *In summary, for a while, we were able to increase the number of transistors in the same space on a single core whilst reducing the voltage required, meaning we could fit more performance without increasing power consumption **(Dennard Scaling)**. Eventually, we hit a floor and couldn't reduce voltage anymore due to leakage **(Voltage Wall)**, meaning processors began requiring more power density **(Power Wall)**. This eventually led to a ceiling of maximum frequency (~3–4 GHz), at which point we started looking at other ways to get performance, like multi-core architectures and specialised accelerators.*
 
+## Dark Silicon
+
+![[Pasted image 20261009102612.png]]
+
+- **Definition:** Portion of an integrated circuits silicon area that cannot be powered simultaneously because doing so would exceed the chips power and thermal limits
+- **Root Cause:** Power density scaled rapidly, as we established earlier
+- **Utilisation Wall:** Up to 80% of transistors must be switched off (*dark*) or heavily throttled (*dim*) during peak execution.
+- **Failure of Homogenous Multi-Core:** We can't just add more identical cores, doing so hits severe thermal throttling, so we get diminishing returns on parallelisation.
+- **Architectural Remedy (Specialisation):** Using our silicon space to mix cores with different specialisations, which can perform more efficiently and sleep when not in use.
+- **Dynamic Management & Thermal Limits:** Don't allow processor to exceed some power ceiling, lower voltage and slow down clock speed when chip gets too hot or needs to save power, distribute tasks across the chip to prevent activating the many neighbouring cores to prevent hotspots, prevent heat causing power leakage, causing more heat etc. (*thermal runaway.*)
+
+## Architectural Consequences
+
+![[Pasted image 20261009104125.png]]
+
+- Stopped trying to stretch tasks into an excessive number of stages, because overhead of managing it (power, syncing, mistakes) became wildly inefficient.
+- Could no longer just increase clock speed to make a single core run one task faster, so switched to adding more cores instead.
+- Switched to evaluating processors by efficiency rather than pure performance.
+- Modern chips have multiple cores with different functions.
+
+
+# Processor & Pipeline Fundema
