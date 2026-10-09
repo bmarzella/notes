@@ -91,5 +91,5 @@ Instead of a massive control unit that decodes every combination at once, MIPS u
 1. **Main Control Unit** reads the OpCode (bits 31-26) and produces a 2-bit `ALUOp` signal.
 2. The **ALU Control Unit** takes `ALUOp` + `Funct Field` (bits 5-0) to output the final 4-bit `ALU Control Input`.
 
-> *Main control unit decides whether the instruction is R, I or J types. If it's an R-type, the ALU control unit then decides the actual instruction, as the .
+> *Main control unit decides whether the instruction is R, I or J-type. If it's an R-type, the ALU control unit then decides the actual instruction, as the OpCode is all the same (`000000`). Otherwise, the main control unit can immediately determine the instruction and sends
 
