@@ -17,10 +17,15 @@
 ![[Pasted image 20261009132906.png]]
 
 ![[Pasted image 20261009132944.png]]
-
+![[Pasted image 20261009133112.png]]
+![[Pasted image 20261009133122.png]]
+![[Pasted image 20261009133137.png]]
+![[Pasted image 20261009133152.png]]
 Whenever we call a function, the stack gets invovled.
 
 1. sad
 2. asd
 3. Function keeps track of the address it has to return to which is added to the stack, and the instruction pointer points to this.
-4. Function saves base pointer and both RSP and RBP point to top of stack
+4. Function saves base pointer and both RSP and RBP point to top of stack.
+5. Create a buffer on the stack.
+6. 
