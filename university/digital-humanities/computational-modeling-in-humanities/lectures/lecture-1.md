@@ -33,3 +33,4 @@
 
 ![[Pasted image 20261009092559.png]]
 
+- We often don't often have complete data, and the data we do have can be biased, wrong, just generally unreliable.
