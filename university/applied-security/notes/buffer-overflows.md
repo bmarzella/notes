@@ -7,7 +7,8 @@
 
 # Recap
 
-- C in fundamentally unsafe in the way it handles memory
-
 ![[Pasted image 20261009132709.png]]
+
+- C in fundamentally unsafe in the way it handles memory.
+- For example, we can ride past the end off the buffer in this code to access data that shouldn't be.
 
