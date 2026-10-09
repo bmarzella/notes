@@ -95,7 +95,6 @@ Instead of a massive control unit that decodes every combination at once, MIPS u
 
 #### Instruction Classes
 ##### R-Type
-
 *An instruction that operates entirely between registers.*
 
 ![[Pasted image 20261009153719.png]]
@@ -106,3 +105,7 @@ Instead of a massive control unit that decodes every combination at once, MIPS u
 - `rd` - Destination register (where result is saved).
 - `shamt` - Shift amount (used for shift operations, otherwise 0).
 - `funct` - Function field, tells the ALU Control unit the exact operation.
+
+##### I-Type
+*An instruction that involved two registers and a hardcoded, 16-bi*
+###### 
