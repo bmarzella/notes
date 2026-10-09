@@ -39,3 +39,8 @@
 
 ![[Pasted image 20261009092751.png]]
 
+## Causal vs Predictive Models
+
+![[Pasted image 20261009092906.png]]
+
+- Trying to model behaviours and
