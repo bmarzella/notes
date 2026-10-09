@@ -26,4 +26,8 @@
 
 ### Combinations vs Sequential Logic
 
-- **Combinational logic** - Output depends *only* on current inputs. It has no memory (*n*)
+![[Pasted image 20261009112048.png]]
+
+- **Combinational logic** - Output depends *only* on current inputs. It has no memory (*no Registers, Flip-Flops, RAM etc.*)
+- **Sequential Logic** - Output depends on current inputs *and* past state. Contains memory.
+- **Which is needed to build an ALU**
