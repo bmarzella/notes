@@ -50,4 +50,7 @@
 2. **Registers & ALU Execution**
 	- Reads source registers and performs arithmetic/logical operations
 3. **Load and Store/Memory Access**
-	- Sing-extends 16-but intermediate values to 
+	- Sing-extends 16-bit intermediate values to 32 bits and handles reads/writes to memory.
+
+- **The Sign-Extend Unit**
+	- Takes a 16-bit intermediate field (from instructions li)
