@@ -40,7 +40,7 @@ We call the function `func` and push the address of the instruction to be comple
  
 ![[Pasted image 20261009144242.png|469]]
 
-We then push a 16-bit buffer to 
+We then push a 16-bit buffer to hold `char buffer[16]`, and assign `"Hello, World" 00` to it. note that this only takes up  
 
 
 
