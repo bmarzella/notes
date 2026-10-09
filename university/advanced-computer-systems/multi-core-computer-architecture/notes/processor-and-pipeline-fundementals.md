@@ -119,3 +119,9 @@ Instead of a massive control unit that decodes every combination at once, MIPS u
 - `address`/`offset` - 16-bit immediate value added to `rs` to get the target memory address.
 
 ###### Branch
+*Comparing values to decide whether to branch.*
+
+![[Pasted image 20261009154703.png]]
+
+- **OpCode** - `4` for `beq`, (branch on equal).
+- `rs` - First register to 
