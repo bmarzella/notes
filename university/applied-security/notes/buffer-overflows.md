@@ -45,3 +45,5 @@ Whenever we call a function, the stack gets involved.
 
 1. Pass some  
 
+### Mitigation
+The first mitigation was to **Mark the stack as non-executable**. We
