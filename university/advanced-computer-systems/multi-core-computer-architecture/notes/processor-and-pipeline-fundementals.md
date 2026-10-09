@@ -124,4 +124,8 @@ Instead of a massive control unit that decodes every combination at once, MIPS u
 ![[Pasted image 20261009154703.png]]
 
 - **OpCode** - `4` for `beq`, (branch on equal).
-- `rs` - First register to 
+- `rs` - First register to compare.
+- `rt` - Second register to compare.
+- `address`/`offset` - 16-bit relative branch offset, shifted left by 2 and added to `PC + 4`.
+
+
