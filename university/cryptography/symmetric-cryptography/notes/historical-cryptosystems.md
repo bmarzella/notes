@@ -28,12 +28,12 @@ With a reasonably long ciphertext, we can see the most common letter and substit
 
 # Vigenère Cipher: Polyalphabetic Substitution
 
-- ***Different substitutions for different positions.***
-- 
+***Different substitutions for different positions.***
+
+- Each letter in the key represents a number to shift by. For example, plaintext T and key B means shift T forwards by 2, yielding V.
 
 ![[Pasted image 20261009162039.png]]
 
-- 
 ## Analysis
 
 ![[Pasted image 20261009162112.png]]
