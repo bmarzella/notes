@@ -70,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Vigenère",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -218,6 +219,7 @@
   },
   "active": "229a6041e474df91",
   "lastOpenFiles": [
+    "Pasted image 20261009162039.png",
     "Pasted image 20261009161909.png",
     "Pasted image 20261009161732.png",
     "Pasted image 20261009161444.png",
@@ -231,7 +233,6 @@
     "images/Pasted image 20261009155644.png",
     "images/Pasted image 20261009154923.png",
     "images/Pasted image 20261009154703.png",
-    "images/Pasted image 20261009154358.png",
     "applied-security/notes/buffer-overflows.md",
     "applied-security/notes/admin.md",
     "applied-security/notes",
