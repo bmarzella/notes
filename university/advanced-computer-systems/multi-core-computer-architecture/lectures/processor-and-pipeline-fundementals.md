@@ -28,6 +28,7 @@
 
 ![[Pasted image 20261009112048.png]]
 
+1. 
 - **Combinational logic** - Output depends *only* on current inputs. It has no memory (*no Registers, Flip-Flops, RAM etc.*)
 - **Sequential Logic** - Output depends on current inputs *and* past state. Contains memory.
 
