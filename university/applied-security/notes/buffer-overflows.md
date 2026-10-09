@@ -46,17 +46,20 @@ We reserve a **16-byte** area on the stack for `char buffer[16]`. When `strcpy` 
 
 #### 3. Cleaning Up
 
-Once we finish with `func`, we need to clean up the stack to continu
+Once we finish with `func`, we need to clean up the stack to continue running main.
+1. We begin by pointing `RBP` back to the address in Old RBP.
+2. Then we pop values until we reach the return address.
+	1. Finally, we pop this into the 
 
 
 
 
-3. asd
-4. Function keeps track of the address it has to return to which is added to the stack, and the instruction pointer points to this.
-5. Function saves base pointer and both RSP and RBP point to top of stack.
-6. Create a buffer on the stack.
-7. Insert "Hello, World!". Does not exceed the length of the buffer so no issues.
-8. Clear the stack and move on.
+4. asd
+5. Function keeps track of the address it has to return to which is added to the stack, and the instruction pointer points to this.
+6. Function saves base pointer and both RSP and RBP point to top of stack.
+7. Create a buffer on the stack.
+8. Insert "Hello, World!". Does not exceed the length of the buffer so no issues.
+9. Clear the stack and move on.
 
 ### Exploitation
 
