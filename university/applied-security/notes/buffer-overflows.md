@@ -36,7 +36,7 @@ We call the function `func` and push the address of the instruction to be comple
 *Note that `main+x+2` would make more sense in the slide.*
 ![[Pasted image 20261009143442.png|304]]![[Pasted image 20261009142929.png|335]]
 
- 
+ We then push the old `RBP` to the stack, so when we return to `main` we know where to look in the stack to continue from.
 
 
 
