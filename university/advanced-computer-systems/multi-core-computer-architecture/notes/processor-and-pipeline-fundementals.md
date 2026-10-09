@@ -156,3 +156,7 @@ The blue control lines act as switches that configure the datapath for each spec
 	  * **`1`**: Takes the branch target address (`PC + 4 + Branch Offset`).
 * **`ALU Control:`**
 	  * Outputs the final 4-bit signal to tell the main ALU which exact operation to perform.
+
+## Pipelining
+### Overview
+***Breaking a process into multiple stages, allowing different parts of the instructions to be proccess***
