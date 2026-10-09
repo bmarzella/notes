@@ -77,6 +77,6 @@ $$
 - **Definition:** Portion of an integrated circuits silicon area that cannot be powered simultaneously because doing so would exceed the chips power and thermal limits
 - **Root Cause:** Power density scaled rapidly, as we established earlier
 - **Utilisation Wall:** Up to 80% of transistors must be switched off (*dark*) or heavily throttled (*dim*) during peak execution.
-- **Failure of Homogenous Multi-Core:** We can't just add more core, doing so hits severe thermal throttling, so we get diminishing returns on parallelization.
-- **Architectural Remedy (Specialisation):** Using our silicon space to mix different types 
-- 
+- **Failure of Homogenous Multi-Core:** We can't just add more cores with the same funtions, doing so hits severe thermal throttling, so we get diminishing returns on parallelisation.
+- **Architectural Remedy (Specialisation):** Using our silicon space to mix cores with different specialisations, which can perform more efficiently and sleep when not in use.
+- **Dynamic Management & Thermal Limits:** 
