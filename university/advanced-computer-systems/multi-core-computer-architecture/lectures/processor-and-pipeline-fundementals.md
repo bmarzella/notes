@@ -73,4 +73,9 @@ A single component such as the ALU or Register file often needs to receive data 
 
 #### Branch Logic
 ##### What is it?
-Hardware dedicated to executing conditional jump instructions (`beq` - branch if equal, for example). Consists of an **Adder, a Shift Left 2 unit and an AND gate** connected to the ALU's `zero` si
+Hardware dedicated to executing conditional jump instructions (`beq` - branch if equal, for example). Consists of an **Adder, a Shift Left 2 unit and an AND gate** connected to the ALU's `zero` signal.
+##### Why do we add it?
+Standard execution increments the PC by 4 per cycle, this allows us to implement branch logic.
+
+##### How does it work?
+1. **Address Calculation**
