@@ -15,7 +15,9 @@ Stands for *Microprocessor without Interlocked Pipeline Stages, its essentially 
 3. **Registers File**
 	1. 32 extremely fast memory slots used in the execution of instructions.
 	2. Instruction word selects and opens the required source registers (*Reg.#*) and the register file outputs their values (*Data*) to the ALU.
-4. **ALUE**
+4. **Arithmetic and Logic Unit (ALU)**
+	1. Logic circuit responsible for performing arithmetic (*ADD, SUB*) and logical operations.
+	2. Executes required operation on data value
 5. **Data Memory**
 	1. Interface with RAM, holds long -term runtime variables and data structures.
 	2. Uses ALU output as a memory address (*Addr*) to either read a value from or write data to memory. Data read from memory is sent back to be saved into the Register File.
