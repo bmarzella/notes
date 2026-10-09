@@ -100,3 +100,5 @@
 
 ## Inference from Models
 
+![[Pasted image 20261009095256.png]]
+
