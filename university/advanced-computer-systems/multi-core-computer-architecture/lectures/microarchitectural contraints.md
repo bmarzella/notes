@@ -76,4 +76,5 @@ $$
 
 - **Definition:** Portion of an integrated circuits silicon area that cannot be powered simultaneously because doing so would exceed the chips power and thermal limits
 - **Root Cause:** Power density scaled rapidly, as we established earlier
-- **Utilisation Wall:** 
+- **Utilisation Wall:** Up to 80% of transistors must be switched off (*dark*) or heavily throttled (*dim*) during peak execution.
+- 
