@@ -57,4 +57,9 @@
 
 ![[Pasted image 20261009094006.png]]
 
-- Evert
+- A lot of what we do day to day creates data useful for data scientists, but were not doing this intentionally
+
+### Historical Trace Data
+
+![[Pasted image 20261009094059.png]]
+
