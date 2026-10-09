@@ -23,7 +23,7 @@ $P(M|C) = P(M)$ for all $M \in \mathcal{M} \, \space C \in \mathcal{C}$
 
 >*There are a finite number of plaintexts that can be decrpyted from a ciphertext. *
 
-### Achieving Perfect Security
+### Achieving Perfect Security - One-Time Pad
 
 ![[Pasted image 20261009165030.png]]
 ![[Pasted image 20261009165132.png]]
@@ -37,3 +37,6 @@ $P(M|C) = P(M)$ for all $M \in \mathcal{M} \, \space C \in \mathcal{C}$
 
 #### Historical Use of One-Time Pad
 ![[Pasted image 20261009165347.png]]
+
+#### Implementation and Modern Use of One-Time Pad
+![[Pasted image 20261009165443.png]]
