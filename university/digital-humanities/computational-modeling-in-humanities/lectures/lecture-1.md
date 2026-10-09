@@ -82,4 +82,14 @@
 ![[Pasted image 20261009094927.png]]
 
 
-## Agent Based Mode
+## Agent Based Modelling
+
+![[Pasted image 20261009095053.png]]
+
+- We model individuals and let them interact.
+
+### Conway's Game of Life
+
+![[Pasted image 20261009095130.png]]
+
+- Game of Life is an example of 
