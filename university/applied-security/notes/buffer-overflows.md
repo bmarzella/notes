@@ -40,7 +40,11 @@ We call the function `func` and push the address of the instruction to be comple
  
 ![[Pasted image 20261009144242.png|469]]
 
-We then push a 16-byte buffer to hold `char buffer[16]`, and assign `"Hello, World" 00` to it. note that this only takes up 13 bytes, leaving the remaining 3 unused. 
+We reserve a **16-byte** area on the stack for `char buffer[16]`. When `strcpy` runs, it copies `"Hello, World\0"` (13 bytes) into `buffer`. This leaves 3 bytes of unused space inside the buffer, so no overflow occurs yet.
+
+![[Pasted image 20261009144637.png|226]]
+
+
 
 
 
