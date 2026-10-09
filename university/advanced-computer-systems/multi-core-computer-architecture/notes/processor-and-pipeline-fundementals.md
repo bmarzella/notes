@@ -98,3 +98,6 @@ Instead of a massive control unit that decodes every combination at once, MIPS u
 
 ![[Pasted image 20261009153719.png]]
 
+- **OpCode** - Identifies the instruction as R-type. Always 0 (`000000` in binary)
+- `rs`: First source register.
+- `rt` - Second source register.
