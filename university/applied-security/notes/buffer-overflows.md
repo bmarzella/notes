@@ -99,11 +99,12 @@ We supply arbitrary values in place of the shellcode and fake `RBP`, and point t
 ## Return Oriented Programming
 If we want to execute arbitrary code rather than just run existing code, we can Frankenstein existing functions together to do this. This is called ***Return Oriented Programming***. 
 
-It's sort of like a Turing machine, we jump from address to address, each of them executing a ***gadget***. We end up with a strange but functional programm 
+It's sort of like a Turing machine, we jump from address to address, each of them executing a ***gadget***. We end up with a strange but functional programming language by chaining these together! 
+
+### Gadgets
 
 ![[Pasted image 20261009134537.png]]
-
-We want to chain these to create a sort of turing machine, jumping between executable addresses each with "gadget". We end up with a weird but usable programming language. 
+ 
 
 ![[Pasted image 20261009134709.png]]
 ![[Pasted image 20261009134723.png]]
