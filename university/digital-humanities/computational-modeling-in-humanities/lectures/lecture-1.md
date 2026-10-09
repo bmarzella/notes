@@ -17,5 +17,5 @@
 
 ![[Pasted image 20261009091844.png]]
 
-
+- Much like we might make a scale model of a castle to see what an attack might look like, we can 
 
