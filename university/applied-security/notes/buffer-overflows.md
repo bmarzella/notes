@@ -99,7 +99,9 @@ We supply arbitrary values in place of the shellcode and fake `RBP`, and point t
 ![[Pasted image 20261009151023.png]]
 ![[Pasted image 20261009151036.png|634]]
 
-### How are arguments passed to functions?
+# A Note on Calling Conventions in Linux
+
+On modern 64-bit Linux systems, 
 
 ![[Pasted image 20261009134103.png]]
 
