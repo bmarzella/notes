@@ -47,3 +47,5 @@ With a reasonably long ciphertext, we can see the most common letter and substit
 
 ![[Pasted image 20261009162705.png]]
 
+For example, the word *the* appear very often, which we can use to find three elements of the key.
+
