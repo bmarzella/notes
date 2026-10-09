@@ -62,7 +62,9 @@ The stack is set up normally, and we begin with a buffer on top ready to take th
 #### 2. Malicious Input
 The attacker has supplied an malicious input, which consists of three parts:
 1. **16-byte Shellcode**
-	- This fills 
+	- This fills `buffer[16]`. Anything subsequent will "overflow" over into contigious memory space.
+2. **Fake `RBP` Addre**
+	
 
 ![[Pasted image 20261009133427.png|583]]
 ![[Pasted image 20261009133547.png]]
