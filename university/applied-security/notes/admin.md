@@ -21,3 +21,6 @@ Terms 1 & 2:
 
 ![[Pasted image 20261009132220.png]]
 
+# Ethics & Law
+
+![[Pasted image 20261009134928.png]]
