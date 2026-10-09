@@ -17,7 +17,7 @@ Let's look at what the stack looks like, executing this code normally:
 ## Stack on 64-bit x86
 ### Initial Stack
 Initially, the stack has three components, arranged with top being the first in the stack:
-1. **Saved Return Address**
+1. **Saved Return Address** (`RIP`)
 	- Holds the address of the next instruction in `main()` to be executed after `func()` (this function) finishes.
 2. **Saved Frame Pointer** (`RBP`)
 	- Stores memory address of the previous function's (`main()`, in this case) stack frame.
