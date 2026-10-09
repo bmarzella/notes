@@ -9,4 +9,5 @@
 
 ![[Pasted image 20261009091243.png]]
 
-> *Concordance: E*
+> ***Concordance**: Essentially a search index, we can search for a specific topic in all of, say, Thomas Acquinas' work.*
+
