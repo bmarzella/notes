@@ -44,3 +44,5 @@
 ![[Pasted image 20261009092906.png]]
 
 - Trying to model behaviors vs relying on past statistics to predict the same thing, for example.
+
+![[Pasted image 20261009093553.png]]
