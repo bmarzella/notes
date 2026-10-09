@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "applied-security/symmetric-cryptography/notes/intro-to-crypto.md",
+                "file": "cryptography/symmetric-cryptography/notes/perfect-cryptosystems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "intro-to-crypto"
+              "title": "perfect-cryptosystems"
             }
           }
         ]
@@ -192,8 +192,9 @@
   "active": "f1b1a9d6664d1ff9",
   "lastOpenFiles": [
     "digital-humanities/computational-modeling-in-humanities/notes/lecture-1.md",
-    "digital-humanities/computational-modeling-in-humanities/notes/admin.md",
+    "cryptography/symmetric-cryptography/notes/perfect-cryptosystems.md",
     "applied-security/symmetric-cryptography/notes/intro-to-crypto.md",
+    "digital-humanities/computational-modeling-in-humanities/notes/admin.md",
     "applied-security/symmetric-cryptography/notes",
     "applied-security/symmetric-cryptography",
     "images/Pasted image 20261009165443.png",
@@ -208,7 +209,6 @@
     "images/Pasted image 20261009163037.png",
     "digital-humanities/computational-modeling-in-humanities/notes",
     "digital-humanities/computational-modeling-in-humanities",
-    "cryptography/symmetric-cryptography/notes/perfect-cryptosystems.md",
     "cryptography/symmetric-cryptography/notes/intro-to-crypto.md",
     "cryptography/symmetric-cryptography/notes/historical-cryptosystems.md",
     "cryptography/symmetric-cryptography/notes",
