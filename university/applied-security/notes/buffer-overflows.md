@@ -18,8 +18,9 @@ Let's look at what the stack looks like, executing this code normally:
 ### Initial Stack
 Initially, the stack has three components, arranged as follows:
 1. **Saved Return Address**
+	- Holds the adress of the next instruction in `main()` after this function, (
 2. **Saved Frame Pointer**
-3. **Buffer [0..15]**
+3. **Buffer \[0..15]**
 
 
 
