@@ -36,10 +36,11 @@ We call the function `func` and push the address of the instruction to be comple
 *Note that `main+x+2` would make more sense in the slide.*
 ![[Pasted image 20261009143442.png|304]]![[Pasted image 20261009142929.png|335]]
 
- We then push the old `RBP` to the stack, so when we return to `main` we know where in the stack to continue from. I'll stop mentioning RIP until it is updated, but know it is incrementing through `funcs` instructions.
-![[Pasted image 20261009144221.png|416]]
+ We then push the old `RBP` to the stack, so when we return to `main` we know where in the stack to continue from, and update it to point to the current top, which will be the bottom of `func`'s stack frame. I'll stop mentioning RIP until it is updated, but know it is incrementing through `func`'s instructions.
+ 
+![[Pasted image 20261009144242.png|469]]
 
-
+We then push a 16-bit buffer to 
 
 
 
