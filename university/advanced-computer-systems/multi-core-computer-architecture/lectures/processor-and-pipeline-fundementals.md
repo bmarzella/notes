@@ -40,17 +40,21 @@
 	- Combinational circuits take a small, non -zero amount of time for electrical signals to settle (*propagation delay*).
 	- A clock ensures that inputs hold still long enough to perform calculations, and that state elements (like registers and memory) only capture new values at precise, predictable intervals (*the clock edge*).
 
-## Building a Single MIPS Datapath
+## Building a Single Cycle MIPS Datapath
 ### The Three Core Blocks
 
 ![[Pasted image 20261009113025.png]]
 
 1. **Instruction Fetch & PC**
-	- Fetches the current instruction and increments the PC
+	- Fetches the current instruction and increments the PC.
 2. **Registers & ALU Execution**
-	- Reads source registers (input values) and performs arithmetic/logical operations
+	- Reads source registers (input values) and performs arithmetic/logical operations.
 3. **Load and Store/Memory Access**
 	- Sign-extends 16-bit intermediate values to 32 bits and handles reads/writes to memory.
 
 - **The Sign-Extend Unit**
 	- Takes a 16-bit intermediate field (from instructions like `lw`, `sq` or `addi`) and expands it to 32 bits by replicating the sign bit, allowing the ALU to operate on it.
+
+### Connecting the Blocks Together
+
+![[Pasted image 20261009113509.png]]
