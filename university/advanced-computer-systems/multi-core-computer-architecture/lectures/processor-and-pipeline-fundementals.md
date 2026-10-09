@@ -6,6 +6,7 @@
 
 Stands for *Microprocessor with ou Interlocked Pipeline Stages*.
 
-### Program Counter (PC)
+1. **Program Counter (PC)**
 
-- 
+Holds the address of the next instruction to execute.
+
