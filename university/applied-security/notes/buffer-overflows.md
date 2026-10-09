@@ -45,11 +45,10 @@ We reserve a **16-byte** area on the stack for `char buffer[16]`. When `strcpy` 
 ![[Pasted image 20261009144637.png|226]]
 
 #### 3. Cleaning Up
-
 Once we finish with `func`, we need to clean up the stack to continue running main.
-1. We begin by pointing `RBP` back to the address in Old RBP.
+1. We begin by pointing `RBP` back to the address in Old RBP, which discards the buffer.
 2. Then we pop values until we reach the return address.
-	1. Finally, we pop this into the 
+3. Finally, we pop this into the `RIP` to have it point to the next instruction in `main`.
 
 
 
