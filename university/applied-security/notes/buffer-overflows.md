@@ -56,4 +56,6 @@ Instead of executing our own code, we could jump to existing code, say, *access 
 ![[Pasted image 20261009133852.png]]
 ![[Pasted image 20261009133910.png|608]]
 
-Put the stack into a state where the function works 
+Put the stack into a state where the function works
+
+
