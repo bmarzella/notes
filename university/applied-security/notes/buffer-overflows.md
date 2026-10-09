@@ -25,8 +25,9 @@ There are three registers used for working with the stack:
 	- Points to the base of the active stack frame in memory.
 
 ### Steps
-#### 1. 
-
+![[Pasted image 20261009142436.png]]
+#### 1. `push str`
+The string passed into the function at `func(attacker_controlled_string)` is pushed onto the stack:
 
 
 
