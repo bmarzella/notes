@@ -33,8 +33,10 @@
 	- **Sequential Logic** - Output depends on current inputs *and* past state. Contains memory.
 2. **Control vs Data Signals**
 	- **Data Signals** - Actual numbers being processed by or passed around within the processor. 
-		- 32-bit numbers read from registers, immediate values or 
-	- **Control Signals** - 
+		- *32-bit numbers read from registers, immediate values or memory read data, for example.*
+	- **Control Signals** - Command lines that determine what happens to the data.
+		- *Setting a MUX line to choose between two inputs, enabling/disabling register writes, telling the ALU which operations to write, for example.*
+	3
 
 **Which is needed to build an ALU?** 
 - Combinational logic 
