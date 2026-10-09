@@ -76,5 +76,9 @@
 
 ![[Pasted image 20261009094805.png]]
 
-- Possible to represent something in a way that's easy to digest but can be 
+- Possible to represent something in a way that's easy to digest but can be misleading, maps we most often see do not accurately represent the sizes of land masses, for example.
 ## Social Network Analysis
+
+![[Pasted image 20261009094927.png]]
+
+## Agent Based Model
