@@ -16,5 +16,6 @@ Stands for *Microprocessor without Interlocked Pipeline Stages, its essentially 
 	1. 32 extremely fast memory slots used in the execution of instructions.
 	2. Instruction word selects and opens the required source registers (*Reg.#*) and the register file outputs their values (*Data*) to the ALU.
 4. **Data Memory**
-	1. Interface with RAM
+	1. Interface with RAM, holds long -term runtime variables and data structures.
+	2. Uses ALU output as a memory address (*Addr*) to either read a value from or write data to a RAM address. Data read 
 
