@@ -28,4 +28,5 @@
 
 ![[Pasted image 20261009092220.png]]
 
-- As we mentioned earlier, humans aren't 
+- As we mentioned earlier, humans aren't discrete. We can know how many people took a module, but we don't know whether they'll be sick, too lazy to show up for a 9am, etc.
+- On top of that, 
