@@ -28,10 +28,12 @@ With a reasonably long ciphertext, we can see the most common letter and substit
 
 # Vigenère Cipher: Polyalphabetic Substitution
 
-- Substitution cypher, but use ***different substitutions for different positions.***
+- ***Different substitutions for different positions.***
+- 
 
 ![[Pasted image 20261009162039.png]]
 
+- 
 ## Analysis
 
 ![[Pasted image 20261009162112.png]]
