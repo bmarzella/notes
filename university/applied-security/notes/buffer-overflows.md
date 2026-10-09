@@ -13,6 +13,7 @@
 - For example, we can ride past the end off the buffer in this code to access data that shouldn't be.
 
 ## Stack on 64-bit x86
+### Regular Function
 
 ![[Pasted image 20261009132906.png]]
 
@@ -32,4 +33,8 @@ Whenever we call a function, the stack gets involved.
 3. Function keeps track of the address it has to return to which is added to the stack, and the instruction pointer points to this.
 4. Function saves base pointer and both RSP and RBP point to top of stack.
 5. Create a buffer on the stack.
-6. Insert "He"
+6. Insert "Hello, World!". Does not exceed the length of the buffer so no issues.
+7. Clear the stack and move on.
+
+### Exploitation
+#### Before strcp
