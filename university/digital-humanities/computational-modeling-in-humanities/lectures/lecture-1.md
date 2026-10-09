@@ -68,4 +68,6 @@
 
 ![[Pasted image 20261009094518.png]]
 
+![[Pasted image 20261009094637.png]]
 
+- We have multiple ways of modelling things, in this case text, and we need to pick a way that helps us 
