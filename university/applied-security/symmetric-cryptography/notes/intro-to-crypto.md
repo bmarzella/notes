@@ -1,5 +1,8 @@
 ---
 handwriting-page-id: 8c996772-2a23-42ed-9441-6ce08704277c
+tags:
+  - kerckchoff
+  - notation
 ---
 #kerckchoff #notation 
 
