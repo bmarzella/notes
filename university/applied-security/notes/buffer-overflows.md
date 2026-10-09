@@ -73,3 +73,10 @@ We want to chain these to create a sort of turing machine, jumping between execu
 ![[Pasted image 20261009134730.png|579]]
 
 This writes `0x00000000` to the specified address.
+
+# Summary
+- A buffer overflow gives the attacker control over the return address.
+- If shellcode cannot be executed directly as the stack is non-executable, then instead we can jump into existing code:
+	- Existing `libc` functions
+	- Chain of gadgets
+- Modern exploits often use some for
