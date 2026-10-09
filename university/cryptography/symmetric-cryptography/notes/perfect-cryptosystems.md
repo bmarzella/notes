@@ -4,4 +4,4 @@
 
 Every possible plaintext is equally likely given any ciphertext.
 
-$P(M|C) = P(M)$ for all $M \in m, C \in c$
+$P(M|C) = P(M)$ for all $M \in \em \, \space C \in c$
