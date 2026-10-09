@@ -48,9 +48,9 @@
 1. **Instruction Fetch & PC**
 	- Fetches the current instruction and increments the PC
 2. **Registers & ALU Execution**
-	- Reads source registers and performs arithmetic/logical operations
+	- Reads source registers (input values) and performs arithmetic/logical operations
 3. **Load and Store/Memory Access**
-	- Sing-extends 16-bit intermediate values to 32 bits and handles reads/writes to memory.
+	- Sign-extends 16-bit intermediate values to 32 bits and handles reads/writes to memory.
 
 - **The Sign-Extend Unit**
-	- Takes a 16-bit intermediate field (from instructions li)
+	- Takes a 16-bit intermediate field (from instructions like `lw`, `sq` or `addi`) and expands it to 32 bits by replicating the sign bit, allowing the ALU to operate on it.
