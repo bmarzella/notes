@@ -12,10 +12,11 @@ Stands for *Microprocessor without Interlocked Pipeline Stages, its essentially 
 2. **Instruction Memory**
 	1. Read- only memory that holds compiled machine code, the actual instructions, of the program.
 	2. Accepts memory address for PC and outputs the 32-bit instruction word, splitting it up to send the appropriate components.
-3. **Registers** 
+3. **Registers File**
 	1. 32 extremely fast memory slots used in the execution of instructions.
 	2. Instruction word selects and opens the required source registers (*Reg.#*) and the register file outputs their values (*Data*) to the ALU.
-4. **Data Memory**
+4. **ALUE**
+5. **Data Memory**
 	1. Interface with RAM, holds long -term runtime variables and data structures.
-	2. Uses ALU output as a memory address (*Addr*) to either read a value from or write data to a RAM address. Data read 
+	2. Uses ALU output as a memory address (*Addr*) to either read a value from or write data to memory. Data read from memory is sent back to be saved into the Register File.
 
