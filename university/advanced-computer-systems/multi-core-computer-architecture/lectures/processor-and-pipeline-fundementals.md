@@ -28,9 +28,11 @@
 
 ![[Pasted image 20261009112048.png]]
 
-1. 
-- **Combinational logic** - Output depends *only* on current inputs. It has no memory (*no Registers, Flip-Flops, RAM etc.*)
-- **Sequential Logic** - Output depends on current inputs *and* past state. Contains memory.
+1. **Combinational vs Sequential**
+	- **Combinational logic** - Output depends *only* on current inputs. It has no memory (*no Registers, Flip-Flops, RAM etc.*)
+	- **Sequential Logic** - Output depends on current inputs *and* past state. Contains memory.
+2. **Control vs Data Signals**
+	- Signals used 
 
 **Which is needed to build an ALU?** 
 - Combinational logic 
