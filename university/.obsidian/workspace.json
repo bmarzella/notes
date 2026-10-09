@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "applied-security/notes/buffer-overflows.md",
+                "file": "advanced-computer-systems/multi-core-computer-architecture/notes/processor-and-pipeline-fundementals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "buffer-overflows"
+              "title": "processor-and-pipeline-fundementals"
             }
           }
         ]
@@ -203,21 +203,20 @@
   },
   "active": "9ada510168f66c54",
   "lastOpenFiles": [
-    "Pasted image 20261009151036.png",
-    "Pasted image 20261009151023.png",
-    "Pasted image 20261009150408.png",
-    "Pasted image 20261009150348.png",
-    "Pasted image 20261009145337.png",
-    "Pasted image 20261009145330.png",
-    "Pasted image 20261009145323.png",
-    "Pasted image 20261009144637.png",
-    "Pasted image 20261009144242.png",
-    "Pasted image 20261009144221.png",
-    "Pasted image 20261009143442.png",
-    "applied-security/notes/admin.md",
-    "applied-security/notes/buffer-overflows.md",
-    "applied-security/notes",
     "cryptography/symmetric-cryptography/notes/intro-to-crypto.md",
+    "images/Pasted image 20261009142436.png",
+    "applied-security/notes/buffer-overflows.md",
+    "images/Pasted image 20261009151036.png",
+    "images/Pasted image 20261009151023.png",
+    "images/Pasted image 20261009150408.png",
+    "images/Pasted image 20261009150348.png",
+    "images/Pasted image 20261009145337.png",
+    "images/Pasted image 20261009145330.png",
+    "images/Pasted image 20261009145323.png",
+    "images/Pasted image 20261009144637.png",
+    "images/Pasted image 20261009144242.png",
+    "applied-security/notes/admin.md",
+    "applied-security/notes",
     "cryptography/test 1 1.md",
     "advanced-computer-systems/multi-core-computer-architecture/notes/processor-and-pipeline-fundementals.md",
     "advanced-computer-systems/multi-core-computer-architecture/notes/classical-scaling-era.md",
