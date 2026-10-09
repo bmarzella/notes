@@ -17,8 +17,8 @@
 	2. Instruction word selects and opens the required source registers (*Reg.#*) and the register file outputs their values (*Data*) to the ALU.
 4. **Arithmetic and Logic Unit (ALU)**
 	1. Logic circuit responsible for performing arithmetic (*ADD, SUB*) and logical operations.
-	2. Executes required operation on data values pulled from registers. Output determines either a calculated value or a target memory address.
+	2. Executes required operation on data values pulled from registers. Output determines either a calculated value (sent to the register file) or a target memory address.
 5. **Data Memory**
 	1. Interface with RAM, holds long -term runtime variables and data structures.
-	2. Uses ALU output as a memory address (*Addr*) to either read a value from or write data to memory. Data read from memory or the raw output of is sent back to be saved into the Register File.
+	2. Uses ALU output as a memory address (*Addr*) to either read a value from or write data to memory. Data read from memory or the raw output of the ALU, where appropriate, is sent back to be saved into the Register File.
 
