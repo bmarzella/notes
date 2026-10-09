@@ -74,4 +74,6 @@ $$
 
 ![[Pasted image 20261009102612.png]]
 
-- **Definition:** Portion of an integrated circuits silicon area that cannot be powered simulatan
+- **Definition:** Portion of an integrated circuits silicon area that cannot be powered simultaneously because doing so would exceed the chips power and thermal limits
+- **Root Cause:** Power density scaled rapidly, as we established earlier
+- **Utilisation Wall:** 
