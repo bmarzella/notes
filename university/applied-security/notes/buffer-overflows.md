@@ -59,6 +59,7 @@ The stack is set up normally, and we begin with a buffer on top ready to take a 
 
 ![[Pasted image 20261009133406.png|391]]
 
+#### 2. Malicious Input
 
 ![[Pasted image 20261009133427.png|583]]
 ![[Pasted image 20261009133547.png]]
