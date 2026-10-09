@@ -27,10 +27,13 @@ There are three registers used for working with the stack:
 ### Steps
 ![[Pasted image 20261009142436.png|220]]  ![[Pasted image 20261009142751.png|418]]
 #### 1. `push str`
-The string passed into the function at `func(attacker_controlled_string)` is pushed onto the stack and the RIP is incremented to point to the next instruction:
+`str`, the argument passed into the function at `func(attacker_controlled_string)`, is pushed onto the stack and the RIP is incremented to point to the next instruction:
 
 ![[Pasted image 20261009142806.png|285]]![[Pasted image 20261009142815.png|353]]  
 #### 2. `call func`
+
+
+![[Pasted image 20261009142915.png|286]]![[Pasted image 20261009142929.png|334]]
 
 
 
