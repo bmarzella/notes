@@ -29,4 +29,5 @@
 ![[Pasted image 20261009092220.png]]
 
 - As we mentioned earlier, humans aren't discrete. We can know how many people took a module, but we don't know whether they'll be sick, too lazy to show up for a 9am, etc.
-- On top of that, 
+- On top of that, *fitting people into a room*, for example, can mean a variety of things. You might have 60 seats in a room, but you could fit a couple more if you tried.
+- 
