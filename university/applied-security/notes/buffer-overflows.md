@@ -94,9 +94,10 @@ The first mitigation was to **Mark the stack as non-executable**. We can jump to
 
 Instead of executing our own code, we could jump to existing code, say, *access granted.*
 
-We supply arbitrary values in place of the shellcode and fake `rb`
+We supply arbitrary values in place of the shellcode and fake `RBP`, and point the return address to somewhere we want. The following, for example, gains a shell:
 
-Put the stack into a state where the function works
+![[Pasted image 20261009151023.png]]
+![[Pasted image 20261009151036.png]]
 
 ### How are arguments passed to functions?
 
