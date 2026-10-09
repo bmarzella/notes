@@ -17,10 +17,10 @@ Let's look at what the stack looks like, executing this code normally:
 ## Stack on 64-bit x86
 ### Registers
 There are three registers used for working with the stack:
-1. **Saved Return Address** (`RIP`)
+1. **Register Instruction Pointer** (`RIP`)
 	- Holds the address of the next instruction in `main()` to be executed after `func()` (this function) finishes.
-2. 
-3. **Saved Frame Pointer** (`RBP`)
+2. **Register Stack Pointer** (`RSI`)
+3. **Regiser** (`RBP`)
 	- Stores memory address of the previous function's (`main()`, in this case) stack frame.
 	- When `func()` finishes, it'll go back to `main()`'s stack so `main()` can continue.
 
