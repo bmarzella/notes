@@ -113,7 +113,14 @@ Each address we jump to will contain a gadget, usually a short sequence of instr
 [ Next Return ]         <-- Address of system() function
 ```
 
-> *Note: Stacks go from *
+> *Note: Stack is written from low to high memory, bottom gets popped from/pushed to.
+
+1. **`func` finishes:** It runs `ret`, popping **`Gadget 1`** into `RIP`.
+2. **`Gadget 1` runs (`pop rdi; ret`):**
+	- `pop rdi` takes the **Pointer to `"/bin/sh"`** off the stack and puts it into `RDI`.
+    - `ret` pops the next stack item—**`system()`**—into `RIP`. 
+3. **`system()` runs:** It executes using `RDI` (`"/bin/sh"`) as its argument.
+
 # A Note on Calling Conventions in Linux
 
 - On modern 64-bit Linux systems, functions don't use the stack for arguments if they don't have to, instead using CPU registers as they are much faster.
