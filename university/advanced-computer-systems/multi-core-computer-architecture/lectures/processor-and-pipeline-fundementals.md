@@ -59,5 +59,8 @@
 
 ![[Pasted image 20261009113509.png]]
 
-We connect the three blocks into a full **Single -cycle Datapath** by adding *Multiplexers* and *Branch Logic*.
+We connect the three blocks into a full **Single-cycle Datapath** by adding *Multiplexers* and *Branch Logic*.
 
+#### Multiplexers (Muxes)
+##### What is it?
+A digital swihc with multiple data inputs, one data output, and a cotnrol line. Depending on the control signal (0 or 1), it shows which input gets passed to the output
