@@ -11,14 +11,12 @@
             "id": "8c487c85e156df12",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "advanced-computer-systems/multi-core-computer-architecture/lectures/microarchitectural contraints.md",
-                "mode": "source",
-                "source": false
+                "file": "images/Pasted image 20261007103033.png"
               },
-              "icon": "lucide-file",
-              "title": "microarchitectural contraints"
+              "icon": "lucide-image",
+              "title": "Pasted image 20261007103033"
             }
           }
         ]
@@ -200,14 +198,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8c487c85e156df12",
+  "active": "eaf23f3a502c1941",
   "lastOpenFiles": [
-    "Pasted image 20261007104906.png",
-    "Pasted image 20261007103033.png",
+    "advanced-computer-systems/multi-core-computer-architecture/lectures/microarchitectural contraints.md",
+    "images/Pasted image 20261007104906.png",
+    "images/Pasted image 20261007103033.png",
     "images/Pasted image 20261007101536.png",
     "advanced-computer-systems/test 1 1 1.md",
     "images",
-    "advanced-computer-systems/multi-core-computer-architecture/lectures/microarchitectural contraints.md",
     "applied-security/symmetric-cryptography/notes/intro-to-crypto.md",
     "images/Pasted image 20261007101433.png",
     "images/Pasted image 20261007095543.png",
