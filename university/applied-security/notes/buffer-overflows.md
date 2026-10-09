@@ -105,14 +105,15 @@ Each address we jump to will contain a gadget, usually a short sequence of instr
 
 ### An Example
 
-````
+```
 [ buffer[16] ]          <-- Garbage bytes (16 bytes)
 [ Old RBP ]             <-- Garbage bytes (8 bytes)
 [ Return addr ]         <-- Address of Gadget 1 (pop rdi; ret)
 [ Parameter ]           <-- Pointer to "/bin/sh"
 [ Next Return ]         <-- Address of system() function
 ```
-```
+
+> *Note: Stacks go from *
 # A Note on Calling Conventions in Linux
 
 - On modern 64-bit Linux systems, functions don't use the stack for arguments if they don't have to, instead using CPU registers as they are much faster.
