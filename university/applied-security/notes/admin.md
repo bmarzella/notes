@@ -1,3 +1,7 @@
+# Lectureres
+Prof David Oswald & Dr Charles Morisset  
+david.f.oswald@durham.ac.uk  
+MCS1033  
 # Sessions
 Module info:  
 https://apps.dur.ac.uk/faculty.handbook/2026/UG/module/COMP3761  
