@@ -55,3 +55,7 @@ Instead of repeating the key when we run out of key, use the plaintext as the ke
 
 ![[Pasted image 20261009162829.png]]
 
+## Analysis
+
+- Messages aren't random, so aren't as secure as a random key.
+- Given the plaintext and key match, there are ways to break it easily.
