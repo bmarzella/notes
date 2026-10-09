@@ -25,6 +25,7 @@ There are three registers used for working with the stack:
 	- Points to the base of the active stack frame in memory.
 
 ### Steps
+
 ![[Pasted image 20261009142436.png|220]]  ![[Pasted image 20261009142751.png|418]]
 #### 1. `push str`
 `str`, the argument passed into the function at `func(attacker_controlled_string)`, is pushed onto the stack and the RIP is incremented to point to the next instruction.
@@ -46,19 +47,9 @@ We reserve a **16-byte** area on the stack for `char buffer[16]`. When `strcpy` 
 
 #### 3. Cleaning Up
 Once we finish with `func`, we need to clean up the stack to continue running main.
-1. We begin by pointing `RBP` back to the address in Old RBP.
-2. This discards the buffer, leaving `Return addr`.
-3. Finally, we pop this off the stack and copy it to the `RIP` to have it point to the next instruction in `main`.
-
-
-
-
-4. asd
-5. Function keeps track of the address it has to return to which is added to the stack, and the instruction pointer points to this.
-6. Function saves base pointer and both RSP and RBP point to top of stack.
-7. Create a buffer on the stack.
-8. Insert "Hello, World!". Does not exceed the length of the buffer so no issues.
-9. Clear the stack and move on.
+1. Discard the buffer: We move `RSP` back down to `RBP`, which instantly discards buffer\[16].
+2. Restore `RBP`: We pop *Old RBP* off the stack into the `RBP` register so it points back to main's base frame, leaving` Return addr` at the top of the stack.
+3. Return to main: The `ret` instruction pops `Return addr` off the stack into `RIP`, pointing to the next instruction in main.
 
 ### Exploitation
 
