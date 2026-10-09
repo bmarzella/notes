@@ -159,6 +159,14 @@ The blue control lines act as switches that configure the datapath for each spec
 
 ## Pipelining
 ### Overview
-***Breaking a process into multiple stages, allowing different parts of the instructions to be proccessed simultanuously.***
+***Breaking a process into multiple stages, allowing different parts of the instructions to be processed simultaniously.***
 
 For example, to do your laundry, you could put a load in the washing machine, then into the dryer, then into your wardrobe, then start the next load. Or, when the first load finished in the washing machine, you could load the next load while the previous one dries.
+
+![[Pasted image 20261009155644.png]]
+
+### Single Cycle vs Pipelined Performance
+
+![[Pasted image 20261009155711.png]]
+
+![[Pasted image 20261009155724.png]]
