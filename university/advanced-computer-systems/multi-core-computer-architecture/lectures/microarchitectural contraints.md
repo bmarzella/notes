@@ -68,7 +68,7 @@ $$
 **Architectural Shift**
 - This culminated in the end of frequency scaling (around 3-4GHz), driving the shift to multi-core architectures, dark silicon constraints and domain-specific accelerators.
 
-> *In summary, for a while, we were able to increase the number of transistors in the same space whilst reducing the voltage required, meaning we could fit more performance without increasing power consumption **(Dennard Scaling)**. Eventually, we hit a floor and couldn't reduce voltage anymore due to leakage **(Voltage Wall)**, meaning processors began requiring more power density **(Power Wall)**. This eventually led to a ceiling of maximum frequency (~3–4 GHz), at which point we started looking at other ways to get performance, like multi-core architectures and specialised accelerators.*
+> *In summary, for a while, we were able to increase the number of transistors in the same space on a single core whilst reducing the voltage required, meaning we could fit more performance without increasing power consumption **(Dennard Scaling)**. Eventually, we hit a floor and couldn't reduce voltage anymore due to leakage **(Voltage Wall)**, meaning processors began requiring more power density **(Power Wall)**. This eventually led to a ceiling of maximum frequency (~3–4 GHz), at which point we started looking at other ways to get performance, like multi-core architectures and specialised accelerators.*
 
 # Dark Silicon
 
@@ -77,7 +77,7 @@ $$
 - **Definition:** Portion of an integrated circuits silicon area that cannot be powered simultaneously because doing so would exceed the chips power and thermal limits
 - **Root Cause:** Power density scaled rapidly, as we established earlier
 - **Utilisation Wall:** Up to 80% of transistors must be switched off (*dark*) or heavily throttled (*dim*) during peak execution.
-- **Failure of Homogenous Multi-Core:** We can't just add more cores with the same funtions, doing so hits severe thermal throttling, so we get diminishing returns on parallelisation.
+- **Failure of Homogenous Multi-Core:** We can't just add more identical cores, doing so hits severe thermal throttling, so we get diminishing returns on parallelisation.
 - **Architectural Remedy (Specialisation):** Using our silicon space to mix cores with different specialisations, which can perform more efficiently and sleep when not in use.
 - **Dynamic Management & Thermal Limits:** Don't allow processor to exceed some power ceiling, lower voltage and slow down clock speed when chip gets too hot or needs to save power, distribute tasks across the chip to prevent activating the many neighbouring cores to prevent hotspots, prevent heat causing power leakage, causing more heat etc. (*thermal runaway.*)
 
