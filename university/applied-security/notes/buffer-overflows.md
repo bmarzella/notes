@@ -30,7 +30,7 @@ There are three registers used for working with the stack:
 `str`, the argument passed into the function at `func(attacker_controlled_string)`, is pushed onto the stack and the RIP is incremented to point to the next instruction.
 
 ![[Pasted image 20261009143216.png|292]]![[Pasted image 20261009142815.png|353]]  
-#### 2. `call func`
+#### 2. func`
 We call the function `func` and push the address of the instruction to be completed after `call func` in `main` to the stack, (the **return address**). When `func` is completed, we know where to go back to. RIP is updated to point to the start of `func`.
 
 *Note that `main+x+2` would make more sense in the slide.*
@@ -44,6 +44,9 @@ We reserve a **16-byte** area on the stack for `char buffer[16]`. When `strcpy` 
 
 ![[Pasted image 20261009144637.png|226]]
 
+#### 3. Cleaning Up
+
+Once we finish with `func`, we need to clean up the stack to continu
 
 
 
