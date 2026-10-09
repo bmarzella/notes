@@ -17,5 +17,6 @@
 
 ![[Pasted image 20261009091844.png]]
 
-- Much like we might make a scale model of a castle to see what an attack might look like, we can 
+- Much like we might make a scale model of a castle to see what an attack might look like, we can ***capture aspects of something using computational methods***.
+- For example, we can model voter intentions, and see how a new policy might influence the next election, without actually risking our 
 
