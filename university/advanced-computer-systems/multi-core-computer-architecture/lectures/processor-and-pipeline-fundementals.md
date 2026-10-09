@@ -14,5 +14,6 @@ Stands for *Microprocessor without Interlocked Pipeline Stages, its essentially 
 	2. Accepts memory address for PC and outputs the 32-bit instruction word, splitting it up to [word weirdly don't likeit]
 3. **Registers** 
 	1. 32 extremely fast memory slots used in the execution of instructions.
+	2. Inputs of the instruction word select the source registers (*Reg.#*) and the regiter file outputs the corresponding numberical data (*Data*) to the ALU.
 4. 
 
