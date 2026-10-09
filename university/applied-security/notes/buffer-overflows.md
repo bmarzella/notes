@@ -53,9 +53,13 @@ Once we finish with `func`, we need to clean up the stack to continue running ma
 
 ![[Pasted image 20261009145330.png|311]]![[Pasted image 20261009145337.png|326]]
 
-# Exploitation
+# How do we exploit this?
+#### 1. The Initial Stack
+The stack is set up normally, and we begin with a buffer on top ready to take a user supplied input.
 
-![[Pasted image 20261009133406.png]]
+![[Pasted image 20261009133406.png|391]]
+
+
 ![[Pasted image 20261009133427.png|583]]
 ![[Pasted image 20261009133547.png]]
 
