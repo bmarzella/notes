@@ -105,6 +105,7 @@ We supply arbitrary values in place of the shellcode and fake `RBP`, and point t
 - If a function has more than 6 arguments (`RCX` is missing from the slide), then any subsequent arguments are pushed onto the stack. The function sets up `RSP` and `RBP` as we saw.
 - When a function finishes and wants to return a value, it puts that return value inside the `RAX` register before returning `ret.`
 - This all differs slightly between OSs
+- Passing arguments via registers changes how arguments are fed _into_ a function, but it does not change how local stack buffers behave once inside that function. This changes how 
 
 ![[Pasted image 20261009134103.png]]
 
