@@ -4,4 +4,8 @@
 
 ![[Pasted image 20261009105116.png]]
 
-Stands for *Microprocessor with ou Interlocked Pip*
+Stands for *Microprocessor with ou Interlocked Pipeline Stages*.
+
+### Program Counter (PC)
+
+- 
