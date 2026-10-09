@@ -75,8 +75,8 @@ We want to chain these to create a sort of turing machine, jumping between execu
 This writes `0x00000000` to the specified address.
 
 # Summary
-- A buffer overflow gives the attacker control over the return address.
+- A buffer overflow allows an attacker to write to the stack, for example letting them control the return address.
 - If shellcode cannot be executed directly as the stack is non-executable, then instead we can jump into existing code:
 	- Existing `libc` functions
 	- Chain of gadgets
-- Modern exploits often use some for
+- Modern exploits often use some form of ROP
