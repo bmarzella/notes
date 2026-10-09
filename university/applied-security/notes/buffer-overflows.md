@@ -37,10 +37,11 @@ Whenever we call a function, the stack gets involved.
 7. Clear the stack and move on.
 
 ### Exploitation
-#### Before strcpy()
 
 ![[Pasted image 20261009133406.png]]
-![[Pasted image 20261009133427.png]]
+![[Pasted image 20261009133427.png|583]]
+![[Pasted image 20261009133547.png]]
+
 
 1. Pass some  
-2. 
+
