@@ -57,19 +57,20 @@ Once we finish with `func`, we need to clean up the stack to continue running ma
 #### 1. The Initial Stack
 The stack is set up normally, and we begin with a buffer on top ready to take the attacker supplied argument.
 
-![[Pasted image 20261009133406.png|391]]
+![[Pasted image 20261009150348.png|198]]
 
 #### 2. Malicious Input
 The attacker has supplied an malicious input, which consists of three parts:
 1. **16-byte Shellcode**
-	- This fills `buffer[16]`. Anything subsequent will "overflow" over into contigious memory space.
+	- This fills `buffer[16]`. 
+	- Anything subsequent will "overflow" over into contiguous memory space.
 2. **Fake `RBP` Address**
-	- This overwrites the `Old RBP`
+	- This overwrites the `Old RBP`.
 3. **Target Return Address**
-	- A fake return address supplied to overwrite the real `Return addr`
+	- A fake return address supplied to overwrite the real `Return addr`.
 	
+![[Pasted image 20261009150408.png]]
 
-![[Pasted image 20261009133427.png|583]]
 ![[Pasted image 20261009133547.png]]
 
 
