@@ -53,3 +53,8 @@
 
 ![[Pasted image 20261009093732.png]]
 
+### Digital Trace Data 
+
+![[Pasted image 20261009094006.png]]
+
+- Evert
