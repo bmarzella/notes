@@ -73,4 +73,4 @@ A single component such as the ALU or Register file often needs to receive data 
 
 #### Branch Logic
 ##### What is it?
-Hardware dedicated to executing conditional 
+Hardware dedicated to executing conditional jump instructions (`beq` - branch if equal, for example). Consists of an **Adder, a Shift Left 2 unit and an AND gate** connected to the ALU's `zero` si
