@@ -26,5 +26,4 @@ $P(M|C) = P(M)$ for all $M \in \mathcal{M} \, \space C \in \mathcal{C}$
 ### Achieving Perfect Security
 
 ![[Pasted image 20261009165030.png]]
-
-
+![[Pasted image 20261009165132.png]]
