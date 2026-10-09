@@ -19,3 +19,7 @@
 However, weak to **frequency analysis.** 
 
 ![[Pasted image 20261009161732.png]]
+
+With a reasonably long ciphertext, we can see the most common letter and substitute in the most common English letters.
+
+**Takeaway is that a large key space **
