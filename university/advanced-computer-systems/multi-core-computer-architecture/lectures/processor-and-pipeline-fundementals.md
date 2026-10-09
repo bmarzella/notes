@@ -64,11 +64,13 @@ We connect the three blocks into a full **Single-cycle Datapath** by adding *Mul
 #### Multiplexers (Muxes)
 ##### What is it?
 A digital switch with multiple data inputs, one data output, and a control line. Depending on the control signal (0 or 1), it shows which input gets passed to the output.
-
 ##### Why do we add it?
 A single component such as the ALU or Register file often needs to receive data from different sources depending on instruction type. **The Mux directs the traffic so data from the right source gets through.**
-
 ##### The diagram
 1. *`ALUSrc` Mux* -  Decides whether the ALU's second input comes from a Register (for `add`/`sub`) or an immediate value (`lw`/`sw`/`addi`).
 2. *`MemToReg` Mux* - Chooses whether data written back to a register comes from the ALU result (for arithmetic) or data memory (for `lw`).
-3. *``*
+3. *`PCSrc` Mux*  - Chooses whether the next instruction address is standard `PC + 4` or a branch target address.
+
+#### Branch Logic
+##### What is it?
+Hardware dedicated 
