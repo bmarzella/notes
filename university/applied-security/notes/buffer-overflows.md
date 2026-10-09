@@ -66,4 +66,4 @@ Put the stack into a state where the function works
 
 ![[Pasted image 20261009134537.png]]
 
-We want to use this to create a sort of turing machine, jumping between
+We want to chain these to create a sort of turing machine, jumping between return addresses each with "gadget". We end up with a weird but usable programmin
