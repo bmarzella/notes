@@ -14,4 +14,5 @@ $P(M|C) = P(M)$ for all $M \in \mathcal{M} \, \space C \in \mathcal{C}$
 
 ![[Pasted image 20261009163623.png]]
 
-Suppose the number of keys is less than the number of plaintexts. 
+Suppose the number of keys is less than the number of plaintexts, and let C be a ciphertext. 
+d(C) is the set of plaintexts that can be decrypted from C.
