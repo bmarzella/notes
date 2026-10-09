@@ -73,7 +73,13 @@ The attacker has supplied an malicious input, which consists of three parts:
 
 #### 3. The Exploit
 When `func` finishes and attempts to clean up:
-1. `leave exe`
+1. **`leave` executes:**
+    - `RSP` moves to `RBP` (discarding the shellcode in `buffer[16]`).    
+    - The CPU pops the **Fake RBP Address** off the stack into the `RBP` register.
+2. **`ret` executes:**
+    - The CPU pops the **Target Return Address** off the stack and loads it directly into **`RIP`**.
+- **Execution Hijack:**
+    - Because `RIP` now holds the attacker's **Target Return Address** (which usually points right back to `buffer[16]` where the shellcode is sitting), the CPU jumps directly into `buffer[16]` and begins executing the attacker's **16-byte Shellcode**.
 
 
 ![[Pasted image 20261009133547.png]]
