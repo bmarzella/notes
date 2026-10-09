@@ -31,6 +31,7 @@ With a reasonably long ciphertext, we can see the most common letter and substit
 ***Different substitutions for different positions.***
 
 - Each letter in the key represents a number to shift by. For example, plaintext T and key B means shift T forwards by 2, yielding V.
+- Key can be anywhere from the length of the plaintext to a single repeating character (though that would just be a Caesar cipher).
 
 ![[Pasted image 20261009162039.png]]
 
