@@ -101,7 +101,8 @@ If we want to execute arbitrary code rather than just run existing code, we can 
 
 It's sort of like a Turing machine, we jump from address to address, each of them executing a ***gadget***. We end up with a strange but functional programming language by chaining these together! 
 ### Gadgets
-Each address we jump to will contain a gadget, usually a short sequence of instructions that **must end in `ret`**. **If a gadget doesn't end in `ret`, then execution will keep running thrug**
+Each address we jump to will contain a gadget, usually a short sequence of instructions that **must end in `ret`**. **If a gadget doesn't end in `ret`, then execution will keep running through the original code sequentially rather than returning to our control.**
+
 
 ![[Pasted image 20261009134537.png]]
  
