@@ -86,3 +86,6 @@ Standard execution increments the PC by 4 per cycle, this allows us to implement
 
 ![[Pasted image 20261009115705.png]]
 
+#### Two Level Decoding
+Instead of a massive control unit that decodes every combination at once, MIPS uses a two-level decoding system:
+1. **Main Control Unit** reads the OpCode and produ
