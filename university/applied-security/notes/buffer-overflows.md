@@ -27,11 +27,11 @@ There are three registers used for working with the stack:
 ### Steps
 ![[Pasted image 20261009142436.png|220]]  ![[Pasted image 20261009142751.png|418]]
 #### 1. `push str`
-`str`, the argument passed into the function at `func(attacker_controlled_string)`, is pushed onto the stack and the RIP is incremented to point to the next instruction:
+`str`, the argument passed into the function at `func(attacker_controlled_string)`, is pushed onto the stack and the RIP is incremented to point to the next instruction.
 
 ![[Pasted image 20261009143216.png|292]]![[Pasted image 20261009142815.png|353]]  
 #### 2. `call func`
-We call the function `func` and push the instruction to be completed after `call func` in `main` 
+We call the function `func` and push the instruction to be completed after `call func` in `main` to the stack, (the **return address**). When `func` is completed, we know where to go back to. RIP is incremented
 
 *Note that `main+x+2` would make more sense in the slide.*
 ![[Pasted image 20261009143442.png|304]]![[Pasted image 20261009142929.png|335]]
