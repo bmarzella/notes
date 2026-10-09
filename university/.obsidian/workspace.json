@@ -13,6 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "applied-security/notes/admin.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "admin"
+            }
+          },
+          {
+            "id": "9d26984c72c640b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "applied-security/notes/lecture-1.md",
                 "mode": "source",
                 "source": false
@@ -21,7 +35,8 @@
               "title": "lecture-1"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "6746306fa571459e",
@@ -200,12 +216,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eaf23f3a502c1941",
+  "active": "9d26984c72c640b5",
   "lastOpenFiles": [
+    "applied-security/notes/admin.md",
+    "applied-security/notes/lecture-1.md",
     "applied-security/notes",
     "cryptography/symmetric-cryptography/notes/intro-to-crypto.md",
     "cryptography/test 1 1.md",
-    "applied-security/notes/lecture-1.md",
     "images/Pasted image 20261009102612.png",
     "advanced-computer-systems/multi-core-computer-architecture/notes/processor-and-pipeline-fundementals.md",
     "images/Pasted image 20261009115705.png",
@@ -233,7 +250,6 @@
     "advanced-computer-systems/multi-core-computer-architecture/notes",
     "advanced-computer-systems/multi-core-computer-architecture",
     "digital-humanities/test.md",
-    "cryptography",
     "Welcome.md"
   ]
 }
