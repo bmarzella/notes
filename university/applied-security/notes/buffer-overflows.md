@@ -1,3 +1,4 @@
+[Slides](https://blackboard.durham.ac.uk/ultra/courses/_73392_1/file/_3769558_1?courseId=_73392_1)
 # Pegasus
 
 ![[Pasted image 20261009132553.png]]
@@ -15,16 +16,6 @@
 ## Stack on 64-bit x86
 ### Regular Function
 
-![[Pasted image 20261009132906.png]]
-
-![[Pasted image 20261009132944.png]]
-![[Pasted image 20261009133112.png]]
-![[Pasted image 20261009133122.png]]
-![[Pasted image 20261009133137.png]]
-![[Pasted image 20261009133152.png]]
-![[Pasted image 20261009133203.png]]
-![[Pasted image 20261009133228.png]]
-![[Pasted image 20261009133236.png]]
 
 Whenever we call a function, the stack gets involved.
 
