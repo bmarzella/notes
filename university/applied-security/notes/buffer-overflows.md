@@ -31,7 +31,13 @@ There are three registers used for working with the stack:
 
 ![[Pasted image 20261009143216.png|292]]![[Pasted image 20261009142815.png|353]]  
 #### 2. `call func`
+
+
+*Note that `main+x+2` would make more sense in the slide.*
 ![[Pasted image 20261009143442.png|304]]![[Pasted image 20261009142929.png|335]]
+
+
+
 
 
 
