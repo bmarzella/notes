@@ -92,4 +92,11 @@
 
 ![[Pasted image 20261009095130.png]]
 
-- Game of Life is an example of 
+- Game of Life is an example of Agent Based Modelling. Instead of simple rules for each square, we set up complex rules for each model and use their interactions to come to some conclusion
+
+### Human Induced Spread of Invasive Species
+
+![[Pasted image 20261009095243.png]]
+
+## Inference from Models
+
