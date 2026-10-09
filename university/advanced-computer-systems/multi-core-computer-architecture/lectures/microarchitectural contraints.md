@@ -85,6 +85,6 @@ $$
 
 ![[Pasted image 20261009104125.png]]
 
-- Stopped trying to perform excessive amounts of tasks at the same time
+- Stopped trying to stretch tags into an excessive number of stages, because overhead of managing it (power, syncing, mistakes) became wi
 - Switched to multi-processor chips
 - 
