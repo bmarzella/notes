@@ -58,13 +58,12 @@ Instead of executing our own code, we could jump to existing code, say, *access 
 
 Put the stack into a state where the function works
 
-
 ### How are arguments passed to functions?
 
 ![[Pasted image 20261009134103.png]]
 
-### Example
+## Arbitrary Code Exectution
 
-![[Pasted image 20261009134206.png]]
+![[Pasted image 20261009134537.png]]
 
-1. We have a function that 
+We want to use this to create a sort of turing machine, jumping between
