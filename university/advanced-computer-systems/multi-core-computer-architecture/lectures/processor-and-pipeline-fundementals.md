@@ -78,5 +78,5 @@ Hardware dedicated to executing conditional jump instructions (`beq` - branch if
 Standard execution increments the PC by 4 per cycle, this allows us to implement branch logic.
 
 ##### How does it work?
-1. **Address Calculation** - 16-but offset from the instruction is sign-extended, multiplied by 4 (using `shift left 2`), and added to `PC + 4` using the dedicated Branch Adder.
-2. **Condition Ch**
+1. **Address Calculation** - 16-bit offset from the instruction is sign-extended, multiplied by 4 (using `shift left 2`), and added to `PC + 4` using the dedicated Branch Adder.
+2. **Condition Checking** - The main ALU subtracts the two registers being compared. If the result is zero, the ALU sets its `Zero` single to $
