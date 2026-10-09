@@ -19,7 +19,7 @@ Let's look at what the stack looks like, executing this code normally:
 There are three registers used for working with the stack:
 1. **Register Instruction Pointer** (`RIP`)
 	- Points to the code instruction currently being executed. 
-2. **Register Stack Pointer** (`RSI`)
+2. **Register Stack Pointer** (`RSP`)
 	- Points to the top of the stack frame in memory.
 3. **Register Base Pointer** (`RBP`)
 	- Points to the base of the active stack frame in memory.
