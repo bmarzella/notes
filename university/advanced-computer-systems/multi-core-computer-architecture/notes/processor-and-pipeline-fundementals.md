@@ -95,7 +95,7 @@ Instead of a massive control unit that decodes every combination at once, MIPS u
 
 #### Instruction Classes
 ##### R-Type
-*An instruction that operates entirely between registers.*
+*Register type. An instruction that operates entirely between registers.*
 
 ![[Pasted image 20261009153719.png]]
 
@@ -107,5 +107,5 @@ Instead of a massive control unit that decodes every combination at once, MIPS u
 - `funct` - Function field, tells the ALU Control unit the exact operation.
 
 ##### I-Type
-*An instruction that involved two registers and a hardcoded, 16-bi*
-###### 
+*Immediate type. An instruction that involved two registers and a hardcoded, 16-bit constant or memory offset.*
+###### Load/Store
