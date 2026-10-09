@@ -32,7 +32,9 @@
 	- **Combinational logic** - Output depends *only* on current inputs. It has no memory (*no Registers, Flip-Flops, RAM etc.*)
 	- **Sequential Logic** - Output depends on current inputs *and* past state. Contains memory.
 2. **Control vs Data Signals**
-	- Signals used 
+	- **Data Signals** - Actual numbers being processed by or passed around within the processor. 
+		- 32-bit numbers read from registers, immediate values or 
+	- **Control Signals** - 
 
 **Which is needed to build an ALU?** 
 - Combinational logic 
