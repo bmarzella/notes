@@ -11,3 +11,6 @@
 
 > ***Concordance**: Essentially a search index, we can search for a specific topic in all of, say, Thomas Acquinas' work.*
 
+![[Pasted image 20261009091640.png]]
+
+- 
