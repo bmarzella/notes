@@ -46,6 +46,8 @@
 ![[Pasted image 20261009113025.png]]
 
 1. **Instruction Fetch & PC**
-	- PC + Instruction Memory + PC Adder
 	- Fetches the current instruction and increments the PC
-2. 
+2. **Registers & ALU Execution**
+	- Reads source registers and performs arithmetic/logical operations
+3. **Load and Store/Memory Access**
+	- Sing-extends 16-but intermediate values to 
