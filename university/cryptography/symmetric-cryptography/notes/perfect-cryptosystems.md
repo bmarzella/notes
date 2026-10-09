@@ -22,3 +22,9 @@ $P(M|C) = P(M)$ for all $M \in \mathcal{M} \, \space C \in \mathcal{C}$
 6. **Contradiction. This cannot be a perfect cryptosystem so our initial assumption that keys is strictly less than plaintexts is wrong.**
 
 >*There are a finite number of plaintexts that can be decrpyted from a ciphertext. *
+
+### Achieving Perfect Security
+
+![[Pasted image 20261009165030.png]]
+
+
