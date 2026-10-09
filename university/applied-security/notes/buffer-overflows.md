@@ -55,7 +55,7 @@ Once we finish with `func`, we need to clean up the stack to continue running ma
 
 # How do we exploit this?
 #### 1. The Initial Stack
-The stack is set up normally, and we begin with a buffer on top ready to take a user supplied input.
+The stack is set up normally, and we begin with a buffer on top ready to take the 
 
 ![[Pasted image 20261009133406.png|391]]
 
