@@ -36,7 +36,9 @@
 		- *32-bit numbers read from registers, immediate values or memory read data, for example.*
 	- **Control Signals** - Command lines that determine what happens to the data.
 		- *Setting a MUX line to choose between two inputs, enabling/disabling register writes, telling the ALU which operations to write, for example.*
-	3
+3. **Why do we need a clock?**
+	- Combinational circuits take a small, non -zero amount of time for electrical signals to settle (*propagation delay*).
+	- A clock ensures that inputs hold still long enough to perform calculations, and that state elemtns ()
 
 **Which is needed to build an ALU?** 
 - Combinational logic 
