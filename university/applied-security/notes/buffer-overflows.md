@@ -20,7 +20,8 @@ There are three registers used for working with the stack:
 1. **Register Instruction Pointer** (`RIP`)
 	- Holds the address of the next instruction in `main()` to be executed after `func()` (this function) finishes.
 2. **Register Stack Pointer** (`RSI`)
-3. **Regiser** (`RBP`)
+	- Points to the address of the base of the active stack frame in memory.
+3. **Register Base Pointer** (`RBP`)
 	- Stores memory address of the previous function's (`main()`, in this case) stack frame.
 	- When `func()` finishes, it'll go back to `main()`'s stack so `main()` can continue.
 
