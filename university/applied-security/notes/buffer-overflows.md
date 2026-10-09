@@ -29,6 +29,7 @@ Initially, the stack has three components, arranged with top being the first in 
 
 
 
+
 4. asd
 5. Function keeps track of the address it has to return to which is added to the stack, and the instruction pointer points to this.
 6. Function saves base pointer and both RSP and RBP point to top of stack.
