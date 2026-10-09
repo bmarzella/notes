@@ -22,4 +22,7 @@ However, weak to **frequency analysis.**
 
 With a reasonably long ciphertext, we can see the most common letter and substitute in the most common English letters.
 
-**Takeaway is that a large key space **
+**A large key space $\ne$ secure**.
+
+![[Pasted image 20261009161909.png]]
+
