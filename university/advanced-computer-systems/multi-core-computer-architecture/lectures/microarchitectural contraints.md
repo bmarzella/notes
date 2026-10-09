@@ -86,5 +86,5 @@ $$
 ![[Pasted image 20261009104125.png]]
 
 - Stopped trying to stretch tasks into an excessive number of stages, because overhead of managing it (power, syncing, mistakes) became wildly inefficient.
-- Switched to multi-processor chips
+- Could no longer just increase clock speed to make a single core run one task faster, so switched to adding more cores instead.
 - 
