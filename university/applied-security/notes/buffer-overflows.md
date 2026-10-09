@@ -62,8 +62,14 @@ Put the stack into a state where the function works
 
 ![[Pasted image 20261009134103.png]]
 
-## Arbitrary Code Exectution
+## Arbitrary Code Execution
 
 ![[Pasted image 20261009134537.png]]
 
-We want to chain these to create a sort of turing machine, jumping between return addresses each with "gadget". We end up with a weird but usable programmin
+We want to chain these to create a sort of turing machine, jumping between return addresses each with "gadget". We end up with a weird but usable programming language. 
+
+![[Pasted image 20261009134709.png]]
+![[Pasted image 20261009134723.png]]
+![[Pasted image 20261009134730.png|579]]
+
+This writes 
