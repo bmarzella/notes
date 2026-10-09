@@ -79,4 +79,4 @@ This writes `0x00000000` to the specified address.
 - If shellcode cannot be executed directly as the stack is non-executable, then instead we can jump into existing code:
 	- Existing `libc` functions
 	- Chain of gadgets
-- Modern exploits often use some form of ROP
+- Modern exploits often use some fo.\rm of Return Oriented Programming.
