@@ -63,4 +63,7 @@ We connect the three blocks into a full **Single-cycle Datapath** by adding *Mul
 
 #### Multiplexers (Muxes)
 ##### What is it?
-A digital swihc with multiple data inputs, one data output, and a cotnrol line. Depending on the control signal (0 or 1), it shows which input gets passed to the output
+A digital switch with multiple data inputs, one data output, and a control line. Depending on the control signal (0 or 1), it shows which input gets passed to the output.
+
+##### Why do we add it?
+A single component such as the ALU or Register file often needs to receive data from different sources depending on instruction type. **The Mux **
