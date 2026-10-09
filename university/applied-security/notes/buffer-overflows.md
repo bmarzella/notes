@@ -81,13 +81,9 @@ When `func` finishes and attempts to clean up:
 - **Execution Hijack:**
     - Because `RIP` now holds the attacker's **Target Return Address** (which usually points right back to `buffer[16]` where the shellcode is sitting), the CPU jumps directly into `buffer[16]` and begins executing the attacker's **16-byte Shellcode**.
 
-
 ![[Pasted image 20261009133547.png]]
 
-
-1. Pass some  
-
-### Mitigation
+# Mitigation
 The first mitigation was to **Mark the stack as non-executable**. We can jump to wherever we want, but we cant execute code there.
 
 ![[Pasted image 20261009133746.png]]
