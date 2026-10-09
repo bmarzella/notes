@@ -59,3 +59,8 @@ Instead of executing our own code, we could jump to existing code, say, *access 
 Put the stack into a state where the function works
 
 
+### How are arguments passed to functions?
+
+![[Pasted image 20261009134103.png]]
+
+1. 
