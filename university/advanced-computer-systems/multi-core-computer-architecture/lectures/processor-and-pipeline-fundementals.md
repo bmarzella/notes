@@ -43,3 +43,9 @@
 ## Building a Single MIPS Datapath
 ### The Three Core Blocks
 
+![[Pasted image 20261009113025.png]]
+
+1. **Instruction Fetch & PC**
+	- PC + Instruction Memory + PC Adder
+	- Fetches the current instruction and increments the PC
+2. 
