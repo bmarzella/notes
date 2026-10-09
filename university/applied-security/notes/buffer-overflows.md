@@ -97,7 +97,7 @@ Instead of executing our own code, we could jump to existing code, say, *access 
 We supply arbitrary values in place of the shellcode and fake `RBP`, and point the return address to somewhere we want. The following, for example, gains a shell:
 
 ![[Pasted image 20261009151023.png]]
-![[Pasted image 20261009151036.png]]
+![[Pasted image 20261009151036.png|634]]
 
 ### How are arguments passed to functions?
 
