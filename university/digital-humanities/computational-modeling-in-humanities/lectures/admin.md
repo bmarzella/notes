@@ -19,3 +19,9 @@
 
 ![[Pasted image 20261009093208.png]]
 
+# Recommended Reading
+
+![[Pasted image 20261009093409.png]]
+
+https://mitpress.mit.edu/books/digitalhumanities
+
