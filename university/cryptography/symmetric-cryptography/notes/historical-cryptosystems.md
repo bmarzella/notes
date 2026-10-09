@@ -12,4 +12,5 @@
 ![[Pasted image 20261009161444.png]]
 
 ## Analysis
-- Initially seemingly very
+- Initially seemingly very secure
+- $$26! 4 \times 10^{26} $
