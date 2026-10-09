@@ -73,4 +73,4 @@ A single component such as the ALU or Register file often needs to receive data 
 
 #### Branch Logic
 ##### What is it?
-Hardware dedicated 
+Hardware dedicated to executing conditional 
