@@ -69,7 +69,12 @@ The attacker has supplied an malicious input, which consists of three parts:
 3. **Target Return Address**
 	- A fake return address supplied to overwrite the real `Return addr`.
 	
-![[Pasted image 20261009150408.png]]
+![[Pasted image 20261009150408.png|218]]
+
+#### 3. The Exploit
+When `func` finishes and attempts to clean up:
+1. `leave exe`
+
 
 ![[Pasted image 20261009133547.png]]
 
