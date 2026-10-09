@@ -103,16 +103,16 @@ It's sort of like a Turing machine, we jump from address to address, each of the
 ### Gadgets
 Each address we jump to will contain a gadget, usually a short sequence of instructions that **must end in `ret`**. **If a gadget doesn't end in `ret`, then execution will keep running through the original code sequentially rather than returning to our control.**
 
+### An Example
 
-![[Pasted image 20261009134537.png]]
- 
-
-![[Pasted image 20261009134709.png]]
-![[Pasted image 20261009134723.png]]
-![[Pasted image 20261009134730.png|579]]
-
-This writes `0x00000000` to the specified address.
-
+````
+[ buffer[16] ]          <-- Garbage bytes (16 bytes)
+[ Old RBP ]             <-- Garbage bytes (8 bytes)
+[ Return addr ]         <-- Address of Gadget 1 (pop rdi; ret)
+[ Parameter ]           <-- Pointer to "/bin/sh"
+[ Next Return ]         <-- Address of system() function
+```
+```
 # A Note on Calling Conventions in Linux
 
 - On modern 64-bit Linux systems, functions don't use the stack for arguments if they don't have to, instead using CPU registers as they are much faster.
