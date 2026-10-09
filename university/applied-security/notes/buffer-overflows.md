@@ -12,6 +12,10 @@
 
 - C in fundamentally unsafe in the way it handles memory.
 - For example, we can ride past the end off the buffer in this code to access data that shouldn't be.
+Let's look at how this code would execute normally.
+
+## Hello World!
+
 
 ## Stack on 64-bit x86
 ### Regular Function
