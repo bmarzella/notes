@@ -69,4 +69,5 @@ A digital switch with multiple data inputs, one data output, and a control line.
 A single component such as the ALU or Register file often needs to receive data from different sources depending on instruction type. **The Mux directs the traffic so data from the right source gets through.**
 
 ##### The diagram
-1. `ALUSrc` ***Mux*** -  
+1. *`ALUSrc` Mux* -  Decides whether the ALU's second input comes from a Register (for `add`/`sub`) or an immediate value (`lw`/`sw`/`addi`)
+2. `MemToReg` *Mux*
