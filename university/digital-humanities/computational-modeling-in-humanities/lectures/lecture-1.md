@@ -49,3 +49,7 @@
 
 ![[Pasted image 20261009093553.png]]
 
+### The Digital Golden Age 
+
+![[Pasted image 20261009093732.png]]
+
