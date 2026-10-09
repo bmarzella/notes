@@ -78,5 +78,5 @@ $$
 - **Root Cause:** Power density scaled rapidly, as we established earlier
 - **Utilisation Wall:** Up to 80% of transistors must be switched off (*dark*) or heavily throttled (*dim*) during peak execution.
 - **Failure of Homogenous Multi-Core:** We can't just add more core, doing so hits severe thermal throttling, so we get diminishing returns on parallelization.
-- **Architectural Remedy (Specialisation):** Using silicon area on cores that wont be used simultaneously as well as domain -specific accelerators execute with better energy efficiency can can sleep when idle.
+- **Architectural Remedy (Specialisation):** Using silicon area on cores that wont be used simultaneously as well as domain-specific accelerators execute with better energy efficiency can can sleep when idle.
 - 
