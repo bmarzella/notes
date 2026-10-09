@@ -24,3 +24,8 @@
 
 ![[Pasted image 20261009092137.png]]
 
+## Why are these things hard to model?
+
+![[Pasted image 20261009092220.png]]
+
+- As we mentioned earlier, humans aren't 
