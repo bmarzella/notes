@@ -11,10 +11,12 @@
             "id": "8fa04119802faa1d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "image",
+              "state": {
+                "file": "images/Pasted image 20261009163514.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20261009163514"
             }
           }
         ]
@@ -79,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "6746306fa571459e",
@@ -197,18 +198,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8fa04119802faa1d",
+  "active": "eaf23f3a502c1941",
   "lastOpenFiles": [
     "cryptography/symmetric-cryptography/notes/perfect-cryptosystems.md",
-    "Pasted image 20261009165443.png",
-    "Pasted image 20261009165347.png",
-    "Pasted image 20261009165325.png",
-    "Pasted image 20261009165207.png",
-    "Pasted image 20261009165132.png",
-    "Pasted image 20261009165030.png",
-    "Pasted image 20261009163623.png",
-    "Pasted image 20261009163532.png",
-    "Pasted image 20261009163514.png",
+    "images/Pasted image 20261009165443.png",
+    "images/Pasted image 20261009165347.png",
+    "images/Pasted image 20261009165325.png",
+    "images/Pasted image 20261009165207.png",
+    "images/Pasted image 20261009165132.png",
+    "images/Pasted image 20261009165030.png",
+    "images/Pasted image 20261009163623.png",
+    "images/Pasted image 20261009163532.png",
+    "images/Pasted image 20261009163514.png",
     "images/Pasted image 20261009163037.png",
     "cryptography/symmetric-cryptography/notes/historical-cryptosystems.md",
     "cryptography/symmetric-cryptography/notes/intro-to-crypto.md",
