@@ -23,3 +23,5 @@
 	2. Uses ALU output as a memory address (*Addr*) to either read a value from or write data to memory. Data read from memory is sent back to be saved into the Register File.
 
 ## Logic Design Convention
+
+#
