@@ -84,3 +84,5 @@ Standard execution increments the PC by 4 per cycle, this allows us to implement
 
 ### The ALU Control Unit
 
+![[Pasted image 20261009115705.png]]
+
