@@ -66,3 +66,5 @@ Put the stack into a state where the function works
 ### Example
 
 ![[Pasted image 20261009134206.png]]
+
+1. We have a function that 
