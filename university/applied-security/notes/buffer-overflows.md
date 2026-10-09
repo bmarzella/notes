@@ -12,12 +12,12 @@
 
 - C in fundamentally unsafe in the way it handles memory.
 - For example, we can ride past the end off the buffer in this code to access data that shouldn't be.
-Let's look at how this code would execute normally.
-## Stack on 64-bit x86
-### Regular Function
-Whenever we call a function, the stack gets involved.
 
-1. sad
+Let's look at what the stack looks like, executing this code normally:
+## Stack on 64-bit x86
+### Initial Stack
+Initially, the stack has three components.
+1. 
 2. asd
 3. Function keeps track of the address it has to return to which is added to the stack, and the instruction pointer points to this.
 4. Function saves base pointer and both RSP and RBP point to top of stack.
