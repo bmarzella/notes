@@ -49,3 +49,9 @@ With a reasonably long ciphertext, we can see the most common letter and substit
 
 For example, the word *the* appear very often, which we can use to find three elements of the key.
 
+# Autokey Vigenère
+
+Instead of repeating the key when we run out of key, use the plaintext as the key.
+
+![[Pasted image 20261009162829.png]]
+
