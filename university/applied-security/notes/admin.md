@@ -13,3 +13,8 @@ Terms 1 & 2:
 
 ![[Pasted image 20261009131600.png]]
 
+![[Pasted image 20261009131915.png]]
+
+# Assessment
+
+![[Pasted image 20261009131934.png]]
