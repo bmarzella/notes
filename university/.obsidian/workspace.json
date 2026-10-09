@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "applied-security/notes/admin.md",
+                "file": "applied-security/notes/buffer-overflows.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "admin"
+              "title": "buffer-overflows"
             }
           }
         ],
@@ -98,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "6746306fa571459e",
@@ -217,12 +218,12 @@
   },
   "active": "9d26984c72c640b5",
   "lastOpenFiles": [
+    "applied-security/notes/admin.md",
     "Pasted image 20261009132220.png",
     "Pasted image 20261009131934.png",
     "Pasted image 20261009131915.png",
     "Pasted image 20261009131600.png",
-    "applied-security/notes/lecture-1.md",
-    "applied-security/notes/admin.md",
+    "applied-security/notes/buffer-overflows.md",
     "applied-security/notes",
     "cryptography/symmetric-cryptography/notes/intro-to-crypto.md",
     "cryptography/test 1 1.md",
@@ -234,7 +235,6 @@
     "images/Pasted image 20261009113025.png",
     "images/Pasted image 20261009112048.png",
     "advanced-computer-systems/multi-core-computer-architecture/notes/classical-scaling-era.md",
-    "images/Pasted image 20261009105116.png",
     "digital-humanities/computational-modeling-in-humanities/notes/lecture-1.md",
     "digital-humanities/computational-modeling-in-humanities/notes/admin.md",
     "digital-humanities/test 1.md",
