@@ -24,10 +24,8 @@ There are three registers used for working with the stack:
 3. **Register Base Pointer** (`RBP`)
 	- Points to the base of the active stack frame in memory.
 
-
-**Buffer \[0..15]**
-	- Space reserved for `func()` to store data, in this case, 16 characters for `char buffer[16]`.
-
+### Steps
+#### 1. 
 
 
 
