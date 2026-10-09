@@ -91,23 +91,11 @@ The first mitigation was to **Mark the stack as non-executable**. We can jump to
 ## Return Oriented Programming
 
 ***What if we jump to existing code?***
-
 Instead of executing our own code, we could jump to existing code, say, *access granted.*
-
 We supply arbitrary values in place of the shellcode and fake `RBP`, and point the return address to somewhere we want. The following, for example, gains a shell:
 
 ![[Pasted image 20261009151023.png]]
 ![[Pasted image 20261009151036.png|634]]
-
-# A Note on Calling Conventions in Linux
-
-- On modern 64-bit Linux systems, functions don't use the stack for arguments if they don't have to, instead using CPU registers as they are much faster.
-- If a function has more than 6 arguments (`RCX` is missing from the slide), then any subsequent arguments are pushed onto the stack. The function sets up `RSP` and `RBP` as we saw.
-- When a function finishes and wants to return a value, it puts that return value inside the `RAX` register before returning `ret.`
-- This all differs slightly between OSs
-- Passing arguments via registers changes how arguments are fed _into_ a function, but it does not change how local stack buffers behave once inside that function. This changes how 
-
-![[Pasted image 20261009134103.png]]
 
 ## Arbitrary Code Execution
 
@@ -120,6 +108,16 @@ We want to chain these to create a sort of turing machine, jumping between execu
 ![[Pasted image 20261009134730.png|579]]
 
 This writes `0x00000000` to the specified address.
+
+# A Note on Calling Conventions in Linux
+
+- On modern 64-bit Linux systems, functions don't use the stack for arguments if they don't have to, instead using CPU registers as they are much faster.
+- If a function has more than 6 arguments (`RCX` is missing from the slide), then any subsequent arguments are pushed onto the stack. The function sets up `RSP` and `RBP` as we saw.
+- When a function finishes and wants to return a value, it puts that return value inside the `RAX` register before returning `ret.`
+- This all differs slightly between OSs
+- Passing arguments via registers changes how arguments are fed _into_ a function, but it does not change how local stack buffers behave once inside that function. This changes how we'd write a buffer overflow, but does not mitigate them.
+
+![[Pasted image 20261009134103.png]]
 
 # Summary
 - A buffer overflow allows an attacker to write to the stack, for example letting them control the return address.
