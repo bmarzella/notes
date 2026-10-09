@@ -38,7 +38,7 @@
 		- *Setting a MUX line to choose between two inputs, enabling/disabling register writes, telling the ALU which operations to write, for example.*
 3. **Why do we need a clock?**
 	- Combinational circuits take a small, non -zero amount of time for electrical signals to settle (*propagation delay*).
-	- A clock ensures that inputs hold still long enough to perform calculations, and that state elemtns ()
+	- A clock ensures that inputs hold still long enough to perform calculations, and that state elements (like registers and memory) only capture new values at precise, predictable intervals (*the clock edge*).
 
 **Which is needed to build an ALU?** 
 - Combinational logic 
