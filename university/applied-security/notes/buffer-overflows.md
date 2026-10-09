@@ -51,7 +51,9 @@ Once we finish with `func`, we need to clean up the stack to continue running ma
 2. Restore `RBP`: We pop *Old RBP* off the stack into the `RBP` register so it points back to main's base frame, leaving` Return addr` at the top of the stack.
 3. Return to main: The `ret` instruction pops `Return addr` off the stack into `RIP`, pointing to the next instruction in main.
 
-### Exploitation
+![[Pasted image 20261009145330.png|311]]![[Pasted image 20261009145337.png|326]]
+
+# Exploitation
 
 ![[Pasted image 20261009133406.png]]
 ![[Pasted image 20261009133427.png|583]]
