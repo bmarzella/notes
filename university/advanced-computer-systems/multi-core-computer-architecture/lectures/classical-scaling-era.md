@@ -92,4 +92,4 @@ $$
 - Modern chips have multiple cores with different functions.
 
 
-# Processor 
+# Processor & Pipeline Fundema
