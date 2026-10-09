@@ -99,5 +99,8 @@ Instead of a massive control unit that decodes every combination at once, MIPS u
 ![[Pasted image 20261009153719.png]]
 
 - **OpCode** - Identifies the instruction as R-type. Always 0 (`000000` in binary)
-- `rs`: First source register.
+- `rs` - First source register.
 - `rt` - Second source register.
+- `rd` - Destination register (where result is saved).
+- `shamt` - Shift amount (used for shift operations, otherwise 0).
+- `funct` - Function field, tells the ALU Control unit the exact operation.
