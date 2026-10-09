@@ -81,4 +81,5 @@
 
 ![[Pasted image 20261009094927.png]]
 
-## Agent Based Model
+
+## Agent Based Mode
