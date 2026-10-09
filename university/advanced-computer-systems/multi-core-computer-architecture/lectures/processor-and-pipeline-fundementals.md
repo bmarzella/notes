@@ -58,3 +58,6 @@
 ### Connecting the Blocks Together
 
 ![[Pasted image 20261009113509.png]]
+
+We connect the three blocks into a full **Single -cycle Datapath** by adding *Multiplexers* and *Branch Logic*.
+
