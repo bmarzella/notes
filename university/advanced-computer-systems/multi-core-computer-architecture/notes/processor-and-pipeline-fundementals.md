@@ -93,3 +93,8 @@ Instead of a massive control unit that decodes every combination at once, MIPS u
 
 > *The Main Control unit decides whether the instruction is R, I or J-type. If it's an R-type, the ALU Control Unit inspects the `Funct` field to pick the exact operation, since all R-type OpCodes are identical (`000000`). For I-type or J-type, the Main Control Unit's `ALUOp` signal directly tells the ALU Control Unit what to do (e.g., force an add for `lw`/`sw`), ignoring the `Funct` field.*
 
+#### Instruction Classes
+##### R-Type 
+
+![[Pasted image 20261009153719.png]]
+
