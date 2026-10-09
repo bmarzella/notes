@@ -27,3 +27,9 @@ $P(M|C) = P(M)$ for all $M \in \mathcal{M} \, \space C \in \mathcal{C}$
 
 ![[Pasted image 20261009165030.png]]
 ![[Pasted image 20261009165132.png]]
+
+#### Practical Issues with One-Time Pad
+
+![[Pasted image 20261009165207.png]]
+
+*Need to securely transmit and store a long, complicated key.*
