@@ -39,4 +39,11 @@ With a reasonably long ciphertext, we can see the most common letter and substit
 
 ![[Pasted image 20261009162112.png]]
 
-- If the way we apply the key is regular, then 
+- If the way we apply the key is regular, then it's possible to separate chunks and break them individually.
+
+![[Pasted image 20261009162639.png]]
+
+### Kasiski Attack
+
+![[Pasted image 20261009162705.png]]
+
