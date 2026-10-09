@@ -98,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "6746306fa571459e",
@@ -215,7 +216,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eaf23f3a502c1941",
+  "active": "229a6041e474df91",
   "lastOpenFiles": [
     "cryptography/symmetric-cryptography/notes/intro-to-crypto.md",
     "cryptography/symmetric-cryptography/notes/historical-cryptosystems.md",
