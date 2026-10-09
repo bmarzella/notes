@@ -14,3 +14,8 @@
 ![[Pasted image 20261009091640.png]]
 
 - Big focus on *evaluation models*, we want to know whether our results are good or not.
+
+![[Pasted image 20261009091844.png]]
+
+
+
