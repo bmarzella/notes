@@ -66,4 +66,7 @@ We connect the three blocks into a full **Single-cycle Datapath** by adding *Mul
 A digital switch with multiple data inputs, one data output, and a control line. Depending on the control signal (0 or 1), it shows which input gets passed to the output.
 
 ##### Why do we add it?
-A single component such as the ALU or Register file often needs to receive data from different sources depending on instruction type. **The Mux **
+A single component such as the ALU or Register file often needs to receive data from different sources depending on instruction type. **The Mux directs the traffic so data from the right source gets through.**
+
+##### The diagram
+1. `ALUSrc` ***Mux*** -  
