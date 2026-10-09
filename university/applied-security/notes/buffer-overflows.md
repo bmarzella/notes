@@ -29,7 +29,7 @@ There are three registers used for working with the stack:
 #### 1. `push str`
 `str`, the argument passed into the function at `func(attacker_controlled_string)`, is pushed onto the stack and the RIP is incremented to point to the next instruction:
 
-![[Pasted image 20261009142806.png|285]]![[Pasted image 20261009142815.png|353]]  
+![[Pasted image 20261009143216.png|292]]![[Pasted image 20261009142815.png|353]]  
 #### 2. `call func`
 
 
