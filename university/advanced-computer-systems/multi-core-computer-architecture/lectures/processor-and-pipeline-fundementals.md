@@ -91,4 +91,4 @@ Instead of a massive control unit that decodes every combination at once, MIPS u
 1. **Main Control Unit** reads the OpCode (bits 31-26) and produces a 2-bit `ALUOp` signal.
 2. The **ALU Control Unit** takes `ALUOp` + `Funct Field` (bits 5-0) to output the final 4-bit `ALU Control Input`.
 
-> *Main control unit reads the cmmand type, passes that broad category to the ALU control unit, which combines it with the instructions specific function code to issuse a command directly to the ALU, which tells the hardware precicely what to do.*
+> *Main control unit reads the command type, passes that broad category to the ALU control unit, which combines it with the instructions specific function code to issue a command directly to the ALU, which tells the hardware precisely what to do.*
