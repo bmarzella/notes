@@ -109,3 +109,8 @@ Instead of a massive control unit that decodes every combination at once, MIPS u
 ##### I-Type
 *Immediate type. An instruction that involved two registers and a hardcoded, 16-bit constant or memory offset.*
 ###### Load/Store
+*Moving data between memory and registers.*
+
+![[Pasted image 20261009154358.png]]
+
+- **OpCode** - `35`
