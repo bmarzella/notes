@@ -92,7 +92,7 @@ The first mitigation was to **Mark the stack as non-executable**. We can jump to
 
 ***What if we jump to existing code?***
 Instead of executing our own shellcode, we could jump to existing code, say, *access granted.*
-We supply arbitrary values in place of the shellcode and fake `RBP`, and point the return address to somewhere we want. The following, for example, gains a shell:
+We supply arbitrary values in place of the shellcode and fake `RBP`, and point the return address to somewhere we want. The following, for example, finds an instruction that opens shell and runs it to gain a shell:
 
 ![[Pasted image 20261009151023.png]]
 ![[Pasted image 20261009151036.png|634]]
@@ -120,7 +120,9 @@ Each address we jump to will contain a gadget, usually a short sequence of instr
 	- `pop rdi` takes the **Pointer to `"/bin/sh"`** off the stack and puts it into `RDI`.
     - `ret` pops the next stack item—**`system()`**—into `RIP`. 
 3. **`system()` runs:** It executes using `RDI` (`"/bin/sh"`) as its argument.
+4. We have a shell!
 
+> *Differs from previous because there's no explicit "give me a shell*
 # A Note on Calling Conventions in Linux
 
 - On modern 64-bit Linux systems, functions don't use the stack for arguments if they don't have to, instead using CPU registers as they are much faster.
