@@ -15,14 +15,17 @@
 
 Let's look at what the stack looks like, executing this code normally:
 ## Stack on 64-bit x86
-### Initial Stack
-Initially, the stack has three components, arranged with top being the first in the stack:
+### Registers
+There are three registers used for working with the stack:
 1. **Saved Return Address** (`RIP`)
 	- Holds the address of the next instruction in `main()` to be executed after `func()` (this function) finishes.
-2. **Saved Frame Pointer** (`RBP`)
+2. 
+3. **Saved Frame Pointer** (`RBP`)
 	- Stores memory address of the previous function's (`main()`, in this case) stack frame.
 	- When `func()` finishes, it'll go back to `main()`'s stack so `main()` can continue.
-3. **Buffer \[0..15]**
+
+
+**Buffer \[0..15]**
 	- Space reserved for `func()` to store data, in this case, 16 characters for `char buffer[16]`.
 
 
