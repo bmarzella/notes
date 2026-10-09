@@ -102,8 +102,8 @@ We supply arbitrary values in place of the shellcode and fake `RBP`, and point t
 # A Note on Calling Conventions in Linux
 
 - On modern 64-bit Linux systems, functions don't use the stack for arguments if they don't have to, instead using CPU registers as they are much faster.
-- If a function has more than 6 arguments (`RCX` is mi)
-
+- If a function has more than 6 arguments (`RCX` is missing from the slide), then any subsequent arguments are pushed onto the stack. The function sets up `RSP` and `RBP` as we saw.
+- When a function finishes and wants to return a value, it puts 
 
 ![[Pasted image 20261009134103.png]]
 
