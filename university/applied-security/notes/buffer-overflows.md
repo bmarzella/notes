@@ -88,14 +88,13 @@ The first mitigation was to **Mark the stack as non-executable**. We can jump to
 
 ![[Pasted image 20261009133746.png]]
 
-## Reference Oriented Programming
+## Return Oriented Programming
 
 ***What if we jump to existing code?***
 
 Instead of executing our own code, we could jump to existing code, say, *access granted.*
 
-![[Pasted image 20261009133852.png]]
-![[Pasted image 20261009133910.png|608]]
+We supply arbitrary values in place of the shellcode and fake `rb`
 
 Put the stack into a state where the function works
 
