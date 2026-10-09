@@ -63,3 +63,9 @@
 
 ![[Pasted image 20261009094059.png]]
 
+
+## Modelling Text
+
+![[Pasted image 20261009094518.png]]
+
+
