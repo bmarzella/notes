@@ -113,4 +113,6 @@ Instead of a massive control unit that decodes every combination at once, MIPS u
 
 ![[Pasted image 20261009154358.png]]
 
-- **OpCode** - `35`
+- **OpCode** - `35` for `lw` (load word) or `43` for `sq` (store word).
+- `rs` - Base address register.
+- `rt` - Destination register for `lw`, or source address for `sw`.
