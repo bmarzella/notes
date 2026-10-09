@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f36f344bd2546c99",
+        "id": "736831320a6b31be",
         "type": "tabs",
         "children": [
           {
-            "id": "2717827b5a0bba3f",
+            "id": "fb0de37a5aaa8460",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "advanced-computer-systems/multi-core-computer-architecture/lectures/microarchitectural contraints.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "microarchitectural contraints"
             }
           }
         ]
@@ -197,19 +201,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2717827b5a0bba3f",
+  "active": "fb0de37a5aaa8460",
   "lastOpenFiles": [
+    "images/Pasted image 20261009093156.png",
     "digital-humanities/computational-modeling-in-humanities/lectures/lecture-1.md",
-    "Pasted image 20261009095509.png",
-    "Pasted image 20261009095256.png",
-    "Pasted image 20261009095243.png",
-    "Pasted image 20261009095130.png",
-    "Pasted image 20261009095053.png",
-    "Pasted image 20261009094927.png",
-    "Pasted image 20261009094805.png",
-    "Pasted image 20261009094637.png",
-    "Pasted image 20261009094518.png",
-    "Pasted image 20261009094059.png",
+    "images/Pasted image 20261009095509.png",
+    "images/Pasted image 20261009095256.png",
+    "images/Pasted image 20261009095243.png",
+    "images/Pasted image 20261009095130.png",
+    "images/Pasted image 20261009095053.png",
+    "images/Pasted image 20261009094927.png",
+    "images/Pasted image 20261009094805.png",
+    "images/Pasted image 20261009094637.png",
+    "images/Pasted image 20261009094518.png",
+    "images/Pasted image 20261009094059.png",
     "digital-humanities/computational-modeling-in-humanities/lectures/admin.md",
     "digital-humanities/test 1.md",
     "digital-humanities/computational-modeling-in-humanities/lectures",
