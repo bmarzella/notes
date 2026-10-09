@@ -88,7 +88,10 @@ The first mitigation was to **Mark the stack as non-executable**. We can jump to
 
 ![[Pasted image 20261009133746.png]]
 
-#### What if we jump into existing code?
+## Reference Oriented Programming
+
+***What if we jump to existing code?***
+
 Instead of executing our own code, we could jump to existing code, say, *access granted.*
 
 ![[Pasted image 20261009133852.png]]
