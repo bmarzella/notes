@@ -27,17 +27,20 @@ There are three registers used for working with the stack:
 ### Steps
 ![[Pasted image 20261009142436.png]]
 #### 1. `push str`
-The string passed into the function at `func(attacker_controlled_string)` is pushed onto the stack:
+The string passed into the function at `func(attacker_controlled_string)` is pushed onto the stack and the RIP is incremented to point to the next instruction:
+
+![[Pasted image 20261009142539.png]]
+
+#### 2. `call func`
 
 
 
-
-4. asd
-5. Function keeps track of the address it has to return to which is added to the stack, and the instruction pointer points to this.
-6. Function saves base pointer and both RSP and RBP point to top of stack.
-7. Create a buffer on the stack.
-8. Insert "Hello, World!". Does not exceed the length of the buffer so no issues.
-9. Clear the stack and move on.
+3. asd
+4. Function keeps track of the address it has to return to which is added to the stack, and the instruction pointer points to this.
+5. Function saves base pointer and both RSP and RBP point to top of stack.
+6. Create a buffer on the stack.
+7. Insert "Hello, World!". Does not exceed the length of the buffer so no issues.
+8. Clear the stack and move on.
 
 ### Exploitation
 
