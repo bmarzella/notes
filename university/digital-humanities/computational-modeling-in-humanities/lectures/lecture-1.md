@@ -105,3 +105,14 @@
 - ngrams aims to model the number of books that include some term within some given time period
 - Implicit argument from this graph is that, at some point in the 40s, people switched how they wrote apple sauce.
 - 
+![[Pasted image 20261009095509.png]]
+
+## Recommended Readings
+
+• “Reconstruction of the socio-semantic dynamics of political activist Twitter networks”  
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0201879  
+• “Agent-Based Modeling of Human-Induced Spread of Invasive Species in  
+Agricultural Landscapes”  
+https://jasss.soc.surrey.ac.uk/14/3/7.html  
+• “Tracing the Flow of Policy Ideas in Legislatures: A Text Reuse Approach”  
+https://www.jstor.org/stable/24582958  
