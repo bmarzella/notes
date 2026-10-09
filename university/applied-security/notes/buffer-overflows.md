@@ -101,7 +101,9 @@ We supply arbitrary values in place of the shellcode and fake `RBP`, and point t
 
 # A Note on Calling Conventions in Linux
 
-On modern 64-bit Linux systems, 
+- On modern 64-bit Linux systems, functions don't use the stack for arguments if they don't have to, instead using CPU registers as they are much faster.
+- If a function has more than 6 arguments (`RCX` is mi)
+
 
 ![[Pasted image 20261009134103.png]]
 
