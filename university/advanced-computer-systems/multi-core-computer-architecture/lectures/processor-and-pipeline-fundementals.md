@@ -81,3 +81,6 @@ Standard execution increments the PC by 4 per cycle, this allows us to implement
 1. **Address Calculation** - 16-bit offset from the instruction is sign-extended, multiplied by 4 (using `shift left 2`), and added to `PC + 4` using the dedicated Branch Adder.
 2. **Condition Checking** - The main ALU subtracts the two registers being compared. If the result is zero, the ALU sets its `Zero` single to $1$ (meaning the values were equal).
 3. **Decision** - If both the branch control signal and `Zero` signals are $1$, `PCSr` switches the top Mu to update the PC with the branch target address instead of `PC + 4`.
+
+### The ALU Control Unit
+
