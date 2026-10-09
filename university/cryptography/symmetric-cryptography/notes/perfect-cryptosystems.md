@@ -21,7 +21,7 @@ $P(M|C) = P(M)$ for all $M \in \mathcal{M} \, \space C \in \mathcal{C}$
 5. This must mean that there is some other message that belongs to the set of all possible messages but not to the set of messages that can be decrypted from $C$, therefore we've learned something about the plaintext, it isn't $M*$.
 6. **Contradiction. This cannot be a perfect cryptosystem so our initial assumption that keys is strictly less than plaintexts is wrong.**
 
->*There are a finite number of plaintexts that can be decrpyted from a ciphertext. *
+>*If there are fewer possible keys than possible plaintexts, and an attacker intercepts a ciphertext, they can test every possible key and rule out at least one possible plaintext - giving them information about the message and proving the system isn't perfectly secret.* 
 
 ### Achieving Perfect Security - One-Time Pad
 
