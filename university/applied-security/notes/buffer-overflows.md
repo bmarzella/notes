@@ -51,4 +51,9 @@ The first mitigation was to **Mark the stack as non-executable**. We can jump to
 ![[Pasted image 20261009133746.png]]
 
 #### What if we jump into existing code?
-Instead of executing our own code, we could 
+Instead of executing our own code, we could jump to existing code, say, *access granted.*
+
+![[Pasted image 20261009133852.png]]
+![[Pasted image 20261009133910.png|608]]
+
+Put the stack into a state where the function works 
