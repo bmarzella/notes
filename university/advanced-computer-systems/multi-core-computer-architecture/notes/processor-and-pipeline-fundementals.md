@@ -211,7 +211,6 @@ There are three types:
 3. **Control/Branch:** When the CPU doesn't know which instruction to fetch next because a conditional branch is still being executed.
 	- The CPU fetches instruction `PC + 4` but the branch calculation later determines there should've been a jump.
 #### Data Hazards
-
 1. **ALU-to-ALU Hazards:**
 - **Problem:** An instruction (like `sub`) needs a value right away in its Execution stage, but the preceding instruction (like `add`) only writes that value back to the Register File two cycles later.
 - **Solution (Data Forwarding / Bypassing):** Hardware routes the freshly calculated output from the ALU output back to the ALU input for the next cycle.
@@ -221,12 +220,13 @@ There are three types:
 
 2. **Load-Use Data Hazards (`lw` followed by dependent instruction):**
 - **Problem:** A `lw` instruction calculates the target memory address in the `EX` stage, but the actual data is only retrieved from RAM at the end of the Memory Access stage (`MEM`).
-- **The Limitation:** Forwarding cannot move data backward in time, a different, dependent instruction needs the data at the start of its `EX` stage before `lw` finishes reading memory, `MEM`.
+- **The Limitation:** Forwarding cannot move data backward in time, a different, dependent instruction needs the data at the start of its `EX` stage before `lw` finishes reading memory.
 - **Result:** Requires **1 forced hardware stall (bubble)** even with forwarding, delaying the dependent instruction by 1 cycle so the loaded data can be forwarded from `MEM/WB`
 
 >*Instruction one calculates the memory location instruction 2 needs during the `EX` phase, but only fetches the data there at the end of the subsequent `MEM` phase. Instruction two needs that data at it's `EX` phase, but this occurs at the same time as instruction one's `MEM` phase. 
 
 3. **Software Solution (Compiler Code Scheduling):**
-- **How it works:** The compiler analyzes the code and reorders independent instructions to fill the gap after a `lw` instruction.
+- **How it works:** The compiler analyses the code and reorders independent instructions to fill the gap after a `lw` instruction.
 - **Result:** Eliminates performance loss from stalls by ensuring the CPU does useful work while waiting for memory data to become available.
 
+###
