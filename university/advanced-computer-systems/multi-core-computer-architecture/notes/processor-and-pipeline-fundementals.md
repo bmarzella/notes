@@ -229,4 +229,7 @@ There are three types:
 - **How it works:** The compiler analyses the code and reorders independent instructions to fill the gap after a `lw` instruction.
 - **Result:** Eliminates performance loss from stalls by ensuring the CPU does useful work while waiting for memory data to become available.
 
-###
+#### Control Hazards
+
+![[Pasted image 20261012160859.png]]
+
