@@ -181,6 +181,7 @@ However, as each stage takes 200 ps, we have some latency in shorter stages. Reg
 ![[Pasted image 20261012120821.png]]
 
 MIPS breaks pipelining down into **5 stages:**
-1. **`IF` -Instruction Fetch**: Grabs instruction from memory using PC.
+1. **`IF` - Instruction Fetch**: Grabs instruction from memory using PC.
 2. **`ID` - Instruction Decode and Register Read:** Decodes instruction and reads registers.
-3.  **`EX` - **
+3. **`EX` - Execute/ Address Calculation:** Reads or writes data to RAM.
+4. 
