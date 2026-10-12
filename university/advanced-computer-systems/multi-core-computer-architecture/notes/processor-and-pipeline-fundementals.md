@@ -233,3 +233,4 @@ There are three types:
 
 ![[Pasted image 20261012160859.png]]
 
+- When an `beq` instruction enters the pipeline, it doesn't resolve whether the branch is taken until the `EX` ()
