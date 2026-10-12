@@ -194,4 +194,6 @@ None of this is new, but each stage uses physically separated components (look a
 
 ![[Pasted image 20261012121446.png]]
 
-Special hardware registers sit between every stage ()
+- **Pipeline Registers (the blue bars):** Special hardware registers sit **between** every stage (`IF/ID`, `ID/EX`, `EX/MEM`, `MEM/WB`).
+- **Why they exist:** They act as temporary holding buffers that lock in the data and control signals for one instruction before passing them to the next stage on the clock tick. Without them, new instructions fetching behind would overwrite the data of instructions ahead of them!
+
