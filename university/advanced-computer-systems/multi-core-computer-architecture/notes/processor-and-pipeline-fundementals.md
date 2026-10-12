@@ -211,6 +211,7 @@ There are three types:
 3. **Control/Branch:** When the CPU doesn't know which instruction to fetch next because a conditional branch is still being executed.
 	- The CPU fetches instruction `PC + 4` but the branch calculation later determines there should've been a jump.
 #### Data Hazards
+
 1. **ALU-to-ALU Hazards:**
 > *We pipe the output straight out of the ALU back into the ALU instead of saving it to a register and then fetching it from that register.*
 - **Problem:** An instruction (like `sub`) needs a value right away in its Execution stage, but the preceding instruction (like `add`) only writes that value back to the Register File two cycles later.
@@ -218,7 +219,7 @@ There are three types:
 -  **Result:** **0 stalls.** The dependent instruction gets the value immediately without waiting.
 
 1. **Load-Use Data Hazards (`lw` followed by dependent instruction):**
->*Instruction one calculates the memory location instruction 2 needs during the `EX` phase, but only fetches the data there at the end of the subsequent `MEM` phase. Instruction two needs that data at it's `EX` phase, but this occurs at the same time as instruction one's `MEM` phase. *
+>*Instruction one calculates the memory location instruction 2 needs during the `EX` phase, but only fetches the data there at the end of the subsequent `MEM` phase. Instruction two needs that data at it's `EX` phase, but this occurs at the same time as instruction one's `MEM` phase. 
 
 - **Problem:** A `lw` instruction calculates the target memory address in the `EX` stage, but the actual data is only retrieved from RAM at the end of the Memory Access stage (`MEM`).
 - **The Limitation:** Forwarding cannot move data backward in time, a different, dependent instruction needs the data at the start of its `EX` stage before `lw` finishes reading memory (`MEM`).
