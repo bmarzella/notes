@@ -203,7 +203,6 @@ The blue bars between `IM`, `Reg`, `ALU`, and `DM` hold each instruction's data 
 After the initial 5-cycle warmup (CC1–CC5), the pipeline outputs **one completed instruction per clock cycle** (CC5, CC6, CC7).
 ### Pipeline Hazards
 ***Situations in pipeline when the next instruction can't execute in the following cycle.***
-
 There are three types:
 1. **Structural:** Two instructions need the same physical hardware at the exact same time.
 	- If instruction and data memory shared a single memory module, fetching an instruction `IF` and loading data `MEM` would cause a structural hazard.
@@ -211,3 +210,4 @@ There are three types:
 	- Trying to read register `$t0` right after an `add $t0, ...` instruction, before the `add` writes back to `$t0`.
 3. **Control/Branch:** When the CPU doesn't know which instruction to fetch next because a conditional branch is still being executed.
 	- The CPU fetches instruction `PC + 4` but the branch calculation later determines there should've been a jump.
+
