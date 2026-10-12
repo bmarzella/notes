@@ -241,4 +241,8 @@ There are three types:
 
 ![[Pasted image 20261012161151.png]]
 
-- Instead of wasting cycles on stalls, MIPS defines a **Branch Relay Slot** directly after every branch instruction. The instruction in this slot is always executed 
+Instead of wasting cycles on stalls, MIPS defines a **Branch Relay Slot** directly after every branch instruction. The instruction in this slot is always executed regardless of whether the branch is taken or not.
+There are three ways to decide what should fill this slot:
+1. **From Before:** Pull the instruction from before the branch.
+	- Most common, 100% safe.
+2. **From Target**
