@@ -224,3 +224,5 @@ There are three types:
 4. **Software Solution (Compiler Code Scheduling):**
    * **How it works:** The compiler analyzes the code and reorders independent instructions to fill the gap after a `lw` instruction[cite: 13].
    * **Result:** Eliminates performance loss from stalls by ensuring the CPU does useful work while waiting for memory data to become available[cite: 13].
+
+hekllo everynyan my name is aila and i am a very awesome person but i sweaer somewrtimes i think that uidLOL!@ 
