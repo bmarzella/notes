@@ -169,4 +169,6 @@ For example, to do your laundry, you could put a load in the washing machine, th
 
 ![[Pasted image 20261009155711.png]]
 
+**Single-Cy**
+
 ![[Pasted image 20261009155724.png]]
