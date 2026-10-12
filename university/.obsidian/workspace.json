@@ -11,14 +11,12 @@
             "id": "f1b1a9d6664d1ff9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "advanced-computer-systems/multi-core-computer-architecture/notes/processor-and-pipeline-fundementals.md",
-                "mode": "source",
-                "source": false
+                "file": "Pasted image 20261012161727.png"
               },
-              "icon": "lucide-file",
-              "title": "processor-and-pipeline-fundementals"
+              "icon": "lucide-image",
+              "title": "Pasted image 20261012161727"
             }
           }
         ]
@@ -189,14 +187,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f1b1a9d6664d1ff9",
+  "active": "5c97d64ba05e909c",
   "lastOpenFiles": [
+    "advanced-computer-systems/multi-core-computer-architecture/notes/processor-and-pipeline-fundementals.md",
     "Pasted image 20261012161727.png",
     "Pasted image 20261012161342.png",
     "Pasted image 20261012161221.png",
     "Pasted image 20261012161151.png",
     "Pasted image 20261012160859.png",
-    "advanced-computer-systems/multi-core-computer-architecture/notes/processor-and-pipeline-fundementals.md",
     "Pasted image 20261012121840.png",
     "Pasted image 20261012121829.png",
     "Pasted image 20261012121446.png",
@@ -208,7 +206,6 @@
     "applied-security/symmetric-cryptography/notes",
     "applied-security/symmetric-cryptography",
     "images/Pasted image 20261009165443.png",
-    "images/Pasted image 20261009165347.png",
     "digital-humanities/computational-modeling-in-humanities/notes",
     "digital-humanities/computational-modeling-in-humanities",
     "cryptography/symmetric-cryptography/notes/intro-to-crypto.md",

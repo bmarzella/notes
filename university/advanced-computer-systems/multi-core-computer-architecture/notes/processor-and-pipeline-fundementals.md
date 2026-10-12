@@ -260,6 +260,6 @@ Fixed rules are determined before the code is run. For example:
 - Predict backwards branches taken for loops
 - etc...
 
-The slides don't go into any detail on this, so I'm guessing it isn't particularly relevant
+*The slides don't go into any detail on this, so I'm guessing it isn't particularly relevant. So, lets move onto:*
 ### Dynamic Branch Prediction
 
