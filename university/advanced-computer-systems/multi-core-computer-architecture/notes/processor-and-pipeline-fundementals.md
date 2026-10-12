@@ -251,6 +251,7 @@ There are three ways to decide what should fill this slot:
 	- We are assuming the branch is likely to be taken.
 3. **From Fall-Through:** Pull the instruction from the next sequential line.
 	- We are assuming the branch is likely to not be taken.
-
-However, instead of delaying or relying on branch relay slots, modern processors use **Branch Prediction** to guess where the
 ##### Branch Prediction
+However, instead of delaying or relying on branch relay slots, modern processors use **Branch Prediction** to guess where the code will go so fetching never has to pause. There are two types: **Static/Compile Time **
+
+
