@@ -197,3 +197,5 @@ None of this is new, but each stage uses physically separated components (look a
 - **Why they exist:** They act as temporary holding buffers that lock in the data and control signals for one instruction before passing them to the next stage on the clock tick. Without them, new instructions fetching behind would overwrite the data of instructions ahead of them!
 
 
+#### Pipeline Execution
+
