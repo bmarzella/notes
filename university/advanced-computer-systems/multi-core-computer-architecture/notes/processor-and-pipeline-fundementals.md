@@ -212,8 +212,8 @@ There are three types:
 	- The CPU fetches instruction `PC + 4` but the branch calculation later determines there should've been a jump.
 #### Data Hazards
 1. **ALU-to-ALU Hazards:**
-   * **Problem:** An instruction (like `sub`) needs a value right away in its Execution stage, but the preceding instruction (like `add`) only writes that value back to the Register File two cycles later[cite: 10].
-   * **Solution (Data Forwarding / Bypassing):** Hardware routes the freshly calculated output from the ALU output back to the ALU input for the next cycle[cite: 11].
+   * **Problem:** An instruction (like `sub`) needs a value right away in its Execution stage, but the preceding instruction (like `add`) only writes that value back to the Register File two cycles later.
+   * **Solution (Data Forwarding / Bypassing):** Hardware routes the freshly calculated output from the ALU output back to the ALU input for the next cycle\.
    * **Result:** **0 stalls.** The dependent instruction gets the value immediately without waiting[cite: 11].
 
 3. **Load-Use Data Hazards (`lw` followed by dependent instruction):**
