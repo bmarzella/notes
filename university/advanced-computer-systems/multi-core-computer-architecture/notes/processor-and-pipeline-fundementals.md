@@ -169,7 +169,7 @@ For example, to do your laundry, you could put a load in the washing machine, th
 
 ![[Pasted image 20261009155711.png]]
 
+![[Pasted image 20261009155724.png]]
+
 **Single-Cycle Clock Speed is forced to match the *longest instruction* (`lw` = 800 ps):** Even though `sw` and `beq` are faster, a single-cycle processor must set the clock cycle to the slowest instruction so that `lw` has enough time to finish.
 **By contrast, Pipelined-Clock Speed is limited by the *longest stage*:** In this case, the longest stage in any instruction is 200 ps, and so the clock cycle can be set 4x faster.
-
-![[Pasted image 20261009155724.png]]
