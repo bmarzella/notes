@@ -180,4 +180,6 @@ However, as each stage takes 200 ps, we have some latency in shorter stages. Reg
 
 ![[Pasted image 20261012120821.png]]
 
-MIPS breaks pipelining down into **5 stages**
+MIPS breaks pipelining down into **5 stages:**
+1. **Instruction Fetch `IF`**: Grabs instruction from memory using PC
+2. **Instruction**
