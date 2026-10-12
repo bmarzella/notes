@@ -233,4 +233,6 @@ There are three types:
 
 ![[Pasted image 20261012160859.png]]
 
-- When an `beq` instruction enters the pipeline, it doesn't resolve whether the branch is taken until the `EX` ()
+- When an `beq` instruction enters the pipeline, it doesn't resolve whether the branch is taken until the `EX` (or `MEM`, depending on the data path) stage.
+- This means that the CPU must wait before fetching the next instruction.
+- In this example, the processor is forced to wait for two cycles, 
