@@ -210,4 +210,4 @@ There are three types:
 2. **Data:** An instruction depends on the result of a previous instruction who hasn't finished writing back yet, the data required isn't ready yet.
 	- Trying to read register `$t0` right after an `add $t0, ...` instruction, before the `add` writes back to `$t0`.
 3. **Control/Branch:** When the CPU doesn't know which instruction to fetch next because a conditional branch is still being executed.
-	- The CPU fetches instruction `PC + 4` 
+	- The CPU fetches instruction `PC + 4` but the branch calculation later determines there should've been a jump.
