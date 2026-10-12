@@ -188,4 +188,10 @@ MIPS breaks pipelining down into **5 stages:**
 4. **`MEM` - Memory Access:** Reads or writes data to RAM.
 5. **`WB` - Write Back**: Writes results back to register file.
 
-None of this is new, but each stage uses physically separated components (loo), and thus each stage can be pipelined.
+None of this is new, but each stage uses physically separated components (look at the red lines!), and thus each stage can be pipelined.
+
+#### How are the stages separated?
+
+![[Pasted image 20261012121446.png]]
+
+Special hardware registers sit between every stage ()
