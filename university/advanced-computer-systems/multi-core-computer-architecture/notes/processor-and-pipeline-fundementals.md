@@ -221,7 +221,7 @@ There are three types:
 >**
 
 - **Problem:** A `lw` instruction calculates the target memory address in the `EX` stage, but the actual data is only retrieved from RAM at the end of the Memory Access stage (`MEM`).
-- **The Limitation:** Forwarding cannot move data backward in time—the dependent instruction needs the data at the start of its ALU stage before `lw` finishes reading memory.
+- **The Limitation:** Forwarding cannot move data backward in time, a different, dependent instruction needs the data at the start of its `EX` stage before `lw` finishes reading memory.
 - **Result:** Requires **1 forced hardware stall (bubble)** even with forwarding, delaying the dependent instruction by 1 cycle so the loaded data can be forwarded from `MEM/WB`
 
 4. **Software Solution (Compiler Code Scheduling):**
