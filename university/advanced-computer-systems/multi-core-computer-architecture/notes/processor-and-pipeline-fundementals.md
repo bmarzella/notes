@@ -173,4 +173,6 @@ For example, to do your laundry, you could put a load in the washing machine, th
 
 ![[Pasted image 20261009155724.png]]
 
-**By contrast, Pipelined-Clock Speed is limited by the *longest stage*:** In this case, the longest stage in any instruction is 200 ps, and so the clock cycle can be set 4x faster. However, as each stage takes 200 ps, we have some latency in shorter stages. Register read, for example, takes an extra 100 
+**By contrast, Pipelined-Clock Speed is limited by the *longest stage*:** In this case, the longest stage in any instruction is 200 ps, and so the clock cycle can be set 4x faster. 
+However, as each stage takes 200 ps, we have some latency in shorter stages. Register read, for example, takes an extra 100 ps, meaning the first `lw` takes 1000 ps, but subsequently we can do `lw`s every 200 ps.
+
