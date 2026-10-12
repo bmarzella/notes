@@ -177,11 +177,11 @@ For example, to do your laundry, you could put a load in the washing machine, th
 However, as each stage takes 200 ps, we have some latency in shorter stages. Register read, for example, takes an extra 100 ps, meaning the first `lw` takes 1000 ps, but subsequently we can do `lw`s every 200 ps.
 
 ### MIPS Implementation
+#### Pipeline Stage Separation
 
 ![[Pasted image 20261012120821.png]]
 
 MIPS breaks pipelining down into **5 stages:**
-
 1. **`IF` - Instruction Fetch**: Grabs instruction from memory using PC.
 2. **`ID` - Instruction Decode and Register Read:** Decodes instruction and reads registers.
 3. **`EX` - Execute / Address Calculation:** ALU performs math or computes target addresses.
@@ -189,11 +189,11 @@ MIPS breaks pipelining down into **5 stages:**
 5. **`WB` - Write Back**: Writes results back to register file.
 
 None of this is new, but each stage uses physically separated components (look at the red lines!), and thus each stage can be pipelined.
-
-#### How are the stages separated?
+#### Pipeline Registers
 
 ![[Pasted image 20261012121446.png]]
 
 - **Pipeline Registers (the blue bars):** Special hardware registers sit **between** every stage (`IF/ID`, `ID/EX`, `EX/MEM`, `MEM/WB`).
 - **Why they exist:** They act as temporary holding buffers that lock in the data and control signals for one instruction before passing them to the next stage on the clock tick. Without them, new instructions fetching behind would overwrite the data of instructions ahead of them!
+
 
