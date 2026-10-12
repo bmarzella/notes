@@ -218,10 +218,10 @@ There are three types:
 -  **Result:** **0 stalls.** The dependent instruction gets the value immediately without waiting.
 
 1. **Load-Use Data Hazards (`lw` followed by dependent instruction):**
->**
+>*Instruction one calculates the memory location instruction needs during the `EX` *
 
 - **Problem:** A `lw` instruction calculates the target memory address in the `EX` stage, but the actual data is only retrieved from RAM at the end of the Memory Access stage (`MEM`).
-- **The Limitation:** Forwarding cannot move data backward in time, a different, dependent instruction needs the data at the start of its `EX` stage before `lw` finishes reading memory.
+- **The Limitation:** Forwarding cannot move data backward in time, a different, dependent instruction needs the data at the start of its `EX` stage before `lw` finishes reading memory (`MEM`).
 - **Result:** Requires **1 forced hardware stall (bubble)** even with forwarding, delaying the dependent instruction by 1 cycle so the loaded data can be forwarded from `MEM/WB`
 
 4. **Software Solution (Compiler Code Scheduling):**
