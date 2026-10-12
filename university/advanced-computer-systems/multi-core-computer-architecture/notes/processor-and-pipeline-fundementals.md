@@ -212,12 +212,12 @@ There are three types:
 	- The CPU fetches instruction `PC + 4` but the branch calculation later determines there should've been a jump.
 #### Data Hazards
 1. **ALU-to-ALU Hazards:**
+> *We pipe the output straight out of the ALU back into the ALU instead of saving it to a register and then fetching it from that register.*
+
    * **Problem:** An instruction (like `sub`) needs a value right away in its Execution stage, but the preceding instruction (like `add`) only writes that value back to the Register File two cycles later.
    * **Solution (Data Forwarding / Bypassing):** Hardware routes the freshly calculated output from the ALU output back to the ALU input for the next cycle\.
    * **Result:** **0 stalls.** The dependent instruction gets the value immediately without waiting.
-   * *We pipe the output straight out of the ALU back into the ALU instead of saving it to a register, then fetching it from that register.*
-
-3. **Load-Use Data Hazards (`lw` followed by dependent instruction):**
+1. **Load-Use Data Hazards (`lw` followed by dependent instruction):**
    * **Problem:** A `lw` instruction calculates the target memory address in the ALU stage, but the actual data is only retrieved from RAM at the end of the Memory Access stage (`DM`)[cite: 12].
    * **The Limitation:** Forwarding cannot move data backward in time—the dependent instruction needs the data at the start of its ALU stage before `lw` finishes reading memory[cite: 12].
    * **Result:** Requires **1 forced hardware stall (bubble)** even with forwarding, delaying the dependent instruction by 1 cycle so the loaded data can be forwarded from `MEM/WB`[cite: 12].
