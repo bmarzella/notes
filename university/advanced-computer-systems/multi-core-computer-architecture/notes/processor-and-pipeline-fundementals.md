@@ -177,3 +177,7 @@ For example, to do your laundry, you could put a load in the washing machine, th
 However, as each stage takes 200 ps, we have some latency in shorter stages. Register read, for example, takes an extra 100 ps, meaning the first `lw` takes 1000 ps, but subsequently we can do `lw`s every 200 ps.
 
 ### MIPS Implementation
+
+![[Pasted image 20261012120821.png]]
+
+MIPS breaks pipelining down into **5 stages**
