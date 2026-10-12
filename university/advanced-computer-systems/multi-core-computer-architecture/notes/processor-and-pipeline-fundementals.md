@@ -195,7 +195,10 @@ None of this is new, but each stage uses physically separated components (look a
 
 - **Pipeline Registers (the blue bars):** Special hardware registers sit **between** every stage (`IF/ID`, `ID/EX`, `EX/MEM`, `MEM/WB`).
 - **Why they exist:** They act as temporary holding buffers that lock in the data and control signals for one instruction before passing them to the next stage on the clock tick. Without them, new instructions fetching behind would overwrite the data of instructions ahead of them!
-
-
 #### Pipeline Execution
 
+![[Pasted image 20261012121840.png]]
+
+The blue bars between `IM`, `Reg`, `ALU`, and `DM` hold each instruction's data so three instructions can safely run side-by-side without corrupting each other.
+After the initial 5-cycle warmup (CC1–CC5), the pipeline outputs **one completed instruction per clock cycle** (CC5, CC6, CC7).
+#### Pipeline Hazards
