@@ -201,4 +201,8 @@ None of this is new, but each stage uses physically separated components (look a
 
 The blue bars between `IM`, `Reg`, `ALU`, and `DM` hold each instruction's data so three instructions can safely run side-by-side without corrupting each other.
 After the initial 5-cycle warmup (CC1–CC5), the pipeline outputs **one completed instruction per clock cycle** (CC5, CC6, CC7).
-#### Pipeline Hazards
+### Pipeline Hazards
+***Situations in pipeline when the next instruction can't execute in the following cycle.***
+
+There are three types:
+1. **Structural:**
