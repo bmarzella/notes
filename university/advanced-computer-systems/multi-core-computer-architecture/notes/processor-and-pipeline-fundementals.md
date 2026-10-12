@@ -211,6 +211,16 @@ There are three types:
 3. **Control/Branch:** When the CPU doesn't know which instruction to fetch next because a conditional branch is still being executed.
 	- The CPU fetches instruction `PC + 4` but the branch calculation later determines there should've been a jump.
 #### Data Hazards
-- **ALU-to-ALU Hazards:** Solved completely with **Forwarding** (bypassing data directly from ALU output to ALU input; 0 stalls)
-- **Load-Use Hazards (`lw` followed by dependent instruction):** Cannot be fully fixed by forwarding alone because data isn't ready until Memory Access finishes; causes **1 forced stall**.
-- **Compiler Scheduling:** Compilers rearrange independent instructions to fill load-use stall slots automatically without changing program behaviour.
+1. **ALU-to-ALU Hazards:**
+   * **Problem:** An instruction (like `sub`) needs a value right away in its Execution stage, but the preceding instruction (like `add`) only writes that value back to the Register File two cycles later[cite: 10].
+   * **Solution (Data Forwarding / Bypassing):** Hardware routes the freshly calculated output from the ALU output back to the ALU input for the next cycle[cite: 11].
+   * **Result:** **0 stalls.** The dependent instruction gets the value immediately without waiting[cite: 11].
+
+3. **Load-Use Data Hazards (`lw` followed by dependent instruction):**
+   * **Problem:** A `lw` instruction calculates the target memory address in the ALU stage, but the actual data is only retrieved from RAM at the end of the Memory Access stage (`DM`)[cite: 12].
+   * **The Limitation:** Forwarding cannot move data backward in time—the dependent instruction needs the data at the start of its ALU stage before `lw` finishes reading memory[cite: 12].
+   * **Result:** Requires **1 forced hardware stall (bubble)** even with forwarding, delaying the dependent instruction by 1 cycle so the loaded data can be forwarded from `MEM/WB`[cite: 12].
+
+4. **Software Solution (Compiler Code Scheduling):**
+   * **How it works:** The compiler analyzes the code and reorders independent instructions to fill the gap after a `lw` instruction[cite: 13].
+   * **Result:** Eliminates performance loss from stalls by ensuring the CPU does useful work while waiting for memory data to become available[cite: 13].
