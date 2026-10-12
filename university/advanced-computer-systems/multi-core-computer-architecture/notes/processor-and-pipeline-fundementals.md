@@ -211,7 +211,6 @@ There are three types:
 3. **Control/Branch:** When the CPU doesn't know which instruction to fetch next because a conditional branch is still being executed.
 	- The CPU fetches instruction `PC + 4` but the branch calculation later determines there should've been a jump.
 #### Data Hazards
-- **Cause:** An instruction needs data from a register before a previous instruction has finished writing back to it.
 - **ALU-to-ALU Hazards:** Solved completely with **Forwarding** (bypassing data directly from ALU output to ALU input; 0 stalls)
 - **Load-Use Hazards (`lw` followed by dependent instruction):** Cannot be fully fixed by forwarding alone because data isn't ready until Memory Access finishes; causes **1 forced stall**.
 - **Compiler Scheduling:** Compilers rearrange independent instructions to fill load-use stall slots automatically without changing program behaviour.
