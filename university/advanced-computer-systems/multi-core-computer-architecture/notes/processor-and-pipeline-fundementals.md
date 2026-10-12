@@ -169,6 +169,7 @@ For example, to do your laundry, you could put a load in the washing machine, th
 
 ![[Pasted image 20261009155711.png]]
 
-1. **Single-Cycle Clock Speed is forced to match the *worst* case (`lw` = 800 ps):** Even though `sw` and `beq` are faster, a single-cycle processor must set the clock cycle to the slowest in
+**Single-Cycle Clock Speed is forced to match the worst case (`lw` = 800 ps):** Even though `sw` and `beq` are faster, a single-cycle processor must set the clock cycle to the slowest instruction so that `lw` has enough time to finish.
+**By contrast, pipelined clock speed is limited by the slowest stage:** 
 
 ![[Pasted image 20261009155724.png]]
