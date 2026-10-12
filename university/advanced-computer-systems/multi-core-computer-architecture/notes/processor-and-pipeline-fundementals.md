@@ -252,14 +252,14 @@ There are three ways to decide what should fill this slot:
 3. **From Fall-Through:** Pull the instruction from the next sequential line.
 	- We are assuming the branch is likely to not be taken.
 ### Branch Prediction
-However, instead of delaying or relying on branch relay slots, modern processors use **Branch Prediction** to guess where the code will go so fetching never has to pause. There are two types: **Static/Compile Time** and **Dynamic/Runtime**.
+However, instead of delaying or relying on branch relay slots, modern processors use **Branch Prediction** to guess where the code will go so fetching never has to pause. There are two types: 
 
-#### Static/Compile Time Branch Prediction
+**Static/Compile Time Branch Prediction**
 Fixed rules are determined before the code is run. For example:
 - Always predict "Branch Not Taken"
 - Predict backwards branches taken for loops
-etc.
+- etc...
 
+The slides don't go into any detail on this, so I'm guessing it isn't particularly relevant
 ### Dynamic Branch Prediction
-
 
