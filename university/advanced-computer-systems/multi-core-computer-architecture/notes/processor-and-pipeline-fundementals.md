@@ -255,6 +255,11 @@ There are three ways to decide what should fill this slot:
 However, instead of delaying or relying on branch relay slots, modern processors use **Branch Prediction** to guess where the code will go so fetching never has to pause. There are two types: **Static/Compile Time** and **Dynamic/Runtime**.
 
 #### Static/Compile Time Branch Prediction
-Fixed rules are determined 
+Fixed rules are determined before the code is run. For example:
+- Always predict "Branch Not Taken"
+- Predict backwards branches taken for loops
+etc.
+
+### Dynamic Branch Prediction
 
 
