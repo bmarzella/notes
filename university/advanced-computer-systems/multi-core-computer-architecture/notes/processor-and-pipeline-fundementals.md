@@ -207,4 +207,5 @@ After the initial 5-cycle warmup (CC1–CC5), the pipeline outputs **one complet
 There are three types:
 1. **Structural:** Two instructions need the same physical hardware at the exact same time.
 	- If instruction and data memory shared a single memory module, fetching an instruction `IF` and loading data `MEM` would cause a structural hazard.
-2. **Data:** An instruction re
+2. **Data:** An instruction depends on the result of a previous instruction who hasn't finished writing back yet, the data required isn't ready yet.
+	- Trying to read register `$t0` right after an `add $t0, ...` instruction, before 
