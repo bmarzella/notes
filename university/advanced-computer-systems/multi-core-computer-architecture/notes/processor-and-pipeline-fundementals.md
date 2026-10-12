@@ -205,4 +205,4 @@ After the initial 5-cycle warmup (CC1–CC5), the pipeline outputs **one complet
 ***Situations in pipeline when the next instruction can't execute in the following cycle.***
 
 There are three types:
-1. **Structural:**
+1. **Structural:** The planned instruction cannot execute in proper clock cycle as the hardware does not support the combination of instructions set to execute
