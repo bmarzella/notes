@@ -210,4 +210,6 @@ There are three types:
 	- Trying to read register `$t0` right after an `add $t0, ...` instruction, before the `add` writes back to `$t0`.
 3. **Control/Branch:** When the CPU doesn't know which instruction to fetch next because a conditional branch is still being executed.
 	- The CPU fetches instruction `PC + 4` but the branch calculation later determines there should've been a jump.
-
+#### Data Hazards
+1. **Cause:** An instruction needs data from a register before a previous instruction has finished writing back to it[cite: 10]. 
+2. **ALU-to-ALU Hazards:** Solved completely with **Forwarding** (bypassing data directly from ALU output to ALU input; 0 stalls)[cite: 11]. 3. **Load-Use Hazards (`lw` followed by dependent instruction):** Cannot be fully fixed by forwarding alone because data isn't ready until Memory Access finishes; causes **1 forced stall**[cite: 12]. 4. **Compiler Scheduling:** Compilers rearrange independent instructions to fill load-use stall slots automatically without changing program behavior[cite: 13].
