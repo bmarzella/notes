@@ -241,4 +241,4 @@ There are three types:
 
 ![[Pasted image 20261012161151.png]]
 
-- Instead of wasting cycles on stalls,
+- Instead of wasting cycles on stalls, MIPS defines a **Branch Relay Slot** directly after every branch instruction. The instruction in this slot is always executed 
