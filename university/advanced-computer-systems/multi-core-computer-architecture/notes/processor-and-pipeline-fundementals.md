@@ -217,7 +217,9 @@ There are three types:
 - **Solution (Data Forwarding / Bypassing):** Hardware routes the freshly calculated output from the ALU output back to the ALU input for the next cycle.
 -  **Result:** **0 stalls.** The dependent instruction gets the value immediately without waiting.
 
-2. **Load-Use Data Hazards (`lw` followed by dependent instruction):**
+1. **Load-Use Data Hazards (`lw` followed by dependent instruction):**
+>**
+
 - **Problem:** A `lw` instruction calculates the target memory address in the ALU stage, but the actual data is only retrieved from RAM at the end of the Memory Access stage (`DM`).
 - **The Limitation:** Forwarding cannot move data backward in time—the dependent instruction needs the data at the start of its ALU stage before `lw` finishes reading memory.
 - **Result:** Requires **1 forced hardware stall (bubble)** even with forwarding, delaying the dependent instruction by 1 cycle so the loaded data can be forwarded from `MEM/WB`
