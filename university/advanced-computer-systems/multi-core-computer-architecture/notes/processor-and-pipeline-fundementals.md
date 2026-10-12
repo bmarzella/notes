@@ -242,10 +242,14 @@ There are three types:
 ![[Pasted image 20261012161151.png]]
 
 Instead of wasting cycles on stalls, MIPS defines a **Branch Relay Slot** directly after every branch instruction. The instruction in this slot is always executed regardless of whether the branch is taken or not.
+
 There are three ways to decide what should fill this slot:
 1. **From Before:** Pull the instruction from before the branch.
 	- We do the previous instruction after the `beq` instead of before.
 	- Most common, 100% safe.
 2. **From Target:** Pull the instruction from the *branch target location*.
 	- We are assuming the branch is likely to be taken.
-3. **From F**
+3. **From Fall-Through:** Pull the instruction from the next sequential line.
+	- We are assuming the branch is likely to not be taken.
+
+##### Branch Prediction
