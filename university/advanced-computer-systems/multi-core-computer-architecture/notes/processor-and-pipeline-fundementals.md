@@ -235,4 +235,10 @@ There are three types:
 
 - When an `beq` instruction enters the pipeline, it doesn't resolve whether the branch is taken until the `EX` (or `MEM`, depending on the data path) stage.
 - This means that the CPU must wait before fetching the next instruction.
-- In this example, the processor is forced to wait for two cycles, 
+- In this example, the processor is forced to wait for two cycles, inserting **2 stall cycles (bubbles)** before it can do so safely.
+
+##### Delayed Branching
+
+![[Pasted image 20261012161151.png]]
+
+- Instead of wasting cycles on stalls,
