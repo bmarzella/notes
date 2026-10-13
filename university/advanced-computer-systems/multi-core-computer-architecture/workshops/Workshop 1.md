@@ -77,6 +77,13 @@ cycle 1
 load an instructions, load1 becoms busy
 
 cycle 2
-load another instruction, load2 becomes bus
+load another instruction, load2 becomes busy and stores location
+
+cycle 3
+multiplication instruction
+issue multiplication
+
+cycle 4
+need LD to complete multiplications, so we have to wait, 
 
 
