@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "3. branch-prediction"
             }
+          },
+          {
+            "id": "b631c30002007e4e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -226,11 +240,13 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "1035c8ca3d38bf54",
+  "active": "b631c30002007e4e",
   "lastOpenFiles": [
+    "advanced-computer-systems/multi-core-computer-architecture/notes/3. branch-prediction.md",
+    "Untitled.md",
+    "dissertation",
     "advanced-computer-systems/multi-core-computer-architecture/workshops/Workshop 1.md",
     "advanced-computer-systems/multi-core-computer-architecture/workshops/workshop-2.md",
-    "advanced-computer-systems/multi-core-computer-architecture/notes/3. branch-prediction.md",
     "Pasted image 20261013114456.png",
     "slides/WS1 (1).pdf",
     "advanced-computer-systems/multi-core-computer-architecture/notes/2. processor-and-pipeline-fundamentals.md",
@@ -266,7 +282,6 @@
     "digital-humanities/computational-modeling-in-humanities",
     "advanced-computer-systems/test 1 1 1.md",
     "images",
-    "advanced-computer-systems/multi-core-computer-architecture/images",
     "applied-security/test 1 1 1.md",
     "digital-humanities/test.md",
     "Welcome.md"
