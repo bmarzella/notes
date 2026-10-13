@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "advanced-computer-systems/multi-core-computer-architecture/notes/Untitled.md",
+                "file": "advanced-computer-systems/multi-core-computer-architecture/workshops/Untitled.md",
                 "mode": "source",
                 "source": false
               },
@@ -213,10 +213,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eaf23f3a502c1941",
+  "active": "af76450559c4f62d",
   "lastOpenFiles": [
+    "WS1 (1).pdf",
+    "advanced-computer-systems/multi-core-computer-architecture/workshops",
     "images/Pasted image 20261009163514.png",
-    "advanced-computer-systems/multi-core-computer-architecture/notes/Untitled.md",
+    "advanced-computer-systems/multi-core-computer-architecture/workshops/Untitled.md",
     "images/Pasted image 20261012161727.png",
     "images/Pasted image 20261012161342.png",
     "images/Pasted image 20261012161221.png",
@@ -227,7 +229,6 @@
     "images/Pasted image 20261012121446.png",
     "images/Pasted image 20261012120821.png",
     "cryptography/symmetric-cryptography/notes/perfect-cryptosystems.md",
-    "images/Pasted image 20261009165443.png",
     "cryptography/symmetric-cryptography/notes/historical-cryptosystems.md",
     "cryptography/symmetric-cryptography/notes/intro-to-crypto.md",
     "advanced-computer-systems/multi-core-computer-architecture/notes/processor-and-pipeline-fundementals.md",
@@ -249,7 +250,6 @@
     "cryptography/symmetric-cryptography/lectures",
     "cryptography/symmetric-cryptography",
     "advanced-computer-systems/multi-core-computer-architecture/notes",
-    "advanced-computer-systems/multi-core-computer-architecture",
     "digital-humanities/test.md",
     "Welcome.md"
   ]
