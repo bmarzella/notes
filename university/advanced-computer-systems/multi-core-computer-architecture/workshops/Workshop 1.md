@@ -30,4 +30,5 @@ what about \[0101010101]? 1 bit wont work
 **2 bit predictor**
 - need an algorithm finite state machine
 - we have 4 states, 00, 01, 10, 11
-- 
+00 - strong not taken, 10 - weak not taken, 01 - weak taken, 11 - strong taken
+
