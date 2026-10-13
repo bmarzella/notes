@@ -64,5 +64,9 @@ results before execution stored in reservation stations
 op - operation to perform
 qj qk - reservation stations
 
+# slide 12
+1. get instrction from fp operand queue, sends instructions to reservation station
+2. when both operands ready then execute, if not wach cdb for result
+3. write on common data bus 
 
 
