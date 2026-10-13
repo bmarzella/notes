@@ -38,6 +38,9 @@ three different cache memory mapping types
 three sections of an address see slide
 32 bits
 \[tag | index | byte offset]
+update btb on execution, update bht
+
+# Slide 6
 
 
 
