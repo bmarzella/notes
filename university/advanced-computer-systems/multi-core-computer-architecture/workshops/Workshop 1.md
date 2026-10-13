@@ -38,5 +38,4 @@ three different cache memory mapping types
 three sections of an address see slide
 32 bits
 
-{}
 
