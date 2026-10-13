@@ -17,8 +17,8 @@
   "inkPdfColorMode": "darken",
   "pageOwners": {
     "8c996772-2a23-42ed-9441-6ce08704277c": "cryptography/symmetric-cryptography/notes/intro-to-crypto.md",
-    "7c545eeb-e4c7-4c83-b1a3-d9aa575065cf": "advanced-computer-systems/multi-core-computer-architecture/notes/1. classical-scaling-era.md",
-    "302ce8a0-a835-414d-91a2-cdd77271522b": "advanced-computer-systems/multi-core-computer-architecture/workshops/Workshop 1.md"
+    "302ce8a0-a835-414d-91a2-cdd77271522b": "advanced-computer-systems/multi-core-computer-architecture/workshops/Workshop 1.md",
+    "ae73aaca-c35e-43ea-acee-2624475f05ac": "advanced-computer-systems/multi-core-computer-architecture/notes/1. classical-scaling-era.md"
   },
   "eraserRadiusPx": 14,
   "mouseInk": false,
