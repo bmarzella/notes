@@ -99,6 +99,6 @@ on chip
 stops us from having to go to the main memory to access the page table
 stores address translation logical -> physical?
 
-
+ 
 
 
