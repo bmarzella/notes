@@ -9,7 +9,6 @@ $P(M|C) = P(M)$ for all $M \in \mathcal{M} \, \space C \in \mathcal{C}$
 
 ![[Pasted image 20261009163532.png]]
 
-
 ### Proof
 
 ![[Pasted image 20261009163623.png]]
