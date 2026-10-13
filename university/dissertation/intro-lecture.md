@@ -22,3 +22,6 @@ Demonstration to Supervisor: 10%
 Final paper: 50%  
 Oral exam: 25%  
 Supervisor mark: 5%
+
+# Meeting logs
+What i did -> What ... -> What I plan to do
