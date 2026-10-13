@@ -89,7 +89,7 @@ need LD to complete multiplications, so we have to wait,
 new instruction also needs f2
 
 
-
+![[A_Storage-Effective_BTB_Organization_for_Servers.pdf]]
 storage effective btb organisation for servers (paper, simulator available called champsim)
 
 
