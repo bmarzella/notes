@@ -58,6 +58,7 @@ dynamci
 adders do add and sub
 multipliers for multiplications and division
 from instruction queue
-results before ex
+results before execution stored in reservation stations
+
 
 
