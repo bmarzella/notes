@@ -3,6 +3,7 @@ handwriting-page-id: 302ce8a0-a835-414d-91a2-cdd77271522b
 ---
 ![[WS1 (1).pdf|1]]
 
+polimi cs
 # Slide 3
 - outcome of each branch decision stored in branch history table 
 - branch target buffer btb
