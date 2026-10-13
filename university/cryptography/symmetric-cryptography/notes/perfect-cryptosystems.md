@@ -33,7 +33,6 @@ For example, if we choose every letter of a Vigenère key independently and unif
 
 #### Practical Issues with One-Time Pad
 
-
 ![[Pasted image 20261009165207.png]]
 ![[Pasted image 20261009165325.png]]
 
@@ -41,7 +40,7 @@ For example, if we choose every letter of a Vigenère key independently and unif
 
 Reusing a key, even once, completely breaks the one-time pad. To generate our ciphertext, we (usually, not above though!) `XOR` the key with the plaintext:$$C_1 = M_1 \oplus K$$$$C_2 = M_2 \oplus K$$
 If we use the same key, and the attacker were to intercept both plaintexts, `XOR`ing them together would produce the key:$$C_1 \oplus C_2 = (M_1 \oplus K) \oplus (M_2 \oplus K) = M_1 \oplus M_2$$
-
+Similarly, if we use modular addition, as we do with Vigenère, an attacker can still get the key quite easily if they intercept two ciphertexts:$$(C_1 - C_2) \pmod{26} = (M_1 - M_2) \pmod{26}$$
 
 #### Historical Use of One-Time Pad
 ![[Pasted image 20261009165347.png]]
