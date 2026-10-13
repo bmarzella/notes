@@ -32,4 +32,6 @@ What i did -> What went wrong(?) -> What I plan to do
 	- So, make sure problem is specific and measurable.
 		- "Is it possible to use RL to solve game X" - Well, did use RL to solve the game?
 	- Think of how we're going to evaluate right now.
-2. 
+
+# Supervisor
+- They'll give guidance, but no more. 
