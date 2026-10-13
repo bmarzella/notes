@@ -25,3 +25,9 @@ Supervisor mark: 5%
 
 # Meeting logs
 What i did -> What went wrong(?) -> What I plan to do
+
+# General Advice
+1. Relate everything back to the research problem
+	- Evaluate why our solution solves the problem, not just our sol
+	- 
+2. 
