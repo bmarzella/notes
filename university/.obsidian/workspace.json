@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "advanced-computer-systems/multi-core-computer-architecture/notes/2. processor-and-pipeline-fundamentals.md",
+                "file": "advanced-computer-systems/multi-core-computer-architecture/notes/3. branch-prediction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. processor-and-pipeline-fundamentals"
+              "title": "3. branch-prediction"
             }
           }
         ],
@@ -259,8 +259,8 @@
   },
   "active": "1035c8ca3d38bf54",
   "lastOpenFiles": [
-    "advanced-computer-systems/multi-core-computer-architecture/notes/3. branch-prediction.md",
     "advanced-computer-systems/multi-core-computer-architecture/notes/2. processor-and-pipeline-fundamentals.md",
+    "advanced-computer-systems/multi-core-computer-architecture/notes/3. branch-prediction.md",
     "Branch.md",
     "advanced-computer-systems/multi-core-computer-architecture/notes/1. classical-scaling-era.md",
     "advanced-computer-systems/multi-core-computer-architecture/notes/3..md",
