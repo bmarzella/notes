@@ -1,3 +1,4 @@
+![[Lec1.pdf]]
 # Processor and Pipeline Fundamentals
 
 ## The Basics MIPS Processor
