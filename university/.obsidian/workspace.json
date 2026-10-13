@@ -35,8 +35,7 @@
               "title": "3. branch-prediction"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "d7a97670efc92efe",
@@ -53,8 +52,21 @@
               "icon": "lucide-file-text",
               "title": "Lec1"
             }
+          },
+          {
+            "id": "eee6183017953d76",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "slides/WS1 (1).pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "WS1 (1)"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -116,8 +128,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "6746306fa571459e",
@@ -245,15 +256,15 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "1035c8ca3d38bf54",
+  "active": "65fdbb165eeaecbd",
   "lastOpenFiles": [
+    "slides/WS1 (1).pdf",
+    "slides/Lec1.pdf",
+    "advanced-computer-systems/multi-core-computer-architecture/notes/3. branch-prediction.md",
     "advanced-computer-systems/multi-core-computer-architecture/notes/1. classical-scaling-era.md",
     "advanced-computer-systems/multi-core-computer-architecture/notes/2. processor-and-pipeline-fundamentals.md",
-    "advanced-computer-systems/multi-core-computer-architecture/notes/3. branch-prediction.md",
-    "slides/Lec1.pdf",
     "advanced-computer-systems/multi-core-computer-architecture/workshops/Workshop 1.md",
     "slides/A_Storage-Effective_BTB_Organization_for_Servers.pdf",
-    "slides/WS1 (1).pdf",
     "advanced-computer-systems/multi-core-computer-architecture/workshops/workshop-2.md",
     "slides",
     "advanced-computer-systems/multi-core-computer-architecture/workshops",
