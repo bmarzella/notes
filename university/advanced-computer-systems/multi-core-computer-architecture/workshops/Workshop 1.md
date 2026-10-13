@@ -24,4 +24,8 @@ How we implement branch prediction
 
 **1 bit predictor**
 - uses previous bit
-- for example, for (1,10000), most of the time lo
+- for example, for (1,10000), most of the time loop is taken
+
+what about \[0101010101]? 1 bit wont work
+**2 bit predictor**
+- need an algorith
