@@ -41,6 +41,9 @@ three sections of an address see slide
 update btb on execution, update bht
 
 # Slide 6
-
+**Biased Loop**: *T T T T T T NT*
+- 1-bit predictor mis predicts twice
+- 2-bit predictor only mispredicts once per loop
+**Alternating pattern**: *T NT *
 
 
