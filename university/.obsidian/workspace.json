@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -240,16 +240,16 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "1035c8ca3d38bf54",
+  "active": "b631c30002007e4e",
   "lastOpenFiles": [
-    "dissertation/intro-lecture.md",
     "advanced-computer-systems/multi-core-computer-architecture/notes/3. branch-prediction.md",
+    "advanced-computer-systems/multi-core-computer-architecture/notes/2. processor-and-pipeline-fundamentals.md",
+    "dissertation/intro-lecture.md",
     "dissertation",
     "advanced-computer-systems/multi-core-computer-architecture/workshops/Workshop 1.md",
     "advanced-computer-systems/multi-core-computer-architecture/workshops/workshop-2.md",
     "images/Pasted image 20261013114456.png",
     "slides/WS1 (1).pdf",
-    "advanced-computer-systems/multi-core-computer-architecture/notes/2. processor-and-pipeline-fundamentals.md",
     "Branch.md",
     "advanced-computer-systems/multi-core-computer-architecture/notes/1. classical-scaling-era.md",
     "advanced-computer-systems/multi-core-computer-architecture/notes/3..md",
