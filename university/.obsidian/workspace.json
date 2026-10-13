@@ -215,10 +215,11 @@
   },
   "active": "af76450559c4f62d",
   "lastOpenFiles": [
+    "advanced-computer-systems/multi-core-computer-architecture/notes/processor-and-pipeline-fundementals.md",
+    "advanced-computer-systems/multi-core-computer-architecture/workshops/Workshop 1.md",
     "WS1 (1).pdf",
     "advanced-computer-systems/multi-core-computer-architecture/workshops",
     "images/Pasted image 20261009163514.png",
-    "advanced-computer-systems/multi-core-computer-architecture/workshops/Workshop 1.md",
     "images/Pasted image 20261012161727.png",
     "images/Pasted image 20261012161342.png",
     "images/Pasted image 20261012161221.png",
@@ -231,7 +232,6 @@
     "cryptography/symmetric-cryptography/notes/perfect-cryptosystems.md",
     "cryptography/symmetric-cryptography/notes/historical-cryptosystems.md",
     "cryptography/symmetric-cryptography/notes/intro-to-crypto.md",
-    "advanced-computer-systems/multi-core-computer-architecture/notes/processor-and-pipeline-fundementals.md",
     "applied-security/notes/buffer-overflows.md",
     "applied-security/notes/admin.md",
     "applied-security/notes",
@@ -249,7 +249,6 @@
     "cryptography/symmetric-cryptography/notes",
     "cryptography/symmetric-cryptography/lectures",
     "cryptography/symmetric-cryptography",
-    "advanced-computer-systems/multi-core-computer-architecture/notes",
     "digital-humanities/test.md",
     "Welcome.md"
   ]
