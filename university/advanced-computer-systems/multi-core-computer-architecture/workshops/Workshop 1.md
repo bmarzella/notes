@@ -33,5 +33,8 @@ what about \[0101010101]? 1 bit wont work
 00 - strong not taken, 10 - weak not taken: either of these we predict the next branch will not be taken
 01 - weak taken, 11 - strong taken: either of these we predict the branch will be taken
 
-#
+# Slide 5
+three different cache memory mapping types
+three sections of an address see slide
+
 
