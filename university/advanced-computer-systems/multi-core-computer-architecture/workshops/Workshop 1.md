@@ -49,6 +49,9 @@ update btb on execution, update bht
 - fixed with correlating predictor which requires gshare, global shared history table
 
 # Slide 7
-bht stores a single bit per decision, btb 
+bht stores a single bit per decision, btb stores a lot more, therefore requires significantly more silicon area
+
+# slide 9
+
 
 
