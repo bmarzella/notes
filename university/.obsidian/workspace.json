@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -241,10 +241,10 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "b631c30002007e4e",
+  "active": "1035c8ca3d38bf54",
   "lastOpenFiles": [
-    "advanced-computer-systems/multi-core-computer-architecture/notes/3. branch-prediction.md",
     "dissertation/intro-lecture.md",
+    "advanced-computer-systems/multi-core-computer-architecture/notes/3. branch-prediction.md",
     "Workshop 1 - Slides.pdf",
     "advanced-computer-systems/multi-core-computer-architecture/notes/2. processor-and-pipeline-fundamentals.md",
     "dissertation",
