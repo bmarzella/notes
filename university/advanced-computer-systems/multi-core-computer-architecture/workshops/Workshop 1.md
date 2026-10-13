@@ -96,6 +96,9 @@ storage effective btb organisation for servers (paper, simulator available calle
 translational lucasite (?) buffer
 split into i and d tlb
 on chip
-stops us from having to go to the main memory to access the 
+stops us from having to go to the main memory to access the page table
+stores address translation logical -> physical?
+
+
 
 
