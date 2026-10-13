@@ -70,6 +70,13 @@ qj qk - reservation stations
 3. write result on common data bus, mark reservation station available
 
 # slide 13
-at cycle one
+at cycle 0
+scoreboard keeps track fo individual instruction stateus
+
+cycle 1
+load an instructions, load1 becoms busy
+
+cycle 2
+load another instruction, load2 becomes bus
 
 
