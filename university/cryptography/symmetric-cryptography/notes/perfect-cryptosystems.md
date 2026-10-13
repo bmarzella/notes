@@ -24,6 +24,7 @@ $P(M|C) = P(M)$ for all $M \in \mathcal{M} \, \space C \in \mathcal{C}$
 
 ### Achieving Perfect Security - One-Time Pad
 
+A one-time pad is an encryption technique where we generate a completely random key of the exact same length as the plaintext. This results in a purely 
 ![[Pasted image 20261009165030.png]]
 ![[Pasted image 20261009165132.png]]
 
