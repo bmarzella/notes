@@ -67,6 +67,9 @@ qj qk - reservation stations
 # slide 12
 1. get instrction from fp operand queue, sends instructions to reservation station
 2. when both operands ready then execute, if not wach cdb for result
-3. write on common data bus 
+3. write result on common data bus, mark reservation station available
+
+# slide 13
+at cycle one
 
 
