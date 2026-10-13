@@ -39,6 +39,8 @@ For example, if we choose every letter of a Vigenère key independently and unif
 
 *Need to securely transmit and store a long, complicated key. Not much easier than just having a secure channel to send the message.*
 
+Reusing a key, even once, completely breaks the one-time pad. To generate our ciphertext, we `X`
+
 #### Historical Use of One-Time Pad
 ![[Pasted image 20261009165347.png]]
 
