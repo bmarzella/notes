@@ -58,5 +58,6 @@ dynamci
 adders do add and sub
 multipliers for multiplications and division
 from instruction queue
+results before ex
 
 
