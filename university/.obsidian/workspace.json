@@ -192,14 +192,23 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "d019e4cb34562705",
+            "type": "leaf",
+            "state": {
+              "type": "slidenote-pdfcanvas",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "PDF Canvas"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -214,7 +223,7 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "eaf23f3a502c1941",
+  "active": "d019e4cb34562705",
   "lastOpenFiles": [
     "slides",
     "advanced-computer-systems/multi-core-computer-architecture/notes/processor-and-pipeline-fundementals.md",
