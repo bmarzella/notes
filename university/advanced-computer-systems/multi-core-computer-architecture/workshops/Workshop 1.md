@@ -60,5 +60,9 @@ multipliers for multiplications and division
 from instruction queue
 results before execution stored in reservation stations
 
+# Slide 11
+op - operation to perform
+qj qk - reservation stations
+
 
 
