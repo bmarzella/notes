@@ -28,4 +28,6 @@ How we implement branch prediction
 
 what about \[0101010101]? 1 bit wont work
 **2 bit predictor**
-- need an algorith
+- need an algorithm finite state machine
+- we have 4 states, 00, 01, 10, 11
+- 
