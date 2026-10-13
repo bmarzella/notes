@@ -44,6 +44,8 @@ update btb on execution, update bht
 **Biased Loop**: *T T T T T T NT*
 - 1-bit predictor mis predicts twice
 - 2-bit predictor only mispredicts once per loop
-**Alternating pattern**: *T NT *
+**Alternating pattern**: *T NT T NT T NT T NT*
+- 2-bit will always fail
+- 
 
 
