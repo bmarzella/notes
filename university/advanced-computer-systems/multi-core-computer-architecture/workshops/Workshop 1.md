@@ -87,3 +87,7 @@ issue multiplication
 cycle 4
 need LD to complete multiplications, so we have to wait, 
 new instruction also needs f2
+
+```
+file: [slides/WS1 (1).pdf](obsidian://open vault=university&file=slides%2FWS1%20(1).pdf)
+```
