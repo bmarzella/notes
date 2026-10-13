@@ -1,7 +1,8 @@
 ---
 handwriting-page-id: 7c545eeb-e4c7-4c83-b1a3-d9aa575065cf
 ---
- ![[Lec1.pdf]]The Classical Scaling Era
+ ![[Lec1.pdf]]
+# The Classical Scaling Era
 
 ![[Pasted image 20261006122604.png]]
 ## The Performance Triad
