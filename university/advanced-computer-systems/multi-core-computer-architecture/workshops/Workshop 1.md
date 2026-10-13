@@ -52,6 +52,6 @@ update btb on execution, update bht
 bht stores a single bit per decision, btb stores a lot more, therefore requires significantly more silicon area
 
 # slide 9
-
+dynamci 
 
 
