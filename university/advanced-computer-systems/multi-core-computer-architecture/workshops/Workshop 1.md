@@ -54,6 +54,9 @@ bht stores a single bit per decision, btb stores a lot more, therefore requires 
 # slide 9
 dynamci 
 
-# 
+# Slide 10
+adders do add and sub
+multipliers for multiplications and division
+from instruction queue
 
 
