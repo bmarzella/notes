@@ -37,37 +37,6 @@
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "d7a97670efc92efe",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "e57d65473d247f33",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "slides/Lec1.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Lec1"
-            }
-          },
-          {
-            "id": "eee6183017953d76",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "slides/WS1 (1).pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "WS1 (1)"
-            }
-          }
-        ],
-        "currentTab": 1
       }
     ],
     "direction": "vertical"
