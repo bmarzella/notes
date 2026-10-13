@@ -85,5 +85,4 @@ issue multiplication
 
 cycle 4
 need LD to complete multiplications, so we have to wait, 
-
-
+new instruction also needs f2
