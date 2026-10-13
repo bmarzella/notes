@@ -20,6 +20,36 @@
               "icon": "lucide-file",
               "title": "3. branch-prediction"
             }
+          },
+          {
+            "id": "b13266d773c9dcb9",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "slides/Workshop 1 - Slides.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Workshop 1 - Slides"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1e013fa654ce240c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "958f0dfbb6aa62b6",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "slides/WS1 (1).pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "WS1 (1)"
+            }
           }
         ]
       }
@@ -189,8 +219,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5c97d64ba05e909c",
+  "active": "958f0dfbb6aa62b6",
   "lastOpenFiles": [
+    "advanced-computer-systems/multi-core-computer-architecture/notes/3. branch-prediction.md",
+    "slides/Workshop 1 - Slides.pdf",
     "images/Pasted image 20261012161727.png",
     "slides/WS1 (1).pdf",
     "slides/Lec1.pdf",
@@ -202,10 +234,8 @@
     "advanced-computer-systems/multi-core-computer-architecture/workshops/workshop-2.md",
     "advanced-computer-systems/multi-core-computer-architecture/workshops/Workshop 1.md",
     "advanced-computer-systems/multi-core-computer-architecture/workshops",
-    "advanced-computer-systems/multi-core-computer-architecture/notes/3. branch-prediction.md",
     "advanced-computer-systems/multi-core-computer-architecture/notes/2. processor-and-pipeline-fundamentals.md",
     "advanced-computer-systems/multi-core-computer-architecture/notes/1. classical-scaling-era.md",
-    "slides/Workshop 1 - Slides.pdf",
     "advanced-computer-systems/multi-core-computer-architecture/notes/processor-and-pipeline-fundementals.md",
     "images/Pasted image 20261012161342.png",
     "images/Pasted image 20261012161221.png",
