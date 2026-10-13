@@ -33,6 +33,7 @@ For example, if we choose every letter of a Vigenère key independently and unif
 
 #### Practical Issues with One-Time Pad
 
+
 ![[Pasted image 20261009165207.png]]
 ![[Pasted image 20261009165325.png]]
 
