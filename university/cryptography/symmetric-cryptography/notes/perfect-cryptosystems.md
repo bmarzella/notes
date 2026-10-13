@@ -26,6 +26,8 @@ $P(M|C) = P(M)$ for all $M \in \mathcal{M} \, \space C \in \mathcal{C}$
 
 A one-time pad is an encryption technique where we generate a completely random key of the exact same length as the plaintext. A purely random key means a purely random ciphertext.
 
+For example, if we choose every letter of a Vigenère key independently and uniformly at random, we get a one-time pad:
+
 ![[Pasted image 20261009165030.png]]
 ![[Pasted image 20261009165132.png]]
 
