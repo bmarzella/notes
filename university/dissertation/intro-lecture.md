@@ -30,5 +30,6 @@ What i did -> What went wrong(?) -> What I plan to do
 1. Relate everything back to the research problem
 	- Evaluate why our solution solves the problem, not just our solution in a vacuum, for example
 	- So, make sure problem is specific and measurable.
-		- "Is it possible to use RL to solve game X" - Well, did use RL to so
+		- "Is it possible to use RL to solve game X" - Well, did use RL to solve the game?
+	- Think of how we're going to evaluate right now.
 2. 
