@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "advanced-computer-systems/multi-core-computer-architecture/notes/4. out-of-order-execution.md",
+                "file": "advanced-computer-systems/multi-core-computer-architecture/notes/2. processor-and-pipeline-fundamentals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. out-of-order-execution"
+              "title": "2. processor-and-pipeline-fundamentals"
             }
           },
           {
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "line:(structural)",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,7 +109,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -221,8 +222,8 @@
   },
   "active": "6ffd3fb5c605271e",
   "lastOpenFiles": [
-    "slides/WS1 (1).pdf",
     "advanced-computer-systems/multi-core-computer-architecture/notes/4. out-of-order-execution.md",
+    "slides/WS1 (1).pdf",
     "advanced-computer-systems/multi-core-computer-architecture/notes/3. branch-prediction.md",
     "slides/Workshop 1 - Slides.pdf",
     "images/Pasted image 20261012161727.png",
