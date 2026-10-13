@@ -11,7 +11,7 @@
 - Workshop 5 (Week 19): Project Paper and Oral Exam
 
 # Deadlines
-Week 4: Literature Survey and Project Plan, submit via Ultra  
+Week 4: Literature Survey and Project Plan, submit via Ultra (formative)
 Week 10: Project Presentations  
 Week 14: Demonstration to Supervisor  
 Week 21: Submit Project Paper  

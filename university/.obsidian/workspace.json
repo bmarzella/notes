@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -240,12 +240,12 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "b631c30002007e4e",
+  "active": "1035c8ca3d38bf54",
   "lastOpenFiles": [
+    "dissertation/intro-lecture.md",
     "Workshop 1 - Slides.pdf",
     "advanced-computer-systems/multi-core-computer-architecture/notes/3. branch-prediction.md",
     "advanced-computer-systems/multi-core-computer-architecture/notes/2. processor-and-pipeline-fundamentals.md",
-    "dissertation/intro-lecture.md",
     "dissertation",
     "advanced-computer-systems/multi-core-computer-architecture/workshops/Workshop 1.md",
     "advanced-computer-systems/multi-core-computer-architecture/workshops/workshop-2.md",
@@ -282,7 +282,6 @@
     "digital-humanities/computational-modeling-in-humanities/notes",
     "digital-humanities/computational-modeling-in-humanities",
     "advanced-computer-systems/test 1 1 1.md",
-    "images",
     "applied-security/test 1 1 1.md",
     "digital-humanities/test.md",
     "Welcome.md"
