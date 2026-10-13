@@ -12,3 +12,16 @@ handwriting-page-id: 302ce8a0-a835-414d-91a2-cdd77271522b
 # Slide 4
 
 How we implement branch prediction
+
+
+
+
+
+
+
+
+- longer history = higher storage cost
+
+**1 bit predictor**
+- uses previous bit
+- for example, for (1,10000), most of the time lo
