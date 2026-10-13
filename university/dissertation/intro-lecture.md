@@ -28,6 +28,7 @@ What i did -> What went wrong(?) -> What I plan to do
 
 # General Advice
 1. Relate everything back to the research problem
-	- Evaluate why our solution solves the problem, not just our sol
-	- 
+	- Evaluate why our solution solves the problem, not just our solution in a vacuum, for example
+	- So, make sure problem is specific and measurable.
+		- "Is it possible to use RL to solve game X" - Well, did use RL to so
 2. 
