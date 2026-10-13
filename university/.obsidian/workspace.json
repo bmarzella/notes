@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "advanced-computer-systems/multi-core-computer-architecture/notes/processor-and-pipeline-fundementals.md",
+                "file": "advanced-computer-systems/multi-core-computer-architecture/notes/2. processor-and-pipeline-fundamentals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "processor-and-pipeline-fundementals"
+              "title": "2. processor-and-pipeline-fundamentals"
+            }
+          },
+          {
+            "id": "1035c8ca3d38bf54",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "advanced-computer-systems/multi-core-computer-architecture/notes/3. branch-prediction.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3. branch-prediction"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "d7a97670efc92efe",
@@ -38,23 +53,8 @@
               "icon": "lucide-file-text",
               "title": "Lec1"
             }
-          },
-          {
-            "id": "1035c8ca3d38bf54",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -246,10 +246,10 @@
   },
   "active": "1035c8ca3d38bf54",
   "lastOpenFiles": [
+    "advanced-computer-systems/multi-core-computer-architecture/notes/1. classical-scaling-era.md",
+    "advanced-computer-systems/multi-core-computer-architecture/notes/2. processor-and-pipeline-fundamentals.md",
+    "advanced-computer-systems/multi-core-computer-architecture/notes/3. branch-prediction.md",
     "slides/Lec1.pdf",
-    "Untitled.md",
-    "advanced-computer-systems/multi-core-computer-architecture/notes/processor-and-pipeline-fundementals.md",
-    "advanced-computer-systems/multi-core-computer-architecture/notes/classical-scaling-era.md",
     "advanced-computer-systems/multi-core-computer-architecture/workshops/Workshop 1.md",
     "slides/A_Storage-Effective_BTB_Organization_for_Servers.pdf",
     "slides/WS1 (1).pdf",
