@@ -46,6 +46,8 @@ update btb on execution, update bht
 - 2-bit predictor only mispredicts once per loop
 **Alternating pattern**: *T NT T NT T NT T NT*
 - 2-bit will always fail
-- 
+- fixed with correlating predictor which requires gshare, global shared history table
+
+#
 
 
