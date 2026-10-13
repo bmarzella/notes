@@ -93,6 +93,9 @@ new instruction also needs f2
 
 storage effective btb organisation for servers (paper, simulator available called champsim)
 
-
+translational lucasite (?) buffer
+split into i and d tlb
+on chip
+stops us from having to go to the main memory to access the 
 
 
