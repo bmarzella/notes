@@ -88,3 +88,8 @@ cycle 4
 need LD to complete multiplications, so we have to wait, 
 new instruction also needs f2
 
+
+
+storage effective btb organisation for servers (paper, simulator available called champsim)
+
+
