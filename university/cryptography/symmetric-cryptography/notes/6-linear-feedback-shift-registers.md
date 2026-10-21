@@ -18,9 +18,9 @@ All of this is linear, so multiplying a state by the inverse matrix lets us step
 # Non-Linearity
 To solve the linearity issue, we introduce non-linear elements. We can do this in three ways:
 ## Non-Linear Feedback Function
-*Feedback function being how we se*
-replace xor with some non linear function
-apply non lienar function to entire state
+*Feedback function being how we select our input bit per cycle.*
+1. Replace xor with some non linear function
+apply non linear function to entire state
 combine multiple non linearly
 
 need to choose function wisely, and would probably end up mostly 0s which is particularly bad as we established, or would be all ones etc
