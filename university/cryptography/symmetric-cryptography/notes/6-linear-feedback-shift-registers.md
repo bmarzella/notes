@@ -50,4 +50,7 @@ Permutation then scrambles each block produced by Pad. It has three operations:
 
 The $i^{th}$ block is $\pi(h_i) \oplus h_i$, where $h_i$ is the block created by Pad.
 
-ChaCha is just an improved variant of Salsa. Both are consider
+ChaCha is just an improved variant of Salsa. Both are considered secure.
+
+## Generating Random Bits in Practice
+To produce a secure keystream with a PRG, we need a truly random seed.
