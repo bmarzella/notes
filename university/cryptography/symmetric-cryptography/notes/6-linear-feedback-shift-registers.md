@@ -27,11 +27,11 @@ Apply non linear function to entire state to decide our output
 Slide is self explanatory.
 # Practical Stream Cipher Constructions
 ## Trivium
-Runs three different non-linear FSRs in parallel, A feeds into B feeds into C feeds into A etc...
+Runs three different non-linear FSRs in parallel, A feeds into B feeds into C feeds into A etc.., but they all update at once.
 To generate output:
 1. Each `XOR`s an internal bit with the rightmost bit to get an individual output.
 2. Individual outputs are `XOR`d together to get a final output.
-3. This is completely linear.
+3. This part is completely linear.
 
 To generate feedback:
 1. Each FSR pulls from self and other FSRs.
