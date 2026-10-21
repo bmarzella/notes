@@ -38,7 +38,9 @@ To generate feedback:
 2. Feedback is a function taking a bit from this FSR and a subset of bits from other FSRs.
 *Notes don't go into any more detail than this, so I assume this is all I need to know.*
 
+To set up, we have a seed and initialisation vector. seed fills first 80 bits of A, IV first 80 of B, all else is 0 except for final 3 bits of C, which are 1. This runs for 1152 clock cycles before it begins to produce output, ensuring initial state is shaken up first.
 
+## Salsa20 and ChaCha20
 
 need to choose function wisely, and would probably end up mostly 0s which is particularly bad as we established, or would be all ones etc
 non linear functions need to take a random input and return a roughly random output, not the case for and or or
