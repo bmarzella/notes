@@ -2,11 +2,11 @@
   "savedViews": [],
   "cameras": {},
   "inkSizes": {
-    "pen": 0.786,
+    "pen": 0.668,
     "highlighter": 1
   },
   "inkColors": {
-    "pen": "#f4f4f2",
+    "pen": "#cf3040",
     "highlighter": "#ffd60a"
   },
   "pressureSensitivity": true,
@@ -16,8 +16,9 @@
   "inkReadableInExports": true,
   "inkPdfColorMode": "darken",
   "pageOwners": {
-    "8c996772-2a23-42ed-9441-6ce08704277c": "cryptography/symmetric-cryptography/notes/intro-to-crypto.md",
-    "ae73aaca-c35e-43ea-acee-2624475f05ac": "advanced-computer-systems/multi-core-computer-architecture/notes/1. classical-scaling-era.md"
+    "8c996772-2a23-42ed-9441-6ce08704277c": "cryptography/symmetric-cryptography/notes/1. intro-to-crypto.md",
+    "ae73aaca-c35e-43ea-acee-2624475f05ac": "advanced-computer-systems/multi-core-computer-architecture/notes/1. classical-scaling-era.md",
+    "70dc9de6-f02e-4c62-8a0e-897e570a3988": "digital-humanities/computational-modeling-in-humanities/notes/2-text-preprocessing-and-modelling.md"
   },
   "eraserRadiusPx": 14,
   "mouseInk": false,
@@ -38,7 +39,7 @@
   "slidesInk": true,
   "colorSizeCommands": false,
   "penPresets": [],
-  "toolbarCorner": "top-right",
+  "toolbarCorner": "middle-right",
   "stripFoldOrder": [
     "editor:redo",
     "handwriting:inline-tool-pan",

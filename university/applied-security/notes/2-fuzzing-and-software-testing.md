@@ -1,0 +1,53 @@
+![[fuzzing-and-software-testing.pdf]]
+
+# Fuzzing & Software Testing
+
+## 1. Testing Foundations & Box Model
+### Tests
+**Unit Tests** - Testing isolated "units" of code, such as individual functions.
+Does `add (1,1)` return `2`?
+**Intergration** - Testing units combined together.
+Does `Sub(Add(1,1),2)` return `0`
+**System** - Testing the full system.
+**Acceptance** - Is the user happy. 
+### Boxes
+**Black** - No information about internal structure. 
+What an adversary would probably be facing.
+**Grey** - Some information about internal structure, you might know `strcopy()` is used.
+Or, internals might be too complicated.
+**White** - Full access
+### Static vs Dynamic
+**Static** - don't execute, looking at code to find potential vulns.
+**Dynamic** - executing and observing behaviour to find vulns. need to smartly select inputs to cover whole codebase.
+## 2. Code Coverage Types
+How much code am I covering with tests? `add(1,1)` is barely any coverage, for example.
+Want to cover as much code as we can with our tests, ideally.
+
+Nodes are instructions without a branch. Edges are the branches.
+
+**Function** - Which functions are executed
+**Line** - Which lines of source code 
+**Block** - Machine code (the graph nodes)
+**Edge** - Transitions (graph edges)
+
+Graph highlights in side 16 example the missing `break;`, one of the `ifs` ends up in the `default`.
+For function coverage, we'd need three tests, `AX - handle_A()`, `BX - handle_B_default()` `BS = handle_B_special()` and `housekeeping()`.
+
+*? how do we know the number of each, pretty intuitive but just clarify*
+### Taint Analysis
+Put a flag on some attacker controlled input, track whether it ends up somewhere dangerous.
+How fare does attacker controlled value reach into the program.
+### Symbolic Execution
+Symbolic execution means running a program using **symbols (variables)** instead of concrete inputs (like numbers or text).
+
+As the program executes, every `if/else` statement or check adds a mathematical rule (a condition) to a list. By the end, the engine has a formula that answers:
+
+> *What inputs do I need to feed this program so it satisfies all the conditions required to reach line X?"*
+## 3. Fuzzing Engine & Loop
+- 
+
+## 4. Practical Tooling (AFL++ / ASan)
+- 
+
+## 5. Confusing Points / Slide Numbers
+-

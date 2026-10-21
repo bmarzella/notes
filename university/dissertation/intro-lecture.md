@@ -37,4 +37,7 @@ What i did -> What went wrong(?) -> What I plan to do
 - They'll give guidance, but no more. 
 	- Here's my research question, is it general enough, how can I improve it, for example.
 	- Of course this varies, but point is this is my project. They are an oracle.
-	- 
+
+# citations
+common knowledge - appeared in year one
+use british standard(?) for citing

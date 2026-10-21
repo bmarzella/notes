@@ -1,56 +1,41 @@
 {
   "main": {
-    "id": "93e643cf101ef8ac",
+    "id": "802dc174df854950",
     "type": "split",
     "children": [
       {
-        "id": "1e013fa654ce240c",
+        "id": "585224655bf7cd1a",
         "type": "tabs",
         "children": [
           {
-            "id": "958f0dfbb6aa62b6",
+            "id": "18a41867737590e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cryptography/symmetric-cryptography/notes/perfect-cryptosystems.md",
+                "file": "cryptography/symmetric-cryptography/notes/6-linear-feedback-shift-registers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "perfect-cryptosystems"
-            }
-          },
-          {
-            "id": "610ef2155fb4ed80",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cryptography/symmetric-cryptography/notes/perfect-cryptosystems.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "perfect-cryptosystems"
+              "title": "6-linear-feedback-shift-registers"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "93a3716f6f7b7b85",
+    "id": "178da9cf3792d4eb",
     "type": "split",
     "children": [
       {
-        "id": "36cc6c0b277be0b3",
+        "id": "1563819070c73346",
         "type": "tabs",
         "children": [
           {
-            "id": "5c97d64ba05e909c",
+            "id": "eaf23f3a502c1941",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -65,12 +50,12 @@
             }
           },
           {
-            "id": "9762b13b964ff62e",
+            "id": "061614ea89c0817f",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "line:(structural)",
+                "query": "tag:#Vigenère",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,7 +67,7 @@
             }
           },
           {
-            "id": "74fddc097609e00e",
+            "id": "9510aa7328c577b2",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -98,23 +83,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
-    "id": "8be5edfb996da588",
+    "id": "6746306fa571459e",
     "type": "split",
     "children": [
       {
-        "id": "2753d573fd872e37",
+        "id": "d9d3e8ddcc6170d1",
         "type": "tabs",
         "children": [
           {
-            "id": "cfeb87bc99fad073",
+            "id": "8708ecb3d4182896",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "applied-security/symmetric-cryptography/notes/intro-to-crypto.md",
+                "file": "digital-humanities/test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,12 +113,12 @@
             }
           },
           {
-            "id": "d26a17d0ba3f8bda",
+            "id": "2ec18d3d100914a9",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "applied-security/symmetric-cryptography/notes/intro-to-crypto.md",
+                "file": "digital-humanities/test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -142,7 +127,7 @@
             }
           },
           {
-            "id": "0e4b2a406278296e",
+            "id": "dc545a31c8148187",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -157,7 +142,7 @@
             }
           },
           {
-            "id": "466282c86d791be5",
+            "id": "4c149ad29ed2de78",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -171,12 +156,12 @@
             }
           },
           {
-            "id": "3992ff5ef4435bb1",
+            "id": "22fe349e8ed0ea31",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "applied-security/symmetric-cryptography/notes/intro-to-crypto.md",
+                "file": "advanced-computer-systems/test 1 1 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -184,8 +169,29 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "9d366406df5cef2d",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "d019e4cb34562705",
+            "type": "leaf",
+            "state": {
+              "type": "slidenote-pdfcanvas",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "PDF Canvas"
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -201,50 +207,57 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "610ef2155fb4ed80",
+  "active": "18a41867737590e9",
   "lastOpenFiles": [
     "housekeeping.md",
-    "advanced-computer-systems/multi-core-computer-architecture/notes/2. processor-and-pipeline-fundamentals.md",
-    "advanced-computer-systems/multi-core-computer-architecture/notes/4. out-of-order-execution.md",
-    "advanced-computer-systems/multi-core-computer-architecture/workshops/Workshop 1.md",
-    "advanced-computer-systems/multi-core-computer-architecture/workshops/workshop-2.md",
-    "cryptography/symmetric-cryptography/notes/perfect-cryptosystems.md",
-    "images/Pasted image 20261013183535.png",
-    "2026-10-13.md",
-    "slides/WS1 (1).pdf",
-    "images/Pasted image 20261013175304.png",
-    "images/Pasted image 20261013174616.png",
-    "images/Pasted image 20261013174547.png",
-    "slides/Workshop 1 - Slides.pdf",
-    "advanced-computer-systems/multi-core-computer-architecture/notes/3. branch-prediction.md",
-    "images/Pasted image 20261012161727.png",
-    "slides/Lec1.pdf",
-    "slides/A_Storage-Effective_BTB_Organization_for_Servers.pdf",
-    "slides",
-    "images/Pasted image 20261013114456.png",
-    "dissertation/intro-lecture.md",
-    "dissertation",
-    "advanced-computer-systems/multi-core-computer-architecture/workshops",
-    "advanced-computer-systems/multi-core-computer-architecture/notes/1. classical-scaling-era.md",
-    "advanced-computer-systems/multi-core-computer-architecture/notes/processor-and-pipeline-fundementals.md",
-    "images/Pasted image 20261012161342.png",
-    "images/Pasted image 20261012161221.png",
-    "images/Pasted image 20261012161151.png",
-    "images/Pasted image 20261012160859.png",
-    "digital-humanities/computational-modeling-in-humanities/notes/admin.md",
     "digital-humanities/computational-modeling-in-humanities/notes/lecture-1.md",
-    "applied-security/symmetric-cryptography/notes/intro-to-crypto.md",
-    "applied-security/symmetric-cryptography/notes",
-    "applied-security/symmetric-cryptography",
-    "digital-humanities/computational-modeling-in-humanities/notes",
+    "digital-humanities/computational-modeling-in-humanities/notes/admin.md",
+    "cryptography/symmetric-cryptography/notes/perfect-cryptosystems.md",
     "cryptography/symmetric-cryptography/notes/intro-to-crypto.md",
     "cryptography/symmetric-cryptography/notes/historical-cryptosystems.md",
     "applied-security/notes/buffer-overflows.md",
     "applied-security/notes/admin.md",
-    "advanced-computer-systems/multi-core-computer-architecture/notes/classical-scaling-era.md",
-    "digital-humanities/test 1.md"
+    "dissertation/intro-lecture.md",
+    "cryptography/symmetric-cryptography/notes/6-linear-feedback-shift-registers.md",
+    "cryptography/symmetric-cryptography/notes/5. psuedorandom-generators-and-stream-ciphers.md",
+    "cryptography/symmetric-cryptography/notes/4. semantic-security.md",
+    "advanced-computer-systems/multi-core-computer-architecture/lectures/Lec2.pdf",
+    "advanced-computer-systems/multi-core-computer-architecture/notes/5-data-parallelism-and-threading.md",
+    "Pasted image 20261020103942.png",
+    "Pasted image 20261020103941.png",
+    "advanced-computer-systems/multi-core-computer-architecture/notes/4. out-of-order-execution.md",
+    "advanced-computer-systems/multi-core-computer-architecture/lectures",
+    "digital-humanities/computational-modeling-in-humanities/lectures/COMP3781_02.pdf",
+    "digital-humanities/computational-modeling-in-humanities/notes/2-text-preprocessing-and-modelling.md",
+    "slides/Lecture 3.pdf",
+    "slides/stream_ciphers_lecture_2.pdf",
+    "applied-security/labs/exploitation-and-fuzzing.md",
+    "applied-security/notes/2-fuzzing-and-software-testing.md",
+    "applied-security/notes/1-buffer-overflows.md",
+    "applied-security/lectures/fuzzing-and-software-testing.pdf",
+    "applied-security/notes/0-admin.md",
+    "applied-security/lectures",
+    "digital-humanities/computational-modeling-in-humanities/lectures",
+    "digital-humanities/computational-modeling-in-humanities/notes/1-introduction.md",
+    "digital-humanities/computational-modeling-in-humanities/notes/0-admin.md",
+    "applied-security/labs",
+    "cryptography/symmetric-cryptography/notes/3. perfect-cryptosystems.md",
+    "cryptography/symmetric-cryptography/notes/2. historical-cryptosystems.md",
+    "cryptography/symmetric-cryptography/notes/1. intro-to-crypto.md",
+    "advanced-computer-systems/multi-core-computer-architecture/notes/3. branch-prediction.md",
+    "advanced-computer-systems/multi-core-computer-architecture/notes/2. processor-and-pipeline-fundamentals.md",
+    "slides/Workshop 1 - Slides.pdf",
+    "images/Pasted image 20261013183535.png",
+    "images/Pasted image 20261013175304.png",
+    "images/Pasted image 20261013174616.png",
+    "images/Pasted image 20261013174547.png",
+    "images/Pasted image 20261013114456.png",
+    "images/Pasted image 20261009163514.png",
+    "images/Pasted image 20261012161727.png",
+    "images/Pasted image 20261012161342.png"
   ]
 }
