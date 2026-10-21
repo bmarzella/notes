@@ -27,7 +27,9 @@ Apply non linear function to entire state to decide our output
 Slide is self explanatory.
 # Practical Stream Cipher Constructions
 ## Trivium
-Example of first non-linearity type.
+Runs three different non-linear FSRs in parallel. 
+1. Each `XOR`s an internal bit with the rightmost bit to get an individual output.
+2. Individual ou
 
 need to choose function wisely, and would probably end up mostly 0s which is particularly bad as we established, or would be all ones etc
 non linear functions need to take a random input and return a roughly random output, not the case for and or or
