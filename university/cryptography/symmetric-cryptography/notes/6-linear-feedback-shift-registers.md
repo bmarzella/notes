@@ -17,13 +17,15 @@ This has some **implications:**
 All of this is linear, so multiplying a state by the inverse matrix lets us step a state backwards. An attacker isn't likely to see the entire keystream in a transmission, but this lets them reverse back to the seed from observing any $2n$ bits.
 # Non-Linearity
 To solve the linearity issue, we introduce non-linear elements. We can do this in three ways:
-## Non-Linear Feedback Function
+## Nonlinear Feedback Function
 *Feedback function being how we select our input bit per cycle.*
 Replace XOR with some non linear function with $\approx \frac{1}{2}$ probability of `0` or `1`.
 Result is a **Feedback Shift Register (FSR)**
 ## Nonlinear Output Function
-apply non linear function to entire state
-combine multiple non linearly
+Apply non linear function to entire state to decide our output
+
+## Nonlinear Combine
+Slide is self ex
 
 need to choose function wisely, and would probably end up mostly 0s which is particularly bad as we established, or would be all ones etc
 non linear functions need to take a random input and return a roughly random output, not the case for and or or
