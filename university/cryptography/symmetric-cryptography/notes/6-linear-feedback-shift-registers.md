@@ -27,7 +27,7 @@ Apply non linear function to entire state to decide our output
 Slide is self explanatory.
 # Practical Stream Cipher Constructions
 ## Trivium
-Runs three different non-linear FSRs in parallel. 
+Runs three different non-linear FSRs in parallel, A feeds into B feeds into C feeds into A etc...
 To generate output:
 1. Each `XOR`s an internal bit with the rightmost bit to get an individual output.
 2. Individual outputs are `XOR`d together to get a final output.
@@ -35,7 +35,7 @@ To generate output:
 
 To generate feedback:
 1. Each FSR pulls from self and other FSRs.
-2. Before XORing bits, takes two adjacent bits from another register and ANDs them.
+2. Before XORing bits, takes two adjacent bits from previous register and ANDs them.
 3. AND destroys linearity.
 
 
