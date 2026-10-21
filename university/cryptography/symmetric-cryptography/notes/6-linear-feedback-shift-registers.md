@@ -16,6 +16,9 @@ This has some **implications:**
 
 All of this is linear, so multiplying a state by the inverse matrix lets us step a state backwards. An attacker isn't likely to see the entire keystream in a transmission, but this lets them reverse back to the seed from observing any $2n$ bits.
 # Non-Linearity
+To solve the linearity issue, we introduce non-linear elements. We can do this in three ways:
+## Non-Linear Feedback Function
+*Feedback function being how we se*
 replace xor with some non linear function
 apply non lienar function to entire state
 combine multiple non linearly
