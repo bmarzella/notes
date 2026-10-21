@@ -28,8 +28,14 @@ Slide is self explanatory.
 # Practical Stream Cipher Constructions
 ## Trivium
 Runs three different non-linear FSRs in parallel. 
+To generate output:
 1. Each `XOR`s an internal bit with the rightmost bit to get an individual output.
-2. Individual ou
+2. Individual outputs are `XOR`d together to get a final output.
+3. This is completely linear.
+
+To generate feedback:
+1. Each FSR pulls from self and other 
+
 
 need to choose function wisely, and would probably end up mostly 0s which is particularly bad as we established, or would be all ones etc
 non linear functions need to take a random input and return a roughly random output, not the case for and or or
