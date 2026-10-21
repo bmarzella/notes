@@ -11,8 +11,7 @@ This has some **implications:**
 	- $-1$ because seeing all zeroes guarantees we get stuck.
 
 All of this is linear, so multiplying a state by the inverse matrix lets us step a state backwards.
-
-# non linearity
+# Non-Linearity
 replace xor with some non linear function
 apply non lienar function to entire state
 combine multiple non linearly
