@@ -42,7 +42,10 @@ To set up, we have a seed and initialisation vector. seed fills first 80 bits of
 
 ## Salsa20 and ChaCha20
 We take as input 256 bit seed, 64 bit iv. made up of a padding function pad and permutation pi.
-pad takes seed, iv and a 64-bit counter (which tracks which block this is), using this to form a 512 bit block.
-
-perumation has threre operations, addition (modulo 2^32 (?)), bitwise totation and xor. prg outputs 512 blocks as needsed, where ith block is pi(pad) xor pad
+Pad takes seed, IV and a 64-bit counter (which tracks which block this is), using this to form a 512 bit block.
+Permutation has three operations:
+- **Addition (modulo $2^{32}$):** Adds two 32-bit numbers and throws away any overflow past 32 bits (like a clock wrapping around). This creates the non-linearity needed to stop linear algebra attacks.
+- **Bitwise Rotation:** Shifts bits left, but instead of dropping the ones that fall off the end, it loops them back around to the right side (like a wheel spinning). This spreads changes quickly across the block.
+- **XOR:** Standard bitwise XOR.
+This outputs 512 blocks as needed, where ith block is pi(pad) xor pad
 
