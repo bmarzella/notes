@@ -34,7 +34,9 @@ To generate output:
 3. This is completely linear.
 
 To generate feedback:
-1. Each FSR pulls from self and other 
+1. Each FSR pulls from self and other FSRs.
+2. Before XORing bits, takes two adjacent bits from another register and ANDs them.
+3. AND destroys linearity.
 
 
 need to choose function wisely, and would probably end up mostly 0s which is particularly bad as we established, or would be all ones etc
