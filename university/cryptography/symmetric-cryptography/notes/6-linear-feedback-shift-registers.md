@@ -53,4 +53,6 @@ The $i^{th}$ block is $\pi(h_i) \oplus h_i$, where $h_i$ is the block created by
 ChaCha is just an improved variant of Salsa. Both are considered secure.
 
 ## Generating Random Bits in Practice
-To produce a secure keystream with a PRG, we need a truly random seed.
+To produce a secure keystream with a PRG, we need a truly random seed. See [[5. psuedorandom-generators-and-stream-ciphers#Issues with Generating Truly Random Keys|this outline on TRGs]].
+
+# Summary

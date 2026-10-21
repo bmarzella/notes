@@ -213,8 +213,9 @@
   },
   "active": "18a41867737590e9",
   "lastOpenFiles": [
-    "Untitled.md",
+    "cryptography/symmetric-cryptography/notes/5. psuedorandom-generators-and-stream-ciphers.md",
     "cryptography/symmetric-cryptography/notes/6-linear-feedback-shift-registers.md",
+    "Untitled.md",
     "Pasted image 20261021093217.png",
     "housekeeping.md",
     "digital-humanities/computational-modeling-in-humanities/notes/lecture-1.md",
@@ -225,7 +226,6 @@
     "applied-security/notes/buffer-overflows.md",
     "applied-security/notes/admin.md",
     "dissertation/intro-lecture.md",
-    "cryptography/symmetric-cryptography/notes/5. psuedorandom-generators-and-stream-ciphers.md",
     "cryptography/symmetric-cryptography/notes/4. semantic-security.md",
     "advanced-computer-systems/multi-core-computer-architecture/lectures/Lec2.pdf",
     "advanced-computer-systems/multi-core-computer-architecture/notes/5-data-parallelism-and-threading.md",
