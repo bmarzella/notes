@@ -26,6 +26,8 @@ Apply non linear function to entire state to decide our output
 ## Nonlinear Combine
 Slide is self explanatory.
 # Practical Stream Cipher Constructions
+## Trivium
+Example of first non-linearity type.
 
 need to choose function wisely, and would probably end up mostly 0s which is particularly bad as we established, or would be all ones etc
 non linear functions need to take a random input and return a roughly random output, not the case for and or or
