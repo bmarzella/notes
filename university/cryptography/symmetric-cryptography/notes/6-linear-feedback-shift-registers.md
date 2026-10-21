@@ -35,8 +35,7 @@ To generate output:
 
 To generate feedback:
 1. Each FSR pulls from self and other FSRs.
-2. Before XORing bits, takes two adjacent bits from previous register and ANDs them.
-3. AND destroys linearity.
+2. Feedback is 
 *B will take two bits from A, AND them, then XORs internal bits with the result of the AND.*
 
 
