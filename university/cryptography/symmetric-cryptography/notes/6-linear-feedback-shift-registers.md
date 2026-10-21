@@ -12,7 +12,7 @@ This has some **implications:**
 
 ![[Pasted image 20261021093217.png]]
 
-*Note *
+*Note the initial state, the left-most bit is the highest index, we are XORing the rightmost bits to get our fill value.*
 
 All of this is linear, so multiplying a state by the inverse matrix lets us step a state backwards. An attacker isn't likely to see the entire keystream in a transmission, but this lets them reverse back to the seed from observing any $2n$ bits.
 # Non-Linearity
