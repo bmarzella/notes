@@ -41,11 +41,8 @@ To generate feedback:
 To set up, we have a seed and initialisation vector. seed fills first 80 bits of A, IV first 80 of B, all else is 0 except for final 3 bits of C, which are 1. This runs for 1152 clock cycles before it begins to produce output, ensuring initial state is shaken up first.
 
 ## Salsa20 and ChaCha20
+We take as input 256 bit seed, 64 bit iv. made up of a padding function pad and permutation pi.
+pad takes seed, iv and a 64-bit counter (which tracks which block this is), using this to form a 512 bit block.
 
-need to choose function wisely, and would probably end up mostly 0s which is particularly bad as we established, or would be all ones etc
-non linear functions need to take a random input and return a roughly random output, not the case for and or or
-doing this gives us an FSR, droppping the linear
-
-trivium for example does something probably
-snow does non linear of entire state
+perumation has threre operations, addition (modulo 2^32 (?)), bitwise totation and xor. prg outputs 512 blocks as needsed, where ith block is pi(pad) xor pad
 
