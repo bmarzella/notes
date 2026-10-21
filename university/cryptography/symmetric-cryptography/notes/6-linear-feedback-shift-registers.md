@@ -51,8 +51,11 @@ Permutation then scrambles each block produced by Pad. It has three operations:
 The $i^{th}$ block is $\pi(h_i) \oplus h_i$, where $h_i$ is the block created by Pad.
 
 ChaCha is just an improved variant of Salsa. Both are considered secure.
-
-## Generating Random Bits in Practice
+# Generating Random Bits in Practice
 To produce a secure keystream with a PRG, we need a truly random seed. See [[5. psuedorandom-generators-and-stream-ciphers#Issues with Generating Truly Random Keys|this outline on TRGs]].
-
 # Summary
+1. LFSRs provide efficient pseudorandom generation but are cryptographically weak alone  
+2. Nonlinearity is essential - can be introduced via feedback, output, or combination  
+3. Modern ciphers like Trivium and ChaCha20 use sophisticated nonlinear constructions  
+4. Random number generation requires continuous entropy collection from environment  
+5. Security depends on implementation - proper entropy management is crucial
