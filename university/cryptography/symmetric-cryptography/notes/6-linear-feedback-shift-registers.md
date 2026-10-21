@@ -10,6 +10,8 @@ This has some **implications:**
 2. If we ever see any state again, then we'll begin looping. At best, we can get $2^{n}-1$ states before we'll definitely repeat.
 	- $-1$ because seeing all zeroes guarantees we get stuck.
 
+![[Pasted image 20261021093217.png]]
+
 All of this is linear, so multiplying a state by the inverse matrix lets us step a state backwards. An attacker isn't likely to see the entire keystream in a transmission, but this lets them reverse back to the seed from observing any $2n$ bits.
 # Non-Linearity
 replace xor with some non linear function
