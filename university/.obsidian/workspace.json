@@ -194,6 +194,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "slide-note:Slide Note Block Generator": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
