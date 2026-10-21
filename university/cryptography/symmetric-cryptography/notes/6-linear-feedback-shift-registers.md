@@ -35,8 +35,9 @@ To generate output:
 
 To generate feedback:
 1. Each FSR pulls from self and other FSRs.
-2. Feedback is 
-*B will take two bits from A, AND them, then XORs internal bits with the result of the AND.*
+2. Feedback is a function taking a bit from this FSR and a subset of bits from other FSRs.
+*Notes don't go into any more detail than this, so I assume this is all I need to know.*
+
 
 
 need to choose function wisely, and would probably end up mostly 0s which is particularly bad as we established, or would be all ones etc
