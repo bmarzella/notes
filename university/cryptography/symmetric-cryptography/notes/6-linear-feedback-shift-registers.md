@@ -19,10 +19,9 @@ All of this is linear, so multiplying a state by the inverse matrix lets us step
 To solve the linearity issue, we introduce non-linear elements. We can do this in three ways:
 ## Non-Linear Feedback Function
 *Feedback function being how we select our input bit per cycle.*
-Replace XOR with some non linear function with $\approx \frac{1}{2}$  probability of `0` or `1`
-
-
-
+Replace XOR with some non linear function with $\approx \frac{1}{2}$ probability of `0` or `1`.
+Result is a **Feedback Shift Register (FSR)**
+## Nonlinear Output Function
 apply non linear function to entire state
 combine multiple non linearly
 
