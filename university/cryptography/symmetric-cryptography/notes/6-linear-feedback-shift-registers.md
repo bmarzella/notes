@@ -39,7 +39,6 @@ To generate feedback:
 *Notes don't go into any more detail than this, so I assume this is all I need to know.*
 
 To set up, we have a seed and initialisation vector. seed fills first 80 bits of A, IV first 80 of B, all else is 0 except for final 3 bits of C, which are 1. This runs for 1152 clock cycles before it begins to produce output, ensuring initial state is shaken up first.
-
 ## Salsa20 and ChaCha20
 We take as input 256 bit seed, 64 bit iv. made up of a padding function pad and permutation `pi`.
 Pad takes seed, IV and a 64-bit counter (which tracks which block this is), using this to form a 512 bit block.
