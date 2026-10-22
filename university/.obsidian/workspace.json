@@ -20,6 +20,20 @@
               "icon": "lucide-file",
               "title": "exploitation-and-fuzzing"
             }
+          },
+          {
+            "id": "13c71c8fc4c88e8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "applied-security/notes/1-buffer-overflows.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1-buffer-overflows"
+            }
           }
         ]
       }
@@ -213,8 +227,10 @@
   },
   "active": "18a41867737590e9",
   "lastOpenFiles": [
-    "applied-security/lectures/fuzzing-and-software-testing.pdf",
+    "applied-security/notes/1-buffer-overflows.md",
     "applied-security/notes/2-fuzzing-and-software-testing.md",
+    "applied-security/labs/exploitation-and-fuzzing.md",
+    "applied-security/lectures/fuzzing-and-software-testing.pdf",
     "cryptography/symmetric-cryptography/notes/6-linear-feedback-shift-registers.md",
     "cryptography/symmetric-cryptography/notes/5. psuedorandom-generators-and-stream-ciphers.md",
     "Untitled.md",
@@ -239,8 +255,6 @@
     "digital-humanities/computational-modeling-in-humanities/notes/2-text-preprocessing-and-modelling.md",
     "slides/Lecture 3.pdf",
     "slides/stream_ciphers_lecture_2.pdf",
-    "applied-security/labs/exploitation-and-fuzzing.md",
-    "applied-security/notes/1-buffer-overflows.md",
     "applied-security/notes/0-admin.md",
     "applied-security/lectures",
     "digital-humanities/computational-modeling-in-humanities/lectures",
