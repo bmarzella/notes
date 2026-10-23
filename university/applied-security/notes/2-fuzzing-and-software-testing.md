@@ -102,7 +102,7 @@ hello bro <3
 - Address sanitiser is probably the most relevant
 	- Helps us find memory issues
 ## Roadblocks
-
+- Sometimes a fuzzer will get stuck at a branch and miss a lot of functionality, we have ways to address this
 ## 4. Practical Tooling (AFL++ / ASan)
 - 
 
