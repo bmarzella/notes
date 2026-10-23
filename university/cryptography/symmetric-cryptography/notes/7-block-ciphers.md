@@ -46,7 +46,7 @@ We want to produce the 16 subkeys for Feistel's 16 rounds. We want a 48-bit key 
 **How we get the key - find out in practical!**
 We get the subkeys by shifting the main key and take a permutation. Basically we move the key a bit and then take some random bits from it.
 
-
+We have to turn our right half from 32 to 48 bits so it matches the key le
 
 
 
