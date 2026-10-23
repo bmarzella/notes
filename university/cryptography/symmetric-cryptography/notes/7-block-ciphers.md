@@ -12,4 +12,6 @@ Lack of **diffusion**
 ## Feistel
 - Iterative, consisting of total rounds r
 - Split input in half, giving us a left (L) and right (R) half, each t bits long.
-- In each round, one half goes through an enryption functio
+- In each round, one half goes through an encryption function.
+- Encrypted half is XORd with other half
+- 
