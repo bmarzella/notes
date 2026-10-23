@@ -9,4 +9,5 @@ Lack of **diffusion**
 - Because each block is handled individually, the plaintext isn't "spread out" throughout the ciphertext
 - This means patterns are hidden poorly and are able to be found in the ciphertext.
 - Thus, **ECB** is not recommended.
-## 
+## Feistel
+Iterated, maps a $2t$-bit plaintext (where the plaintext is made of two $t$-bit blocks) 
