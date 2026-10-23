@@ -44,5 +44,7 @@ This all results in a simple to use process. Decryption is the same as encryptio
 ### Key Schedule
 We want to produce the 16 subkeys for Feistel's 16 rounds. We want a 48-bit key for every round (which is weird, because surely we'd do $r$, again, no clear reason for this.)
 **How we get the key - find out in practical!**
-We get the subkeys by shuffling around the main key
+We get the subkeys by shuffling around the main key and taking a subset.
+
+
 
