@@ -70,7 +70,9 @@ As the program executes, every `if/else` statement or check adds a mathematical 
 - 
 #### Source
 - 
-- 
+### Terminology
+- Harness, wrapper for target the fuzzer targets
+- Seeds, initial corpus
 ## 4. Practical Tooling (AFL++ / ASan)
 - 
 
