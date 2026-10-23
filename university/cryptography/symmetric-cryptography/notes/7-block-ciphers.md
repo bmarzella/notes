@@ -26,7 +26,7 @@ The $f$ function doesn't need to be invertible (hence why I called it a scrambli
 Only the right side ever acts as an input on $f$, the left side is never touched (and vice-versa for decryption). 
 - Sides swap each round, so both halves are used as input, but it's always one side.
 
-This all results in a simple to use process. Decryption is the same as encryption, we 
+This all results in a simple to use process. Decryption is the same as encryption, all we change is the order of the keys, and we don't have to worry about making $f$ reversible, making designing the function easier!
 ## Properties of a Good Cipher
 **Confusion**
 Each ciphertext bit should depend on multiple plaintexts bits.
