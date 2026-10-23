@@ -50,8 +50,9 @@ We have to turn our right half from 32 to 48 bits so it matches the key length. 
 
 A substitution box is basically a giant lookup table. We divide our 48-bits into 8 6-bit strings, each of which is put into a box which applies some non linear function.
 1. Take 6-bit string, read bits 1 and 6 as a number, that's our row number
-2. Column number
-3. Output is the number in the table.
+2. Column number ????????????
+3. Output is the corresponding number in the table.
+
 
 
 
