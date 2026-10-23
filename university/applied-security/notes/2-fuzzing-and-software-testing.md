@@ -103,8 +103,3 @@ hello bro <3
 	- Helps us find memory issues
 ## Roadblocks
 - Sometimes a fuzzer will get stuck at a branch and miss a lot of functionality, we have ways to address this
-## 4. Practical Tooling (AFL++ / ASan)
-- 
-
-## 5. Confusing Points / Slide Numbers
--
