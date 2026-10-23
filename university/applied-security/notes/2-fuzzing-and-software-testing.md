@@ -53,10 +53,14 @@ As the program executes, every `if/else` statement or check adds a mathematical 
 - Most common
 - Fuzzer is biased towards new paths 
 ### Instrumentation
-- Modifying the code to change its functionality, in our case we use this to help guide the fuzzer.
+- Modifying the code to change its functionality, in our case we use this to help the fuzzer.
 	- Re-writing the binary so it does the same thing but keeps some extra tracking information, for example
 ### Input Creation
-
+#### Mutation-based
+- Start somewhere, random string, valid input, set of valid inputs etc
+- Apply mutations, flip a bit, increase length etc
+- See what that does to coverage, if it's good for coverage, bias mutation in that direction
+- 
 ## 4. Practical Tooling (AFL++ / ASan)
 - 
 
