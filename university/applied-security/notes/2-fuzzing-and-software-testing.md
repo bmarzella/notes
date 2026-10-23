@@ -99,7 +99,8 @@ hello bro <3
 - Want to tell apart bugs and not bugs
 	- Crash = bug, but a bug doesnt always cause a crash
 - Sanitisers (instrumentation helps too) try to identify what is and isnt a bug
-- 
+- Address sanitiser is probably the most relevant
+	- Helps us find memory issues
 
 ## 4. Practical Tooling (AFL++ / ASan)
 - 
