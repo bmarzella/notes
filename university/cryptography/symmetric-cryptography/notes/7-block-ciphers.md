@@ -31,3 +31,5 @@ Each ciphertext bit should depend on multiple plaintexts bits.
 **Diffusion**
 Changing the plaintext should change many ciphertext bits.
 **Nonlinearity**
+???
+## Data Encryption Standard
