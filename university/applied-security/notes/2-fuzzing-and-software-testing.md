@@ -86,6 +86,11 @@ hello bro <3
 - More than just a fuzzer
 ### What does it do
 - afl-fuzz provides test inputs to target
+- executres and tracks tests
+
+### Instrumentation
+- Replaces compiler with afl's compiler
+- Run afl on result (not the original binary!)
 - 
 ## 4. Practical Tooling (AFL++ / ASan)
 - 
