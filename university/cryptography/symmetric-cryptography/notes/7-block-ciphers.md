@@ -59,6 +59,7 @@ This gives us a 32-bit string, which is permuted again.
 ## A Good s-box
 Lets say, for each input i0 through i7, we want a 2-bit output.
 
-| 0   | 1   |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-|     |     |     |     |     |     |     |     |
+| Input Index | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   |
+| ----------- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Output      | 1   | 2   | 0   | 2   | 1   | 3   | 3   | 3   |
+There's no (obvious) linear function here, but that's a bit hard to prove in our heads. It looks non-l
