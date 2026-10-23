@@ -7,4 +7,6 @@ A block cipher isn't a cryptosystem, rather it is used to encrypt particular blo
 
 Lack of **diffusion**
 - Because each block is handled individually, the plaintext isn't "spread out" throughout the ciphertext
-- This means 
+- This means patterns are hidden poorly and are able to be found in the ciphertext.
+- Thus, **ECB** is not recommended.
+## 
