@@ -10,4 +10,5 @@ Lack of **diffusion**
 - This means patterns are hidden poorly and are able to be found in the ciphertext.
 - Thus, **ECB** is not recommended.
 ## Feistel
-Split input in half, giving us a left (L) and rigt
+- Split input in half, giving us a left (L) and right (R) half, each t bits long.
+- 

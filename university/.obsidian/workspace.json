@@ -116,8 +116,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "6746306fa571459e",
@@ -247,8 +246,9 @@
   },
   "active": "bc45bec8af2620bc",
   "lastOpenFiles": [
-    "cryptography/symmetric-cryptography/notes/0-lecture-notes.pdf",
+    "cryptography/symmetric-cryptography/notes/6-linear-feedback-shift-registers.md",
     "cryptography/symmetric-cryptography/notes/7-block-ciphers.md",
+    "cryptography/symmetric-cryptography/notes/0-lecture-notes.pdf",
     "applied-security/notes/2-fuzzing-and-software-testing.md",
     "images/Pasted image 20261023133313.png",
     "applied-security/lectures/fuzzing-and-software-testing.pdf",
@@ -257,7 +257,6 @@
     "applied-security/notes/1-buffer-overflows.md",
     "applied-security/lectures/week15-forensics.pdf",
     "applied-security/lectures/Pasted image 20261021093217.png",
-    "cryptography/symmetric-cryptography/notes/6-linear-feedback-shift-registers.md",
     "housekeeping.md",
     "digital-humanities/computational-modeling-in-humanities/notes/lecture-1.md",
     "digital-humanities/computational-modeling-in-humanities/notes/admin.md",
