@@ -4,4 +4,7 @@ Lecture notes complicate this a lot, all it means is that a block cipher accepts
 A block cipher isn't a cryptosystem, rather it is used to encrypt particular block(s) of data which are much shorter than the messages we want to encrypt (key length $\geq$ block length). To form a full cryptosystem, we define a **mode of operation.**
 ## Electronic Codebook
 **Message divided into blocks, each block is encrypted/decrypted separately.** 
-- Blocks are easy to spot, therefore patterns present 
+
+Lack of **diffusion**
+- Because each block is handled individually, the plaintext isn't "spread out" throughout the ciphertext
+- This means 
