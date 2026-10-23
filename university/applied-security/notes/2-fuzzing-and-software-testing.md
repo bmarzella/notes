@@ -60,6 +60,13 @@ As the program executes, every `if/else` statement or check adds a mathematical 
 - Start somewhere, random string, valid input, set of valid inputs etc
 - Apply mutations, flip a bit, increase length etc
 - See what that does to coverage, if it's good for coverage, bias mutation in that direction
+- Usually doing this
+### Generation-based
+- If we know input structure, ????????????
+
+### Target
+#### Binary
+#### Source
 - 
 ## 4. Practical Tooling (AFL++ / ASan)
 - 
