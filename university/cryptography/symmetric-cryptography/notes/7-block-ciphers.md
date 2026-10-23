@@ -48,7 +48,7 @@ We get the subkeys by shifting the main key and take a permutation. Basically we
 
 We have to turn our right half from 32 to 48 bits so it matches the key length. We do this with expansion function $E$, which just puts it into a slightly different order and repeats some bits.
 
-
+A substitution box is basically a giant lookup table. We divide our 48-bits into 8 6-bit strings, each of which is put into a box which applies some non linear function.
 
 
 
