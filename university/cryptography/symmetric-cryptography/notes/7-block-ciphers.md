@@ -58,3 +58,4 @@ A substitution box is basically a giant lookup table. We divide our 48-bits into
 This gives us a 32-bit string, which is permuted again.
 
 
+# Attacking Block Ciphers
