@@ -90,7 +90,11 @@ hello bro <3
 - Replaces compiler with afl's compiler
 - Run afl on result (not the original binary!)
 ### Mutation Strategies
-- Trim - Make test as short as posibl
+- Trim - Make test as short as possible without reducing coverage
+- ??
+- Flipping bits
+- Combination of multiple strategies, deleting blocks, duplicating blocks etc
+- Can run multiple fuzzing processes in parallel and swap test cases between
 ## 4. Practical Tooling (AFL++ / ASan)
 - 
 
