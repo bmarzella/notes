@@ -21,4 +21,4 @@ Lack of **diffusion**
 
 Decryption just does this but reversing the order of subkeys.
 
-The $f$ function doesn't need to be invertible (hence why I called it a scrambling function) to allow for decryption. It can be any function (of course, choice does matter).
+The $f$ function doesn't need to be invertible (hence why I called it a scrambling function) to allow for decryption. It can be any function as long as that function doesn't compromise the cipher.

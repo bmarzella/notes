@@ -244,10 +244,10 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "c1e6395ca992d178",
+  "active": "bc45bec8af2620bc",
   "lastOpenFiles": [
-    "cryptography/symmetric-cryptography/notes/7-block-ciphers.md",
     "cryptography/symmetric-cryptography/notes/0-lecture-notes.pdf",
+    "cryptography/symmetric-cryptography/notes/7-block-ciphers.md",
     "cryptography/symmetric-cryptography/notes/6-linear-feedback-shift-registers.md",
     "applied-security/notes/2-fuzzing-and-software-testing.md",
     "images/Pasted image 20261023133313.png",
