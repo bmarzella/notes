@@ -67,3 +67,9 @@ There's no (obvious) linear function here, but that's a bit hard to prove in our
 idk
 ## DES Security
 56-bits is just too small for a key.
+
+## Variants and Legacy
+### Triple DES
+- Uses DES three times
+- Effective key length of 112 or 168 bits
+- 
