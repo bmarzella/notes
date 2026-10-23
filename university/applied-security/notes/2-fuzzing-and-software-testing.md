@@ -66,7 +66,10 @@ As the program executes, every `if/else` statement or check adds a mathematical 
 
 ### Target
 #### Binary
+- Challenging to instrument, difficult to modify binary without changing function
+- 
 #### Source
+- 
 - 
 ## 4. Practical Tooling (AFL++ / ASan)
 - 
