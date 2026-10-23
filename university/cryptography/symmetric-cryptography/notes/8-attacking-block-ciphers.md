@@ -6,4 +6,4 @@ If an s-box often produces an output-differential when given an input-differenti
 
 linear, if input differential results in an output differential, an pair of inputs that produce that differential produce that sme output differential
 
-Consider examples in notes, non-linear 4-bit to 4-bit. 
+Consider examples in notes, non-linear 4-bit to 4-bit. 8 possible input differentials
