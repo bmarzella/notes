@@ -27,11 +27,10 @@ Only the right side ever acts as an input on $f$, the left side is never touched
 - Sides swap each round, so both halves are used as input, but it's always one side.
 
 This all results in a simple to use process. Decryption is the same as encryption, all we change is the order of the keys, and we don't have to worry about making $f$ reversible, making designing the function easier!
-## Properties of a Good Cipher
-**Confusion**
-Each ciphertext bit should depend on multiple plaintexts bits.
-**Diffusion**
-Changing the plaintext should change many ciphertext bits.
+### Properties of a Feistal Function
+1. **Confusion** - Each ciphertext bit should depend on multiple plaintexts bits.
+2. **Diffusion** - Changing a single plaintext bit should change many ciphertext bits.
+
 **Nonlinearity**
 ???
 ## Data Encryption Standard
