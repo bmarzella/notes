@@ -34,5 +34,7 @@ This all results in a simple to use process. Decryption is the same as encryptio
 	- Otherwise we can look at small sections in isolation, which is much easier than breaking the full ciphertext.
 3. **Nonlinearity** - Linearity lets us do a lot to find the keys.
 ## Data Encryption Standard
-Feistal cipher that works with 64-bit blocks.
-64-bit keys, divided into 8-bit bytes. Last bit of ea
+- Feistal cipher that works with 64-bit blocks.
+- 64-bit keys, divided into 8-bit bytes. Last bit of each bit is a parity bite ???
+- This means keys are effectively 56-bits
+	- No idea why this is the case, and part of the 
