@@ -44,8 +44,7 @@ As the program executes, every `if/else` statement or check adds a mathematical 
 
 > *What inputs do I need to feed this program so it satisfies all the conditions required to reach line X?"*
 ## 3. Fuzzing Engine & Loop
-- 
-
+- Feeding random inputs and checking for cra
 ## 4. Practical Tooling (AFL++ / ASan)
 - 
 
