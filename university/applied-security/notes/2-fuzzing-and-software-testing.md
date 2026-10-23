@@ -91,10 +91,14 @@ hello bro <3
 - Run afl on result (not the original binary!)
 ### Mutation Strategies
 - Trim - Make test as short as possible without reducing coverage
-- ??
+- Increasing or decreasing numbers
 - Flipping bits
 - Combination of multiple strategies, deleting blocks, duplicating blocks etc
 - Can run multiple fuzzing processes in parallel and swap test cases between
+### Sanitisers
+- Want to tell apart bugs and not bugs
+- Crash 
+
 ## 4. Practical Tooling (AFL++ / ASan)
 - 
 
