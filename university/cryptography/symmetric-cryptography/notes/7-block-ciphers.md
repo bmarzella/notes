@@ -24,4 +24,5 @@ Decryption just does this but reversing the order of subkeys.
 The $f$ function doesn't need to be invertible (hence why I called it a scrambling function) to allow for decryption. It can be any function as long as that function doesn't compromise the cipher.
 
 Only the right side ever acts as an input on $f$, the left side is never touched (and vice-versa for decryption). 
-- 
+- Sides swap each round, so both halves are used as input, but it's always one side.
+## Properties of a Good
