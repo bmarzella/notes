@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "applied-security/notes/3-forensics.md",
+                "file": "applied-security/notes/3-digital-forensics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3-forensics"
+              "title": "3-digital-forensics"
             }
           }
         ],
@@ -261,7 +261,7 @@
   "active": "b1ee7e66e9dad655",
   "lastOpenFiles": [
     "applied-security/lectures/week15-forensics.pdf",
-    "applied-security/notes/3-forensics.md",
+    "applied-security/notes/3-digital-forensics.md",
     "applied-security/lectures/fuzzing-and-software-testing.pdf",
     "applied-security/lectures/Pasted image 20261021093217.png",
     "applied-security/labs/exploitation-and-fuzzing.md",
