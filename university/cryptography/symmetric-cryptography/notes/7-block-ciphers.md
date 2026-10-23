@@ -25,4 +25,9 @@ The $f$ function doesn't need to be invertible (hence why I called it a scrambli
 
 Only the right side ever acts as an input on $f$, the left side is never touched (and vice-versa for decryption). 
 - Sides swap each round, so both halves are used as input, but it's always one side.
-## Properties of a Good
+## Properties of a Good Cipher
+**Confusion**
+Each ciphertext bit should depend on multiple plaintexts bits.
+**Diffusion**
+Changing the plaintext should change many ciphertext bits.
+**Nonlinearity**
