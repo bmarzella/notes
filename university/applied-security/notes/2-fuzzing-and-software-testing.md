@@ -101,6 +101,7 @@ hello bro <3
 - Sanitisers (instrumentation helps too) try to identify what is and isnt a bug
 - Address sanitiser is probably the most relevant
 	- Helps us find memory issues
+## Roadblocks
 
 ## 4. Practical Tooling (AFL++ / ASan)
 - 
