@@ -36,12 +36,12 @@
             }
           },
           {
-            "id": "fc7a26cb7f537aa8",
+            "id": "b1ee7e66e9dad655",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3-forensics.md",
+                "file": "applied-security/notes/3-forensics.md",
                 "mode": "source",
                 "source": false
               },
@@ -51,6 +51,24 @@
           }
         ],
         "currentTab": 2
+      },
+      {
+        "id": "7c679dc9d48379fb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "42bc39ba10d3293e",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "applied-security/lectures/week15-forensics.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "week15-forensics"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -240,14 +258,16 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "eaf23f3a502c1941",
+  "active": "b1ee7e66e9dad655",
   "lastOpenFiles": [
+    "applied-security/lectures/week15-forensics.pdf",
+    "applied-security/notes/3-forensics.md",
+    "applied-security/lectures/fuzzing-and-software-testing.pdf",
+    "applied-security/lectures/Pasted image 20261021093217.png",
     "applied-security/labs/exploitation-and-fuzzing.md",
-    "3-forensics.md",
     "applied-security/notes/1-buffer-overflows.md",
     "applied-security/notes/2-fuzzing-and-software-testing.md",
     "cryptography/symmetric-cryptography/notes/6-linear-feedback-shift-registers.md",
-    "Pasted image 20261021093217.png",
     "housekeeping.md",
     "digital-humanities/computational-modeling-in-humanities/notes/lecture-1.md",
     "digital-humanities/computational-modeling-in-humanities/notes/admin.md",
@@ -269,7 +289,6 @@
     "digital-humanities/computational-modeling-in-humanities/notes/2-text-preprocessing-and-modelling.md",
     "slides/Lecture 3.pdf",
     "slides/stream_ciphers_lecture_2.pdf",
-    "applied-security/lectures/fuzzing-and-software-testing.pdf",
     "applied-security/notes/0-admin.md",
     "applied-security/lectures",
     "digital-humanities/computational-modeling-in-humanities/lectures",
@@ -279,8 +298,6 @@
     "cryptography/symmetric-cryptography/notes/3. perfect-cryptosystems.md",
     "cryptography/symmetric-cryptography/notes/2. historical-cryptosystems.md",
     "cryptography/symmetric-cryptography/notes/1. intro-to-crypto.md",
-    "advanced-computer-systems/multi-core-computer-architecture/notes/3. branch-prediction.md",
-    "slides/Workshop 1 - Slides.pdf",
     "images/Pasted image 20261013183535.png",
     "images/Pasted image 20261013175304.png",
     "images/Pasted image 20261013174616.png",
