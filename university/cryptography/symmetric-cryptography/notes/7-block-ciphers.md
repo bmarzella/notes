@@ -13,6 +13,9 @@ Lack of **diffusion**
 - Iterative, consisting of total rounds r
 - Split input in half, giving us a left (L) and right (R) half, each t bits long.
 - In each round, left half goes through an encryption function.
+	- The subkey for each round is derived from main encryption key
 - Encrypted half is XORd with other half
 - Split again and halves swap sides
-- Once we reach r rounds, we combine our halves one last time to get our 
+- Once we reach r rounds, we combine our halves one last time to get our ciphertext.
+
+Decryption just does this in reverse.
