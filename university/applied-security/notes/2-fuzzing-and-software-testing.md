@@ -84,6 +84,9 @@ hello bro <3
 - Coverage, mutation based
 - Fast, reliable, easy to use
 - More than just a fuzzer
+### What does it do
+- afl-fuzz provides test inputs to target
+- 
 ## 4. Practical Tooling (AFL++ / ASan)
 - 
 
