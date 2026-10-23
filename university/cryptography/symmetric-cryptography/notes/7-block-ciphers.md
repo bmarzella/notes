@@ -15,7 +15,7 @@ Lack of **diffusion**
 - Split input in half, giving us a left (L) and right (R) half, each t bits long.
 - In each round, right half goes through an encryption function.
 	- The subkey for each round is derived from main encryption key
-- Encrypted right half is XORd with left half, producing a new right half
+- Scrambled right half is XORd with left half, producing a new right half
 - Halves swap sides, right becomes left and vice versa
 - Once we reach r rounds, we swap our halves one last time and combine to get our ciphertext.
 
