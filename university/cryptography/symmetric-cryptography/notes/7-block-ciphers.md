@@ -15,7 +15,7 @@ Lack of **diffusion**
 - In each round, right half goes through an encryption function.
 	- The subkey for each round is derived from main encryption key
 - Encrypted right half is XORd with left half, producing a new right half
-- Split again and halves swap sides
+- Halves swap sides, right becomes left and vice versa
 - Once we reach r rounds, we combine our halves one last time to get our ciphertext.
 
 Decryption just does this but reversing the order of subkeys.
