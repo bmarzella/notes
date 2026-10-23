@@ -57,4 +57,8 @@ A substitution box (s-box) is basically a giant lookup table. We divide our 48-b
 
 This gives us a 32-bit string, which is permuted again.
 ## A Good s-box
-Lets say, for each input i0 through i7, we want a 2-bit 
+Lets say, for each input i0 through i7, we want a 2-bit output.
+
+| 0   | 1   |     |     |     |     |     |     |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|     |     |     |     |     |     |     |     |
