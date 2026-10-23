@@ -42,5 +42,7 @@ This all results in a simple to use process. Decryption is the same as encryptio
 	- At this point, security by obscurity was still a thing, so we don't really know why a lot of things about DES are the way they are
 
 ### Key Schedule
-We want to produce the 16 subkeys for feistal's 16 rounds. We want a 48-bit key for every round (which is weird, because surely we'd do half the plaintext length)
+We want to produce the 16 subkeys for Feistel's 16 rounds. We want a 48-bit key for every round (which is weird, because surely we'd do $r$, again, no clear reason for this.)
+**How we get the key - find out in practical!**
+We get the subkeys by shuffling around the main key
 
