@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "c1e6395ca992d178",
+            "id": "bc45bec8af2620bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -37,6 +37,24 @@
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "27c510fac3ee5a73",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c1e6395ca992d178",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "cryptography/symmetric-cryptography/notes/0-lecture-notes.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "0-lecture-notes"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -226,10 +244,11 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "c1e6395ca992d178",
+  "active": "bc45bec8af2620bc",
   "lastOpenFiles": [
-    "applied-security/notes/2-fuzzing-and-software-testing.md",
+    "cryptography/symmetric-cryptography/notes/0-lecture-notes.pdf",
     "cryptography/symmetric-cryptography/notes/7-block-ciphers.md",
+    "applied-security/notes/2-fuzzing-and-software-testing.md",
     "images/Pasted image 20261023133313.png",
     "applied-security/lectures/fuzzing-and-software-testing.pdf",
     "applied-security/notes/3-digital-forensics.md",
@@ -264,10 +283,8 @@
     "digital-humanities/computational-modeling-in-humanities/lectures",
     "digital-humanities/computational-modeling-in-humanities/notes/1-introduction.md",
     "digital-humanities/computational-modeling-in-humanities/notes/0-admin.md",
-    "applied-security/labs",
     "cryptography/symmetric-cryptography/notes/3. perfect-cryptosystems.md",
     "cryptography/symmetric-cryptography/notes/2. historical-cryptosystems.md",
-    "cryptography/symmetric-cryptography/notes/1. intro-to-crypto.md",
     "images/Pasted image 20261013183535.png",
     "images/Pasted image 20261013175304.png",
     "images/Pasted image 20261013174616.png",
