@@ -74,7 +74,7 @@ As the program executes, every `if/else` statement or check adds a mathematical 
 - Harness, wrapper for target the fuzzer targets
 - Seeds, initial corpus
 ### Algorithm
-Fill queue with test inputs, record the results of the inputs, once this set of inputs is done, pick at least one to 
+Fill queue with test inputs, record the results of the inputs, once this set of inputs is done, pick at least one to base our next next set of inputs on
 ## 4. Practical Tooling (AFL++ / ASan)
 - 
 
