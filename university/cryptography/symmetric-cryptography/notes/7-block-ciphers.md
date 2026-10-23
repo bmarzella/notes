@@ -62,4 +62,4 @@ Lets say, for each input i0 through i7, we want a 2-bit output.
 | Input Index | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   |
 | ----------- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Output      | 1   | 2   | 0   | 2   | 1   | 3   | 3   | 3   |
-There's no (obvious) linear function here, but that's a bit hard to prove in our heads. It looks non-l
+There's no (obvious) linear function here, but that's a bit hard to prove in our heads. It looks non-linear.
