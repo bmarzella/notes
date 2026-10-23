@@ -97,7 +97,9 @@ hello bro <3
 - Can run multiple fuzzing processes in parallel and swap test cases between
 ### Sanitisers
 - Want to tell apart bugs and not bugs
-- Crash 
+	- Crash = bug, but a bug doesnt always cause a crash
+- Sanitisers (instrumentation helps too) try to identify what is and isnt a bug
+- 
 
 ## 4. Practical Tooling (AFL++ / ASan)
 - 
