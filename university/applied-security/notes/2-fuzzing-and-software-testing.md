@@ -47,7 +47,9 @@ As the program executes, every `if/else` statement or check adds a mathematical 
 - Feeding random inputs and seeing what happens
 ### Feedback-driven
 - In modern programs we use feedback from fuzzing runs to guide test creation
-- For most feedback, we need some feed
+- For most feedback, we need some feedback
+	- For example, if we are white box testing, we can use a special compiler that can guide the fuzzer
+- 
 ## 4. Practical Tooling (AFL++ / ASan)
 - 
 
