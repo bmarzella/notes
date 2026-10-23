@@ -52,9 +52,9 @@ A substitution box is basically a giant lookup table. We divide our 48-bits into
 1. Take 6-bit string, read bits 1 and 6 as two bits, denary is our row number
 	- `011011` -> `01` -> row 1
 2. Take remaining middle 4-bits, read as denary for column number
-	- ``
+	- `011011` -> `1101` -> column 13
 3. Output is the corresponding number in the table.
 
-
+This gives us a 32-bit string, which is permuted again.
 
 
