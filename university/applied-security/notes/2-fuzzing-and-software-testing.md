@@ -89,7 +89,8 @@ hello bro <3
 ### Instrumentation
 - Replaces compiler with afl's compiler
 - Run afl on result (not the original binary!)
-- 
+### Mutation Strategies
+- Trim - Make test as short as posibl
 ## 4. Practical Tooling (AFL++ / ASan)
 - 
 
