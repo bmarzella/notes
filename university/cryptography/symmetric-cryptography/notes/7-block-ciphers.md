@@ -35,7 +35,8 @@ This all results in a simple to use process. Decryption is the same as encryptio
 3. **Nonlinearity** - Linearity lets us do a lot to find the keys.
 ## Data Encryption Standard
 - Feistal cipher that works with 64-bit blocks.
-- 64-bit keys, divided into 8-bit bytes. Last bit of each bit is a parity bite ???
+- 64-bit keys, divided into 8-bit bytes. Last bit of each bit is a parity bit
+	- Last bit is set so the total number of 1s is always odd
 - This means keys are effectively 56-bits
 	- No idea why this is the case, and primary reason it's now considered insecure.
-- 
+
