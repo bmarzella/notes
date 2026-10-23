@@ -10,4 +10,4 @@ Lack of **diffusion**
 - This means patterns are hidden poorly and are able to be found in the ciphertext.
 - Thus, **ECB** is not recommended.
 ## Feistel
-Iterated, maps a $2t$-bit plaintext (where the plaintext is made of two $t$-bit blocks) to a ciphertext.
+Split input in half, giving us a left (L) and rigt
