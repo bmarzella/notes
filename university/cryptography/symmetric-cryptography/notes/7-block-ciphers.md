@@ -48,7 +48,7 @@ We get the subkeys by shifting the main key and take a permutation. Basically we
 
 We have to turn our right half from 32 to 48 bits so it matches the key length. We do this with expansion function $E$, which just puts it into a slightly different order and repeats some bits.
 
-A substitution box is basically a giant lookup table. We divide our 48-bits into 8 6-bit strings, each of which is put into a box which applies some non linear function.
+A substitution box (s-box) is basically a giant lookup table. We divide our 48-bits into 8 6-bit strings, each of which is put into a box which applies some non linear function.
 1. Take 6-bit string, read bits 1 and 6 as two bits, denary is our row number
 	- `011011` -> `01` -> row 1
 2. Take remaining middle 4-bits, read as denary for column number
@@ -56,6 +56,5 @@ A substitution box is basically a giant lookup table. We divide our 48-bits into
 3. Output is the corresponding number in the table.
 
 This gives us a 32-bit string, which is permuted again.
-
-
-# Attacking Block Ciphers
+## A Good s-box
+Lets say, for each input i0 through i7, we want a 2-bit 
