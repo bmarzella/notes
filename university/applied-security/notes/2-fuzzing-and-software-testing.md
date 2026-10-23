@@ -52,6 +52,8 @@ As the program executes, every `if/else` statement or check adds a mathematical 
 ### Coverage-Guided
 - Most common
 - Fuzzer is biased towards new paths 
+### Instrumentation
+- Modifying the code somehow to 
 
 ## 4. Practical Tooling (AFL++ / ASan)
 - 
