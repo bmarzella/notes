@@ -246,11 +246,11 @@
   },
   "active": "18a41867737590e9",
   "lastOpenFiles": [
-    "applied-security/notes/1-buffer-overflows.md",
     "applied-security/labs/exploitation-and-fuzzing.md",
+    "applied-security/notes/3-digital-forensics.md",
+    "applied-security/notes/1-buffer-overflows.md",
     "applied-security/lectures/week15-forensics.pdf",
     "applied-security/notes/2-fuzzing-and-software-testing.md",
-    "applied-security/notes/3-digital-forensics.md",
     "applied-security/lectures/fuzzing-and-software-testing.pdf",
     "applied-security/lectures/Pasted image 20261021093217.png",
     "cryptography/symmetric-cryptography/notes/6-linear-feedback-shift-registers.md",
