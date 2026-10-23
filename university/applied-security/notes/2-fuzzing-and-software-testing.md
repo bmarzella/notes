@@ -75,6 +75,15 @@ As the program executes, every `if/else` statement or check adds a mathematical 
 - Seeds, initial corpus
 ### Algorithm
 Fill queue with test inputs, record the results of the inputs, once this set of inputs is done, pick at least one to base our next next set of inputs on
+
+## AFL (++)
+
+![[Pasted image 20261023133313.png]]
+hello bro <3
+
+- Coverage, mutation based
+- Fast, reliable, easy to use
+- More than just a fuzzer
 ## 4. Practical Tooling (AFL++ / ASan)
 - 
 
