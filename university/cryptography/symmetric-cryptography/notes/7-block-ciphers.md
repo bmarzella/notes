@@ -30,6 +30,9 @@ This all results in a simple to use process. Decryption is the same as encryptio
 ### Properties of a Feistal Function
 1. **Confusion** - Each ciphertext bit should depend on multiple plaintexts bits.
 2. **Diffusion** - Changing a single plaintext bit should change many ciphertext bits.
+	- Similar to confusion in the opposite direction
 	- Otherwise we can look at small sections in isolation, which is much easier than breaking the full ciphertext.
 3. **Nonlinearity** - Linearity lets us do a lot to find the keys.
 ## Data Encryption Standard
+Feistal cipher that works with 64-bit blocks.
+64-bit keys, divided into 8-bit bytes. Last bit of ea
