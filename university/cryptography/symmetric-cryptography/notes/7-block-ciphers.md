@@ -39,4 +39,7 @@ This all results in a simple to use process. Decryption is the same as encryptio
 	- Last bit is set so the total number of 1s is always odd
 - This means keys are effectively 56-bits
 	- No idea why this is the case, and primary reason it's now considered insecure.
+	- At this point, security by obscurity was still a thing, so we don't really know why a lot of things about DES are the way they are
+
+
 
