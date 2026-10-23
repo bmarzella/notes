@@ -75,7 +75,6 @@ As the program executes, every `if/else` statement or check adds a mathematical 
 - Seeds, initial corpus
 ### Algorithm
 Fill queue with test inputs, record the results of the inputs, once this set of inputs is done, pick at least one to base our next next set of inputs on
-
 ## AFL (++)
 
 ![[Pasted image 20261023133313.png]]
@@ -86,8 +85,7 @@ hello bro <3
 - More than just a fuzzer
 ### What does it do
 - afl-fuzz provides test inputs to target
-- executres and tracks tests
-
+- executes and tracks tests
 ### Instrumentation
 - Replaces compiler with afl's compiler
 - Run afl on result (not the original binary!)
