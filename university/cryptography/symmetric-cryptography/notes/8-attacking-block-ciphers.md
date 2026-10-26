@@ -7,6 +7,20 @@ Different pairs of inputs will give the same input differential but might give a
 
 There are 64 possible input differentials (6-bit XOR 6-bit = 6-bit, there are 64 different 6-bit strings) and 16 possible outputs for each input (output is 4-bits, there are 16 4-bit strings).
 
+```pseudocode
+
+for dx from 0 to 63:              // dx = Input Difference (Row)
+    for x1 from 0 to 63:          // x1 = First Input (0 to 63)
+        x2 = x1 XOR dx            // Partner Input
+        
+        y1 = lookup(x1)           // Get S-box output for x1
+        y2 = lookup(x2)           // Get S-box output for x2
+        
+        dy = y1 XOR y2            // Output Difference (Column)
+        
+        table[dx][dy] += 1        // Add +1 tally to [Row][Column]
+```
+
 Comparing XOR of two inputs with XOR of two other inputs.
 (Plaintext 1 XOR key) XOR (Plaintext 2 XOR key) = Plaintext 1 XOR Plaintext 2
 Permutations don't stop this, we just get a permutated XOR result.
