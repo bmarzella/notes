@@ -3,7 +3,7 @@
 
 Two 6-bit string inputs, split into inner outer bits to get row and column, look up value on table for output. repeat for second input, getting our second output, then we can XOOR our inputs and our outputs to get our differentials.
 
-If we do this for the whole s-box, we can analyse how many times each output differential shows up for each input differential. Different pairs of inputs wi
+Different pairs of inputs will give the same input differential but might give a different output differential. However, if a certain output differential shows up particulaly frequently 
 
 Comparing XOR of two inputs with XOR of two other inputs.
 (Plaintext 1 XOR key) XOR (Plaintext 2 XOR key) = Plaintext 1 XOR Plaintext 2
