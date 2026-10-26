@@ -5,7 +5,7 @@ Two 6-bit string inputs, split into inner outer bits to get row and column, look
 
 Different pairs of inputs will give the same input differential but might give a different output differential. However, if a certain output differential shows up particularly frequently, them we know that the corresponding input differentials are showing up frequently, which gives us information about the key.
 
-There are 64 po
+There are 64 possible input differentials (6-bit XOR 6-bit = 6-bit, there are 64 different 6-bit strings) and 16 possible outputs for each input (output is 4-bits, there are 16 4-bit strings).
 
 Comparing XOR of two inputs with XOR of two other inputs.
 (Plaintext 1 XOR key) XOR (Plaintext 2 XOR key) = Plaintext 1 XOR Plaintext 2
