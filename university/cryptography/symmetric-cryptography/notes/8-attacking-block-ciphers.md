@@ -4,7 +4,8 @@ A 128 bit key means $2^{128}$ possible keys, but we have to check $2^{127}$ as w
 
 One way people tried to keep DES alive was triple DES, encrypting with key 1, decrypting with key 2, and encrypting with key 3. This allows for backwards compatibility, makes adoption very easy, we can just set all keys to be the same if you refuse to upgrade to 3DES.
 
-
+2DES was not a thing because of:
+# Meet-in-the-Middle Attacks
 # Differential Cryptoanalysis
 **Input Differential** - XOR between pair of inputs, **output differential** is self explanatory.
 
