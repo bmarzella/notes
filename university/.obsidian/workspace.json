@@ -284,10 +284,10 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "ff0d40703a762481",
+  "active": "759b3c631e965d0e",
   "lastOpenFiles": [
-    "cryptography/symmetric-cryptography/notes/8-attacking-block-ciphers.md",
     "slides/block_cipher_attacks_lecture_5(1).pdf",
+    "cryptography/symmetric-cryptography/notes/8-attacking-block-ciphers.md",
     "Untitled.md",
     "dissertation/intro-lecture.md",
     "cryptography/symmetric-cryptography/notes/7-block-ciphers.md",
