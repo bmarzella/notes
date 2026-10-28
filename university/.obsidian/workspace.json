@@ -67,9 +67,21 @@
         "currentTab": 3
       },
       {
-        "id": "27c510fac3ee5a73",
+        "id": "6e4e0ccd208fd1d1",
         "type": "tabs",
         "children": [
+          {
+            "id": "ff0d40703a762481",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "slides/block_cipher_attacks_lecture_5(1).pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "block_cipher_attacks_lecture_5(1)"
+            }
+          },
           {
             "id": "c1e6395ca992d178",
             "type": "leaf",
@@ -272,12 +284,12 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "eaf23f3a502c1941",
+  "active": "ff0d40703a762481",
   "lastOpenFiles": [
+    "cryptography/symmetric-cryptography/notes/8-attacking-block-ciphers.md",
     "slides/block_cipher_attacks_lecture_5(1).pdf",
     "Untitled.md",
     "dissertation/intro-lecture.md",
-    "cryptography/symmetric-cryptography/notes/8-attacking-block-ciphers.md",
     "cryptography/symmetric-cryptography/notes/7-block-ciphers.md",
     "cryptography/symmetric-cryptography/notes/0-lecture-notes.pdf",
     "cryptography/symmetric-cryptography/notes/6-linear-feedback-shift-registers.md",
@@ -311,7 +323,6 @@
     "slides/stream_ciphers_lecture_2.pdf",
     "applied-security/notes/0-admin.md",
     "applied-security/lectures",
-    "digital-humanities/computational-modeling-in-humanities/lectures",
     "digital-humanities/computational-modeling-in-humanities/notes/1-introduction.md",
     "digital-humanities/computational-modeling-in-humanities/notes/0-admin.md",
     "images/Pasted image 20261013183535.png",
