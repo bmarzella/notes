@@ -18,3 +18,4 @@ This isn't just for 2DES. Anytime an encryption system does something with one f
 This however requires $2^{k}$ space, as we're storing all of our middle stage entries.
 
 For 3DES, we roll two of our functions into one, so $f_1$ might be encrypt; and $f_2$ decrypt, encrypt (this is the preferable orientation as we have to store less.)
+For $f_2$, we expect to do $2^{111}$ operations and $2$
