@@ -1,4 +1,4 @@
-# Differential Cryptoanalysis
+# ![[block_cipher_attacks_lecture_5(1).pdf]]Differential Cryptoanalysis
 **Input Differential** - XOR between pair of inputs, **output differential** is self explanatory.
 
 Two 6-bit string inputs, split into inner outer bits to get row and column, look up value on table for output. repeat for second input, getting our second output, then we can XOOR our inputs and our outputs to get our differentials.
