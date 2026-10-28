@@ -10,4 +10,5 @@ Consist of three components
 2. S boxes
 3. Permute for diffusion etc
 
-S-boxes must be invertible, injective
+S-boxes must be invertible, injective. Feistel s-boxes have more inputs that outputs so cannot be used here.
+AES s-boxes 8-bits -> 8-bits.
