@@ -13,4 +13,4 @@ Need any plaintext ciphertext pair.
 We know that M is encrypted with some key K1, which was then encrypted wit some K2, which gives us C.
 We can take M and encrypt with every possible K1 store in a hash table or dictionary or sorted list (we'll look at this) etc. 
 We know have a sorted list of middle stages and decrypt C with every possible K2. For every decryption, we match to our sorted list, which takes o(logn).
-We do $2^{56}$ encryptions and $2{}$
+We do $2^{56}$ encryptions and $2^{55}$ decryptions, meaning $2^{55} + 2^{56} $
