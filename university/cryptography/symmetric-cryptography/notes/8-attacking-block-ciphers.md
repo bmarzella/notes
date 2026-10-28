@@ -8,3 +8,5 @@ One way people tried to keep DES alive was triple DES, encrypting with key 1, de
 # Meet-in-the-Middle Attacks
 
 What happens if we encrypt once using k1 and then again with k2?
+
+Need any plain ciphertext pair. We know that M is encrypted with
