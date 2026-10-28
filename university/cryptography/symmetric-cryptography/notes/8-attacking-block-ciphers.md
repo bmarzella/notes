@@ -16,3 +16,5 @@ We know have a sorted list of middle stages and decrypt C with every possible K2
 We do $2^{56}$ encryptions and $2^{55}$ decryptions, meaning $2^{55} + 2^{56} \approx 2^{56}$. We gain very little security.
 This isn't just for 2DES. Anytime an encryption system does something with one function then something with a second, it is vulnerable to a meet-in-the-middle attack and thus not much better than just a single function.
 This however requires $2^{k}$ space, as we're storing all of our middle stage entries.
+
+For 3DES, we roll two of our functions into one, so $f_1$ might be encrypt, decrypt; and $f_2$ encrypt (this is the preferable )
