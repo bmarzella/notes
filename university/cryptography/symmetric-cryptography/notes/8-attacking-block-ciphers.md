@@ -1,6 +1,7 @@
 ![[block_cipher_attacks_lecture_5(1).pdf]]
 # DES
-A 128 key means 
+A 128 bit key means $2^{128}$ possible keys, but we have to check 2^(127) as we expect to find the key halfway (as it is chosen randomly)
+
 # Differential Cryptoanalysis
 **Input Differential** - XOR between pair of inputs, **output differential** is self explanatory.
 
