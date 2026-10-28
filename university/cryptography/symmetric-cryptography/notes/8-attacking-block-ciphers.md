@@ -11,5 +11,5 @@ What happens if we encrypt once using k1 and then again with k2?
 
 Need any plaintext ciphertext pair. 
 We know that M is encrypted with some key K1, which was then encrypted wit some K2, which gives us C.
-We can take M and encrypt with every possible K1, decrypt C with every possible K2, store in a hash table or dictionary or sorted list (we'll look at this) etc. 
-We know have a sorted list of middle stages 
+We can take M and encrypt with every possible K1 store in a hash table or dictionary or sorted list (we'll look at this) etc. 
+We know have a sorted list of middle stages and decrypt C with every possible K2. For every decryption, we match to our sorted list, which takes o(log)
