@@ -11,3 +11,4 @@ What happens if we encrypt once using k1 and then again with k2?
 
 Need any plaintext ciphertext pair. 
 We know that M is encrypted with some key K1, which was then encrypted wit some K2, which gives us C.
+We can take M and encrypt with every possible K1, decrypt C with every possible K2, store in a hash table or dictionary etc.
