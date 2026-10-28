@@ -9,4 +9,5 @@ One way people tried to keep DES alive was triple DES, encrypting with key 1, de
 
 What happens if we encrypt once using k1 and then again with k2?
 
-Need any plain ciphertext pair. We know that M is encrypted with
+Need any plaintext ciphertext pair. 
+We know that M is encrypted with some key K1, which was then encrypted wit some K2, which gives us C.
