@@ -56,7 +56,8 @@ We want to produce the 16 subkeys for Feistel's 16 rounds. We want a 48-bit key 
 Now, we have to turn our right half from 32 to 48 bits so it matches the key length. We do this with expansion function $E$:
 
 1. Split 32-bit block into eight 4-bit blocks.
-2. Duplicate the 
+2. Take first and last bit of each block and attach to neighbouring blocks.
+	1. For example, `0110 1010` -> `101100 010100`
 ### S-Box
 A substitution box (s-box) is basically a giant lookup table. We divide our 48-bits into 8 6-bit strings, each of which is put into a box which applies some non linear function.
 1. Take 6-bit string, read bits 1 and 6 as two bits, denary is our row number
