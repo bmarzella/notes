@@ -1,6 +1,6 @@
 ![[block_cipher_attacks_lecture_5(1).pdf]]
 # DES
-If we have a 128 bit key, that means $2^{128}$ possible keys, but we expect to have to check $2^{127}$ as we expect to find the key halfway (as it is chosen randomly).
+If we have a 128 bit key, that means $2^{128}$ possible keys. However, we expect to only have to check $2^{127}$ if brute forcing as the key is chosen randomly, so on average, we'll find the key after searching half the key space.
 
 One way people tried to keep DES alive was triple DES, encrypting with key 1, decrypting with key 2, and encrypting with key 3. This allows for backwards compatibility, makes adoption very easy, we can just set all keys to be the same if you refuse to upgrade to 3DES.
 
