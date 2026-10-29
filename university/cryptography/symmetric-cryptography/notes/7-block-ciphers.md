@@ -53,7 +53,7 @@ We want to produce the 16 subkeys for Feistel's 16 rounds. We want a 48-bit key 
 3. Run $PC_{2}(C, D)$, which recombines $C$ and $D$ and takes a permutation of 48-bits to be our subkey.
 4. Repeat steps 2 and 3 to generate remaining 15 subkeys.
 ### S-Box
-Now, we have to turn our right half from 32 to 48 bits so it matches the key length. We do this with expansion function $E$, which just puts it into a slightly different order and repeats some bits.
+Now, we have to turn our right half from 32 to 48 bits so it matches the key length. We do this with expansion function $E$, which does this by duplicating the bits at 
 
 A substitution box (s-box) is basically a giant lookup table. We divide our 48-bits into 8 6-bit strings, each of which is put into a box which applies some non linear function.
 1. Take 6-bit string, read bits 1 and 6 as two bits, denary is our row number
