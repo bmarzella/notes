@@ -47,7 +47,7 @@ We want to produce the 16 subkeys for Feistel's 16 rounds. We want a 48-bit key 
 	1. Drops 8 parity bits, bringing us down to 56-bits.
 	2. Generates a permutation.
 	3. Splits permutation into two halves $C$ and $D$, each 28-bits.
-2. 
+2. Perform circular left shift on both halves by one or two bits, depending on round count
 3. 
 4. 
 
