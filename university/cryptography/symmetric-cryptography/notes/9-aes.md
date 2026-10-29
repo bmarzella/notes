@@ -7,7 +7,9 @@ Uses a substitution-permutation network (not Feistel)
 Consist of three components:
 1. S-boxes for nonlinearity
 2. (Linear) Permutations for diffusion
-3. Subkey ad
+3. Subkey XORing for confusion.
 
-S-boxes must be invertible, injective. Feistel s-boxes have more inputs that outputs so cannot be used here.
+Difference from Feistel is that S-boxes must be invertible and injective. Feistel s-boxes have more inputs than outputs and thus cannot be used here.
+
+1. **Block Size - **
 AES s-boxes 8-bits -> 8-bits.
