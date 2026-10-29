@@ -12,11 +12,10 @@ One way people tried to keep DES alive was triple DES, encrypting with key 1, de
 2. We can take M and encrypt with every possible K1 and store the in a hash table or sorted list. This takes $2^{56}$ operations.
 3. We can then decrypt C with every possible K2 and check our data structure to see whether we find a match. We expect this to take $2^{55}$ operations.
 	1. Matching is negligible. In a hash table, this is $O(1)$, and in a sorted array, this is $O(Log(n)) = O(Log(2^{56})) = O(56)$.
-4. Thus, our total operations is $2^{55} + 2^{56} \approx 2^{56}$. We've gained very litle sec
+4. Thus, our total operations is $2^{55} + 2^{56} \approx 2^{56}$. We've gained very little security.
 
-We do $2^{56}$ encryptions and $2^{55}$ decryptions, meaning $2^{55} + 2^{56} \approx 2^{56}$. We gain very little security.
-This isn't just for 2DES. Anytime an encryption system does something with one function then something with a second, it is vulnerable to a meet-in-the-middle attack and thus not much better than just a single function.
-This however requires $2^{k}$ space, as we're storing all of our middle stage entries.
-
-For 3DES, we roll two of our functions into one, so $f_1$ might be encrypt; and $f_2$ decrypt, encrypt (this is the preferable orientation as we have to store less.)
+This isn't just for 2-DES. Anytime an encryption system does something with one function then something with a second, it is vulnerable to a meet-in-the-middle attack and thus not much better than just a single function.
+The downside is that this requires $2^{k}$ space, as we're storing all of our middle stage entries.
+## 3-DES
+1. We roll two of our functions into one, so $f_1$ might be encrypt; and $f_2$ decrypt, encrypt (this is the preferable orientation as we have to store less.)
 For $f_2$, we expect to do $2^{111}$ operations and $2^{56}$ for f. Total cost is $\approx 2^{111}$. roughly the same as brute forcing two operations instead of three, which, while not ideal, is still considered secure.
