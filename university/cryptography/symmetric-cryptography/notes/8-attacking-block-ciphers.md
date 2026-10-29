@@ -17,5 +17,6 @@ One way people tried to keep DES alive was triple DES, encrypting with key 1, de
 This isn't just for 2-DES. Anytime an encryption system does something with one function then something with a second, it is vulnerable to a meet-in-the-middle attack and thus not much better than just a single function.
 The downside is that this requires $2^{k}$ space, as we're storing all of our middle stage entries.
 ## 3-DES
-1. We roll two of our functions into one, so $f_1$ might be encrypt; and $f_2$ decrypt, encrypt (this is the preferable orientation as we have to store less.)
+1. We roll two of our functions into one, so $f_1$ might be encrypt; and $f_2$ decrypt and encrypt. 
+	1. This orientation is preferable as it means we only have to store $2^{56}$ results from $f_1$ 
 2. For $f_2$, we expect to do $2^{111}$ operations and $2^{56}$ for f. Total cost is $\approx 2^{111}$. roughly the same as brute forcing two operations instead of three, which, while not ideal, is still considered secure.
