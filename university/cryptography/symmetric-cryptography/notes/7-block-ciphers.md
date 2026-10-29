@@ -62,7 +62,7 @@ Now, we have to turn our right half from 32 to 48 bits so it matches the key len
 
 These blocks are combined back together and XORed with the subkey. This is known as the **S-box input block,**
 ### S-Box
-A substitution box (s-box) is basically a giant lookup table. We use split the input box back into eight 6-bit strings and use it to find a corresponding value on the s-box table.
+A substitution box (s-box) is essentially made up of 8 lookup tables $S_{1} $. We use split the input box back into eight 6-bit strings and use it to find a corresponding value on the s-box table.
 1. Take 6-bit string, read bits 1 and 6 as two bits, denary is our row number
 	- `011011` -> `01` -> row 1
 2. Take remaining middle 4-bits, read as denary for column number
