@@ -50,7 +50,7 @@ We want to produce the 16 subkeys for Feistel's 16 rounds. We want a 48-bit key 
 2. Perform circular left shift on both halves by one or two bits, depending on round count.
 	1. If round = 1,2, 9 or 16, then shift by one bit. 
 	2. Shift by two otherwise.
-3. Run $K_i \leftarrow PC2(C, D)$
+3. Run $PC_{2}(C, D)$, which recombines $C$ and $D$ and takes a permutation of 48-bits to be our subkey.
 
 
 We get the subkeys by shifting the main key and take a permutation. Basically we move the key a bit and then take some random bits from it.
