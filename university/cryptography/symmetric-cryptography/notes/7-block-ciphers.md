@@ -40,7 +40,6 @@ This all results in a simple to use process. Decryption is the same as encryptio
 - This means keys are effectively 56-bits
 	- No idea why this is the case, and primary reason it's now considered insecure.
 	- At this point, security by obscurity was still a thing, so we don't really know why a lot of things about DES are the way they are
-
 ### Key Schedule
 We want to produce the 16 subkeys for Feistel's 16 rounds. We want a 48-bit key for every round (which is weird, because surely we'd do $r$, again, no clear reason for this.)
 **How we get the key - find out in practical!**
