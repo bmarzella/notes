@@ -69,8 +69,8 @@ A substitution box (s-box) is essentially made up of 8 lookup tables $(S_{1}, S_
 	- `011011` -> `01` -> row 1
 2. Take remaining middle 4-bits, read as denary for column number
 	- `011011` -> `1101` -> column 13
-3. Output is the corresponding value in corresponding table in the table.
-	1. $B_1$ goes strictly to **$S_1$**
+3. Output is the corresponding value in corresponding table.
+	1. $B_1 \rightarrow S_1, \space B_2 \rightarrow S_2 \dots$
 
 This gives us a 32-bit string, which is permuted again.
 ## A Good s-box
