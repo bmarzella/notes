@@ -21,3 +21,4 @@ The downside is that this requires $2^{k}$ space, as we're storing all of our mi
 	1. This orientation is preferable as it means we only have to store $2^{56}$ results from $f_1$. 
 2. For $f_2$, we expect to do $2^{111}$ operations and $2^{56}$ for $f_1$. 
 3. Total cost is $\approx 2^{111}$. roughly the same as brute forcing two operations instead of three, which, while not ideal, is still considered secure.
+# Lena

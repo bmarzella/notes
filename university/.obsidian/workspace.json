@@ -238,9 +238,9 @@
   },
   "active": "7ac09c81578703ab",
   "lastOpenFiles": [
-    "cryptography/symmetric-cryptography/notes/7-block-ciphers.md",
-    "cryptography/symmetric-cryptography/notes/8-attacking-block-ciphers.md",
     "cryptography/symmetric-cryptography/notes/9-aes.md",
+    "cryptography/symmetric-cryptography/notes/8-attacking-block-ciphers.md",
+    "cryptography/symmetric-cryptography/notes/7-block-ciphers.md",
     "applied-security/labs/fuzzing.md",
     "applied-security/labs/memory-exploitation.md",
     "slides/block_cipher_attacks_lecture_5(1).pdf",
