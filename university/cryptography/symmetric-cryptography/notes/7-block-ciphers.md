@@ -74,11 +74,3 @@ A substitution box (s-box) is essentially made up of 8 lookup tables $(S_{1}, S_
 4. Concatenate results into a 32-bit string.
 
 This 32-bit string is permuted once last time, then XOR'd with the left half to become our new right half.
-## DES Security
-56-bits is just too small for a key.
-
-## Variants and Legacy
-### Triple DES
-- Uses DES three times
-- Effective key length of 112 or 168 bits
-- 
