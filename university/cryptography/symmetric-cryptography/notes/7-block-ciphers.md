@@ -27,14 +27,14 @@ Only the right side ever acts as an input on $f$, the left side is never touched
 - Sides swap each round, so both halves are used as input, but it's always one side.
 
 This all results in a simple to use process. Decryption is the same as encryption, all we change is the order of the keys, and we don't have to worry about making $f$ reversible, making designing the function easier!
-### Properties of a Feistal Function
+### Properties of a Feistel Function
 1. **Confusion** - Each ciphertext bit should depend on multiple plaintexts bits.
 2. **Diffusion** - Changing a single plaintext bit should change many ciphertext bits.
 	- Similar to confusion in the opposite direction
 	- Otherwise we can look at small sections in isolation, which is much easier than breaking the full ciphertext.
 3. **Nonlinearity** - Linearity lets us do a lot to find the keys.
 ## Data Encryption Standard
-- Feistal cipher that works with 64-bit blocks.
+- Feistel cipher that works with 64-bit blocks.
 - 64-bit keys, divided into 8-bit bytes. Last bit of each bit is a parity bit
 	- Last bit is set so the total number of 1s is always odd
 - This means keys are effectively 56-bits
@@ -52,10 +52,11 @@ We want to produce the 16 subkeys for Feistel's 16 rounds. We want a 48-bit key 
 	2. Shift by two otherwise.
 3. Run $PC_{2}(C, D)$, which recombines $C$ and $D$ and takes a permutation of 48-bits to be our subkey.
 4. Repeat steps 2 and 3 to generate remaining 15 subkeys.
-### Expansion Functio
+### Expansion Function
 Now, we have to turn our right half from 32 to 48 bits so it matches the key length. We do this with expansion function $E$:
 
-1. 
+1. Split 32-bit block into eight 4-bit blocks.
+2. Duplicate the 
 ### S-Box
 A substitution box (s-box) is basically a giant lookup table. We divide our 48-bits into 8 6-bit strings, each of which is put into a box which applies some non linear function.
 1. Take 6-bit string, read bits 1 and 6 as two bits, denary is our row number
