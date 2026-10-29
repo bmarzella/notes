@@ -10,9 +10,10 @@ One way people tried to keep DES alive was triple DES, encrypting with key 1, de
 
 1. We know that M is encrypted with some key K1, which was then encrypted with some K2,  giving us C.
 2. We can take M and encrypt with every possible K1 and store the in a hash table or sorted list. This takes $2^{56}$ operations.
-3. We can then decrypt C with every possible K2 (another $2^{56}$ operations) and check our data structure to see whether we find a match.
-4. In a hash table, this is $O(1)$, and in a sorted array, this is $O(Log(n)) = O(Log(2^{56})) = O(56)$.
+3. We can then decrypt C with every possible K2 and check our data structure to see whether we find a match.
+4. In a hash table, this is $O(1)$, and in a sorted array, this is $O(Log(n)) = O(Log(2^{56})) = O(56)$, either of which is negligible.
 5. Thus, our total operations is $2(2^{56}) = 2^{57}$.
+
 We do $2^{56}$ encryptions and $2^{55}$ decryptions, meaning $2^{55} + 2^{56} \approx 2^{56}$. We gain very little security.
 This isn't just for 2DES. Anytime an encryption system does something with one function then something with a second, it is vulnerable to a meet-in-the-middle attack and thus not much better than just a single function.
 This however requires $2^{k}$ space, as we're storing all of our middle stage entries.
