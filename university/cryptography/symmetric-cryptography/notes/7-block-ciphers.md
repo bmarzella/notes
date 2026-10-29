@@ -43,14 +43,20 @@ This all results in a simple to use process. Decryption is the same as encryptio
 ### Key Schedule
 We want to produce the 16 subkeys for Feistel's 16 rounds. We want a 48-bit key for every round (which is weird, because surely we'd do $r$, again, no clear reason for this.)
 
-
+1. Take main 64-bit key $K$ and run $PC_{1}(K)$:
+	1. Drops 8 parity bits, bringing us down to 56-bits.
+	2. Generates a permutation.
+	3. Splits permutation into two halves $C$ and $D$, each 28-bits.
+2. 
+3. 
+4. 
 
 
 We get the subkeys by shifting the main key and take a permutation. Basically we move the key a bit and then take some random bits from it.
 
 We have to turn our right half from 32 to 48 bits so it matches the key length. We do this with expansion function $E$, which just puts it into a slightly different order and repeats some bits.
 
-### S
+### S-Box
 A substitution box (s-box) is basically a giant lookup table. We divide our 48-bits into 8 6-bit strings, each of which is put into a box which applies some non linear function.
 1. Take 6-bit string, read bits 1 and 6 as two bits, denary is our row number
 	- `011011` -> `01` -> row 1
