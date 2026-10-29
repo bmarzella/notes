@@ -42,11 +42,15 @@ This all results in a simple to use process. Decryption is the same as encryptio
 	- At this point, security by obscurity was still a thing, so we don't really know why a lot of things about DES are the way they are
 ### Key Schedule
 We want to produce the 16 subkeys for Feistel's 16 rounds. We want a 48-bit key for every round (which is weird, because surely we'd do $r$, again, no clear reason for this.)
-**How we get the key - find out in practical!**
+
+
+
+
 We get the subkeys by shifting the main key and take a permutation. Basically we move the key a bit and then take some random bits from it.
 
 We have to turn our right half from 32 to 48 bits so it matches the key length. We do this with expansion function $E$, which just puts it into a slightly different order and repeats some bits.
 
+### S
 A substitution box (s-box) is basically a giant lookup table. We divide our 48-bits into 8 6-bit strings, each of which is put into a box which applies some non linear function.
 1. Take 6-bit string, read bits 1 and 6 as two bits, denary is our row number
 	- `011011` -> `01` -> row 1
