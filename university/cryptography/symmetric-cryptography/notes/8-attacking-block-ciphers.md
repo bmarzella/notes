@@ -5,10 +5,8 @@ If we have a 128 bit key, that means $2^{128}$ possible keys. However, we expect
 One way people tried to keep DES alive was triple DES, encrypting with key 1, decrypting with key 2, and encrypting with key 3. This allows for backwards compatibility, makes adoption very easy, we can just set all keys to be the same if you refuse to upgrade to 3DES.
 
 *DES-X also exists, but it doesn't appear in slides so I assume it isn't important.*
-
-2DES was not a thing because of:
 # Meet-in-the-Middle Attacks
-What happens if we encrypt once using k1 and then again with k2?
+2DES (encrypt -> encrt)What happens if we encrypt once using k1 and then again with k2?
 
 Need any plaintext ciphertext pair. 
 We know that M is encrypted with some key K1, which was then encrypted wit some K2, which gives us C.
