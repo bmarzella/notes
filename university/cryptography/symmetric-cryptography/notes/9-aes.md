@@ -11,5 +11,7 @@ Consist of three components:
 
 Difference from Feistel is that S-boxes must be invertible and injective. Feistel s-boxes have more inputs than outputs and thus cannot be used here.
 
-1. **Block Size - **
+**Blocks**: 128 bits, represented as 4x4 arrays of bytes, each cell containing one byte (8 bits)
+**Key**: 128, 192 or 258 bits.
+**Rounds**: Depends on ke
 AES s-boxes 8-bits -> 8-bits.
