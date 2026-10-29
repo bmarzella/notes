@@ -9,8 +9,8 @@ One way people tried to keep DES alive was triple DES, encrypting with key 1, de
 2DES (encrypt -> encrypt) because of MITM attacks. If we have any plaintext-ciphertext pair, then:
 
 1. We know that M is encrypted with some key K1, which was then encrypted with some K2,  giving us C.
-2. We can take M and encrypt with every possible K1 and store the in a hash table or dictionary or sorted list (we'll look at this) etc. 
-We know have a sorted list of middle stages and decrypt C with every possible K2. For every decryption, we match to our sorted list, which takes o(logn).
+2. We can take M and encrypt with every possible K1 and store the in a hash table or sorted list. This takes $2^{56}$ operations.
+3. We can then decrypt C with every possible K2 For every decryption, we match to our sorted list, which takes o(logn).
 We do $2^{56}$ encryptions and $2^{55}$ decryptions, meaning $2^{55} + 2^{56} \approx 2^{56}$. We gain very little security.
 This isn't just for 2DES. Anytime an encryption system does something with one function then something with a second, it is vulnerable to a meet-in-the-middle attack and thus not much better than just a single function.
 This however requires $2^{k}$ space, as we're storing all of our middle stage entries.
