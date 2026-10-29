@@ -73,16 +73,7 @@ A substitution box (s-box) is essentially made up of 8 lookup tables $(S_{1}, S_
 	1. $B_1 \rightarrow S_1, \space B_2 \rightarrow S_2 \dots$
 4. Concatenate results into a 32-bit string.
 
-This 32-bit string is permuted once last time, then XOR'd with the 
-## A Good s-box
-Lets say, for each input i0 through i7, we want a 2-bit output.
-
-| Input Index | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   |
-| ----------- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Output      | 1   | 2   | 0   | 2   | 1   | 3   | 3   | 3   |
-There's no (obvious) linear function here, but that's a bit hard to prove in our heads. It looks non-linear.
-
-idk
+This 32-bit string is permuted once last time, then XOR'd with the left half to become our new right half.
 ## DES Security
 56-bits is just too small for a key.
 
