@@ -25,12 +25,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "applied-security/labs/fuzzing.md",
+                "file": "cryptography/symmetric-cryptography/notes/8-attacking-block-ciphers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "fuzzing"
+              "title": "8-attacking-block-ciphers"
             }
           },
           {
@@ -238,10 +238,10 @@
   },
   "active": "7ac09c81578703ab",
   "lastOpenFiles": [
-    "applied-security/labs/memory-exploitation.md",
-    "applied-security/labs/fuzzing.md",
-    "slides/block_cipher_attacks_lecture_5(1).pdf",
     "cryptography/symmetric-cryptography/notes/9-aes.md",
+    "applied-security/labs/fuzzing.md",
+    "applied-security/labs/memory-exploitation.md",
+    "slides/block_cipher_attacks_lecture_5(1).pdf",
     "cryptography/symmetric-cryptography/notes/8-attacking-block-ciphers.md",
     "cryptography/symmetric-cryptography/labs/1-differential-cryptoanalysis.md",
     "cryptography/symmetric-cryptography/labs",
