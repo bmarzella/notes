@@ -4,10 +4,10 @@
 3. Algebraically derived S-boxes (understanding which is beyond scope)
 # Architecture
 Uses a substitution-permutation network (not Feistel)
-Consist of three components
-1. XOR with something idk
-2. S boxes
-3. Permute for diffusion etc
+Consist of three components:
+1. S-boxes for nonlinearity
+2. (Linear) Permutations for diffusion
+3. Subkey ad
 
 S-boxes must be invertible, injective. Feistel s-boxes have more inputs that outputs so cannot be used here.
 AES s-boxes 8-bits -> 8-bits.
