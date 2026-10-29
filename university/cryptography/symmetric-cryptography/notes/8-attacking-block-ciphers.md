@@ -8,7 +8,6 @@ DES-X also exists......
 
 2DES was not a thing because of:
 # Meet-in-the-Middle Attacks
-
 What happens if we encrypt once using k1 and then again with k2?
 
 Need any plaintext ciphertext pair. 
