@@ -5,13 +5,13 @@
 # Architecture
 Uses a substitution-permutation network (not Feistel)
 Consist of three components:
-1. S-boxes for nonlinearity
+1. S-boxes for nonlinearity. 8-bits -> 8-bits.
 2. (Linear) Permutations for diffusion
 3. Subkey XORing for confusion.
 
 Difference from Feistel is that S-boxes must be invertible and injective. Feistel s-boxes have more inputs than outputs and thus cannot be used here.
 
 **Blocks**: 128 bits, represented as 4x4 arrays of bytes, each cell containing one byte (8 bits)
-**Key**: 128, 192 or 258 bits.
-**Rounds**: Depends on ke
-AES s-boxes 8-bits -> 8-bits.
+**Key**: 128, 192 or 256 bits.
+**Rounds**: Depends on key size, 10 for 128, 12 for 192 and 14 for 256.
+
