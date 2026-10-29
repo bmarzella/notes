@@ -59,8 +59,10 @@ Now, we have to turn our right half from 32 to 48 bits so it matches the key len
 2. Take first and last bit of each block and attach to neighbouring blocks.
 	1. $\text{Block } 1: [b_{32} \ \mathbf{b_1 \ b_2 \ b_3 \ b_4} \ b_5] \quad \vert{} \quad \text{Block } 2: [b_4 \ \mathbf{b_5 \ b_6 \ b_7 \ b_8} \ b_9] \quad \vert \quad \dots$
 3. This gives us eight 6-bit blocks.
+
+These blocks are XORed with then fed into s-boxes.
 ### S-Box
-A substitution box (s-box) is basically a giant lookup table. We use our  6-bit strings, each of which is put into a box which applies some non linear function.
+A substitution box (s-box) is basically a giant lookup table. We use our eight 6-bit strings, each of which is put into a box which applies some non linear function.
 1. Take 6-bit string, read bits 1 and 6 as two bits, denary is our row number
 	- `011011` -> `01` -> row 1
 2. Take remaining middle 4-bits, read as denary for column number
