@@ -4,7 +4,7 @@ If we have a 128 bit key, that means $2^{128}$ possible keys. However, we expect
 
 One way people tried to keep DES alive was triple DES, encrypting with key 1, decrypting with key 2, and encrypting with key 3. This allows for backwards compatibility, makes adoption very easy, we can just set all keys to be the same if you refuse to upgrade to 3DES.
 
-DES-X also exists......
+DES-X also exists, but it doesn't ape
 
 2DES was not a thing because of:
 # Meet-in-the-Middle Attacks
