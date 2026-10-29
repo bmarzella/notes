@@ -71,8 +71,9 @@ A substitution box (s-box) is essentially made up of 8 lookup tables $(S_{1}, S_
 	- `011011` -> `1101` -> column 13
 3. Output is the corresponding value in corresponding table.
 	1. $B_1 \rightarrow S_1, \space B_2 \rightarrow S_2 \dots$
+4. Concatenate results into a 32-bit string.
 
-This gives us a 32-bit string, which is permuted again.
+This 32-bit string is permuted once last time, then XOR'd with the 
 ## A Good s-box
 Lets say, for each input i0 through i7, we want a 2-bit output.
 
