@@ -18,4 +18,4 @@ This isn't just for 2-DES. Anytime an encryption system does something with one 
 The downside is that this requires $2^{k}$ space, as we're storing all of our middle stage entries.
 ## 3-DES
 1. We roll two of our functions into one, so $f_1$ might be encrypt; and $f_2$ decrypt, encrypt (this is the preferable orientation as we have to store less.)
-For $f_2$, we expect to do $2^{111}$ operations and $2^{56}$ for f. Total cost is $\approx 2^{111}$. roughly the same as brute forcing two operations instead of three, which, while not ideal, is still considered secure.
+2. For $f_2$, we expect to do $2^{111}$ operations and $2^{56}$ for f. Total cost is $\approx 2^{111}$. roughly the same as brute forcing two operations instead of three, which, while not ideal, is still considered secure.
