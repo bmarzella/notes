@@ -40,5 +40,14 @@ All of these will change and lose data
 	- (Your operating system will still modify the access time of the files) 
 - Mount the filesystem read-only 
 	- (might still trigger something like auto-defragmentation) 
-- Use write-barriers on the operating system (The OS might still change power-management settings on the storage) 
-- Add a hardware write blocker (A hardware RAID controller after the blocker might start a rebuild) ▪ Bypass hardware RAID controller, take images (The disk itself might still start to shuffle around free/unused blocks) ▪ Bypass storage controller on the hardware (That’s pretty good, but often difficult)
+- Use write-barriers on the operating system 
+	- (The OS might still change power-management settings on the storage) 
+- Add a hardware write blocker 
+	- (A hardware RAID controller after the blocker might start a rebuild) 
+- Bypass hardware RAID controller, take images 
+	- (The disk itself might still start to shuffle around free/unused blocks) 
+- Bypass storage controller on the hardware, sometimes possible to get a dump of the drive rather than what the chip on the drive says
+	- (That’s pretty good, but often difficult)
+### Write Blockers
+- Prevents writes to a medium being imaged
+- 
