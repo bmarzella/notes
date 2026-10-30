@@ -39,7 +39,7 @@
   "slidesInk": true,
   "colorSizeCommands": false,
   "penPresets": [],
-  "toolbarCorner": "middle-right",
+  "toolbarCorner": "top-right",
   "stripFoldOrder": [
     "editor:redo",
     "handwriting:inline-tool-pan",
