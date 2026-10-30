@@ -71,3 +71,13 @@ More difficult
 	- Physical probing
 
 Police sometimes have the power to ask for pins at threat of jailtime.
+# Analysing Disk Images
+1. Hash & backup the image 
+2. Reorder physical drives to logical groups (RAID, LVM) if necessary 
+3. Recover partition tables 
+4. Identify file systems 
+5. Determine content of file systems 
+6. Check for “interesting” files 
+7. Create a timeline of events 
+8. Check for possibly deleted files 
+9. Check for anomalies
