@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cryptography/symmetric-cryptography/labs/1-differential-cryptoanalysis.md",
+                "file": "cryptography/symmetric-cryptography/notes/8-attacking-block-ciphers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1-differential-cryptoanalysis"
+              "title": "8-attacking-block-ciphers"
             }
           }
         ]
@@ -213,8 +213,8 @@
   },
   "active": "e1c453ec0610b5b4",
   "lastOpenFiles": [
-    "cryptography/symmetric-cryptography/notes/8-attacking-block-ciphers.md",
     "cryptography/symmetric-cryptography/labs/1-differential-cryptoanalysis.md",
+    "cryptography/symmetric-cryptography/notes/8-attacking-block-ciphers.md",
     "cryptography/symmetric-cryptography/notes/9-aes.md",
     "applied-security/labs/memory-exploitation.md",
     "applied-security/notes/3-digital-forensics.md",
