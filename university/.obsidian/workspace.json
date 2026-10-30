@@ -51,14 +51,12 @@
             "id": "8caf96f0547dc9bf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "digital-humanities/computational-modeling-in-humanities/notes/4.something.md",
-                "mode": "source",
-                "source": false
+                "file": "COMP3781_04(1).pdf"
               },
-              "icon": "lucide-file",
-              "title": "4.something"
+              "icon": "lucide-file-text",
+              "title": "COMP3781_04(1)"
             }
           },
           {
@@ -264,10 +262,11 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "eaf23f3a502c1941",
+  "active": "8caf96f0547dc9bf",
   "lastOpenFiles": [
-    "digital-humanities/computational-modeling-in-humanities/notes/0-admin.md",
     "digital-humanities/computational-modeling-in-humanities/notes/4.something.md",
+    "COMP3781_04(1).pdf",
+    "digital-humanities/computational-modeling-in-humanities/notes/0-admin.md",
     "Untitled.md",
     "cryptography/symmetric-cryptography/notes/9-aes.md",
     "cryptography/symmetric-cryptography/notes/8-attacking-block-ciphers.md",
@@ -301,11 +300,9 @@
     "advanced-computer-systems/multi-core-computer-architecture/notes/5-data-parallelism-and-threading.md",
     "Pasted image 20261020103942.png",
     "Pasted image 20261020103941.png",
-    "advanced-computer-systems/multi-core-computer-architecture/notes/4. out-of-order-execution.md",
     "advanced-computer-systems/multi-core-computer-architecture/lectures",
     "digital-humanities/computational-modeling-in-humanities/lectures/COMP3781_02.pdf",
     "slides/Lecture 3.pdf",
-    "slides/stream_ciphers_lecture_2.pdf",
     "images/Pasted image 20261013183535.png",
     "images/Pasted image 20261013175304.png",
     "images/Pasted image 20261013174616.png",
