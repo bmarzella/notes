@@ -104,4 +104,6 @@ Might see manufactured evidence, which can be noticed by:
 # Memory Forensics
 RAM dump may contain data never stored to permanent memory, for example:
 - Passwords / encryption keys
-- Volatile user input (e.g. browser “private” mode) ▪ Traces of buffer overflows and similar exploits ▪ RAM-only rootkits / viruses
+- Volatile user input (e.g. browser “private” mode)
+- Traces of buffer overflows and similar exploits 
+- RAM-only rootkits / viruses
