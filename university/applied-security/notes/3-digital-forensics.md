@@ -81,6 +81,13 @@ Police sometimes have the power to ask for pins at threat of jailtime.
 7. Create a timeline of events 
 8. Check for possibly deleted files 
 9. Check for anomalies
-
-For example, we can hash CSAM so we can compare to database hashes without having to view or store actual harmful content.
-# File Forensic
+# File Forensics
+- File type can be determined by extension/metadata/content 
+- Find suitable viewers for files (native applications do not show everything) 
+- Look for old (deleted) versions of file – only works if file not overwritten in-place 
+- Tools often support searching for known hashes and in file contents 
+	- Known bad: CSAM, other illicit content via Project VIC or CAID 
+	- Known good: e.g. OS and known applications (https://www.nist.gov/itl/csd/secure- systems-and-applications/national-software-reference-library-nsrl) 
+	- Keyword search, …
+# "Undeleting"
+Deleting a file marks
