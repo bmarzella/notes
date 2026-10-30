@@ -25,7 +25,7 @@
 All of these will change and lose data
 ### DO
 - Shut down
-	- If we want to freeze and don't care about volatile
+	- Asuming we want to freeze and don't care about volatile
 - Document state of the system, peripherals, serial numbers, location, date/time, internal connection of disks 
 - Remove hard disks 
 - Use a hardware write blocker 
@@ -33,4 +33,12 @@ All of these will change and lose data
 - Use a second system to take the image with dedicated software
 - Take an image of each disk separately 
 - Store hash of the image, store securely
+	- Let's us verify nothing has changed
 - Run your full analysis only on the images you took, reassemble RAID or similar storage in software
+### Read-only access to a filesystem
+- Just don’t modify something willingly 
+	- (Your operating system will still modify the access time of the files) 
+- Mount the filesystem read-only 
+	- (might still trigger something like auto-defragmentation) 
+- Use write-barriers on the operating system (The OS might still change power-management settings on the storage) 
+- Add a hardware write blocker (A hardware RAID controller after the blocker might start a rebuild) ▪ Bypass hardware RAID controller, take images (The disk itself might still start to shuffle around free/unused blocks) ▪ Bypass storage controller on the hardware (That’s pretty good, but often difficult)
