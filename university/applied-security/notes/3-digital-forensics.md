@@ -16,4 +16,9 @@
 - Possibly determine previous contents of the storage 
 - Make sure this state was not fabricated 
 - Look for anomalies in the system 
-- DO NOT MODIFY ANYTHING (and keep log if unavoidable)
+- DO NOT MODIFY ANYTHING (and keep log of what and why if unavoidable)
+
+### DONT
+- Boot and copy onto an external drive
+- Move disk between systems and copy data
+- 
