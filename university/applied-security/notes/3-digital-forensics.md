@@ -67,4 +67,6 @@ More difficult
 - Logical: dump through external interface, e.g. USB 
 - Jailbreak OS: obtain root rights, then image 
 - Low-level exploits, e.g. before OS boots 
+	- BitPixie!
 - Physical: open device, connect to JTAG or remove/read Flash memory
+	- Physical probing
