@@ -101,3 +101,7 @@ Might see manufactured evidence, which can be noticed by:
 - Access pattern of file groups not in sync: Files put in browser cache, but not the cache index 
 - Unusual speed/times: Files in the download folder downloaded with the speed of a USB3 HDD while user had slow internet connection 
 - Least significant bits of timer values biased
+# Memory Forensics
+RAM dump may contain data never stored to permanent memory, for example:
+- Passwords / encryption keys
+- Volatile user input (e.g. browser “private” mode) ▪ Traces of buffer overflows and similar exploits ▪ RAM-only rootkits / viruses
