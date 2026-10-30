@@ -81,3 +81,6 @@ Police sometimes have the power to ask for pins at threat of jailtime.
 7. Create a timeline of events 
 8. Check for possibly deleted files 
 9. Check for anomalies
+
+For example, we can hash CSAM so we can compare to database hashes without having to view or store actual harmful content.
+# File Forensic
