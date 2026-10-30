@@ -25,3 +25,5 @@
 
 https://mitpress.mit.edu/books/digitalhumanities
 
+# Coursework
+Due 12th Jan
