@@ -90,4 +90,5 @@ Police sometimes have the power to ask for pins at threat of jailtime.
 	- Known good: e.g. OS and known applications (https://www.nist.gov/itl/csd/secure- systems-and-applications/national-software-reference-library-nsrl) 
 	- Keyword search, …
 # "Undeleting"
-Deleting a file marks
+Deleting a file marks block as unused, but data remains until overwritten. So, we can recover them.
+- Old android would screenshot when you 
