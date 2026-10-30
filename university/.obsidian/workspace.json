@@ -213,8 +213,9 @@
   },
   "active": "e1c453ec0610b5b4",
   "lastOpenFiles": [
-    "cryptography/symmetric-cryptography/notes/9-aes.md",
     "cryptography/symmetric-cryptography/labs/1-differential-cryptoanalysis.md",
+    "cryptography/symmetric-cryptography/notes/8-attacking-block-ciphers.md",
+    "cryptography/symmetric-cryptography/notes/9-aes.md",
     "applied-security/labs/memory-exploitation.md",
     "applied-security/notes/3-digital-forensics.md",
     "applied-security/lectures/week15-forensics.pdf",
@@ -222,7 +223,6 @@
     "slides/COMP3781_04(1).pdf",
     "digital-humanities/computational-modeling-in-humanities/notes/4.something.md",
     "digital-humanities/computational-modeling-in-humanities/notes/0-admin.md",
-    "cryptography/symmetric-cryptography/notes/8-attacking-block-ciphers.md",
     "cryptography/symmetric-cryptography/notes/7-block-ciphers.md",
     "applied-security/labs/fuzzing.md",
     "slides/block_cipher_attacks_lecture_5(1).pdf",
