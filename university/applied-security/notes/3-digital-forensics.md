@@ -59,3 +59,12 @@ More difficult
 - Remote wipe features
 - Some devices have memory integrated into PCB, can't just take it out
 
+- Manual: inspect live device through UI 
+	- Might do that at a border for example
+	- Take your phone, scroll through social media
+	- Not good really
+- Backups: offline (e.g. iTunes) or cloud 
+- Logical: dump through external interface, e.g. USB 
+- Jailbreak OS: obtain root rights, then image 
+- Low-level exploits, e.g. before OS boots 
+- Physical: open device, connect to JTAG or remove/read Flash memory
