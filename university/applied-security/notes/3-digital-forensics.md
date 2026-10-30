@@ -26,4 +26,11 @@ All of these will change and lose data
 ### DO
 - Shut down
 	- If we want to freeze and don't care about volatile
-- Co
+- Document state of the system, peripherals, serial numbers, location, date/time, internal connection of disks 
+- Remove hard disks 
+- Use a hardware write blocker 
+	- Prevents writing to hard disk
+- Use a second system to take the image with dedicated software
+- Take an image of each disk separately 
+- Store hash of the image, store securely
+- Run your full analysis only on the images you took, reassemble RAID or similar storage in software
