@@ -91,4 +91,5 @@ Police sometimes have the power to ask for pins at threat of jailtime.
 	- Keyword search, …
 # "Undeleting"
 Deleting a file marks block as unused, but data remains until overwritten. So, we can recover them.
-- Old android would screenshot when you 
+- Old android would screenshot when you open task switcher for a thumbnail, which would then be deleted.
+- We could, for example, recover camera photos if someone opened the task switcher with their camera open
