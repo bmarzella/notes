@@ -93,3 +93,11 @@ Police sometimes have the power to ask for pins at threat of jailtime.
 Deleting a file marks block as unused, but data remains until overwritten. So, we can recover them.
 - Old android would screenshot when you open task switcher for a thumbnail, which would then be deleted.
 - We could, for example, recover camera photos if someone opened the task switcher with their camera open
+# Possible anomalies to watch out for
+Might see manufactured evidence, which can be noticed by:
+- Partition tables with alignment not used by the OS installer: Maybe the partition was fabricated with another tool 
+- Unusual ordering of data on the drive: Data may have been copied in one go 
+- No fragments of old data in the free space: Drive might have been cleaned and cloned from other system 
+- Access pattern of file groups not in sync: Files put in browser cache, but not the cache index 
+- Unusual speed/times: Files in the download folder downloaded with the speed of a USB3 HDD while user had slow internet connection 
+- Least significant bits of timer values biased
