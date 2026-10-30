@@ -55,6 +55,7 @@ All of these will change and lose data
 ## Imaging Mobile Devices
 More difficult
 - Shutdown usually locks it
+	- Need exploits or a backdoor to get around, murky stuff
 - Remote wipe features
-- Some devices have memory integrated into PCB
-- 
+- Some devices have memory integrated into PCB, can't just take it out
+
