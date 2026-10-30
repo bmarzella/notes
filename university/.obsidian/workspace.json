@@ -33,8 +33,25 @@
               "title": "week15-forensics"
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "55f6dc04eb2b9785",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9bd9dfa43bfdb7b8",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "applied-security/lectures/week15-forensics.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "week15-forensics"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -225,10 +242,10 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "d50ebb3121b2a6d8",
+  "active": "e1c453ec0610b5b4",
   "lastOpenFiles": [
-    "applied-security/notes/3-digital-forensics.md",
     "applied-security/lectures/week15-forensics.pdf",
+    "applied-security/notes/3-digital-forensics.md",
     "applied-security/notes/4-digital-forensics.md",
     "slides/COMP3781_04(1).pdf",
     "digital-humanities/computational-modeling-in-humanities/notes/4.something.md",

@@ -1,3 +1,8 @@
 ![[week15-forensics.pdf]]
 
-# Law
+# Filesystems vs. block
+## Filesystem
+- Abstraction of files
+## Block
+- No abstraction
+- Deleted blocks may remain if 
