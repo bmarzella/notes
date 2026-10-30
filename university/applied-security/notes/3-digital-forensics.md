@@ -53,3 +53,8 @@ All of these will change and lose data
 - Often combined with imagine options
 
 ## Imaging Mobile Devices
+More difficult
+- Shutdown usually locks it
+- Remote wipe features
+- Some devices have memory integrated into PCB
+- 
