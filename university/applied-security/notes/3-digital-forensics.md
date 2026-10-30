@@ -51,7 +51,6 @@ All of these will change and lose data
 ### Write Blockers
 - Prevents writes to a medium being imaged
 - Often combined with imagine options
-
 ## Imaging Mobile Devices
 More difficult
 - Shutdown usually locks it
@@ -70,3 +69,5 @@ More difficult
 	- BitPixie!
 - Physical: open device, connect to JTAG or remove/read Flash memory
 	- Physical probing
+
+Police sometimes have the power to ask for pins at threat of jailtime.
