@@ -50,4 +50,6 @@ All of these will change and lose data
 	- (That’s pretty good, but often difficult)
 ### Write Blockers
 - Prevents writes to a medium being imaged
-- 
+- Often combined with imagine options
+
+## Imaging Mobile Devices
