@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "585224655bf7cd1a",
+        "id": "ff32a8ee1f675a27",
         "type": "tabs",
         "children": [
           {
-            "id": "13c71c8fc4c88e8b",
+            "id": "bcfca5bcb4d397d8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cryptography/symmetric-cryptography/notes/7-block-ciphers.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "7-block-ciphers"
+              "title": "New tab"
             }
           }
         ]
@@ -211,8 +207,9 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "13c71c8fc4c88e8b",
+  "active": "bcfca5bcb4d397d8",
   "lastOpenFiles": [
+    "cryptography/symmetric-cryptography/notes/7-block-ciphers.md",
     "applied-security/notes/1-buffer-overflows.md",
     "applied-security/labs/exploitation-and-fuzzing.md",
     "slides/COMP3781_04(1).pdf",
@@ -223,7 +220,6 @@
     "images/Pasted image 20261023133313.png",
     "cryptography/symmetric-cryptography/notes/9-aes.md",
     "cryptography/symmetric-cryptography/notes/8-attacking-block-ciphers.md",
-    "cryptography/symmetric-cryptography/notes/7-block-ciphers.md",
     "cryptography/symmetric-cryptography/notes/0-lecture-notes.pdf",
     "cryptography/symmetric-cryptography/labs/1-differential-cryptoanalysis.md",
     "cryptography/symmetric-cryptography/labs",
