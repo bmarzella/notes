@@ -37,10 +37,8 @@ If we encounter a server running an old operating system, we should begin by loo
 For example, the above script showed us the Linux version is `3.9.0-73-generic`. Searching for [[public-exploits]], we might find `CVE-2016-5195`, AKA [DirtyCow](https://github.com/dirtycow/dirtycow.github.io/wiki/PoCs), which would give us root access.
 
 We should keep in mind kernel exploits can cause system instability and thus we should take care before running them on production systems. It's best practice to try them in a lab environment first, and only run them on production systems with express permission from and coordination with our client.
-
 ### Vulnerable Software
 We should also look at installed software, for example with `dpkg -l` on Linux or by looking in `C:\Program Files` on Windows. Again, there could be public exploits for software in use, especially if any are out of date.
-
 ### User Privileges
 Another critical aspect to look at are the privileges available to the user we have access to. We might have the ability to run specific commands as root or as another user, which we might be able to leverage to escalate or privileges, or gain access as another user.
 
