@@ -15,7 +15,6 @@ Stored XSS is a two phased attack:
 The attacker first needs to get the payload onto the server. They input a malicious script somewhere that is saved, such as in the form of a comment on a blog.
 #### Execution
 The payload sits on the server until it is pulled. For example, a different user goes to that same blog and loads the comments, at which point the attackers script is pulled and triggered on the victims machine.
-
 ## DOM-based XSS
 ### What is it?
 Unlike the other two, the server is completely oblivious and uninvolved in DOM-XSS. The server sends a normal, safe response to the browser. The vulnerability exists entirely within the victim's browser after the page loads due to some client-side vulnerability.
