@@ -25,7 +25,6 @@ A JS property an attacker can control from the outside world, such as a URL hash
 #### Sink
 A dangerous JS function or DOM object that can execute code if given raw text, such as `element.innerHTML`, `document.write`, `eval()`, or legacy jQuery selectors like `$()`.
 ### What might it look like?
-
 #### Setup
 The attacker crafts a link where the URL contains a malicious script after a hash or query: `http://example.com/?search=javascript:alert()`.
 #### Execution
