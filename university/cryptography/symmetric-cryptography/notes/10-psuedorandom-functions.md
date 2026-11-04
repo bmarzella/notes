@@ -15,5 +15,6 @@ $$
 
 If we query Q times, 
 $$
-\frac{\frac{q^2}{2}}{\cdot}2
+\frac{q^2}{2} \cdot2^{-n}
 $$
+PRF if the number of queries allowed is less than root of output space
