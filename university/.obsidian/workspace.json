@@ -4,20 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "ff32a8ee1f675a27",
+        "id": "6e4e0ccd208fd1d1",
         "type": "tabs",
         "children": [
           {
-            "id": "bcfca5bcb4d397d8",
+            "id": "e1c453ec0610b5b4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "cryptography/symmetric-cryptography/notes/9-aes.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "9-aes"
+            }
+          },
+          {
+            "id": "367f1de9ee7fa325",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cryptography/symmetric-cryptography/notes/10-psuedorandom-functions.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "10-psuedorandom-functions"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -207,31 +226,32 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "bcfca5bcb4d397d8",
+  "active": "367f1de9ee7fa325",
   "lastOpenFiles": [
-    "cryptography/symmetric-cryptography/notes/7-block-ciphers.md",
-    "applied-security/notes/1-buffer-overflows.md",
-    "applied-security/labs/exploitation-and-fuzzing.md",
-    "slides/COMP3781_04(1).pdf",
-    "digital-humanities/computational-modeling-in-humanities/notes/4.something.md",
-    "applied-security/labs/memory-exploitation.md",
-    "applied-security/labs/fuzzing.md",
-    "slides/block_cipher_attacks_lecture_5(1).pdf",
-    "images/Pasted image 20261023133313.png",
     "cryptography/symmetric-cryptography/notes/9-aes.md",
+    "cryptography/symmetric-cryptography/notes/10-psuedorandom-functions.md",
+    "cryptography/symmetric-cryptography/notes/5. psuedorandom-generators-and-stream-ciphers.md",
+    "applied-security/labs/memory-exploitation.md",
     "cryptography/symmetric-cryptography/notes/8-attacking-block-ciphers.md",
-    "cryptography/symmetric-cryptography/notes/0-lecture-notes.pdf",
     "cryptography/symmetric-cryptography/labs/1-differential-cryptoanalysis.md",
-    "cryptography/symmetric-cryptography/labs",
     "applied-security/notes/3-digital-forensics.md",
     "applied-security/lectures/week15-forensics.pdf",
-    "applied-security/lectures/Pasted image 20261021093217.png",
-    "applied-security/notes/2-fuzzing-and-software-testing.md",
-    "applied-security/lectures/fuzzing-and-software-testing.pdf",
+    "applied-security/notes/4-digital-forensics.md",
+    "slides/COMP3781_04(1).pdf",
+    "digital-humanities/computational-modeling-in-humanities/notes/4.something.md",
+    "digital-humanities/computational-modeling-in-humanities/notes/0-admin.md",
+    "cryptography/symmetric-cryptography/notes/7-block-ciphers.md",
+    "applied-security/labs/fuzzing.md",
+    "slides/block_cipher_attacks_lecture_5(1).pdf",
+    "cryptography/symmetric-cryptography/labs",
+    "dissertation/intro-lecture.md",
+    "cryptography/symmetric-cryptography/notes/0-lecture-notes.pdf",
     "cryptography/symmetric-cryptography/notes/6-linear-feedback-shift-registers.md",
-    "cryptography/symmetric-cryptography/notes/5. psuedorandom-generators-and-stream-ciphers.md",
-    "Untitled.md",
-    "Pasted image 20261021093217.png",
+    "applied-security/notes/2-fuzzing-and-software-testing.md",
+    "images/Pasted image 20261023133313.png",
+    "applied-security/lectures/fuzzing-and-software-testing.pdf",
+    "applied-security/notes/1-buffer-overflows.md",
+    "applied-security/lectures/Pasted image 20261021093217.png",
     "housekeeping.md",
     "digital-humanities/computational-modeling-in-humanities/notes/lecture-1.md",
     "digital-humanities/computational-modeling-in-humanities/notes/admin.md",
@@ -240,7 +260,6 @@
     "cryptography/symmetric-cryptography/notes/historical-cryptosystems.md",
     "applied-security/notes/buffer-overflows.md",
     "applied-security/notes/admin.md",
-    "dissertation/intro-lecture.md",
     "cryptography/symmetric-cryptography/notes/4. semantic-security.md",
     "advanced-computer-systems/multi-core-computer-architecture/lectures/Lec2.pdf",
     "advanced-computer-systems/multi-core-computer-architecture/notes/5-data-parallelism-and-threading.md",
@@ -253,6 +272,7 @@
     "images/Pasted image 20261013175304.png",
     "images/Pasted image 20261013174616.png",
     "images/Pasted image 20261013174547.png",
-    "images/Pasted image 20261013114456.png"
+    "images/Pasted image 20261013114456.png",
+    "images/Pasted image 20261009163514.png"
   ]
 }
