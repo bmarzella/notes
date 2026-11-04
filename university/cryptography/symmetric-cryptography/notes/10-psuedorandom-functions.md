@@ -1,6 +1,3 @@
-# PRF implies PRG
-reminder, psuedorandom generator takes small truly random input, extends to psuedorandom output that is indistinguishable to an adversary from a truly random output.
-
 **A pseudorandom function takes a key and input block and produces an output block.**
 # PRF Security Game
 1. randomly generate a key
@@ -18,6 +15,9 @@ $$
 $$
 Block-cipher is a PRF if the number of queries allowed is less than root of output space
 
-PRF takes seed to choose function?
+PRF takes seed to choose function? then feed inputs 1 -> x? chain outputs together?
+# PRF implies PRG
+reminder, psuedorandom generator takes small truly random input, extends to psuedorandom output that is indistinguishable to an adversary from a truly random output.
+
 
 # Stream Ciphers from Block Ciphers
