@@ -17,4 +17,7 @@ $$
 \frac{q^2}{2} \cdot2^{-n}
 $$
 Block-cipher is a PRF if the number of queries allowed is less than root of output space
+
+PRF takes seed to choose function?
+
 # Stream Ciphers from Block Ciphers
