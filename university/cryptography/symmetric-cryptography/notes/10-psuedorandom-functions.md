@@ -13,3 +13,4 @@ $$
 Adv^{PRF}_{F}  (𝒜) ≔ 2| Pr[𝑊] − \frac{1}{2} |
 $$
 
+If we query Q times
