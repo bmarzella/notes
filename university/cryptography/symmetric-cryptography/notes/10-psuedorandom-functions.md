@@ -17,4 +17,4 @@ If we query Q times,
 $$
 \frac{q^2}{2} \cdot2^{-n}
 $$
-PRF if the number of queries allowed is less than root of output space
+Block-cipher is a PRF if the number of queries allowed is less than root of output space
