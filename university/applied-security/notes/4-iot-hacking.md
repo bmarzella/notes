@@ -50,7 +50,10 @@ If none of this works, then we can start looking at hardware methods
     - _Pinout:_
         
     - _Exploitation / Bootloaders:_
-    - 
+	    - U-boot
+		    - Can dump memory before linux loads
+		- Load custom bootloader
+			- might look for some test string, such as `CCCC`, which lets us just dump our out binary
 - **JTAG / SWD / Test Interfaces:**
     
     - _Automated Pin Discovery Tools:_
