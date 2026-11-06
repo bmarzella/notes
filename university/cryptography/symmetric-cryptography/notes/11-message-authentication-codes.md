@@ -3,7 +3,9 @@
 Our eavesdropper Eve is capable of not just listening in, but also modifying. **We want to protect the message from modification.** When Bob receives a message, he wants to know it was Alice that sent it.
 # Background: Beyond Confidentiality
 **Confidentiality vs. Integrity & Authenticity**
-- **Confidentiality:**
+- **Confidentiality:** Keeping message secret, what we've seen so far.
+- **Intergrity:** 
+- **Authenticity:** Message comes from who we think it does
 **Real-world Active Threats**
 
 # Core Authentication Goals
