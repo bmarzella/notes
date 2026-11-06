@@ -17,11 +17,11 @@
 ## Microcontrollers & Physical Attacks
 - ### Decapping ICs: 
 	- Want to extract embedded code from microcontrollers
-	- Read-out protection - bit in memory that refuses to 
-    
-- ### **Bypassing Read-Out Protection:**
-    
-- ### **Dump & Disassembly:**
+	- Physically open the chip, for example with acid
+- ### Bypassing Read-Out Protection:
+	- Read-out protection - bit in memory that prevents reading out information
+- ### Dump & Disassembly:
+	- 
     
 # Extraction Techniques: Complex Devices
 
