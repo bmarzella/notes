@@ -59,7 +59,9 @@ If none of this works, then we can start looking at hardware methods
     - _Automated Pin Discovery Tools:_
         
 - ## **Direct Flash Access / Chip-Off:**
-    
+
+#### Live Demo
+
 
 ## 4. Exploiting Bootloaders & Logic Bugs
 
