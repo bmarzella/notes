@@ -5,7 +5,6 @@
 - Provides low level control for hardware
 - Could have an OS, or just "bare metal" binary
 	- Don't need linux to boot every time you unlock your car
-- 
 ## Why Extract Firmware?
 - Looking for vulns and/or secret data
 - reverse engineering
@@ -15,7 +14,6 @@
 - developing replacement firmware
 	- add features we want
 # Extraction Techniques: Small / Invasive Devices
-
 ## Microcontrollers & Physical Attacks
 
 - ### **Decapping ICs:**
