@@ -78,4 +78,6 @@ We've seen:
 # Key Takeaways & Summary Points
 - Firmware extraction is essential
 - Not an exact science
-- N
+- Newer devices tend to be more complex and easier to extract
+- LLMs help
+- Security by secrecy is bad! As always!
