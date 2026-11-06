@@ -46,10 +46,14 @@ Adversary cannot forge valid tags.
 ### Why Test Chosen Message Attacks?
 - ???
 ## MAC Forgeability Game
-### Game Mechanics & Winning Condition
-
+### Game Mechanics
+### Winning Condition
+- Attacker can fool verifier
+- Message was never given to oracle
 **MAC Advantage Definition**
-
+$$
+Adv_{J}^{MAC}(\mathcal{A})
+$$
 # Replay Attacks & Limitations
 **Replay Attack Scenario**
 - Eve grabs an authenticated message with a valid tag and repeatedly sends it.
