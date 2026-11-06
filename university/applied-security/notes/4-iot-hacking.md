@@ -42,17 +42,18 @@
 2. Or maybe we can just switch it on
 	1. From there we can use exploits to gain root (unless it just gives us root)
 ### Hardware Interfaces
-If none of this works, then we can start looking at hardware methods
-1. **UART (Universal Asynchronous Receiver-Transmitter):**
-    - Ancient interface still used today
-Pinout:_
-	- Two pins, receive and trasmit
-	    - Buy usb to pin converter, sometimes we can just press enter, or type root root, to gain root, for example
-    - _Exploitation / Bootloaders:_
-	    - U-boot
-		    - Can dump memory before linux loads
-		- Load custom bootloader
-			- Might print some string while loading bootloader (such as `CCCC...`), which we can interrupt with our own binary
+If none of this works, then we can start looking at hardware methods:
+
+**UART (Universal Asynchronous Receiver-Transmitter):**
+- Ancient interface still used today
+Pinout:
+- Two pins, receive and trasmit
+	- Buy usb to pin converter, sometimes we can just press enter, or type root root, to gain root, for example
+Exploitation / Bootloaders:
+- U-boot
+	- Can dump memory before linux loads
+- Load custom bootloader
+	- Might print some string while loading bootloader (such as `CCCC...`), which we can interrupt with our own binary
 - **JTAG / SWD / Test Interfaces:**
     
     - _Automated Pin Discovery Tools:_
