@@ -51,9 +51,9 @@ Game Mechanics & Winning Condition
 **MAC Advantage Definition**
 
 # Replay Attacks & Limitations
-
 **Replay Attack Scenario**
-
+- Eve grabs an authenticated message with a valid tag and repeatedly sends it.
+- For example, if A
 **Why Basic MACs Fail Against Replays**
 
 **Common Protocol-Level Defenses**
