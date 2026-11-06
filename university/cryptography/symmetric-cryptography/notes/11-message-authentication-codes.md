@@ -36,20 +36,17 @@ So, we have three goals:
 **Typical Verification Method**
 
 # MAC Security Models & Attacks
-
 ## Existential Unforgeability under Chosen Message Attack (EUF-CMA)
 ### Security Goal
 Adversary cannot forge valid tags.
 ### Attack Model
 1. Adversary is able to request tags for messages of their choosing through an oracle.
 2. Adversary wins if it produces a valid tag for a message they have not passed to the oracle.
-3. 
+3. We assume that the adversary, being an eavesdropper, would be able to collect lots of message-tag pairs
 ### Why Test Chosen Message Attacks?
-- 
-
-# MAC Forgeability Game
-
-**Game Mechanics & Winning Condition**
+- ???
+## MAC Forgeability Game
+Game Mechanics & Winning Condition
 
 **MAC Advantage Definition**
 
