@@ -91,10 +91,12 @@ $$
 Split messages into blocks, tag each separately.
 1. Turn message into blocks
 2. Compute tag for each
-Each block independently is seThis is very weak!
+3. Concatenate to get final tag
+Each block independently is secure, however, as a whole this is very weak!
 ### Attack Vectors
 Recall that 
-1. 
+1. xxx
+2. 
 # Secure Variable-Length Construction
 
 **Metadata Countermeasures**
