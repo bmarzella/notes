@@ -115,19 +115,18 @@ Recall that
 ### Algorithm Steps
 
 ### Efficiency Metrics
-# CBC-MAC vs. CBC Encryption
-
-**Key Structural Differences**
+## CBC-MAC vs. CBC Encryption
+### Key Structural Differences
 
 # Critical Design Rules
 
-**Why Fixed IV (**$0^n$**) is Mandatory**
+Why Fixed IV ($0^n$) is Mandatory
 
-**Attack on Random-IV CBC-MAC**
+Attack on Random-IV CBC-MAC
 
-**Why Only Final Block Output is Allowed**
+Why Only Final Block Output is Allowed
 
-**Attack on Intermediate-Output MACs**
+Attack on Intermediate-Output MACs
 
 # Handling Variable-Length Messages in CBC-MAC
 
