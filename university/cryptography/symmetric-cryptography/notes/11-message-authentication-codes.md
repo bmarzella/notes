@@ -7,7 +7,7 @@ Suppose Alice sends a message to the bank, `transfer $100 to bob` (suppose this 
 1. intercept and modify this directly: `send 0 to bob`
 2. add their own block, so if message to bank is split between `send $100` and `to bob`, Eve could send `0000` between the two.
 
-If Alice and Bob share a private ke
+Alternatively, let's look at a MITM, Charles. If Alice and Bob share a private key. When Alice sends her message to Bob, she sends the message and a signature, 
 # Background: Beyond Confidentiality
 **Confidentiality vs. Integrity & Authenticity**
 So, we have three goals:
