@@ -1,10 +1,9 @@
 ![[message_authentication_lecture_9.pdf]]
 # Message Integrity & Authentication
-Our eavesdropper Eve is capable of 
+Our eavesdropper Eve is capable of not just listening in, but also modifying. **We want to protect the message from modification.** When Bob receives a message, he wants to know it was Alice that sent it.
 # Background: Beyond Confidentiality
-
 **Confidentiality vs. Integrity & Authenticity**
-
+- **Confidentiality:**
 **Real-world Active Threats**
 
 # Core Authentication Goals
