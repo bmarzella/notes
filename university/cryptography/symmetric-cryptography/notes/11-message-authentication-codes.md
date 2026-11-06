@@ -28,8 +28,9 @@ So, we have three goals:
 ![[Pasted image 20261106161951.png]]
 
 **Algorithmic Structure (S, V)**
-Sign is a function that takes the key and message, and produces some tag.
-Verify is a function that takes the key, message and tag and 
+- Sign is a function that takes the key and message, and produces some tag.
+- Verify is a function that takes the key, message and tag and accepts if unmodified and rejects if not. 
+	- V can just = S, if Bob produces the same tag, then there cannot have been modification.
 **Correctness Requirement**
 
 **Typical Verification Method**
