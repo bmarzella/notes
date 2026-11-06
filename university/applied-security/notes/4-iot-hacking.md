@@ -36,8 +36,9 @@
 ### Network Traffic Analysis:
 1. If connected to network and they download updates from network, we can intercept this
 	1. Might not be secured because why would it be
-		1. Theres a signat
+		1. There's a signature so it can't be MITMed, but we can read it
 ### Exposed Network Services:
+1. Might have exposed network protocol
 ### Hardware Interfaces
 
 - **UART (Universal Asynchronous Receiver-Transmitter):**
