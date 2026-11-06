@@ -52,17 +52,14 @@ Pinout:
 Exploitation / Bootloaders:
 - U-boot
 	- Can dump memory before linux loads
+	- Maybe we can find root password hash, which we can then crack, for example
 - Load custom bootloader
 	- Might print some string while loading bootloader (such as `CCCC...`), which we can interrupt with our own binary
 - **JTAG / SWD / Test Interfaces:**
     
     - _Automated Pin Discovery Tools:_
         
-- ## **Direct Flash Access / Chip-Off:**
-
-#### Live Demo
-
-
+## Direct Flash Access / Chip-Off:
 ## 4. Exploiting Bootloaders & Logic Bugs
 
 - ## **Bootloader Vulnerabilities & Glitching:**
