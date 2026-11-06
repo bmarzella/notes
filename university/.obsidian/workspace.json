@@ -226,8 +226,9 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "85a57049839442ec",
+  "active": "eaf23f3a502c1941",
   "lastOpenFiles": [
+    "slides/message_authentication_lecture_9.pdf",
     "cryptography/symmetric-cryptography/notes/10-psuedorandom-functions.md",
     "cryptography/symmetric-cryptography/notes/11-message-authentication-codes.md",
     "applied-security/notes/4-iot-hacking.md",
@@ -262,7 +263,6 @@
     "digital-humanities/computational-modeling-in-humanities/notes/admin.md",
     "cryptography/symmetric-cryptography/notes/perfect-cryptosystems.md",
     "cryptography/symmetric-cryptography/notes/intro-to-crypto.md",
-    "cryptography/symmetric-cryptography/notes/historical-cryptosystems.md",
     "advanced-computer-systems/multi-core-computer-architecture/lectures/Lec2.pdf",
     "Pasted image 20261020103942.png",
     "Pasted image 20261020103941.png",
