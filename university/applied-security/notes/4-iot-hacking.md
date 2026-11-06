@@ -2,7 +2,8 @@
 #firmware-extraction #firmware
 # Overview & Fundamentals
 ## What is Firmware?
-
+- Could have an OS, or just "bare metal" binary
+- 
 ## Why Extract Firmware?
 
 # Extraction Techniques: Small / Invasive Devices
