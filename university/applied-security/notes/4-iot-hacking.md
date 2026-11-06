@@ -21,7 +21,8 @@
 - ### Bypassing Read-Out Protection:
 	- Read-out protection - bit in memory that prevents reading out information
 	- Fuses hold read-out bit
-	- Old microcontrollers had the ability to reset fuses by shining UV light, but need to cover other components like flash to avoid wiping stuff we care about 
+	- Old microcontrollers had the ability to flip bits by shining UV light, so we can flip read-out protection bit 
+		- But need to cover other components like flash to avoid wiping stuff we care about 
 		- Manufacturer put a shield over it, so required tiltinng light source to reflect underneath
 - ### Dump & Disassembly:
 	- 
