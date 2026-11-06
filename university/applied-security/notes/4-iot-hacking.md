@@ -1,6 +1,6 @@
 ![[week16-firmware-hacking.pdf]]
+#firmware-extraction #firmware
 # Overview & Fundamentals
-
 ## What is Firmware?
 
 ## Why Extract Firmware?
