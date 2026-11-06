@@ -1,10 +1,13 @@
 ![[message_authentication_lecture_9.pdf]]
 # Message Integrity & Authentication
 Our eavesdropper Eve is capable of not just listening in, but also modifying. **We want to protect the message from modification.** When Bob receives a message, he wants to know it was Alice that sent it.
+This means Bob has additional powers, he'll have some verifier.
+
+Suppose Alice sends a message to the bank (`tranfser $100 to bob`) (suppose this is plaintext to )
 # Background: Beyond Confidentiality
 **Confidentiality vs. Integrity & Authenticity**
 - **Confidentiality:** Keeping message secret, what we've seen so far.
-- **Intergrity:** 
+- **Intergrity:** Message hasn't been modified
 - **Authenticity:** Message comes from who we think it does
 **Real-world Active Threats**
 
