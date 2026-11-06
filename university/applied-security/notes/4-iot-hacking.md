@@ -70,9 +70,12 @@ Exploitation / Bootloaders:
 	- However we can use something like a buffer overflow to write our own return addresses on the stack, letting us use ROP to disable read-out protection
 ## Relevant Hardware Weaknesses (CWE Top Weaknesses)
 We've seen:
-- 
+- **CWE-226:** 
 - **CWE-1191:** 
 - **CWE-1234:**
 - **CWE-1244:**
 - **CWE-1247:**
-## 6. Key Takeaways & Summary Points
+# Key Takeaways & Summary Points
+- Firmware extraction is essential
+- Not an exact science
+- N
