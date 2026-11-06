@@ -56,6 +56,8 @@ Exploitation / Bootloaders:
 - Load custom bootloader
 	- Might print some string while loading bootloader (such as `CCCC...`), which we can interrupt with our own binary
 - **JTAG / SWD / Test Interfaces:**
+    - Processors and flash chips can support a range of programming/debugging interfaces, such as JTAG, ARM SWD and others
+    - Again, physical pin headers are often present and left active
     - 
     - _Automated Pin Discovery Tools:_
 # Firmware extraction exploiting embedded bootloaders
