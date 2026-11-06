@@ -46,7 +46,7 @@ Adversary cannot forge valid tags.
 ### Why Test Chosen Message Attacks?
 - ???
 ## MAC Forgeability Game
-Game Mechanics & Winning Condition
+### Game Mechanics & Winning Condition
 
 **MAC Advantage Definition**
 
@@ -61,7 +61,7 @@ Game Mechanics & Winning Condition
 - Time-stamp
 - Number messages
 - Add a nonce (random value per)
-- Session state?
+- Tie ? to a short lived session
 # Timing Attacks on Verification
 
 **Vulnerable Verification Logic**
