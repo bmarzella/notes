@@ -31,8 +31,12 @@
 - More modern devices are more complicated and thus harder to secure
 ### Manufacturer Sources:
 1. Manufacturer website
-	1. Sometimes they'll just host it online an
+	1. Sometimes they'll just host it online and you can download
+	2. Or email asking, legally they might have to
 ### Network Traffic Analysis:
+1. If connected to network and they download updates from network, we can intercept this
+	1. Might not be secured because why would it be
+		1. Theres a signat
 ### Exposed Network Services:
 ### Hardware Interfaces
 
