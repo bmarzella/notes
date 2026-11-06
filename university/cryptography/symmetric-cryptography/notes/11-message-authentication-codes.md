@@ -53,9 +53,9 @@ Game Mechanics & Winning Condition
 # Replay Attacks & Limitations
 **Replay Attack Scenario**
 - Eve grabs an authenticated message with a valid tag and repeatedly sends it.
-- For example, if A
+- For example, if Alice sends `send $1000 to bob`, Eve can just repeat this, and the bank will see it as legitimate.
 **Why Basic MACs Fail Against Replays**
-
+- Verification exists in isolation, we don't look at previous mesa
 **Common Protocol-Level Defenses**
 
 # Timing Attacks on Verification
