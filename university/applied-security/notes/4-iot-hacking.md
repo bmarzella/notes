@@ -53,7 +53,7 @@ If none of this works, then we can start looking at hardware methods
 	    - U-boot
 		    - Can dump memory before linux loads
 		- Load custom bootloader
-			- Might print some string while loading bootloader (such as `CCCC...`), which we can intercept with our own botloader
+			- Might print some string while loading bootloader (such as `CCCC...`), which we can interrupt with our own binary
 - **JTAG / SWD / Test Interfaces:**
     
     - _Automated Pin Discovery Tools:_
