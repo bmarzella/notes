@@ -32,9 +32,9 @@ So, we have three goals:
 - Verify is a function that takes the key, message and tag and accepts if unmodified and rejects if not. 
 	- V can just = S, if Bob produces the same tag, then there cannot have been modification.
 **Correctness Requirement**
-
+???
 **Typical Verification Method**
-
+???
 # MAC Security Models & Attacks
 ## Existential Unforgeability under Chosen Message Attack (EUF-CMA)
 ### Security Goal
@@ -47,12 +47,13 @@ Adversary cannot forge valid tags.
 - ???
 ## MAC Forgeability Game
 ### Game Mechanics
+???
 ### Winning Condition
 - Attacker can fool verifier
 - Message was never given to oracle
 **MAC Advantage Definition**
 $$
-Adv_{J}^{MAC}(\mathcal{A})
+Adv_{J}^{MAC}(\mathcal{A}) := Pr[\mathcal{A}\space\text{wins}]
 $$
 # Replay Attacks & Limitations
 **Replay Attack Scenario**
