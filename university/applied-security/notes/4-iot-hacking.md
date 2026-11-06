@@ -61,7 +61,11 @@ Exploitation / Bootloaders:
 # Firmware extraction exploiting embedded bootloaders
 - Sometimes microcontrollers are left unprotected because it makes debugging annoying
 - Or maybe protections are flawed
-- ## **Case Study (e.g., LPC1343 CRP ROP Exploit):**
+
+**Case Study (e.g., LPC1343 CRP ROP Exploit):**
+- Three levels of read-out protections
+- Reading is always disabled, but writing to RAM is enabled at level 1
+	- Only above a certain address to avoid injections
     
 
 ## 5. Relevant Hardware Weaknesses (CWE Top Weaknesses)
