@@ -39,6 +39,8 @@
 		1. There's a signature so it can't be MITMed, but we can read it
 ### Exposed Network Services:
 1. Might have exposed network protocol
+2. Or maybe we can just switch it on
+	1. From there we can use exploits to gain root (unless)
 ### Hardware Interfaces
 
 - **UART (Universal Asynchronous Receiver-Transmitter):**
