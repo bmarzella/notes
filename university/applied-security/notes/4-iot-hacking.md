@@ -40,11 +40,12 @@
 ### Exposed Network Services:
 1. Might have exposed network protocol
 2. Or maybe we can just switch it on
-	1. From there we can use exploits to gain root (unless)
+	1. From there we can use exploits to gain root (unless it just gives us root)
 ### Hardware Interfaces
-
-- **UART (Universal Asynchronous Receiver-Transmitter):**
-    
+If none of this works, then we can start looking at hardware methods
+1. **UART (Universal Asynchronous Receiver-Transmitter):**
+    1. Two pins, receive and trasmit
+    2. 
     - _Pinout:_
         
     - _Exploitation / Bootloaders:_
