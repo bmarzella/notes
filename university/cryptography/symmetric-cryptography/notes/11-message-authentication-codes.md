@@ -95,11 +95,12 @@ Split messages into blocks, tag each separately.
 Each block independently is secure, however, as a whole this is very weak!
 ### Attack Vectors
 Recall that 
-1. xxx
-2. 
+1. ???
+2. Eve could just drop blocks and tags
+3. Eve can substitute in blocks with blocks they know are valid.
 # Secure Variable-Length Construction
 
-**Metadata Countermeasures**
+Metadata Countermeasures
 
 **Sign and Verify Algorithms**
 
