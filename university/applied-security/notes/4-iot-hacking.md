@@ -44,8 +44,9 @@
 ### Hardware Interfaces
 If none of this works, then we can start looking at hardware methods
 1. **UART (Universal Asynchronous Receiver-Transmitter):**
-    1. Two pins, receive and trasmit
-    2. 
+    - Ancient interface still used today
+    - Two pins, receive and trasmit
+	    - Buy usb to pin converter, sometimes we can just press enter, or type root, to gain root
     - _Pinout:_
         
     - _Exploitation / Bootloaders:_
