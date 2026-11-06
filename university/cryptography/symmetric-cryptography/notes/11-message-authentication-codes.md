@@ -99,9 +99,8 @@ Recall that
 2. Eve could just drop blocks and tags
 3. Eve can substitute in blocks with blocks they know are valid.
 # Secure Variable-Length Construction
-
-Metadata Countermeasures
-
+### Metadata Countermeasures
+1. **Message ID:** Includes a ran
 **Sign and Verify Algorithms**
 
 **Security Proof Cases**
