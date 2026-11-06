@@ -70,7 +70,9 @@ $$
 # Timing Attacks on Verification
 **Vulnerable Verification Logic**
 1. CPU can only check whether tag is valid byte-by-byte
-2. If each byte takes a second to verify, then 
+	- Let's say each byte takes a second to verify
+2. Because verification was byte-by-byte, attackers could just check every byte. If they got it correct, it'd move onto the next byte. If not, it would immediately reject within a second.
+3. Thus, pirates could use the time it takes to verify each bute 
 **Attack Principle & Complexity Reduction**
 
 **Xbox 360 Case Study**
