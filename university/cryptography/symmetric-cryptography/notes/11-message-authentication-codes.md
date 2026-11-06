@@ -1,6 +1,6 @@
 ![[message_authentication_lecture_9.pdf]]
 # Message Integrity & Authentication
-
+Our eavesdropper Eve is capable of 
 # Background: Beyond Confidentiality
 
 **Confidentiality vs. Integrity & Authenticity**
