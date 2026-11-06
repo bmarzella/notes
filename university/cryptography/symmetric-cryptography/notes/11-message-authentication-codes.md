@@ -3,7 +3,9 @@
 Our eavesdropper Eve is capable of not just listening in, but also modifying. **We want to protect the message from modification.** When Bob receives a message, he wants to know it was Alice that sent it.
 This means Bob has additional powers, he'll have some verifier.
 
-Suppose Alice sends a message to the bank (`tranfser $100 to bob`) (suppose this is plaintext to )
+Suppose Alice sends a message to the bank, `transfer $100 to bob` (suppose this is plaintext to make things easier). Eve could:
+1. modify this directly: `send 0 to bob`
+2. include 
 # Background: Beyond Confidentiality
 **Confidentiality vs. Integrity & Authenticity**
 - **Confidentiality:** Keeping message secret, what we've seen so far.
