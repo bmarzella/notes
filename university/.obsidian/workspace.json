@@ -37,6 +37,24 @@
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "9779e60b1d52e79d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4d14e12817e071bc",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "slides/message_authentication_lecture_9.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "message_authentication_lecture_9"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +116,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "6746306fa571459e",
@@ -226,11 +245,11 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "eaf23f3a502c1941",
+  "active": "4d14e12817e071bc",
   "lastOpenFiles": [
+    "cryptography/symmetric-cryptography/notes/11-message-authentication-codes.md",
     "slides/message_authentication_lecture_9.pdf",
     "cryptography/symmetric-cryptography/notes/10-psuedorandom-functions.md",
-    "cryptography/symmetric-cryptography/notes/11-message-authentication-codes.md",
     "applied-security/notes/4-iot-hacking.md",
     "applied-security/lectures/week16-firmware-hacking.pdf",
     "applied-security/notes/3-digital-forensics.md",
@@ -267,7 +286,6 @@
     "Pasted image 20261020103942.png",
     "Pasted image 20261020103941.png",
     "advanced-computer-systems/multi-core-computer-architecture/lectures",
-    "digital-humanities/computational-modeling-in-humanities/lectures/COMP3781_02.pdf",
     "images/Pasted image 20261013183535.png",
     "images/Pasted image 20261013175304.png",
     "images/Pasted image 20261013174616.png",
