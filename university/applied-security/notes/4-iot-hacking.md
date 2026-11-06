@@ -59,7 +59,7 @@ Exploitation / Bootloaders:
     - Processors and flash chips can support a range of programming/debugging interfaces, such as JTAG, ARM SWD and others
     - Again, physical pin headers are often present and left active
 	    - Tools exist that we can connect to something that looks like a JTAG pin, for example, which will brute force and find out what each pin does
-    - We could also 
+    - We could also look chip that stores firmware and read (maybe a)
 # Firmware extraction exploiting embedded bootloaders
 - Sometimes microcontrollers are left unprotected because it makes debugging annoying
 - Or maybe protections are flawed
