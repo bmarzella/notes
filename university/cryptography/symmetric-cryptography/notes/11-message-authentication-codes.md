@@ -68,9 +68,9 @@ $$
 - Add a nonce (random value per)
 - Tie ? to a short lived session
 # Timing Attacks on Verification
-
 **Vulnerable Verification Logic**
-
+1. CPU can only check whether tag is valid byte-by-byte
+2. If each byte takes a second to verify, then 
 **Attack Principle & Complexity Reduction**
 
 **Xbox 360 Case Study**
