@@ -110,14 +110,11 @@ Recall that
 
 **Efficiency Drawbacks**
 
-# 4. CBC-MAC
+# CBC-MAC
+## Basic CBC-MAC Construction
+### Algorithm Steps
 
-# Basic CBC-MAC Construction
-
-**Algorithm Steps**
-
-**Efficiency Metrics**
-
+### Efficiency Metrics
 # CBC-MAC vs. CBC Encryption
 
 **Key Structural Differences**
