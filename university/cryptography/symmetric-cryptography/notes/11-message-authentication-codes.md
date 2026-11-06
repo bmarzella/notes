@@ -85,13 +85,14 @@ $$
 
 **Primary Limitation**
 - Only handle $n$ bit messages
-- In reality, messages will chang eleng
-# Flaws in Naive Variable-Length Extensions
-
+- In reality, messages will vary in length.
+## Naive Variable-Length Extensions
 **Naive Block-wise Tagging Method**
+- Split messages into blocks, tag each separately
+This is very weak!
 
 **Attack Vectors**
-
+Recall
 # Secure Variable-Length Construction
 
 **Metadata Countermeasures**
