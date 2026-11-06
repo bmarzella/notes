@@ -65,7 +65,8 @@ Exploitation / Bootloaders:
 **Case Study (e.g., LPC1343 CRP ROP Exploit):**
 - Three levels of read-out protections
 - Reading is always disabled, but writing to RAM is enabled at level 1
-	- Only above a certain address to avoid injections
+	- Only above a certain address because read protection bit is stored below this
+	- However we can use something like a buffer overflow
     
 
 ## 5. Relevant Hardware Weaknesses (CWE Top Weaknesses)
