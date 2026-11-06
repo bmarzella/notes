@@ -25,12 +25,13 @@
 		- But need to cover other components like flash to avoid wiping stuff we care about 
 		- Manufacturer put a shield over it, so required tiltinng light source to reflect underneath
 - ### Dump & Disassembly:
-	- 
-    
+	- Then we can dump contents of microcontroller!
 # Extraction Techniques: Complex Devices
-
 ## Software & Network Methods
+- More modern devices are more complicated and thus harder to secure
 ### Manufacturer Sources:
+1. Manufacturer website
+	1. Sometimes they'll just host it online an
 ### Network Traffic Analysis:
 ### Exposed Network Services:
 ### Hardware Interfaces
