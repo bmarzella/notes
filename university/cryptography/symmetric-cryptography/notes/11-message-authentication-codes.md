@@ -5,14 +5,17 @@ This means Bob has additional powers, he'll have some verifier.
 
 Suppose Alice sends a message to the bank, `transfer $100 to bob` (suppose this is plaintext to make things easier). Eve could:
 1. intercept and modify this directly: `send 0 to bob`
-2. add their own block, so if message to bank is split between `send $100` and `to bob`, Eve could send `0000` between the two
+2. add their own block, so if message to bank is split between `send $100` and `to bob`, Eve could send `0000` between the two.
+
+If Alice and Bob share a private ke
 # Background: Beyond Confidentiality
 **Confidentiality vs. Integrity & Authenticity**
 So, we have three goals:
-- **Confidentiality:** Keeping message secret, what we've seen so far.
+- **Confidentiality:** Keeping message secret, cryptography as we've seen so far.
 - **Intergrity:** Message hasn't been modified
 - **Authenticity:** Message comes from who we think it does
-- **Non-repudiation:** Alice cannot claim that she didn
+- **Non-repudiation:** Sender cannot deny sending
+	- Alice cannot claim that she didn't send anything to the bank, because we know she did.
 **Real-world Active Threats**
 
 # Core Authentication Goals
