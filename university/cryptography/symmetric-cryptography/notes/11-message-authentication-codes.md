@@ -68,17 +68,14 @@ $$
 - Add a nonce (random value per)
 - Tie ? to a short lived session
 # Timing Attacks on Verification
-**Vulnerable Verification Logic**
-1. CPU can only check whether tag is valid byte-by-byte
+1. If tag verification is done byte-by-byte
 	- Let's say each byte takes a second to verify
-2. Because verification was byte-by-byte, attackers could just check every byte. If they got it correct, it'd move onto the next byte. If not, it would immediately reject within a second.
-3. Thus, pirates could use the time it takes to verify each bute 
-**Attack Principle & Complexity Reduction**
-
+2. Because verification is byte-by-byte, attackers could just check every byte. If they got it correct, it'd move onto the next byte. If not, it would immediately reject within a second.
+3. Thus, pirates could use the time it takes to verify each byte to brute force the tag!
 **Xbox 360 Case Study**
-1. Pirates would clone Xbox game disks and sell them for cheaper than legit copies.
-2. So, tags were added to game disks.
-3. 
+4. Pirates would clone Xbox game disks and sell them for cheaper than legit copies.
+5. So, tags were added to game disks.
+6. 
 **Mitigation: Constant-Time Comparison**
 
 # 3. Constructing MACs from PRFs
