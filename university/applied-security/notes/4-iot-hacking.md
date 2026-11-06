@@ -56,12 +56,11 @@ Exploitation / Bootloaders:
 - Load custom bootloader
 	- Might print some string while loading bootloader (such as `CCCC...`), which we can interrupt with our own binary
 - **JTAG / SWD / Test Interfaces:**
-    
+    - 
     - _Automated Pin Discovery Tools:_
 # Firmware extraction exploiting embedded bootloaders
 - Sometimes microcontrollers are left unprotected because it makes debugging annoying
 - Or maybe protections are flawed
-
 **Case Study (e.g., LPC1343 CRP ROP Exploit):**
 - Three levels of read-out protections
 - Reading is always disabled, but writing to RAM is enabled at level 1
