@@ -35,10 +35,13 @@ So, we have three goals:
 
 **Typical Verification Method**
 
-# 2. MAC Security Models & Attacks
+# MAC Security Models & Attacks
 
-# Existential Unforgeability under Chosen Message Attack (EUF-CMA)
-
+## Existential Unforgeability under Chosen Message Attack (EUF-CMA)
+### Security Goal
+Adversary cannot forge valid tags.
+### Attack Model
+1. Adversary is able to request tags for messages of 
 **Security Goal & Attack Model**
 
 **Why Test Chosen Message Attacks?**
