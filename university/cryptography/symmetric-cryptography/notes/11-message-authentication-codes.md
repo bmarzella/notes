@@ -100,10 +100,11 @@ Recall that
 3. **Substitution**: Eve can substitute in blocks with blocks they know are valid.
 # Secure Variable-Length Construction
 ### Metadata Countermeasures
-1. **Message ID:** Include a random $r$ with each block, to prevent substitution
+1. **Message ID:** Include a random $r$ with each block, to prevent substitution ???
 2. **Block Index:** Include block position $i$ with each block to prevent reordering
 3. **Message Length:** Include length $l$ with each block to prevent truncation
-**Sign and Verify Algorithms**
+### Sign and Verify Algorithms
+
 
 **Security Proof Cases**
 
