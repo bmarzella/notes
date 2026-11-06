@@ -77,17 +77,15 @@ $$
 5. So, tags were added to game disks.
 6. 
 **Mitigation: Constant-Time Comparison**
-
-# 3. Constructing MACs from PRFs
-
-# Fixed-Length MAC from PRF
-
+# Constructing MACs from PRFs
+## Fixed-Length MAC from PRF
 **Construction Details**
 
 **Security Theorem & Advantage Bound**
 
 **Primary Limitation**
-
+- Only handle $n$ bit messages
+- In reality, messages will chang eleng
 # Flaws in Naive Variable-Length Extensions
 
 **Naive Block-wise Tagging Method**
