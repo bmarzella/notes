@@ -18,14 +18,9 @@
 # Extraction Techniques: Complex Devices
 
 ## Software & Network Methods
-
-1. ## **Manufacturer Sources:**
-    
-2. ## **Network Traffic Analysis:**
-    
-3. ## **Exposed Network Services:**
-    
-
+### Manufacturer Sources:
+### Network Traffic Analysis:
+### Exposed Network Services:
 ### Hardware Interfaces
 
 - **UART (Universal Asynchronous Receiver-Transmitter):**
