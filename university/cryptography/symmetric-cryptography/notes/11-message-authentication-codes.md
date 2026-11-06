@@ -41,10 +41,11 @@ So, we have three goals:
 ### Security Goal
 Adversary cannot forge valid tags.
 ### Attack Model
-1. Adversary is able to request tags for messages of 
-**Security Goal & Attack Model**
-
-**Why Test Chosen Message Attacks?**
+1. Adversary is able to request tags for messages of their choosing through an oracle.
+2. Adversary wins if it produces a valid tag for a message they have not passed to the oracle.
+3. 
+### Why Test Chosen Message Attacks?
+- 
 
 # MAC Forgeability Game
 
