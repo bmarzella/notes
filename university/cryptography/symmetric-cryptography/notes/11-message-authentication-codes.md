@@ -55,10 +55,6 @@ Adversary cannot forge valid tags.
 $$
 Adv_{J}^{MAC}(\mathcal{A}) := Pr[\mathcal{A}\space\text{wins}]
 $$
-# Real World Attack
-1. Pirates would clone Xbox games and sell them for cheaper than legit copies.
-2. So, tags were added to game disks.
-3. 
 # Replay Attacks
 **Replay Attack Scenario**
 - Eve grabs an authenticated message with a valid tag and repeatedly sends it.
@@ -78,7 +74,9 @@ $$
 **Attack Principle & Complexity Reduction**
 
 **Xbox 360 Case Study**
-
+1. Pirates would clone Xbox game disks and sell them for cheaper than legit copies.
+2. So, tags were added to game disks.
+3. 
 **Mitigation: Constant-Time Comparison**
 
 # 3. Constructing MACs from PRFs
