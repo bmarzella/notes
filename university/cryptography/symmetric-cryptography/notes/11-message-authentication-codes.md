@@ -87,12 +87,14 @@ $$
 - Only handle $n$ bit messages
 - In reality, messages will vary in length.
 ## Naive Variable-Length Extensions
-**Naive Block-wise Tagging Method**
-- Split messages into blocks, tag each separately
-This is very weak!
-
-**Attack Vectors**
-Recall
+### Naive Block-wise Tagging Method
+Split messages into blocks, tag each separately.
+1. Turn message into blocks
+2. Compute tag for each
+Each block independently is seThis is very weak!
+### Attack Vectors
+Recall that 
+1. 
 # Secure Variable-Length Construction
 
 **Metadata Countermeasures**
