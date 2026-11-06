@@ -2,10 +2,15 @@
 #firmware-extraction #firmware
 # Overview & Fundamentals
 ## What is Firmware?
+- Provides low level control for hardware
 - Could have an OS, or just "bare metal" binary
+	- Don't need linux to boot every time you unlock your car
 - 
 ## Why Extract Firmware?
-
+- Looking for vulns and/or secret data
+- reverse engineering
+- forensics
+- 
 # Extraction Techniques: Small / Invasive Devices
 
 ## Microcontrollers & Physical Attacks
