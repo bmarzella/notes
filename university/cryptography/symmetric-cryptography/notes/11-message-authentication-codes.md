@@ -5,7 +5,8 @@ This means Bob has additional powers, he'll have some verifier.
 
 Suppose Alice sends a message to the bank, `transfer $100 to bob` (suppose this is plaintext to make things easier). Eve could:
 1. modify this directly: `send 0 to bob`
-2. include 
+2. add their own block, so if message to bank is split between `send $100` and `to bob`, Eve could send `0000` between the two
+3. if Eve
 # Background: Beyond Confidentiality
 **Confidentiality vs. Integrity & Authenticity**
 - **Confidentiality:** Keeping message secret, what we've seen so far.
