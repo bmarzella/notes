@@ -55,7 +55,11 @@ Adversary cannot forge valid tags.
 $$
 Adv_{J}^{MAC}(\mathcal{A}) := Pr[\mathcal{A}\space\text{wins}]
 $$
-# Replay Attacks & Limitations
+# Real World Attack
+1. Pirates would clone Xbox games and sell them for cheaper than legit copies.
+2. So, tags were added to game disks.
+3. 
+# Replay Attacks
 **Replay Attack Scenario**
 - Eve grabs an authenticated message with a valid tag and repeatedly sends it.
 - For example, if Alice sends `send $1000 to bob`, Eve can just repeat this, and the bank will see it as legitimate.
