@@ -45,10 +45,9 @@
 If none of this works, then we can start looking at hardware methods
 1. **UART (Universal Asynchronous Receiver-Transmitter):**
     - Ancient interface still used today
-    - Two pins, receive and trasmit
+Pinout:_
+	- Two pins, receive and trasmit
 	    - Buy usb to pin converter, sometimes we can just press enter, or type root root, to gain root, for example
-    - _Pinout:_
-        
     - _Exploitation / Bootloaders:_
 	    - U-boot
 		    - Can dump memory before linux loads
