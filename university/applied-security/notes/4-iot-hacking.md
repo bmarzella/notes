@@ -59,12 +59,8 @@ Exploitation / Bootloaders:
     
     - _Automated Pin Discovery Tools:_
 # Firmware extraction exploiting embedded bootloaders
-- Sometimes microcontrolers are left unprotected because it makes debugging annoying
-## Direct Flash Access / Chip-Off:
-## 4. Exploiting Bootloaders & Logic Bugs
-
-- ## **Bootloader Vulnerabilities & Glitching:**
-    
+- Sometimes microcontrollers are left unprotected because it makes debugging annoying
+- Or maybe protections are flawed
 - ## **Case Study (e.g., LPC1343 CRP ROP Exploit):**
     
 
