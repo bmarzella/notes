@@ -20,6 +20,8 @@
 	- Physically open the chip, for example with acid
 - ### Bypassing Read-Out Protection:
 	- Read-out protection - bit in memory that prevents reading out information
+	- Fuses hold read-out bit
+	- Old microcontrollers had the ability to reset fuses by shining UV light, but need to cover other components lik 
 - ### Dump & Disassembly:
 	- 
     
