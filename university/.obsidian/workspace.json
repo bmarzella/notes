@@ -245,10 +245,10 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "4d14e12817e071bc",
+  "active": "85a57049839442ec",
   "lastOpenFiles": [
-    "cryptography/symmetric-cryptography/notes/11-message-authentication-codes.md",
     "slides/message_authentication_lecture_9.pdf",
+    "cryptography/symmetric-cryptography/notes/11-message-authentication-codes.md",
     "cryptography/symmetric-cryptography/notes/10-psuedorandom-functions.md",
     "applied-security/notes/4-iot-hacking.md",
     "applied-security/lectures/week16-firmware-hacking.pdf",
