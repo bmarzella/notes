@@ -9,8 +9,11 @@
 ## Why Extract Firmware?
 - Looking for vulns and/or secret data
 - reverse engineering
-- forensics
-- 
+- forensics/failure anaylsis
+	- why did my car drive into a wall
+- repurposing eof devices
+- developing replacement firmware
+	- add features we want
 # Extraction Techniques: Small / Invasive Devices
 
 ## Microcontrollers & Physical Attacks
