@@ -8,7 +8,7 @@ Suppose Alice sends a message to the bank, `transfer $100 to bob` (suppose this 
 
 Alternatively, let's look at a MITM, Charles. If Alice and Bob share a private key. When Alice sends her message to Bob, she sends the message and a **signature S** (or tag?), which is computed using the key. Bob has a **verifier v**, which checks whether the tag is valid. (If the message were encrypted, we'd decrypt first, then verify the tag, but we're just focusing on Integrity and Authenticity).
 
-**The tag should not be forgeable.** Only someone with the key can generate or 
+**The tag should not be forgeable.** Only someone with the key can generate/verify a tag.
 # Background: Beyond Confidentiality
 **Confidentiality vs. Integrity & Authenticity**
 So, we have three goals:
@@ -17,17 +17,15 @@ So, we have three goals:
 - **Authenticity:** Message comes from who we think it does
 - **Non-repudiation:** Sender cannot deny sending
 	- Alice cannot claim that she didn't send anything to the bank, because we know she did.
-**Real-world Active Threats**
-
 # Core Authentication Goals
-
-# Message Authentication Codes (MACs) Protocol
+## Message Authentication Codes (MACs) Protocol
 
 **Basic Protocol Steps**
 
 **Key Properties**
 
 # Formal MAC Definition
+![[Pasted image 20261106161951.png]]
 
 **Algorithmic Structure (S, V)**
 
