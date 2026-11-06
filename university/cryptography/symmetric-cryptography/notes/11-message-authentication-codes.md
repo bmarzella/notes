@@ -6,7 +6,7 @@ Suppose Alice sends a message to the bank, `transfer $100 to bob` (suppose this 
 1. intercept and modify this directly: `send 0 to bob`
 2. add their own block, so if message to bank is split between `send $100` and `to bob`, Eve could send `0000` between the two.
 
-Alternatively, let's look at a MITM, Charles. If Alice and Bob share a private key. When Alice sends her message to Bob, she sends the message and a **signature S** (or tag?), which is computed using the key. Bob has a **verifier v**, which checks whether the tag is valid. (If the message were encrypted, we'd decrypt first, then verify the tag, but we're just focusing on Integrity and Authenticity).
+Alternatively, let's look at a MITM, Charles. If Alice and Bob share a private key. When Alice sends her message to Bob, she sends the message and a **tag** t, which is computed using the key. Bob has a **verifier v**, which checks whether the tag is valid. (If the message were encrypted, we'd decrypt first, then verify the tag, but we're just focusing on Integrity and Authenticity).
 
 **The tag should not be forgeable.** Only someone with the key can generate/verify a tag.
 # Background: Beyond Confidentiality
@@ -28,7 +28,8 @@ So, we have three goals:
 ![[Pasted image 20261106161951.png]]
 
 **Algorithmic Structure (S, V)**
-
+Sign is a function that takes the key and message, and produces some tag.
+Verify is a function that takes the key, message and tag and 
 **Correctness Requirement**
 
 **Typical Verification Method**
