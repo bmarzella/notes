@@ -55,9 +55,13 @@ Game Mechanics & Winning Condition
 - Eve grabs an authenticated message with a valid tag and repeatedly sends it.
 - For example, if Alice sends `send $1000 to bob`, Eve can just repeat this, and the bank will see it as legitimate.
 **Why Basic MACs Fail Against Replays**
-- Verification exists in isolation, we don't look at previous mesa
+- Verification exists in isolation, we don't look at previous messages
+- Same message = same tag
 **Common Protocol-Level Defenses**
-
+- Time-stamp
+- Number messages
+- Add a nonce (random value per)
+- Session state?
 # Timing Attacks on Verification
 
 **Vulnerable Verification Logic**
