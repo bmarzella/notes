@@ -59,7 +59,7 @@ Exploitation / Bootloaders:
     - Processors and flash chips can support a range of programming/debugging interfaces, such as JTAG, ARM SWD and others
     - Again, physical pin headers are often present and left active
 	    - Tools exist that we can connect to something that looks like a JTAG pin, for example, which will brute force and find out what each pin does
-    - We could also look chip that stores firmware and read (maybe a)
+    - We could also look chip that stores firmware and read (maybe after desoldering)
 # Firmware extraction exploiting embedded bootloaders
 - Sometimes microcontrollers are left unprotected because it makes debugging annoying
 - Or maybe protections are flawed
@@ -68,16 +68,11 @@ Exploitation / Bootloaders:
 - Reading is always disabled, but writing to RAM is enabled at level 1
 	- Only above a certain address because read protection bit is stored below this
 	- However we can use something like a buffer overflow to write our own return addresses on the stack, letting us use ROP to disable read-out protection
-- 
 ## Relevant Hardware Weaknesses (CWE Top Weaknesses)
-
-- **CWE-1191:**
-    
+We've seen:
+- 
+- **CWE-1191:** 
 - **CWE-1234:**
-    
 - **CWE-1244:**
-    
 - **CWE-1247:**
-    
-
 ## 6. Key Takeaways & Summary Points
