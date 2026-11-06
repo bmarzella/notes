@@ -15,8 +15,9 @@
 	- add features we want
 # Extraction Techniques: Small / Invasive Devices
 ## Microcontrollers & Physical Attacks
-
-- ### **Decapping ICs:**
+- ### Decapping ICs: 
+	- Want to extract embedded code from microcontrollers
+	- Read-out protection - bit in memory that refuses to 
     
 - ### **Bypassing Read-Out Protection:**
     
