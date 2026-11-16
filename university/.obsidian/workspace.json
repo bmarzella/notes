@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9779e60b1d52e79d",
+        "id": "3244826a031a9f2d",
         "type": "tabs",
         "children": [
           {
-            "id": "4d14e12817e071bc",
+            "id": "30ad26f5f74e9277",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "slides/message_authentication_lecture_9.pdf"
+                "file": "applied-security/labs/fuzzing.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "message_authentication_lecture_9"
+              "icon": "lucide-file",
+              "title": "fuzzing"
             }
           }
         ]
@@ -209,21 +211,21 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "4d14e12817e071bc",
+  "active": "30ad26f5f74e9277",
   "lastOpenFiles": [
+    "applied-security/labs/memory-exploitation.md",
+    "applied-security/labs/fuzzing.md",
+    "applied-security/labs/forensics.md",
+    "slides/message_authentication_lecture_9.pdf",
     "cryptography/symmetric-cryptography/notes/11-message-authentication-codes.md",
     "Pasted image 20261106161951.png",
-    "slides/message_authentication_lecture_9.pdf",
     "cryptography/symmetric-cryptography/notes/10-psuedorandom-functions.md",
     "applied-security/notes/4-iot-hacking.md",
     "applied-security/lectures/week16-firmware-hacking.pdf",
     "applied-security/notes/3-digital-forensics.md",
-    "applied-security/labs/forensics.md",
     "Repository.md",
-    "applied-security/labs/fuzzing.md",
     "cryptography/symmetric-cryptography/notes/9-aes.md",
     "cryptography/symmetric-cryptography/notes/5. psuedorandom-generators-and-stream-ciphers.md",
-    "applied-security/labs/memory-exploitation.md",
     "cryptography/symmetric-cryptography/notes/8-attacking-block-ciphers.md",
     "cryptography/symmetric-cryptography/labs/1-differential-cryptoanalysis.md",
     "applied-security/lectures/week15-forensics.pdf",
