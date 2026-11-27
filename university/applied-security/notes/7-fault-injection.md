@@ -56,11 +56,14 @@ On any encryption function ciphertext = e(key, plaintext)
 ### CRT-RSA Fault Attacks
 #### Mathematical Foundations of CRT-RSA
 $\text{Signature} = \text{Plaintext}^{key} \space \text{MOD} \space n$
-Where $n$ is the product of two primes (that haven't been found yet i think?).
+Where $n$ is the product of two primes.
 #### Fault Model
 Random location, any effect, one *subexponentiation*, we just have to hit it. Fault propagates down. 
 #### Bellcore Attack
 If we get a normal and faulty signature, then we can take the difference and find the greatest common devisor with $n$, which yields one of our primes, from which we can find the other.
+$$
+q = \text{gcd}(s-s', \space n), \space p = \frac{n}{q}
+$$
 #### Lenstra Attack
 
 ### Accidental Faults & Real-World Vulnerabilities
