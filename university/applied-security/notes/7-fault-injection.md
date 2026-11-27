@@ -77,10 +77,13 @@ $$
 Access a single memory location over and over could cause bitflips, which could be leveraged.
 ## Countermeasures
 ### Detection-Based Defences
-- Looking for things like EM, voltage changes etc
-- L
-
+- Look for things like EM, voltage changes etc
+- Look for faulty result, maybe produce two results in parallel then compare before submitting (though at some point they meet!)
+- 
 ### Algorithmic Countermeasures
+- Verifying signatures after signing
+- Seeing if the cipher can go back to the plaintext
+- Adding randomisation to make hitting t
 
 ### Pitfalls & Implementation Weaknesses in Countermeasures
 
