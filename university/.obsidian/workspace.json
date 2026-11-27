@@ -20,26 +20,23 @@
               "icon": "lucide-file",
               "title": "7-fault-injection"
             }
-          }
-        ]
-      },
-      {
-        "id": "95d4dae467af16c1",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "b8648c1b457dfde5",
+            "id": "7c4785f7c994ae63",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "applied-security/lectures/week19-fault-injection(1).pdf"
+                "file": "applied-security/notes/5-side-channels-1.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "week19-fault-injection(1)"
+              "icon": "lucide-file",
+              "title": "5-side-channels-1"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -101,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.8999938964844,
-    "collapsed": true
+    "width": 303.8999938964844
   },
   "right": {
     "id": "6746306fa571459e",
@@ -230,10 +226,12 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "50c66c4ed7dbeba7",
+  "active": "7c4785f7c994ae63",
   "lastOpenFiles": [
-    "applied-security/notes/4-iot-hacking.md",
+    "applied-security/lectures/week17-side-channels-1.pdf",
     "applied-security/notes/7-fault-injection.md",
+    "applied-security/notes/5-side-channels-1.md",
+    "applied-security/notes/4-iot-hacking.md",
     "applied-security/lectures/week19-fault-injection(1).pdf",
     "sketch.md",
     "digital-humanities/computational-modeling-in-humanities/lectures/COMP3781_08(1).pdf",
@@ -269,7 +267,6 @@
     "images/Pasted image 20261023133313.png",
     "applied-security/notes/1-buffer-overflows.md",
     "applied-security/lectures/Pasted image 20261021093217.png",
-    "housekeeping.md",
     "Pasted image 20261020103942.png",
     "Pasted image 20261020103941.png",
     "images/Pasted image 20261013183535.png",
