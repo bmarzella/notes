@@ -66,7 +66,10 @@ q = \text{gcd}(s-s', \space n), \space p = \frac{n}{q}
 $$
 *Recording will go through full process*
 #### Lenstra Attack
-
+Improvement on bellcore, not always realistic to 
+$$
+q = \text{gcd}(s^{-e} - x, \space n), \space p=\frac{n}{q}
+$$
 ### Accidental Faults & Real-World Vulnerabilities
 
 ## Advanced Targets & Software-Based Fault Injection
