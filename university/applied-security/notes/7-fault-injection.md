@@ -32,7 +32,8 @@ Can we effect just one cycle, one instruction, or is it more random, multiple cy
 - Skipping instructions
 ## Control Flow Manipulation & Logic Bypassing
 ### Bypassing PIN Checks & Branch Instruction Flipping
-Could have a `memcmp` to check a pin that runs `return -1;` i th
+Could have a `memcmp` to check a pin that runs `return -1;` i the pin is wrong.
+If our fault model allows us to skip a single, specific instruction, we could skip the pin if check!
 ### Software-Based Fault Targets
 
 ## Cryptographic Fault Attacks
