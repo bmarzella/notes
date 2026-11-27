@@ -1,15 +1,11 @@
 ![[week19-fault-injection(1).pdf]]
-
-
 ## Introduction to Implementation Attacks
-
 ### Passive vs. Active Attacks
-
 ### Side-Channel Analysis vs. Fault Injection
 #### Side Channel
-Observations, temperature, power consumptions, timings etc
-#### Fault I
-
+Observations: temperature, power consumptions, timings etc
+#### Fault Injection
+Actions: Heating/cooling, shining lasers, messing with an external clock etc.
 ## Physical Fault Injection Techniques
 
 ### Power and Clock Glitching
