@@ -36,9 +36,9 @@ Could have a `memcmp` to check a pin that runs `return -1;` i the pin is wrong.
 If our fault model allows us to skip a single, specific instruction, we could skip the pin if check!
 ## Cryptographic Fault Attacks
 ### Generic Attacks on Keyed Algorithms
-On any encryption function ciphertext = e(key, 
+On any encryption function ciphertext = e(key, plaintext)
 #### Attack Assumptions & Methodology
-- We can repeatedly call the function for some constant input, knowledge of which isnt necessary
+- We can repeatedly call the function for some constant plaintext, knowledge of which isnt necessary
 - We can force any bit of k to be stuck as 0
 #### Attack
 1. Get fault free ciphertext
@@ -46,9 +46,11 @@ On any encryption function ciphertext = e(key,
 	1. If ciphertext is the same, then we know nothing changed, therefore the first bit is 0
 	2. If ciphertext is different, key mustve changed, therefore first bit was 1
 3. Repeat for remaining key bits
-
 #### Practical Implications & Extensions
-
+1. Simple, but effective and practical
+2. Works the same for stuck-at-one
+3. Can be extended for other fault models:
+	1. If we can only force the 
 ### Differential Fault Analysis (DFA) on Block Ciphers
 
 ### CRT-RSA Fault Attacks
