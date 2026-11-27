@@ -11,7 +11,7 @@ Actions: Heating/cooling, shining lasers, messing with an external clock etc.
 ### Power
 For example, dropping supply voltage when target computation occurs could let use manipulate the result.
 ### Clock Glitching
-
+For example, overclocking causes instability, so we can overclock for a single cycle to manipulate instructions.
 ### Electromagnetic (EM) Pulses
 
 ### Laser and Optical Attacks
