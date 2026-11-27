@@ -60,7 +60,7 @@ Where $n$ is the product of two primes (that haven't been found yet i think?).
 #### Fault Model
 Random location, any effect, one *subexponentiation*, we just have to hit it. Fault propagates down. 
 #### Bellcore Attack
-
+If we get a normal and faulty signature, then we can take the difference and find the greatest common devisor with $n$, which yields one of our primes, from which we can find the other.
 #### Lenstra Attack
 
 ### Accidental Faults & Real-World Vulnerabilities
