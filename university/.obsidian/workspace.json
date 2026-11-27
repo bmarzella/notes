@@ -22,6 +22,24 @@
             }
           }
         ]
+      },
+      {
+        "id": "95d4dae467af16c1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b8648c1b457dfde5",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "applied-security/lectures/week19-fault-injection(1).pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "week19-fault-injection(1)"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -83,7 +101,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.8999938964844
+    "width": 303.8999938964844,
+    "collapsed": true
   },
   "right": {
     "id": "6746306fa571459e",
@@ -213,7 +232,9 @@
   },
   "active": "50c66c4ed7dbeba7",
   "lastOpenFiles": [
+    "applied-security/notes/4-iot-hacking.md",
     "applied-security/notes/7-fault-injection.md",
+    "applied-security/lectures/week19-fault-injection(1).pdf",
     "sketch.md",
     "digital-humanities/computational-modeling-in-humanities/lectures/COMP3781_08(1).pdf",
     "digital-humanities/computational-modeling-in-humanities/lectures/COMP3781_02.pdf",
@@ -236,14 +257,12 @@
     "slides/message_authentication_lecture_9.pdf",
     "images/Pasted image 20261106161951.png",
     "cryptography/symmetric-cryptography/notes/10-psuedorandom-functions.md",
-    "applied-security/notes/4-iot-hacking.md",
     "applied-security/lectures/week16-firmware-hacking.pdf",
     "applied-security/notes/3-digital-forensics.md",
     "Repository.md",
     "cryptography/symmetric-cryptography/notes/5. psuedorandom-generators-and-stream-ciphers.md",
     "applied-security/lectures/week15-forensics.pdf",
     "applied-security/notes/4-digital-forensics.md",
-    "slides/COMP3781_04(1).pdf",
     "dissertation/intro-lecture.md",
     "cryptography/symmetric-cryptography/notes/6-linear-feedback-shift-registers.md",
     "applied-security/notes/2-fuzzing-and-software-testing.md",
@@ -251,7 +270,6 @@
     "applied-security/notes/1-buffer-overflows.md",
     "applied-security/lectures/Pasted image 20261021093217.png",
     "housekeeping.md",
-    "digital-humanities/computational-modeling-in-humanities/notes/lecture-1.md",
     "Pasted image 20261020103942.png",
     "Pasted image 20261020103941.png",
     "images/Pasted image 20261013183535.png",
