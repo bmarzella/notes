@@ -6,7 +6,7 @@ We have a non invertible hash function. Attacker can compute forwards, not backw
 2. Hashes the result, hashes that etc
 3. Eventually, ends up with a graph that leads back to the original input
 	1. Because hash has one input, one output
-4. $2^n$ is the number of operations I think? 
+4. $2^n$ is the total number of operations I think? 
 5. We store every $n$th element, where $n$ is chosen by the attacker, for example, $\sqrt{2^n}$.
 
 Attack
