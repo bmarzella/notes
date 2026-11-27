@@ -12,3 +12,5 @@ Assuming we have a good hash function, we can build a MAC from it.
 1. Could just hash the message and key and use the result as the tag
 	1. Message and hash, and hash and message are both broken however.
 ## Prepend the Key
+Hash key message.
+If hash is truly random, then this is perfectly fine. But most hash functions are based on Merkle-Damgard, which is strong, but not perfect, and in this case, fails.
