@@ -92,4 +92,6 @@ Access a single memory location over and over could cause bitflips, which could 
 etc
 ## Summary & Take-Home Points
 1. Fault injection bypasses perfect bug free code, or mathematical security
-2. Ciphers are usually vulnerable to faul
+2. Ciphers are usually vulnerable to fault attacks
+3. Low barrier to entry, tools are cheap
+4. Countermeasures hard and costly
