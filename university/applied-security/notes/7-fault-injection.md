@@ -41,7 +41,11 @@ If our fault model allows us to skip a single, specific instruction, we could sk
 - We can force any bit of k to be stuck as 0
 #### Attack
 1. Get fault fre ciphertext
-2. Inject fault bit 0 for t
+2. Inject fault bit 0 for the first key bit:
+	1. If ciphertext is the same, then we know nothing changed, therefore the first bit is 0
+	2. If ciphertext is different, key mustve changed, therefore first bit was 1
+	3. 
+3. 
 #### Practical Implications & Extensions
 
 ### Differential Fault Analysis (DFA) on Block Ciphers
