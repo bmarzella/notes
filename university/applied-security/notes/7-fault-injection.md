@@ -20,12 +20,16 @@ idk
 - Pirating TV pre-streaming. Could, for example, clone sky viewing cards that would allow for TVs to locally decrypt paid TV signals.
 - Chip tuning, removing software enforced speed limits on cars
 ## Fault Models
-How can the attacker impact internal valu
+How can the attacker impact internal values?
 ### Spatial Location
-
+Can we touch a specific bit/byte/word/instruction etc or a random position/width
 ### Temporal Positioning
 
 ### Fault Effects
+- Flipping bits
+- Getting bits stuck
+- Statistical -> 
+- Skipping instructions
 
 ## Control Flow Manipulation & Logic Bypassing
 
