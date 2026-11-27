@@ -54,9 +54,11 @@ On any encryption function ciphertext = e(key, plaintext)
 	2. Can work byte-wise too
 ### Differential Fault Analysis (DFA) on Block Ciphers
 ### CRT-RSA Fault Attacks
-$\{Signature} = \text{Plaintext}^{key} \space \text{MOD} \space n$
 #### Mathematical Foundations of CRT-RSA
+$\text{Signature} = \text{Plaintext}^{key} \space \text{MOD} \space n$
+Where $n$ is the product of two primes (that haven't been found yet i think?).
 
+We do some precomputation that we don't care about, 
 #### Bellcore Attack
 
 #### Lenstra Attack
