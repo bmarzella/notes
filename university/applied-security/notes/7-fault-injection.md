@@ -6,6 +6,9 @@
 ### Passive vs. Active Attacks
 
 ### Side-Channel Analysis vs. Fault Injection
+#### Side Channel
+Observations, temperature, power consumptions, timings etc
+#### Fault I
 
 ## Physical Fault Injection Techniques
 
