@@ -8,7 +8,9 @@ Observations: temperature, power consumptions, timings etc
 Actions: Heating/cooling, shining lasers, messing with an external clock etc.
 ## Physical Fault Injection Techniques
 
-### Power and Clock Glitching
+### Power
+For example, dropping supply voltage when target computation occurs could let use manipulate the result.
+### Clock Glitching
 
 ### Electromagnetic (EM) Pulses
 
