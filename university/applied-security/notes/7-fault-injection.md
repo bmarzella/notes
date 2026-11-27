@@ -13,11 +13,11 @@ For example, dropping supply voltage when target computation occurs could let us
 ### Clock Glitching
 For example, overclocking causes instability, so we can overclock for a single cycle to manipulate instructions.
 ### Electromagnetic (EM) Pulses
-
+Generating EM pulses and shooting them at a chip.
 ### Laser and Optical Attacks
-
+idk
 ### Hardware Setup & Real-World Examples
-
+An example was for pirating TV pre-streaming. 
 ## Fault Models
 
 ### Spatial Location
