@@ -13,4 +13,4 @@ Attack
 1. Now attacker is given a hash and wants to find the input
 2. Hashes values until reaches a value in the lookup table
 3. From here, attacker can go back one in the hash table, then hash forwards till they find the target value
-4. 
+
