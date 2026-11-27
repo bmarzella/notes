@@ -71,9 +71,8 @@ $$
 q = \text{gcd}(s^{-e} - x, \space n), \space p=\frac{n}{q}
 $$
 ### Accidental Faults & Real-World Vulnerabilities
-Could also occur naturally, 
-## Advanced Targets & Software-Based Fault Injection
 
+## Software-Based Fault Injection
 ### Rowhammer Attacks
 
 ### Voltage & Frequency Scaling Manipulation
