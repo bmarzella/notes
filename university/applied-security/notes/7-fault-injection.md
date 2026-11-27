@@ -83,8 +83,8 @@ Access a single memory location over and over could cause bitflips, which could 
 ### Algorithmic Countermeasures
 - Verifying signatures after signing
 - Seeing if the cipher can go back to the plaintext
-- Adding randomisation to make hitting t
-
-### Pitfalls & Implementation Weaknesses in Countermeasures
-
+- Adding randomisation to make hitting a target harder, but for example, we saw earlier that we don't always ned a precise target
+### Weaknesses in Countermeasures
+- Most countermeasures can be bypassed in isolation
+- Could inject a fault pre-comparison, then 
 ## Summary & Take-Home Points
