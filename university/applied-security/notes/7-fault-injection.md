@@ -37,7 +37,11 @@ If our fault model allows us to skip a single, specific instruction, we could sk
 ## Cryptographic Fault Attacks
 ### Generic Attacks on Keyed Algorithms
 #### Attack Assumptions & Methodology
-- We can repeatedly call the functio
+- We can repeatedly call the function for some constant input, knowledge of which isnt necessary
+- We can force any bit of k to be stuck as 0
+#### Attack
+1. Get fault fre ciphertext
+2. Inject fault bit 0 for t
 #### Practical Implications & Extensions
 
 ### Differential Fault Analysis (DFA) on Block Ciphers
