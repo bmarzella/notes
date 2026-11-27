@@ -258,10 +258,11 @@
       "slide-note:Slide Note Block Generator": false
     }
   },
-  "active": "eaf23f3a502c1941",
+  "active": "58024db74d2c9940",
   "lastOpenFiles": [
-    "cryptography/symmetric-cryptography/notes/13-random-oracle.md",
+    "cryptography/symmetric-cryptography/notes/11-message-authentication-codes.md",
     "cryptography/symmetric-cryptography/notes/14-MACS.md",
+    "cryptography/symmetric-cryptography/notes/13-random-oracle.md",
     "cryptography/symmetric-cryptography/random_oracles_lecture_13.pdf",
     "cryptography/symmetric-cryptography/notes/15ish-hash-attack.md",
     "applied-security/notes/7-fault-injection.md",
@@ -283,7 +284,6 @@
     "cryptography/symmetric-cryptography/notes/7-block-ciphers.md",
     "cryptography/symmetric-cryptography/notes/8-attacking-block-ciphers.md",
     "cryptography/symmetric-cryptography/notes/9-aes.md",
-    "cryptography/symmetric-cryptography/notes/11-message-authentication-codes.md",
     "applied-security/labs/fuzzing.md",
     "cryptography/symmetric-cryptography/coursework",
     "applied-security/labs/memory-exploitation.md",
