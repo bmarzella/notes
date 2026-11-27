@@ -27,10 +27,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "digital-humanities/computational-modeling-in-humanities/lectures/COMP3781_02.pdf"
+                "file": "digital-humanities/computational-modeling-in-humanities/lectures/COMP3781_08(1).pdf"
               },
               "icon": "lucide-file-text",
-              "title": "COMP3781_02"
+              "title": "COMP3781_08(1)"
             }
           }
         ],
@@ -96,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.8999938964844
+    "width": 303.8999938964844,
+    "collapsed": true
   },
   "right": {
     "id": "6746306fa571459e",
@@ -226,6 +227,10 @@
   },
   "active": "5c7549ac7ade66c0",
   "lastOpenFiles": [
+    "digital-humanities/computational-modeling-in-humanities/lectures/COMP3781_02.pdf",
+    "digital-humanities/computational-modeling-in-humanities/lectures/COMP3781_08(1).pdf",
+    "digital-humanities/computational-modeling-in-humanities/lectures/COMP3781_08(1) 1.pptx",
+    "digital-humanities/computational-modeling-in-humanities/lectures/COMP3781_08(1).pptx",
     "digital-humanities/computational-modeling-in-humanities/notes/4.something.md",
     "digital-humanities/computational-modeling-in-humanities/notes/0-admin.md",
     "cryptography/symmetric-cryptography/coursework/plan.md",
@@ -253,18 +258,14 @@
     "applied-security/notes/4-digital-forensics.md",
     "slides/COMP3781_04(1).pdf",
     "slides/block_cipher_attacks_lecture_5(1).pdf",
-    "cryptography/symmetric-cryptography/labs",
     "dissertation/intro-lecture.md",
-    "cryptography/symmetric-cryptography/notes/0-lecture-notes.pdf",
     "cryptography/symmetric-cryptography/notes/6-linear-feedback-shift-registers.md",
     "applied-security/notes/2-fuzzing-and-software-testing.md",
     "images/Pasted image 20261023133313.png",
-    "applied-security/lectures/fuzzing-and-software-testing.pdf",
     "applied-security/notes/1-buffer-overflows.md",
     "applied-security/lectures/Pasted image 20261021093217.png",
     "housekeeping.md",
     "digital-humanities/computational-modeling-in-humanities/notes/lecture-1.md",
-    "digital-humanities/computational-modeling-in-humanities/notes/admin.md",
     "Pasted image 20261020103942.png",
     "Pasted image 20261020103941.png",
     "images/Pasted image 20261013183535.png",
