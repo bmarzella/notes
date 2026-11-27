@@ -50,9 +50,9 @@ On any encryption function ciphertext = e(key, plaintext)
 1. Simple, but effective and practical
 2. Works the same for stuck-at-one
 3. Can be extended for other fault models:
-	1. If we can only force the 
+	1. If we can only force all-one or all-zero, then we can eliminate have of our search space for a brute force
+	2. Can work byte-wise too
 ### Differential Fault Analysis (DFA) on Block Ciphers
-
 ### CRT-RSA Fault Attacks
 
 #### Mathematical Foundations of CRT-RSA
