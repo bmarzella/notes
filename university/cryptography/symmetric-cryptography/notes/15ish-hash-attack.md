@@ -7,4 +7,6 @@ We have a non invertible hash function. Attacker can compute forwards, not backw
 4. $2^n$ and $\sqrt{2^n}$ are important, not sure why
 5. We store certain values (not sure which)
 
-6. Finally, attacker is given a hash and wants to 
+Attack
+1. Now attacker is given a hash and wants to find the input
+2. Hashes values until reaches a value in t
