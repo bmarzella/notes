@@ -57,10 +57,8 @@ On any encryption function ciphertext = e(key, plaintext)
 #### Mathematical Foundations of CRT-RSA
 $\text{Signature} = \text{Plaintext}^{key} \space \text{MOD} \space n$
 Where $n$ is the product of two primes (that haven't been found yet i think?).
-
-We do some precomputation that we don't care about, 
 #### Fault Model
-Random location, any effect
+Random location, any effect, one *subexponentiation*, we just have to hit it. Fault propagates down. 
 #### Bellcore Attack
 
 #### Lenstra Attack
