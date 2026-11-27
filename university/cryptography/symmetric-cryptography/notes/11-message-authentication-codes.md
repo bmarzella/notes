@@ -49,7 +49,7 @@ Adversary cannot forge valid tags.
 ### Game Mechanics
 1. key gneerated
 2. oracle
-3. can he correctly tag a message 
+3. can he correctly tag a message without using the oracle
 ### Winning Condition
 - Attacker can fool verifier
 - Message was never given to oracle
