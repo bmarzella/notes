@@ -1,5 +1,5 @@
 # Lookup Table Attack
-*I t*
+*I think?*
 We have a non invertible hash function. Attacker can compute forwards, not backwards.
 
 1. Attacker takes an arbitrary input and hashes
