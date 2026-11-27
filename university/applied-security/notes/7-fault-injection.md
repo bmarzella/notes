@@ -17,10 +17,10 @@ Generating EM pulses and shooting them at a chip.
 ### Laser and Optical Attacks
 idk
 ### Hardware Setup & Real-World Examples
-An example was for pirating TV pre-streaming. Could, for example, clone sky viewing cards that would allow for TVs to locally decrypt paid TV signals.
-
+- Pirating TV pre-streaming. Could, for example, clone sky viewing cards that would allow for TVs to locally decrypt paid TV signals.
+- Chip tuning, removing software enforced speed limits on cars
 ## Fault Models
-
+How can the attacker impact internal valu
 ### Spatial Location
 
 ### Temporal Positioning
