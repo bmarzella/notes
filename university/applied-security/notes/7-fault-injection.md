@@ -75,11 +75,10 @@ $$
 ## Software-Based Fault Injection
 ### Rowhammer Attacks
 Access a single memory location over and over could cause bitflips, which could be leveraged.
-### Fault Injection in Machine Learning Models
-
-## Countermeasures & Mitigation Strategies
-
-### Detection-Based Defenses
+## Countermeasures
+### Detection-Based Defences
+- Looking for things like EM, voltage changes etc
+- L
 
 ### Algorithmic Countermeasures
 
