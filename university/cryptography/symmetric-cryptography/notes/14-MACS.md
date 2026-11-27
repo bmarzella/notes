@@ -1,4 +1,5 @@
 ![[random_oracles_lecture_13.pdf]]
 
 # MAC
-Remember - 
+Rememinder - prevents Eve from impersonating Alice
+
