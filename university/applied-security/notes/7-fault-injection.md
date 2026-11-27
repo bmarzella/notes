@@ -88,5 +88,8 @@ Access a single memory location over and over could cause bitflips, which could 
 - Most countermeasures can be bypassed in isolation
 - Could inject a fault pre-comparison, then inject a fault during comparison
 - Or inject the same fault for both parallel computations
-- Power off on error counter to pr
+- Power off on error counter to prevent self destruction
+etc
 ## Summary & Take-Home Points
+1. Fault injection bypasses perfect bug free code, or mathematical security
+2. Ciphers are usually vulnerable to faul
