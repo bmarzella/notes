@@ -47,7 +47,9 @@ Adversary cannot forge valid tags.
 - ???
 ## MAC Forgeability Game
 ### Game Mechanics
-???
+1. key gneerated
+2. oracle
+3. can he correctly tag a message 
 ### Winning Condition
 - Attacker can fool verifier
 - Message was never given to oracle
