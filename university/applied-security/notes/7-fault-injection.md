@@ -74,9 +74,7 @@ $$
 
 ## Software-Based Fault Injection
 ### Rowhammer Attacks
-
-### Voltage & Frequency Scaling Manipulation
-
+Access a single memory location over and over could cause bitflips, which could be leveraged.
 ### Fault Injection in Machine Learning Models
 
 ## Countermeasures & Mitigation Strategies
