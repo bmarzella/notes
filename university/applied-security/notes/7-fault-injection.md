@@ -66,12 +66,12 @@ q = \text{gcd}(s-s', \space n), \space p = \frac{n}{q}
 $$
 *Recording will go through full process*
 #### Lenstra Attack
-Improvement on bellcore, not always realistic to 
+Improvement on bellcore, not always realistic to be able to get a faulty signature on the same value:
 $$
 q = \text{gcd}(s^{-e} - x, \space n), \space p=\frac{n}{q}
 $$
 ### Accidental Faults & Real-World Vulnerabilities
-
+Could also occur naturally, 
 ## Advanced Targets & Software-Based Fault Injection
 
 ### Rowhammer Attacks
