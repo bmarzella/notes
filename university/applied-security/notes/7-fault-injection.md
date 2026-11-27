@@ -22,15 +22,14 @@ idk
 ## Fault Models
 How can the attacker impact internal values?
 ### Spatial Location
-Can we touch a specific bit/byte/word/instruction etc or a random position/width
+Can we touch a specific bit/byte/word/instruction etc or a random position/width.
 ### Temporal Positioning
-
+Can we effect just one cycle, one instruction, or is it more random, multiple cycles/instructions, is there jitter so we can't consistently hit the same stuff.
 ### Fault Effects
 - Flipping bits
 - Getting bits stuck
-- Statistical -> 
+- Statistical -> 75% of the time we flip a bit
 - Skipping instructions
-
 ## Control Flow Manipulation & Logic Bypassing
 
 ### Bypassing PIN Checks & Branch Instruction Flipping
