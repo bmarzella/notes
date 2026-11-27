@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cryptography/symmetric-cryptography/notes/14-MACS.md",
+                "file": "cryptography/symmetric-cryptography/notes/13-random-oracle.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "14-MACS"
+              "title": "13-random-oracle"
             }
           }
         ],
@@ -260,8 +260,8 @@
   },
   "active": "58024db74d2c9940",
   "lastOpenFiles": [
-    "cryptography/symmetric-cryptography/notes/11-message-authentication-codes.md",
     "cryptography/symmetric-cryptography/notes/14-MACS.md",
+    "cryptography/symmetric-cryptography/notes/11-message-authentication-codes.md",
     "cryptography/symmetric-cryptography/notes/13-random-oracle.md",
     "cryptography/symmetric-cryptography/random_oracles_lecture_13.pdf",
     "cryptography/symmetric-cryptography/notes/15ish-hash-attack.md",
