@@ -25,14 +25,12 @@
             "id": "5c7549ac7ade66c0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "cryptography/symmetric-cryptography/coursework/plan.md",
-                "mode": "source",
-                "source": false
+                "file": "digital-humanities/computational-modeling-in-humanities/lectures/COMP3781_02.pdf"
               },
-              "icon": "lucide-file",
-              "title": "plan"
+              "icon": "lucide-file-text",
+              "title": "COMP3781_02"
             }
           }
         ],
@@ -228,9 +226,11 @@
   },
   "active": "5c7549ac7ade66c0",
   "lastOpenFiles": [
+    "digital-humanities/computational-modeling-in-humanities/notes/4.something.md",
+    "digital-humanities/computational-modeling-in-humanities/notes/0-admin.md",
+    "cryptography/symmetric-cryptography/coursework/plan.md",
     "applied-security/labs/timing-attacks.md",
     "sketch.md",
-    "cryptography/symmetric-cryptography/coursework/plan.md",
     "cryptography/symmetric-cryptography/coursework/2026-2027summative.pdf",
     "cryptography/symmetric-cryptography/labs/1-differential-cryptoanalysis.md",
     "cryptography/symmetric-cryptography/notes/7-block-ciphers.md",
@@ -252,8 +252,6 @@
     "applied-security/lectures/week15-forensics.pdf",
     "applied-security/notes/4-digital-forensics.md",
     "slides/COMP3781_04(1).pdf",
-    "digital-humanities/computational-modeling-in-humanities/notes/4.something.md",
-    "digital-humanities/computational-modeling-in-humanities/notes/0-admin.md",
     "slides/block_cipher_attacks_lecture_5(1).pdf",
     "cryptography/symmetric-cryptography/labs",
     "dissertation/intro-lecture.md",
