@@ -31,9 +31,8 @@ Can we effect just one cycle, one instruction, or is it more random, multiple cy
 - Statistical -> 75% of the time we flip a bit
 - Skipping instructions
 ## Control Flow Manipulation & Logic Bypassing
-
 ### Bypassing PIN Checks & Branch Instruction Flipping
-
+Could have a `memcmp` to check a pin that runs `return -1;` i th
 ### Software-Based Fault Targets
 
 ## Cryptographic Fault Attacks
