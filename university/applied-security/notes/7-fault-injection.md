@@ -64,6 +64,9 @@ If we get a normal and faulty signature, then we can take the difference and fin
 $$
 q = \text{gcd}(s-s', \space n), \space p = \frac{n}{q}
 $$
+$$
+s-s' = \dots = 
+$$
 #### Lenstra Attack
 
 ### Accidental Faults & Real-World Vulnerabilities
